@@ -1,4 +1,3 @@
-/* ---- content-70-sync.js ---- */
 /* ═══════════════════════════════════════════════════════════════════════
    THE ATLAS OF KNOWING · CLASSROOM SYNC (content-70)
    v37. Load after content-68 (and 71). Connects the game to a Google
@@ -36,6 +35,9 @@
     var f = String(FL().v37_sync_url || "");
     return f.indexOf("http") === 0 ? f : "";
   }
+  /* the write token: a second key the class link carries. Snapshots without
+     it bounce, so an address copied off a projected screen cannot post. */
+  function classToken() { return String(FL().v37_sync_token || ""); }
   (function readParam() {
     try {
       var m = /[?&]class=([^&]+)/.exec(location.search || "");
@@ -43,8 +45,12 @@
         var url = decodeURIComponent(m[1]);
         if (url.indexOf("https://script.google.com/") === 0) { FL().v37_sync_url = url; save(); }
       }
+      var tk = /[?&]t=([^&]+)/.exec(location.search || "");
+      if (tk) { FL().v37_sync_token = decodeURIComponent(tk[1]); save(); }
     } catch (e) {}
   })();
+  /* the ledger card in the base game asks the class desk about teacher PINs */
+  window.V37_SYNC = { classUrl: classUrl, classToken: classToken };
 
   /* ── identity ── */
   function profile() { return E.V37_RECORDS.readProfile(); }
@@ -97,6 +103,7 @@
   function post(payload, cb) {
     var url = classUrl(); if (!url) return;
     try {
+      payload = Object.assign({}, payload, { token: classToken() });
       fetch(url, { method: "POST", headers: { "Content-Type": "text/plain;charset=utf-8" }, body: JSON.stringify(payload) })
         .then(function (r) { return r.json(); }).then(function (j) { if (cb) cb(j); })
         .catch(function () { if (cb) cb(null); });
@@ -210,8 +217,11 @@
     b.addEventListener("click", function () {
       if (classUrl()) { askIdentity(true); return; }
       var url = prompt("Paste the class address your teacher shared (a script.google.com link):", "");
-      if (url && url.indexOf("https://script.google.com/") === 0) {
-        FL().v37_sync_url = url.trim(); save();
+      if (url && url.trim().indexOf("https://script.google.com/") === 0) {
+        url = url.trim();
+        var tm = /[?&]t=([^&]+)/.exec(url);
+        if (tm) { FL().v37_sync_token = decodeURIComponent(tm[1]); url = url.replace(/([?&])t=[^&]*/, "$1").replace(/[?&]$/, ""); }
+        FL().v37_sync_url = url; save();
         b.textContent = "Class: sign in";
         askIdentity(true);
       } else if (url) toast("The address should start with https://script.google.com/");
