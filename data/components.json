@@ -1,0 +1,6266 @@
+{
+ "v37_ch_door_math": {
+  "claims": [
+   "Patterned groupings invite a mathematical reading.",
+   "Intent may stay out of reach."
+  ],
+  "fact": "Fishers by Lake Edward, in today's Democratic Republic of the Congo, carved rows of notches into a baboon fibula over 20,000 years ago.",
+  "mats": [
+   "2 Bone",
+   "1 Resin"
+  ],
+  "template": "bone"
+ },
+ "v37_ch_door_ns": {
+  "claims": [
+   "An instrument opens a channel and narrows it at once.",
+   "The observer never fully leaves."
+  ],
+  "fact": "Danish astronomer Ole Rømer, famous for first measuring the speed of light in 1676, built a meridian circle in Copenhagen to time stars crossing the…",
+  "mats": [
+   "2 Brass",
+   "1 Charcoal"
+  ],
+  "template": "telescope"
+ },
+ "v37_ch_door_arts": {
+  "claims": [
+   "The blocks hold the design, so a case exists for calling them the original.",
+   "Originality can live in the design rather than the object."
+  ],
+  "fact": "Katsushika Hokusai designed Under the Wave off Kanagawa around 1831 as part of his Thirty-six Views of Mount Fuji.",
+  "mats": [
+   "2 Pigment",
+   "1 Charcoal"
+  ],
+  "template": "painting"
+ },
+ "v37_ch_door_hist": {
+  "claims": [
+   "Convergence separates them.",
+   "Method separates them."
+  ],
+  "fact": "Jean-François Champollion announced the decipherment of Egyptian hieroglyphs in 1822, after years of notebook pages comparing the Rosetta Stone's…",
+  "mats": [
+   "2 Paper",
+   "1 Resin"
+  ],
+  "template": "book"
+ },
+ "v37_ch_door_hs": {
+  "claims": [
+   "The findings changed how institutions guard against blind obedience, so some argue the insight repaid its cost, since no transparent design could…",
+   "Participants left believing they might have harmed a stranger, so others argue the study purchased knowledge with borrowed consciences, and modern…"
+  ],
+  "fact": "Stanley Milgram's obedience experiments at Yale used a fake shock generator with switches labeled up to 450 volts.",
+  "mats": [
+   "2 Glass",
+   "1 Charcoal"
+  ],
+  "template": "gem"
+ },
+ "v37_ch_door_themes": {
+  "claims": [
+   "A small committee chose the sounds and images, so the record shows one team's 1977 answer, complete with its omissions, and naming the authors keeps…",
+   "Any summary beats silence across interstellar distance."
+  ],
+  "fact": "NASA launched two gold-plated copper records aboard the Voyager probes in 1977, carrying greetings, music, and encoded images chosen by a committee…",
+  "mats": [
+   "2 Silver",
+   "1 Resin"
+  ],
+  "template": "coin"
+ },
+ "v37_ch_secret_ma": {
+  "claims": [
+   "Mathematicians spent decades proving the entries true one by one, so the notebook acted as knowledge on credit, trusted because its author's record…",
+   "A claim without a proof stays a conjecture, whoever wrote it."
+  ],
+  "fact": "Srinivasa Ramanujan filled loose pages with formulas in his final year, 1919 to 1920, mostly without proofs.",
+  "mats": [
+   "2 Paper",
+   "1 Gilt"
+  ],
+  "template": "book"
+ },
+ "v37_ch_secret_ns": {
+  "claims": [
+   "For 130 years a kilogram meant equality with one platinum cylinder near Paris, so objectivity rested on shared access to a single thing, guarded…",
+   "The cylinder itself drifted by micrograms against its own copies, so in 2019 metrologists redefined the kilogram through Planck's constant, trading…"
+  ],
+  "fact": "From 1889 to 2019, the International Prototype Kilogram, a platinum-iridium cylinder kept at Sèvres near Paris, defined the kilogram for the world.",
+  "mats": [
+   "2 Brass",
+   "1 Wax"
+  ],
+  "template": "scale"
+ },
+ "v37_ch_secret_ar": {
+  "claims": [
+   "Attribution steers value.",
+   "Anonymity can free the viewing."
+  ],
+  "fact": "Three panels in Frankfurt, painted around 1430 in the early Netherlandish style, carry no signature.",
+  "mats": [
+   "2 Pigment",
+   "1 Charcoal"
+  ],
+  "template": "painting"
+ },
+ "v37_ch_secret_hi": {
+  "claims": [
+   "A cylinder freezes a single voice on a single afternoon, so archives hold moments rather than traditions, and living practice keeps the tradition or…",
+   "A frozen moment can still seed a revival."
+  ],
+  "fact": "In the early 1900s, collectors recorded Hawaiian chants and songs, mele, onto wax cylinders, some now held by the Bishop Museum in Honolulu.",
+  "mats": [
+   "2 Silver",
+   "1 Salt"
+  ],
+  "template": "coin"
+ },
+ "v37_ch_secret_hu": {
+  "claims": [
+   "The map graded neighborhoods for loan risk, lenders followed the grades, investment fled the red zones, and decline followed, so the description…",
+   "A map also leaves a trail."
+  ],
+  "fact": "The Home Owners' Loan Corporation drew color-graded security maps of American cities in the 1930s, marking mostly Black neighborhoods in red as…",
+  "mats": [
+   "2 Paper",
+   "1 Salt"
+  ],
+  "template": "map"
+ },
+ "v37_ch_secret_th": {
+  "claims": [
+   "A temple bell teaches timing, attention, and shared pause without stating anything, so communities can hold procedural and felt knowledge in objects…",
+   "The inscription on the bell still speaks in words, dating it to 698, so even the least verbal artifact tends to travel with text, and the two kinds…"
+  ],
+  "fact": "The bronze temple bell at Myōshin-ji in Kyoto carries a cast date of 698 CE, making it Japan's oldest dated bonshō.",
+  "mats": [
+   "2 Bronze",
+   "1 Cord"
+  ],
+  "template": "bell"
+ },
+ "r61_001": {
+  "claims": [
+   "The donor paid for printing so anyone could read the sutra.",
+   "Free access still follows a choice."
+  ],
+  "fact": "A colophon dates this printed Buddhist scroll to 11 May 868, the oldest dated printed book known.",
+  "mats": [
+   "2 Paper",
+   "1 Resin"
+  ],
+  "template": "scroll"
+ },
+ "r61_002": {
+  "claims": [
+   "A single editor drew the line here.",
+   "Usage outvotes any editor."
+  ],
+  "fact": "Samuel Johnson published this dictionary in London in 1755 after nine years of writing.",
+  "mats": [
+   "2 Paper",
+   "1 Resin"
+  ],
+  "template": "book"
+ },
+ "r61_003": {
+  "claims": [
+   "Chemistry gave a hard answer here.",
+   "Tests close one question and open another."
+  ],
+  "fact": "Yale University revealed this map in 1965 as a claimed medieval chart showing Norse America.",
+  "mats": [
+   "2 Paper",
+   "1 Charcoal"
+  ],
+  "template": "map"
+ },
+ "r61_004": {
+  "claims": [
+   "The editors aimed to record, not command.",
+   "Selection still rules quietly."
+  ],
+  "fact": "James Murray edited the first part of the Oxford English Dictionary, published in 1884 and covering A to Ant.",
+  "mats": [
+   "2 Paper",
+   "1 Charcoal"
+  ],
+  "template": "book"
+ },
+ "r61_005": {
+  "claims": [
+   "Print multiplied the text beyond any censor's reach.",
+   "The press first served the old authority."
+  ],
+  "fact": "Johannes Gutenberg printed about 180 copies of this Latin Bible in Mainz around 1455 using movable metal type.",
+  "mats": [
+   "2 Paper",
+   "1 Charcoal"
+  ],
+  "template": "book"
+ },
+ "r61_006": {
+  "claims": [
+   "The page saves the words and drops the event.",
+   "A script is a seed, not the play."
+  ],
+  "fact": "John Heminges and Henry Condell, actors in Shakespeare's company, assembled this collection in 1623, seven years after his death.",
+  "mats": [
+   "2 Wood",
+   "1 Cord"
+  ],
+  "template": "mask"
+ },
+ "r61_007": {
+  "claims": [
+   "Effort has limits.",
+   "Unread does not mean unreadable."
+  ],
+  "fact": "This illustrated manuscript surfaced in 1912 when the book dealer Wilfrid Voynich bought it near Rome.",
+  "mats": [
+   "2 Glass",
+   "1 Cord"
+  ],
+  "template": "gem"
+ },
+ "r61_008": {
+  "claims": [
+   "Notebooks show thinking in motion.",
+   "Private pages can also bury knowledge."
+  ],
+  "fact": "Leonardo filled these 72 pages around 1508 to 1510 with studies of water, rock layers, and moonlight, all in mirror script.",
+  "mats": [
+   "2 Paper",
+   "1 Charcoal"
+  ],
+  "template": "book"
+ },
+ "r61_009": {
+  "claims": [
+   "In mathematics, no proof means no knowledge.",
+   "The claim still guided knowers."
+  ],
+  "fact": "Around 1637, Pierre de Fermat wrote in his copy of Diophantus, claiming a marvellous proof too large for the margin.",
+  "mats": [
+   "2 Paper",
+   "1 Charcoal"
+  ],
+  "template": "book"
+ },
+ "r61_010": {
+  "claims": [
+   "Every source needs a suspect list.",
+   "Tainted evidence still speaks."
+  ],
+  "fact": "Deaf from around 1818, Beethoven asked visitors to write their questions in notebooks and answered aloud.",
+  "mats": [
+   "2 Paper",
+   "1 Cord"
+  ],
+  "template": "letter"
+ },
+ "r61_011": {
+  "claims": [
+   "Age rearranges the family tree of stories.",
+   "Meaning does not travel by date alone."
+  ],
+  "fact": "George Smith read this tablet at the British Museum in 1872 and, by report, jumped up in excitement: it held a flood story older than the Bible's.",
+  "mats": [
+   "2 Stone",
+   "1 Charcoal"
+  ],
+  "template": "tablet"
+ },
+ "r61_012": {
+  "claims": [
+   "The alphabet saved the story.",
+   "Rescue changed the container."
+  ],
+  "fact": "K'iche' Maya authors wrote this creation narrative in the Latin alphabet in the 1550s, soon after Spanish rule began.",
+  "mats": [
+   "2 Seed",
+   "1 Charcoal"
+  ],
+  "template": "plant"
+ },
+ "r61_013": {
+  "claims": [
+   "Big claims need small tests.",
+   "Evaluation frames can blind us."
+  ],
+  "fact": "Tim Berners-Lee handed this memo to his CERN supervisor in March 1989, proposing linked documents across computers.",
+  "mats": [
+   "2 Stone",
+   "1 Charcoal"
+  ],
+  "template": "building"
+ },
+ "r61_014": {
+  "claims": [
+   "Credit follows the title page.",
+   "The text itself reveals the team."
+  ],
+  "fact": "Franciscan friar Bernardino de Sahagun and Nahua scholars completed this twelve-book study of Aztec life in 1577, written in parallel Nahuatl and…",
+  "mats": [
+   "2 Ink",
+   "1 Resin"
+  ],
+  "template": "pen"
+ },
+ "r61_015": {
+  "claims": [
+   "A guidebook can map danger instead of sights.",
+   "The same pages carried dignity."
+  ],
+  "fact": "Victor Hugo Green, a Harlem postal carrier, published this guide yearly from 1936 to 1966.",
+  "mats": [
+   "2 Paper",
+   "1 Resin"
+  ],
+  "template": "book"
+ },
+ "r61_016": {
+  "claims": [
+   "Documents anchor memory.",
+   "One chronicle is one window."
+  ],
+  "fact": "Abd al-Rahman al-Sadi completed this Arabic chronicle of the Songhai empire and Timbuktu around 1655.",
+  "mats": [
+   "2 Paper",
+   "1 Cord"
+  ],
+  "template": "book"
+ },
+ "r61_017": {
+  "claims": [
+   "Custodians act first.",
+   "Rescue by individuals stays fragile."
+  ],
+  "fact": "When armed groups occupied Timbuktu in 2012, the librarian Abdel Kader Haidara organized couriers to move about 350,000 manuscripts to Bamako in…",
+  "mats": [
+   "2 Paper",
+   "1 Cord"
+  ],
+  "template": "book"
+ },
+ "r61_018": {
+  "claims": [
+   "A method solves whole families of problems.",
+   "Methods hide their origins."
+  ],
+  "fact": "Muhammad ibn Musa al-Khwarizmi wrote this treatise on completion and balancing in Baghdad around 820.",
+  "mats": [
+   "2 Wood",
+   "1 Resin"
+  ],
+  "template": "tool"
+ },
+ "r61_019": {
+  "claims": [
+   "Sight alone misleads.",
+   "Testing rests on sight in the end."
+  ],
+  "fact": "Writing near Cairo around 1021, Ibn al-Haytham argued light travels into the eye and proved key points with camera obscura experiments.",
+  "mats": [
+   "2 Paper",
+   "1 Cord"
+  ],
+  "template": "book"
+ },
+ "r61_020": {
+  "claims": [
+   "A list draws a map of learning.",
+   "A catalogue also fixes borders."
+  ],
+  "fact": "The Baghdad bookseller Ibn al-Nadim compiled this index of all books known to him in 987.",
+  "mats": [
+   "2 Paper",
+   "1 Resin"
+  ],
+  "template": "book"
+ },
+ "r61_021": {
+  "claims": [
+   "The throne gains a monument and a filter.",
+   "Later knowers gain a lifeboat."
+  ],
+  "fact": "About 2,000 scholars completed this encyclopedia for the Yongle Emperor in 1408, filling more than 11,000 hand-copied volumes.",
+  "mats": [
+   "2 Paper",
+   "1 Resin"
+  ],
+  "template": "book"
+ },
+ "r61_022": {
+  "claims": [
+   "Numbers aim at independence.",
+   "The record keeps the body in it."
+  ],
+  "fact": "Marie Curie recorded her radium and polonium experiments in these notebooks between 1897 and 1902.",
+  "mats": [
+   "2 Paper",
+   "1 Cord"
+  ],
+  "template": "book"
+ },
+ "r61_023": {
+  "claims": [
+   "Ibn Khaldun offered a filter: check each report against how societies actually behave.",
+   "The filter has its own settings."
+  ],
+  "fact": "Ibn Khaldun wrote this introduction to history in 1377, in present-day Algeria.",
+  "mats": [
+   "2 Paper",
+   "1 Cord"
+  ],
+  "template": "book"
+ },
+ "r61_024": {
+  "claims": [
+   "Knowledge of danger demands speech.",
+   "A warning starts a machine its authors cannot steer."
+  ],
+  "fact": "Physicist Leo Szilard drafted this letter and Albert Einstein signed it on 2 August 1939.",
+  "mats": [
+   "2 Paper",
+   "1 Charcoal"
+  ],
+  "template": "letter"
+ },
+ "r61_025": {
+  "claims": [
+   "Every map has a centre of gravity.",
+   "Orientation is convention, not error."
+  ],
+  "fact": "Muhammad al-Idrisi completed this world map and geography for King Roger II of Sicily in 1154, drawing on interviews with travellers and merchants.",
+  "mats": [
+   "2 Paper",
+   "1 Cord"
+  ],
+  "template": "map"
+ },
+ "r61_026": {
+  "claims": [
+   "The line was authority talking to itself.",
+   "Even an arrogant line produces facts."
+  ],
+  "fact": "Spain and Portugal signed this treaty on 7 June 1494, dividing newly found lands along a meridian west of the Cape Verde islands.",
+  "mats": [
+   "2 Paper",
+   "1 Charcoal"
+  ],
+  "template": "scroll"
+ },
+ "r61_027": {
+  "claims": [
+   "Edges confess.",
+   "Presence beats precision."
+  ],
+  "fact": "Korean scholars produced this world map in 1402, blending Chinese, Islamic, and Korean sources.",
+  "mats": [
+   "2 Paper",
+   "1 Charcoal"
+  ],
+  "template": "globe"
+ },
+ "r61_028": {
+  "claims": [
+   "Practical text outlives policy.",
+   "Survival came at one remove."
+  ],
+  "fact": "This long strip map records the sea routes of Zheng He's fleets, which reached East Africa between 1405 and 1433.",
+  "mats": [
+   "2 Paper",
+   "1 Charcoal"
+  ],
+  "template": "globe"
+ },
+ "r61_029": {
+  "claims": [
+   "Proof turns a result into knowledge.",
+   "Reasons travel badly across borders."
+  ],
+  "fact": "Jyesthadeva composed this Malayalam text around 1530, setting out proofs for the infinite series of the Kerala school, including series for pi found…",
+  "mats": [
+   "2 Paper",
+   "1 Charcoal"
+  ],
+  "template": "book"
+ },
+ "r61_030": {
+  "claims": [
+   "Science gave a spread, not a date.",
+   "Uncertainty can still move a field."
+  ],
+  "fact": "A farmer dug up this birch-bark mathematics text near Bakhshali, in present-day Pakistan, in 1881.",
+  "mats": [
+   "2 Paper",
+   "1 Cord"
+  ],
+  "template": "book"
+ },
+ "r61_031": {
+  "claims": [
+   "Panini came astonishingly close.",
+   "A rulebook freezes a river."
+  ],
+  "fact": "Panini composed this grammar of Sanskrit in roughly 4,000 brief rules around the 4th century BCE.",
+  "mats": [
+   "2 Wood",
+   "1 Cord"
+  ],
+  "template": "tool"
+ },
+ "r61_032": {
+  "claims": [
+   "Access rewires who may know.",
+   "Elites rarely retire quietly."
+  ],
+  "fact": "King Sejong announced the Hangul alphabet in 1443, and this 1446 manual explains the design and purpose of the letters.",
+  "mats": [
+   "2 Paper",
+   "1 Resin"
+  ],
+  "template": "book"
+ },
+ "r61_033": {
+  "claims": [
+   "Objects teach where people can reach them.",
+   "Custody is not the same as meaning."
+  ],
+  "fact": "Buddhist monks printed Jikji with movable metal type in Cheongju, Korea, in 1377, 78 years before Gutenberg's Bible.",
+  "mats": [
+   "2 Paper",
+   "1 Cord"
+  ],
+  "template": "book"
+ },
+ "r61_034": {
+  "claims": [
+   "Direct observation outranks the classics.",
+   "Switching authority is still trusting."
+  ],
+  "fact": "Sugita Genpaku and his colleagues watched a dissection in 1771 and saw a Dutch anatomy book match the body better than their Chinese sources.",
+  "mats": [
+   "2 Paper",
+   "1 Resin"
+  ],
+  "template": "book"
+ },
+ "r61_035": {
+  "claims": [
+   "Sima Qian chose disgrace over silence.",
+   "Sacrifice does not certify accuracy."
+  ],
+  "fact": "Sima Qian completed this 130-chapter history of China around 94 BCE, covering two thousand years from the Yellow Emperor to his own era.",
+  "mats": [
+   "2 Ink",
+   "1 Resin"
+  ],
+  "template": "pen"
+ },
+ "r61_036": {
+  "claims": [
+   "Chance curated this archive.",
+   "Accident still needs a prepared reader."
+  ],
+  "fact": "Shang diviners carved questions on ox bones and turtle shells near Anyang around 1200 BCE, then read heat cracks as answers.",
+  "mats": [
+   "2 Bone",
+   "1 Charcoal"
+  ],
+  "template": "bone"
+ },
+ "r61_037": {
+  "claims": [
+   "Distance defends the record.",
+   "Rules bend under enough pressure."
+  ],
+  "fact": "Court historians recorded daily royal affairs across Korea's Joseon dynasty, compiling official annals after each king died.",
+  "mats": [
+   "2 Wood",
+   "1 Charcoal"
+  ],
+  "template": "chest"
+ },
+ "r61_038": {
+  "claims": [
+   "Careful description invites later theory.",
+   "Scattered notes lack a system."
+  ],
+  "fact": "The Song dynasty official Shen Kuo compiled these notebooks around 1088, covering canals, astronomy, fossils, and Bi Sheng's movable type.",
+  "mats": [
+   "2 Paper",
+   "1 Charcoal"
+  ],
+  "template": "book"
+ },
+ "r61_039": {
+  "claims": [
+   "Method makes the difference.",
+   "He also repeats gold-digging ants and flying snakes."
+  ],
+  "fact": "Herodotus of Halicarnassus completed his account of the Greek-Persian wars around 430 BCE, gathering reports through travel and interviews.",
+  "mats": [
+   "2 Paper",
+   "1 Charcoal"
+  ],
+  "template": "scroll"
+ },
+ "r61_040": {
+  "claims": [
+   "Facts never speak alone.",
+   "Selection is not invention."
+  ],
+  "fact": "E.",
+  "mats": [
+   "2 Paper",
+   "1 Charcoal"
+  ],
+  "template": "book"
+ },
+ "r61_041": {
+  "claims": [
+   "Guaman Poma wrote back.",
+   "An unread answer changes little in its own time."
+  ],
+  "fact": "Felipe Guaman Poma de Ayala, an Indigenous Andean, finished this illustrated chronicle around 1615 as a letter to King Philip III, documenting Inca…",
+  "mats": [
+   "2 Ink",
+   "1 Charcoal"
+  ],
+  "template": "pen"
+ },
+ "r61_042": {
+  "claims": [
+   "Reading is a relationship, not a property.",
+   "Without readers, objects fall silent."
+  ],
+  "fact": "Inca administrators recorded numbers in knotted cords called khipu, and a set found at Puruchuco near Lima suggests linked levels of accounting…",
+  "mats": [
+   "2 Stone",
+   "1 Cord"
+  ],
+  "template": "building"
+ },
+ "r61_043": {
+  "claims": [
+   "Chronicles build legitimacy.",
+   "Purpose does not cancel evidence."
+  ],
+  "fact": "This Malay court chronicle traces the kings of Melaka, and its 1612 recension is linked to the noble Tun Sri Lanang.",
+  "mats": [
+   "2 Silver",
+   "1 Cord"
+  ],
+  "template": "amulet"
+ },
+ "r61_044": {
+  "claims": [
+   "The document served the speakers, not the hearers.",
+   "Even a hollow ritual reveals a conscience."
+  ],
+  "fact": "Spanish jurists drafted this proclamation in 1513 for use in the Americas.",
+  "mats": [
+   "2 Wood",
+   "1 Resin"
+  ],
+  "template": "drum"
+ },
+ "r61_045": {
+  "claims": [
+   "Explanation redistributes authority.",
+   "Fear also advertised the project."
+  ],
+  "fact": "Denis Diderot and Jean d'Alembert published the first volume of the Encyclopedie in Paris in 1751.",
+  "mats": [
+   "2 Paper",
+   "1 Resin"
+  ],
+  "template": "book"
+ },
+ "r61_046": {
+  "claims": [
+   "The commission traded punishment for testimony.",
+   "Some called the trade unjust."
+  ],
+  "fact": "Archbishop Desmond Tutu chaired this commission, which heard over 21,000 victim statements about apartheid-era abuses and published a five-volume…",
+  "mats": [
+   "2 Paper",
+   "1 Resin"
+  ],
+  "template": "book"
+ },
+ "r61_047": {
+  "claims": [
+   "Readers became the press.",
+   "Scarcity shapes reception."
+  ],
+  "fact": "Soviet authorities banned Aleksandr Solzhenitsyn's account of the labour camp system, first published abroad in 1973.",
+  "mats": [
+   "2 Paper",
+   "1 Charcoal"
+  ],
+  "template": "letter"
+ },
+ "r61_048": {
+  "claims": [
+   "Access repays surveillance.",
+   "Opening files reopens wounds."
+  ],
+  "fact": "East Germany's secret police shredded files as the state collapsed in 1989, leaving about 16,000 sacks of torn paper.",
+  "mats": [
+   "2 Wood",
+   "1 Resin"
+  ],
+  "template": "gameboard"
+ },
+ "r61_049": {
+  "claims": [
+   "Editors stand between us and the page.",
+   "The voice still holds the centre."
+  ],
+  "fact": "Anne Frank received this diary for her thirteenth birthday in June 1942 and wrote in hiding until August 1944.",
+  "mats": [
+   "2 Paper",
+   "1 Resin"
+  ],
+  "template": "book"
+ },
+ "r61_050": {
+  "claims": [
+   "Memory can carry law.",
+   "Oral law bends with its speakers."
+  ],
+  "fact": "Tradition holds Sundiata Keita's assembly proclaimed this charter after the battle of Krina around 1236, setting rules for clans, property, and…",
+  "mats": [
+   "2 Wood",
+   "1 Resin"
+  ],
+  "template": "drum"
+ },
+ "r61_051": {
+  "claims": [
+   "Print rescues reach.",
+   "Print removes performance."
+  ],
+  "fact": "The historian D.",
+  "mats": [
+   "2 Paper",
+   "1 Resin"
+  ],
+  "template": "book"
+ },
+ "r61_052": {
+  "claims": [
+   "Context writes half the message.",
+   "Design carries intent across decades."
+  ],
+  "fact": "Britain's Ministry of Information printed about 2.45 million copies of this poster in 1939 and held it back for a severe invasion crisis.",
+  "mats": [
+   "2 Paper",
+   "1 Cord"
+  ],
+  "template": "letter"
+ },
+ "r61_053": {
+  "claims": [
+   "Maps compile testimony.",
+   "Second-hand gold glitters brightest."
+  ],
+  "fact": "Abraham Cresques, a Jewish mapmaker in Majorca, produced this atlas around 1375 for the French court.",
+  "mats": [
+   "2 Paper",
+   "1 Cord"
+  ],
+  "template": "map"
+ },
+ "r61_054": {
+  "claims": [
+   "Print gives a christening reach.",
+   "The mapmaker repented too late."
+  ],
+  "fact": "Martin Waldseemuller printed this twelve-sheet world map in 1507 and named the new continent America, honouring Amerigo Vespucci.",
+  "mats": [
+   "2 Paper",
+   "1 Cord"
+  ],
+  "template": "globe"
+ },
+ "r61_055": {
+  "claims": [
+   "Correct for its users.",
+   "Misleading for everyone else."
+  ],
+  "fact": "Gerardus Mercator published this projection in 1569 to help sailors plot straight compass courses.",
+  "mats": [
+   "2 Paper",
+   "1 Charcoal"
+  ],
+  "template": "map"
+ },
+ "r61_056": {
+  "claims": [
+   "Peters called Mercator a colonial relic.",
+   "Correction brought new distortion."
+  ],
+  "fact": "The historian Arno Peters presented this equal-area world map in 1973, arguing Mercator-based maps belittled the Global South.",
+  "mats": [
+   "2 Paper",
+   "1 Charcoal"
+  ],
+  "template": "globe"
+ },
+ "r61_057": {
+  "claims": [
+   "Position was the proof.",
+   "The map convinced with help."
+  ],
+  "fact": "The physician John Snow mapped cholera deaths near London's Broad Street pump during the 1854 outbreak.",
+  "mats": [
+   "2 Paper",
+   "1 Charcoal"
+  ],
+  "template": "map"
+ },
+ "r61_058": {
+  "claims": [
+   "Audiences finish the message.",
+   "The first purpose still teaches."
+  ],
+  "fact": "J.",
+  "mats": [
+   "2 Paper",
+   "1 Cord"
+  ],
+  "template": "letter"
+ },
+ "r61_059": {
+  "claims": [
+   "The chart was a memory aid, not a message.",
+   "Objects outlive private codes."
+  ],
+  "fact": "Marshallese navigators bound palm ribs and cowrie shells into charts modelling how ocean swells bend around atolls.",
+  "mats": [
+   "2 Paper",
+   "1 Cord"
+  ],
+  "template": "book"
+ },
+ "r61_060": {
+  "claims": [
+   "Translation bent the content.",
+   "The document still proves mastery."
+  ],
+  "fact": "Tupaia, a Polynesian priest and navigator from Raiatea, drew this chart of about 74 islands with James Cook's crew in 1769.",
+  "mats": [
+   "2 Wood",
+   "1 Charcoal"
+  ],
+  "template": "boat"
+ },
+ "r61_061": {
+  "claims": [
+   "King answered with criteria.",
+   "Self-chosen criteria alarm others."
+  ],
+  "fact": "Martin Luther King Jr.",
+  "mats": [
+   "2 Paper",
+   "1 Cord"
+  ],
+  "template": "scroll"
+ },
+ "r61_062": {
+  "claims": [
+   "One triumph can be luck.",
+   "Institutions also protect their bets."
+  ],
+  "fact": "John Harrison completed this large silver watch in 1759 to solve the longitude problem.",
+  "mats": [
+   "2 Silicon",
+   "1 Charcoal"
+  ],
+  "template": "machine"
+ },
+ "r61_063": {
+  "claims": [
+   "Rules scale better than brilliance.",
+   "Procedures inherit their designer."
+  ],
+  "fact": "Astronomer Royal Nevil Maskelyne published the first Nautical Almanac in 1767, tabulating the Moon's position so sailors could find longitude.",
+  "mats": [
+   "2 Paper",
+   "1 Charcoal"
+  ],
+  "template": "book"
+ },
+ "r61_064": {
+  "claims": [
+   "Ideas start as doodles with doubts.",
+   "The sketch was already loaded."
+  ],
+  "fact": "Charles Darwin opened Notebook B on the transmutation of species in 1837, the year after the Beagle returned.",
+  "mats": [
+   "2 Seed",
+   "1 Resin"
+  ],
+  "template": "plant"
+ },
+ "r61_065": {
+  "claims": [
+   "Four days left no room for checking.",
+   "Damage needs a ready audience."
+  ],
+  "fact": "The Daily Mail published this letter on 25 October 1924, presenting it as the Soviet official Grigory Zinoviev instructing British communists, four…",
+  "mats": [
+   "2 Paper",
+   "1 Resin"
+  ],
+  "template": "letter"
+ },
+ "r61_066": {
+  "claims": [
+   "The sample betrayed the sum.",
+   "Deadlines finished the fallacy."
+  ],
+  "fact": "The Chicago Daily Tribune printed this early edition headline on 3 November 1948, declaring Thomas Dewey the winner over President Harry Truman.",
+  "mats": [
+   "2 Paper",
+   "1 Cord"
+  ],
+  "template": "letter"
+ },
+ "r61_067": {
+  "claims": [
+   "Zola gambled his freedom on a headline.",
+   "Spectacle cuts both ways."
+  ],
+  "fact": "Emile Zola published this open letter to France's president on the front page of L'Aurore on 13 January 1898, accusing the army of framing Alfred…",
+  "mats": [
+   "2 Ink",
+   "1 Cord"
+  ],
+  "template": "pen"
+ },
+ "r61_068": {
+  "claims": [
+   "Borrowed authority does the lifting.",
+   "Wanting wonder lowers the bar."
+  ],
+  "fact": "The New York Sun ran six articles from 25 August 1835 describing bat-winged people and unicorns on the Moon, credited falsely to the astronomer John…",
+  "mats": [
+   "2 Paper",
+   "1 Cord"
+  ],
+  "template": "book"
+ },
+ "r61_069": {
+  "claims": [
+   "Counting converts land into control.",
+   "The count also fixed the counted."
+  ],
+  "fact": "William the Conqueror ordered this survey of England in 1085, and clerks completed the main volumes by 1086, recording landholders, livestock, and…",
+  "mats": [
+   "2 Paper",
+   "1 Resin"
+  ],
+  "template": "book"
+ },
+ "r61_070": {
+  "claims": [
+   "Words carry timestamps.",
+   "Motive found the method."
+  ],
+  "fact": "This document claimed Emperor Constantine granted the papacy rule over the western empire, and popes cited it for centuries.",
+  "mats": [
+   "2 Paper",
+   "1 Resin"
+  ],
+  "template": "scroll"
+ },
+ "r61_071": {
+  "claims": [
+   "Stone makes justice checkable.",
+   "Stone also stages authority."
+  ],
+  "fact": "Hammurabi of Babylon had this basalt stela carved around 1754 BCE with 282 laws on trade, family, and injury.",
+  "mats": [
+   "2 Stone",
+   "1 Resin"
+  ],
+  "template": "statue"
+ },
+ "r61_072": {
+  "claims": [
+   "Sequoyah did exactly this.",
+   "He still borrowed shapes."
+  ],
+  "fact": "Sequoyah, a Cherokee silversmith, completed his syllabary in 1821 after about twelve years of solo experiments.",
+  "mats": [
+   "2 Paper",
+   "1 Charcoal"
+  ],
+  "template": "book"
+ },
+ "r61_073": {
+  "claims": [
+   "Precision was devotion.",
+   "The project also served the state."
+  ],
+  "fact": "Korean artisans carved the Buddhist canon onto 81,258 wooden printing blocks between 1237 and 1251, during the Mongol invasions, replacing a set…",
+  "mats": [
+   "2 Pigment",
+   "1 Charcoal"
+  ],
+  "template": "painting"
+ },
+ "r61_074": {
+  "claims": [
+   "The lab strengthened the legend's core.",
+   "Convergence here sets no rule."
+  ],
+  "fact": "Monks at Abba Garima monastery in Ethiopia preserved these two illuminated Ge'ez gospel books for centuries, with tradition crediting the founding…",
+  "mats": [
+   "2 Paper",
+   "1 Cord"
+  ],
+  "template": "book"
+ },
+ "r61_075": {
+  "claims": [
+   "Privacy buys candour.",
+   "One candid witness is still one seat."
+  ],
+  "fact": "Samuel Pepys kept this diary in Shelton shorthand from 1660 to 1669, recording the plague of 1665 and the Great Fire of 1666, including burying his…",
+  "mats": [
+   "2 Paper",
+   "1 Cord"
+  ],
+  "template": "book"
+ },
+ "r61_076": {
+  "claims": [
+   "Beck deleted geography to save the traveller.",
+   "Clarity redraws the city."
+  ],
+  "fact": "Harry Beck, an engineering draughtsman, designed this diagrammatic map in 1931, and London Underground printed it in 1933 after early doubts.",
+  "mats": [
+   "2 Paper",
+   "1 Resin"
+  ],
+  "template": "chart"
+ },
+ "r61_077": {
+  "claims": [
+   "Sources need cover stories.",
+   "Disguised origins invite doubt."
+  ],
+  "fact": "British codebreakers in Room 40 decrypted this German telegram in January 1917, in which Foreign Secretary Arthur Zimmermann offered Mexico an…",
+  "mats": [
+   "2 Paper",
+   "1 Cord"
+  ],
+  "template": "letter"
+ },
+ "r61_078": {
+  "claims": [
+   "Secrecy split knowledge from argument.",
+   "Late release reopened closed cases."
+  ],
+  "fact": "American cryptanalysts began decoding Soviet intelligence cables in 1943 under the Venona project, eventually reading portions of thousands of…",
+  "mats": [
+   "2 Paper",
+   "1 Charcoal"
+  ],
+  "template": "card"
+ },
+ "r61_079": {
+  "claims": [
+   "Sometimes the knowers must go over every head.",
+   "Rescue by one leader is also a warning."
+  ],
+  "fact": "On 21 October 1941, Alan Turing and three senior colleagues wrote directly to Winston Churchill about staff shortages slowing their codebreaking at…",
+  "mats": [
+   "2 Paper",
+   "1 Charcoal"
+  ],
+  "template": "book"
+ },
+ "r61_080": {
+  "claims": [
+   "Ellsberg judged the public the rightful owner.",
+   "Leaks bypass every safeguard."
+  ],
+  "fact": "Military analyst Daniel Ellsberg copied this 7,000-page secret study of the Vietnam war and gave it to the New York Times, which began publishing on…",
+  "mats": [
+   "2 Paper",
+   "1 Charcoal"
+  ],
+  "template": "book"
+ },
+ "r61_081": {
+  "claims": [
+   "An oath converts skill into trust.",
+   "Promises age."
+  ],
+  "fact": "This papyrus fragment from Oxyrhynchus in Egypt preserves part of the Hippocratic Oath, copied around the 3rd century CE.",
+  "mats": [
+   "2 Paper",
+   "1 Charcoal"
+  ],
+  "template": "scroll"
+ },
+ "r61_082": {
+  "claims": [
+   "The acceptance exposed a gap.",
+   "One sting proves less than it seems."
+  ],
+  "fact": "Physicist Alan Sokal submitted a deliberately absurd article framing quantum gravity as a cultural construct to the journal Social Text, which…",
+  "mats": [
+   "2 Paper",
+   "1 Charcoal"
+  ],
+  "template": "card"
+ },
+ "r61_083": {
+  "claims": [
+   "The versions promise different things.",
+   "Living institutions can bridge texts."
+  ],
+  "fact": "British officials and over 500 Maori chiefs signed this treaty from 6 February 1840, most signing the Maori text.",
+  "mats": [
+   "2 Paper",
+   "1 Cord"
+  ],
+  "template": "scroll"
+ },
+ "r61_084": {
+  "claims": [
+   "The letter assembled other people's steps.",
+   "Announcement also claims territory."
+  ],
+  "fact": "Jean-Francois Champollion announced his decipherment of hieroglyphs in this letter read to the French Academy on 27 September 1822, building on the…",
+  "mats": [
+   "2 Paper",
+   "1 Cord"
+  ],
+  "template": "book"
+ },
+ "r61_085": {
+  "claims": [
+   "The petitions dressed law in two systems.",
+   "Admission required the colonizer's form."
+  ],
+  "fact": "Yolngu clans of Yirrkala sent these petitions to Australia's Parliament in August 1963, protesting bauxite mining approved on their land without…",
+  "mats": [
+   "2 Pigment",
+   "1 Cord"
+  ],
+  "template": "painting"
+ },
+ "r62_001": {
+  "claims": [
+   "A better lens can reveal facts older eyes missed.",
+   "An instrument can also mislead."
+  ],
+  "fact": "Galileo built this refracting telescope in 1609 in Padua.",
+  "mats": [
+   "2 Brass",
+   "1 Cord"
+  ],
+  "template": "telescope"
+ },
+ "r62_002": {
+  "claims": [
+   "Function can define the name.",
+   "Labels can mislead across eras."
+  ],
+  "fact": "Divers found this bronze gear device in a Roman-era shipwreck near Antikythera in 1901.",
+  "mats": [
+   "2 Silicon",
+   "1 Resin"
+  ],
+  "template": "machine"
+ },
+ "r62_003": {
+  "claims": [
+   "Bones set limits on stories.",
+   "Gaps invite our bias."
+  ],
+  "fact": "Donald Johanson found this 3.2 million year old skeleton in Ethiopia in 1974.",
+  "mats": [
+   "2 Bone",
+   "1 Resin"
+  ],
+  "template": "bone"
+ },
+ "r62_004": {
+  "claims": [
+   "A machine can hide method.",
+   "A tool can free the mind for harder questions."
+  ],
+  "fact": "Texas Instruments released the TI-84 Plus in 2004.",
+  "mats": [
+   "2 Wood",
+   "1 Charcoal"
+  ],
+  "template": "gameboard"
+ },
+ "r62_005": {
+  "claims": [
+   "Precision can turn guesswork into knowledge.",
+   "One device rarely ends doubt alone."
+  ],
+  "fact": "John Harrison finished H4 in 1759 and it passed sea trials to Jamaica by 1762.",
+  "mats": [
+   "2 Brass",
+   "1 Charcoal"
+  ],
+  "template": "scale"
+ },
+ "r62_006": {
+  "claims": [
+   "Labels can carry the proof.",
+   "Poor labels can bury a discovery."
+  ],
+  "fact": "Darwin collected mockingbirds across the Galapagos in 1835.",
+  "mats": [
+   "2 Glass",
+   "1 Charcoal"
+  ],
+  "template": "flask"
+ },
+ "r62_007": {
+  "claims": [
+   "A machine can show hidden facts.",
+   "Images can unsettle more than convince."
+  ],
+  "fact": "Wilhelm Roentgen made this X-ray of his wife's hand in 1895 in Wurzburg.",
+  "mats": [
+   "2 Glass",
+   "1 Cord"
+  ],
+  "template": "flask"
+ },
+ "r62_008": {
+  "claims": [
+   "Designers own the setup.",
+   "Knowers gain from results."
+  ],
+  "fact": "Stanley Milgram ran his obedience study at Yale from 1961.",
+  "mats": [
+   "2 Glass",
+   "1 Charcoal"
+  ],
+  "template": "flask"
+ },
+ "r62_009": {
+  "claims": [
+   "Credit can follow the loudest voice.",
+   "The image holds its own maker."
+  ],
+  "fact": "Rosalind Franklin and Raymond Gosling captured Photo 51 in 1952 using X-ray diffraction.",
+  "mats": [
+   "2 Glass",
+   "1 Charcoal"
+  ],
+  "template": "camera"
+ },
+ "r62_010": {
+  "claims": [
+   "Secrecy can hand one side an edge.",
+   "Broken secrecy shifts the edge back."
+  ],
+  "fact": "The German military used Enigma machines to scramble radio messages from the 1920s through 1945.",
+  "mats": [
+   "2 Wood",
+   "1 Charcoal"
+  ],
+  "template": "chest"
+ },
+ "r62_011": {
+  "claims": [
+   "A device can prove a method runs.",
+   "A machine hides the reasoning inside."
+  ],
+  "fact": "Alan Turing and Gordon Welchman designed the Bombe in 1939 and 1940.",
+  "mats": [
+   "2 Silicon",
+   "1 Charcoal"
+  ],
+  "template": "machine"
+ },
+ "r62_012": {
+  "claims": [
+   "Faith can guide design.",
+   "Trade spreads a tool past its makers."
+  ],
+  "fact": "Ahmad al-Sarraj made this brass astrolabe in 1328 in Syria.",
+  "mats": [
+   "2 Paper",
+   "1 Charcoal"
+  ],
+  "template": "globe"
+ },
+ "r62_013": {
+  "claims": [
+   "Size can cut error.",
+   "Numbers still pass through people."
+  ],
+  "fact": "Ulugh Beg built this giant meridian arc in Samarkand in the 1420s.",
+  "mats": [
+   "2 Wood",
+   "1 Cord"
+  ],
+  "template": "tool"
+ },
+ "r62_014": {
+  "claims": [
+   "A fixed scale ends debate about degree.",
+   "Scales still rest on choices."
+  ],
+  "fact": "Daniel Fahrenheit built reliable mercury thermometers from 1714.",
+  "mats": [
+   "2 Glass",
+   "1 Cord"
+  ],
+  "template": "flask"
+ },
+ "r62_015": {
+  "claims": [
+   "Sound can stand as proof.",
+   "Ears can deceive."
+  ],
+  "fact": "Rene Laennec invented the stethoscope in Paris in 1816.",
+  "mats": [
+   "2 Glass",
+   "1 Cord"
+  ],
+  "template": "flask"
+ },
+ "r62_016": {
+  "claims": [
+   "Patterns can anchor a reading.",
+   "We fill silence with our own ideas."
+  ],
+  "fact": "Looters found the Nebra Sky Disc in Germany, dated to about 1600 BCE.",
+  "mats": [
+   "2 Glass",
+   "1 Resin"
+  ],
+  "template": "flask"
+ },
+ "r62_017": {
+  "claims": [
+   "A trained eye turns luck into fact.",
+   "Accidents need patient testing."
+  ],
+  "fact": "Alexander Fleming spotted mould killing bacteria on a stray plate in London in 1928.",
+  "mats": [
+   "2 Glass",
+   "1 Resin"
+  ],
+  "template": "flask"
+ },
+ "r62_018": {
+  "claims": [
+   "Some edits risk too much.",
+   "Refusing a cure carries its own cost."
+  ],
+  "fact": "Jennifer Doudna and Emmanuelle Charpentier described CRISPR-Cas9 as an editing tool in 2012.",
+  "mats": [
+   "2 Glass",
+   "1 Cord"
+  ],
+  "template": "flask"
+ },
+ "r62_019": {
+  "claims": [
+   "A signal can carry fear.",
+   "Symbols fade without follow-up."
+  ],
+  "fact": "The Soviet Union launched Sputnik 1 on 4 October 1957.",
+  "mats": [
+   "2 Silicon",
+   "1 Cord"
+  ],
+  "template": "radio"
+ },
+ "r62_020": {
+  "claims": [
+   "Speed can build trust.",
+   "Fast answers still need checking."
+  ],
+  "fact": "Engineers unveiled ENIAC in 1945 at the University of Pennsylvania.",
+  "mats": [
+   "2 Silicon",
+   "1 Cord"
+  ],
+  "template": "machine"
+ },
+ "r62_021": {
+  "claims": [
+   "Consent should guide ownership.",
+   "Shared benefit complicates ownership."
+  ],
+  "fact": "Doctors took cancer cells from Henrietta Lacks in 1951 without her consent.",
+  "mats": [
+   "2 Glass",
+   "1 Resin"
+  ],
+  "template": "flask"
+ },
+ "r62_022": {
+  "claims": [
+   "Fast trials can still convince.",
+   "Speed can feed doubt."
+  ],
+  "fact": "Pfizer and BioNTech released their mRNA COVID-19 vaccine in December 2020.",
+  "mats": [
+   "2 Glass",
+   "1 Cord"
+  ],
+  "template": "flask"
+ },
+ "r62_023": {
+  "claims": [
+   "A picture can reveal a cause.",
+   "Maps can also mislead by framing."
+  ],
+  "fact": "John Snow mapped cholera deaths in Soho, London, in 1854.",
+  "mats": [
+   "2 Paper",
+   "1 Cord"
+  ],
+  "template": "map"
+ },
+ "r62_024": {
+  "claims": [
+   "Sight sets the questions.",
+   "Lenses add their own flaws."
+  ],
+  "fact": "Robert Hooke published Micrographia in 1665 with detailed engravings of a flea, cork, and mould.",
+  "mats": [
+   "2 Brass",
+   "1 Charcoal"
+  ],
+  "template": "telescope"
+ },
+ "r62_025": {
+  "claims": [
+   "Testing can earn deep trust.",
+   "No test covers all."
+  ],
+  "fact": "The Eagle carried Armstrong and Aldrin to the Moon's surface on 20 July 1969.",
+  "mats": [
+   "2 Wood",
+   "1 Charcoal"
+  ],
+  "template": "tool"
+ },
+ "r62_026": {
+  "claims": [
+   "Genes can define sameness.",
+   "A life is more than genes."
+  ],
+  "fact": "Scientists at the Roslin Institute cloned Dolly from an adult cell in 1996.",
+  "mats": [
+   "2 Glass",
+   "1 Resin"
+  ],
+  "template": "flask"
+ },
+ "r62_027": {
+  "claims": [
+   "Private sound can reshape space.",
+   "Culture pushes back on devices."
+  ],
+  "fact": "Sony released the TPS-L2 Walkman in 1979.",
+  "mats": [
+   "2 Glass",
+   "1 Resin"
+  ],
+  "template": "flask"
+ },
+ "r62_028": {
+  "claims": [
+   "Tracks can stand for particles.",
+   "A trail is not the thing."
+  ],
+  "fact": "Charles Wilson perfected the cloud chamber in 1911 in Cambridge.",
+  "mats": [
+   "2 Glass",
+   "1 Resin"
+  ],
+  "template": "flask"
+ },
+ "r62_029": {
+  "claims": [
+   "Fear can outlive facts.",
+   "Trust in method can win."
+  ],
+  "fact": "Andrew Wakefield published a study in The Lancet in 1998 tying MMR vaccines to autism.",
+  "mats": [
+   "2 Paper",
+   "1 Charcoal"
+  ],
+  "template": "letter"
+ },
+ "r62_030": {
+  "claims": [
+   "A method can run ahead of theory.",
+   "Gaps in theory bite back."
+  ],
+  "fact": "Henry Bessemer announced his steel-making process in 1856.",
+  "mats": [
+   "2 Glass",
+   "1 Resin"
+  ],
+  "template": "flask"
+ },
+ "r62_031": {
+  "claims": [
+   "Need shapes use.",
+   "Meaning can outrank use."
+  ],
+  "fact": "The Gibeon meteorite fell over Namibia in prehistory and scattered iron across the land.",
+  "mats": [
+   "2 Glass",
+   "1 Resin"
+  ],
+  "template": "flask"
+ },
+ "r62_032": {
+  "claims": [
+   "Good clocks can steady the map.",
+   "Choices still shape the survey."
+  ],
+  "fact": "HMS Beagle sailed in 1831 carrying 22 chronometers to fix longitude.",
+  "mats": [
+   "2 Brass",
+   "1 Charcoal"
+  ],
+  "template": "scale"
+ },
+ "r62_033": {
+  "claims": [
+   "The viewer supplies the meaning.",
+   "The scorer holds power too."
+  ],
+  "fact": "Hermann Rorschach published his ten inkblots in 1921 in Switzerland.",
+  "mats": [
+   "2 Paper",
+   "1 Charcoal"
+  ],
+  "template": "letter"
+ },
+ "r62_034": {
+  "claims": [
+   "A trusted mechanism can justify belief.",
+   "Blind trust invites error."
+  ],
+  "fact": "Curt Herzstark designed the Curta while imprisoned in Buchenwald, and it reached market in 1948.",
+  "mats": [
+   "2 Wood",
+   "1 Cord"
+  ],
+  "template": "gameboard"
+ },
+ "r62_035": {
+  "claims": [
+   "A small team must choose.",
+   "No list can hold everyone."
+  ],
+  "fact": "NASA placed a gold-plated record on both Voyager probes in 1977.",
+  "mats": [
+   "2 Silver",
+   "1 Cord"
+  ],
+  "template": "coin"
+ },
+ "r62_036": {
+  "claims": [
+   "Recording can freeze a moment.",
+   "Records can be staged."
+  ],
+  "fact": "Thomas Edison built the first phonograph in 1877 in New Jersey.",
+  "mats": [
+   "2 Paper",
+   "1 Cord"
+  ],
+  "template": "chart"
+ },
+ "r62_037": {
+  "claims": [
+   "A clear signal can convince.",
+   "One result rarely closes a field."
+  ],
+  "fact": "The Large Hadron Collider began running near Geneva in 2008.",
+  "mats": [
+   "2 Glass",
+   "1 Resin"
+  ],
+  "template": "flask"
+ },
+ "r62_038": {
+  "claims": [
+   "A slow swing can show motion.",
+   "Seeing is not fully knowing."
+  ],
+  "fact": "Leon Foucault hung a long pendulum in the Paris Pantheon in 1851.",
+  "mats": [
+   "2 Glass",
+   "1 Charcoal"
+  ],
+  "template": "flask"
+ },
+ "r62_039": {
+  "claims": [
+   "Small parts can scale huge.",
+   "Scale needs more than one part."
+  ],
+  "fact": "Bardeen, Brattain, and Shockley built the first practical transistor at Bell Labs in December 1947.",
+  "mats": [
+   "2 Silicon",
+   "1 Charcoal"
+  ],
+  "template": "machine"
+ },
+ "r62_040": {
+  "claims": [
+   "Readers of secrets gain control.",
+   "Hidden power fades from record."
+  ],
+  "fact": "Tommy Flowers built Colossus at the Post Office Research Station in 1943 and 1944.",
+  "mats": [
+   "2 Silicon",
+   "1 Resin"
+  ],
+  "template": "machine"
+ },
+ "r62_041": {
+  "claims": [
+   "Images need trained eyes.",
+   "Machines can guide the eye."
+  ],
+  "fact": "Raymond Damadian and his team ran the first full-body MRI scan in 1977 using a machine they called Indomitable.",
+  "mats": [
+   "2 Silicon",
+   "1 Resin"
+  ],
+  "template": "machine"
+ },
+ "r62_042": {
+  "claims": [
+   "Isolation can prove a cause.",
+   "One germ rarely acts alone."
+  ],
+  "fact": "Robert Koch identified the tuberculosis bacterium in 1882 in Berlin.",
+  "mats": [
+   "2 Glass",
+   "1 Resin"
+  ],
+  "template": "flask"
+ },
+ "r62_043": {
+  "claims": [
+   "Need can rank the queue.",
+   "Fairness fights with survival."
+  ],
+  "fact": "John Emerson built an improved iron lung in 1931.",
+  "mats": [
+   "2 Glass",
+   "1 Charcoal"
+  ],
+  "template": "flask"
+ },
+ "r62_044": {
+  "claims": [
+   "A model can show a path.",
+   "A jar is not the early Earth."
+  ],
+  "fact": "Stanley Miller and Harold Urey ran their experiment in 1953 at Chicago.",
+  "mats": [
+   "2 Glass",
+   "1 Charcoal"
+  ],
+  "template": "flask"
+ },
+ "r62_045": {
+  "claims": [
+   "Low cost can spread a skill.",
+   "Access still has limits."
+  ],
+  "fact": "Kodak sold the Brownie box camera from 1900 for one dollar.",
+  "mats": [
+   "2 Glass",
+   "1 Charcoal"
+  ],
+  "template": "camera"
+ },
+ "r62_046": {
+  "claims": [
+   "Tough design can build loyalty.",
+   "Culture reshapes the object."
+  ],
+  "fact": "Nokia released the 3310 in 2000, and it sold over 120 million units.",
+  "mats": [
+   "2 Silicon",
+   "1 Cord"
+  ],
+  "template": "machine"
+ },
+ "r62_047": {
+  "claims": [
+   "Storing a force can prove it.",
+   "Shocks feel present yet stay puzzling."
+  ],
+  "fact": "Pieter van Musschenbroek built the Leyden jar in 1745 in the Netherlands.",
+  "mats": [
+   "2 Glass",
+   "1 Cord"
+  ],
+  "template": "flask"
+ },
+ "r62_048": {
+  "claims": [
+   "Sharing can be a duty.",
+   "Speed carries its own risk."
+  ],
+  "fact": "Jonas Salk's team announced a proven polio vaccine in 1955.",
+  "mats": [
+   "2 Glass",
+   "1 Charcoal"
+  ],
+  "template": "flask"
+ },
+ "r62_049": {
+  "claims": [
+   "Skill should earn the credit.",
+   "Power decides the record."
+  ],
+  "fact": "Mary Anning and her brother found an ichthyosaur skeleton at Lyme Regis around 1811.",
+  "mats": [
+   "2 Bone",
+   "1 Charcoal"
+  ],
+  "template": "bone"
+ },
+ "r62_050": {
+  "claims": [
+   "A new design can beat an old limit.",
+   "Fixes bring fresh limits."
+  ],
+  "fact": "Isaac Newton built the first reflecting telescope in 1668.",
+  "mats": [
+   "2 Brass",
+   "1 Cord"
+  ],
+  "template": "telescope"
+ },
+ "r62_051": {
+  "claims": [
+   "Behaviour can stand in for mind.",
+   "Copying is not knowing."
+  ],
+  "fact": "Joseph Weizenbaum wrote ELIZA at MIT in 1966.",
+  "mats": [
+   "2 Silicon",
+   "1 Cord"
+  ],
+  "template": "machine"
+ },
+ "r62_052": {
+  "claims": [
+   "A signal can warn us.",
+   "Numbers need a scale."
+  ],
+  "fact": "Hans Geiger and Walther Muller improved the radiation counter in 1928.",
+  "mats": [
+   "2 Glass",
+   "1 Resin"
+  ],
+  "template": "flask"
+ },
+ "r62_053": {
+  "claims": [
+   "Desire can blind the eye.",
+   "Method finally wins."
+  ],
+  "fact": "In 1912 Charles Dawson presented the Piltdown skull as a missing link found in England.",
+  "mats": [
+   "2 Bone",
+   "1 Resin"
+  ],
+  "template": "bone"
+ },
+ "r62_054": {
+  "claims": [
+   "Skill can justify the reading.",
+   "Eyes set a limit."
+  ],
+  "fact": "Keuffel and Esser sold precise slide rules through the mid 20th century.",
+  "mats": [
+   "2 Wood",
+   "1 Charcoal"
+  ],
+  "template": "tool"
+ },
+ "r62_055": {
+  "claims": [
+   "Gears can beat tired clerks.",
+   "Machines inherit our mistakes."
+  ],
+  "fact": "Charles Babbage designed the Difference Engine in the 1820s to compute tables by gears.",
+  "mats": [
+   "2 Silicon",
+   "1 Charcoal"
+  ],
+  "template": "machine"
+ },
+ "r62_056": {
+  "claims": [
+   "Clear names can guide sight.",
+   "Systems can hide difference."
+  ],
+  "fact": "Carl Linnaeus set out two-word species names in the 1750s.",
+  "mats": [
+   "2 Seed",
+   "1 Charcoal"
+  ],
+  "template": "plant"
+ },
+ "r62_057": {
+  "claims": [
+   "Tested code can earn trust.",
+   "Limits demand a human backup."
+  ],
+  "fact": "The Apollo Guidance Computer steered Apollo craft from 1968.",
+  "mats": [
+   "2 Silicon",
+   "1 Cord"
+  ],
+  "template": "machine"
+ },
+ "r62_058": {
+  "claims": [
+   "Images speak through theory.",
+   "Raw film says little."
+  ],
+  "fact": "Bubble chambers at CERN photographed particle tracks through the 1960s.",
+  "mats": [
+   "2 Paper",
+   "1 Resin"
+  ],
+  "template": "chart"
+ },
+ "r62_059": {
+  "claims": [
+   "One chip can open a field.",
+   "A chip needs a whole system."
+  ],
+  "fact": "Intel released the 4004 in 1971 as the first commercial microprocessor.",
+  "mats": [
+   "2 Silicon",
+   "1 Resin"
+  ],
+  "template": "machine"
+ },
+ "r62_060": {
+  "claims": [
+   "A common tool can align sailors.",
+   "Readings still need a steady hand."
+  ],
+  "fact": "Jesse Ramsden built precise sextants from the 1770s.",
+  "mats": [
+   "2 Wood",
+   "1 Charcoal"
+  ],
+  "template": "tool"
+ },
+ "r62_061": {
+  "claims": [
+   "Use can outweigh style.",
+   "Meaning shifts with context."
+  ],
+  "fact": "Casio launched the F-91W in 1989, and it still sells today.",
+  "mats": [
+   "2 Silicon",
+   "1 Charcoal"
+  ],
+  "template": "machine"
+ },
+ "r62_062": {
+  "claims": [
+   "A null result can still teach.",
+   "Nothing found feels like failure."
+  ],
+  "fact": "Albert Michelson and Edward Morley ran their light experiment in 1887 in Cleveland.",
+  "mats": [
+   "2 Brass",
+   "1 Resin"
+  ],
+  "template": "scale"
+ },
+ "r62_063": {
+  "claims": [
+   "Each system sees its own map.",
+   "One body invites many models."
+  ],
+  "fact": "Chinese physicians drew acupuncture charts for centuries, refined under the Ming dynasty.",
+  "mats": [
+   "2 Glass",
+   "1 Resin"
+  ],
+  "template": "flask"
+ },
+ "r62_064": {
+  "claims": [
+   "Effects can point to causes.",
+   "Glows can mislead."
+  ],
+  "fact": "William Crookes built his vacuum tubes in the 1870s.",
+  "mats": [
+   "2 Bronze",
+   "1 Cord"
+  ],
+  "template": "bell"
+ },
+ "r62_065": {
+  "claims": [
+   "A gap can be measured.",
+   "Absence resists proof."
+  ],
+  "fact": "Evangelista Torricelli built the first barometer in 1643 in Italy.",
+  "mats": [
+   "2 Glass",
+   "1 Resin"
+  ],
+  "template": "flask"
+ },
+ "r62_066": {
+  "claims": [
+   "The record can settle claims.",
+   "Ideas often come in parallel."
+  ],
+  "fact": "Jack Kilby built the first integrated circuit at Texas Instruments in 1958.",
+  "mats": [
+   "2 Silicon",
+   "1 Cord"
+  ],
+  "template": "machine"
+ },
+ "r62_067": {
+  "claims": [
+   "A model can teach truly.",
+   "Models fix one view."
+  ],
+  "fact": "Leopold and Rudolf Blaschka made glass models of sea creatures in the 1880s in Germany.",
+  "mats": [
+   "2 Glass",
+   "1 Cord"
+  ],
+  "template": "flask"
+ },
+ "r62_068": {
+  "claims": [
+   "Trials build trust over time.",
+   "Long testing can turn unfair."
+  ],
+  "fact": "John Harrison finished H1 in 1735 as his first sea clock.",
+  "mats": [
+   "2 Silicon",
+   "1 Cord"
+  ],
+  "template": "machine"
+ },
+ "r62_069": {
+  "claims": [
+   "Price can gate access.",
+   "Prices fall and spread power."
+  ],
+  "fact": "Motorola sold the DynaTAC 8000X in 1983 as the first hand-held mobile phone.",
+  "mats": [
+   "2 Silicon",
+   "1 Cord"
+  ],
+  "template": "radio"
+ },
+ "r62_070": {
+  "claims": [
+   "Breakers gain the edge.",
+   "Secrecy outlives the war."
+  ],
+  "fact": "The German army used the Lorenz SZ42 to encipher high-level teleprinter messages during the Second World War.",
+  "mats": [
+   "2 Wood",
+   "1 Resin"
+  ],
+  "template": "chest"
+ },
+ "r62_071": {
+  "claims": [
+   "Size can buy precision.",
+   "Fixed tools face limits."
+  ],
+  "fact": "Maharaja Jai Singh II built the Samrat Yantra at Jaipur around 1734.",
+  "mats": [
+   "2 Silicon",
+   "1 Resin"
+  ],
+  "template": "machine"
+ },
+ "r62_072": {
+  "claims": [
+   "Code can live in holes.",
+   "Cards need a reader to mean anything."
+  ],
+  "fact": "Joseph-Marie Jacquard showed his card-controlled loom in 1804 in France.",
+  "mats": [
+   "2 Cloth",
+   "1 Resin"
+  ],
+  "template": "textile"
+ },
+ "r62_073": {
+  "claims": [
+   "A loss can shrink the myth.",
+   "Machines play a different game."
+  ],
+  "fact": "IBM's Deep Blue beat world champion Garry Kasparov in 1997.",
+  "mats": [
+   "2 Wood",
+   "1 Charcoal"
+  ],
+  "template": "gameboard"
+ },
+ "r62_074": {
+  "claims": [
+   "Builders get the headline.",
+   "Hidden sources deserve credit."
+  ],
+  "fact": "James Watson and Francis Crick built their DNA double-helix model in 1953 at Cambridge.",
+  "mats": [
+   "2 Glass",
+   "1 Charcoal"
+  ],
+  "template": "flask"
+ },
+ "r62_075": {
+  "claims": [
+   "Saving seeds can serve the future.",
+   "Storage can breed neglect."
+  ],
+  "fact": "The Svalbard Global Seed Vault opened in 2008 inside an Arctic mountain in Norway.",
+  "mats": [
+   "2 Seed",
+   "1 Charcoal"
+  ],
+  "template": "plant"
+ },
+ "r62_076": {
+  "claims": [
+   "Sensors can add data.",
+   "Numbers can mislead the body."
+  ],
+  "fact": "Fitbit released its first clip tracker in 2009.",
+  "mats": [
+   "2 Silicon",
+   "1 Cord"
+  ],
+  "template": "machine"
+ },
+ "r62_077": {
+  "claims": [
+   "A neat model can fool us.",
+   "Method exposes the fake."
+  ],
+  "fact": "Lorenzo Fowler sold ceramic phrenology heads from the 1860s.",
+  "mats": [
+   "2 Glass",
+   "1 Cord"
+  ],
+  "template": "flask"
+ },
+ "r62_078": {
+  "claims": [
+   "Access can guide ownership.",
+   "Systems reshape the gift."
+  ],
+  "fact": "Frederick Banting and Charles Best isolated insulin in Toronto in 1921 and 1922.",
+  "mats": [
+   "2 Glass",
+   "1 Cord"
+  ],
+  "template": "flask"
+ },
+ "r62_079": {
+  "claims": [
+   "Some knowledge threatens all.",
+   "Knowing can also deter."
+  ],
+  "fact": "The first nuclear test, Trinity, fused desert sand into green glass on 16 July 1945 in New Mexico.",
+  "mats": [
+   "2 Glass",
+   "1 Cord"
+  ],
+  "template": "flask"
+ },
+ "r62_080": {
+  "claims": [
+   "Behaviour gives hard data.",
+   "Counts miss the inner life."
+  ],
+  "fact": "B.F.",
+  "mats": [
+   "2 Glass",
+   "1 Cord"
+  ],
+  "template": "flask"
+ },
+ "r62_081": {
+  "claims": [
+   "Results can prove the choice.",
+   "Strangeness resists our judgement."
+  ],
+  "fact": "In 2016 AlphaGo beat top Go player Lee Sedol in Seoul.",
+  "mats": [
+   "2 Silver",
+   "1 Cord"
+  ],
+  "template": "coin"
+ },
+ "r62_082": {
+  "claims": [
+   "A flight can end the doubt.",
+   "One success invites more tests."
+  ],
+  "fact": "The Wright brothers flew their powered Flyer at Kitty Hawk on 17 December 1903.",
+  "mats": [
+   "2 Wood",
+   "1 Resin"
+  ],
+  "template": "boat"
+ },
+ "r62_083": {
+  "claims": [
+   "Harm can reset the rules.",
+   "Rules can lag behind loss."
+  ],
+  "fact": "Drug makers sold thalidomide from 1957 as a sedative for pregnant women.",
+  "mats": [
+   "2 Glass",
+   "1 Resin"
+  ],
+  "template": "flask"
+ },
+ "r62_084": {
+  "claims": [
+   "A tool can teach a method.",
+   "Method outlives the tool."
+  ],
+  "fact": "Chinese merchants used the suanpan abacus from at least the Song dynasty.",
+  "mats": [
+   "2 Wood",
+   "1 Charcoal"
+  ],
+  "template": "gameboard"
+ },
+ "r62_085": {
+  "claims": [
+   "A wider view can shift perspective.",
+   "Bigger eyes bring new blind spots."
+  ],
+  "fact": "NASA launched the James Webb Space Telescope in December 2021.",
+  "mats": [
+   "2 Brass",
+   "1 Charcoal"
+  ],
+  "template": "telescope"
+ },
+ "r63_001": {
+  "claims": [
+   "The community decides.",
+   "The maker still anchors the meaning."
+  ],
+  "fact": "Michelangelo carved David between 1501 and 1504 from a block two earlier sculptors had abandoned.",
+  "mats": [
+   "2 Stone",
+   "1 Charcoal"
+  ],
+  "template": "statue"
+ },
+ "r63_002": {
+  "claims": [
+   "Meaning stays open.",
+   "Openness has limits."
+  ],
+  "fact": "Botticelli painted this large panel of Venus, Flora, and dancing Graces around 1482, probably for the Medici family.",
+  "mats": [
+   "2 Pigment",
+   "1 Resin"
+  ],
+  "template": "painting"
+ },
+ "r63_003": {
+  "claims": [
+   "Panels can be compared on shared tests: casting skill, story clarity, cost of bronze.",
+   "Shared tests hide taste."
+  ],
+  "fact": "Lorenzo Ghiberti won a public competition in 1401 to make bronze doors for the Florence Baptistery, then spent decades on a second set, finished in…",
+  "mats": [
+   "2 Stone",
+   "1 Cord"
+  ],
+  "template": "building"
+ },
+ "r63_004": {
+  "claims": [
+   "No.",
+   "Partly, and the part matters."
+  ],
+  "fact": "Cennino Cennini wrote this manual around 1400, recording the methods of Florentine painting bottegas: egg tempera, gesso grounds, gilding, and…",
+  "mats": [
+   "2 Paper",
+   "1 Cord"
+  ],
+  "template": "book"
+ },
+ "r63_005": {
+  "claims": [
+   "A large role.",
+   "Cost sets limits, not meanings."
+  ],
+  "fact": "True ultramarine was ground from lapis lazuli mined in Badakhshan, in present-day Afghanistan, and refined through a slow kneading process.",
+  "mats": [
+   "2 Glass",
+   "1 Cord"
+  ],
+  "template": "flask"
+ },
+ "r63_006": {
+  "claims": [
+   "Biography illuminates.",
+   "Biography can shrink a painter."
+  ],
+  "fact": "Artemisia Gentileschi painted this scene of Judith beheading an Assyrian general around 1620; the version in the Uffizi followed an earlier one in…",
+  "mats": [
+   "2 Wood",
+   "1 Charcoal"
+  ],
+  "template": "tool"
+ },
+ "r63_007": {
+  "claims": [
+   "Use it with cross-checks.",
+   "Use it as evidence of its own time."
+  ],
+  "fact": "Giorgio Vasari published these biographies of Italian artists in 1550 and expanded them in 1568.",
+  "mats": [
+   "2 Paper",
+   "1 Resin"
+  ],
+  "template": "book"
+ },
+ "r63_008": {
+  "claims": [
+   "Ratios feel neutral, yet Leonardo chose one adult male frame as the measure of all.",
+   "The drawing tests a claim, not a preference."
+  ],
+  "fact": "Leonardo da Vinci drew this figure inside a circle and a square around 1490, testing the ancient architect Vitruvius's claims about human proportion.",
+  "mats": [
+   "2 Wood",
+   "1 Resin"
+  ],
+  "template": "tool"
+ },
+ "r63_009": {
+  "claims": [
+   "Mass attention holds the lever.",
+   "Institutions hold it first."
+  ],
+  "fact": "Leonardo painted this portrait, probably of Lisa del Giocondo, beginning around 1503.",
+  "mats": [
+   "2 Pigment",
+   "1 Resin"
+  ],
+  "template": "painting"
+ },
+ "r63_010": {
+  "claims": [
+   "Purpose decides.",
+   "The viewer decides."
+  ],
+  "fact": "The friar-painter Fra Angelico frescoed the convent of San Marco in Florence around 1440, placing an Annunciation at the top of the dormitory stairs…",
+  "mats": [
+   "2 Pigment",
+   "1 Resin"
+  ],
+  "template": "painting"
+ },
+ "r63_011": {
+  "claims": [
+   "Hokusai put the viewer down in the trough among the boats, so the print claims the sea rules and the sacred mountain shrinks.",
+   "The viewpoint suggests, the viewer completes."
+  ],
+  "fact": "Katsushika Hokusai designed this woodblock print around 1831 as part of Thirty-six Views of Mount Fuji.",
+  "mats": [
+   "2 Pigment",
+   "1 Resin"
+  ],
+  "template": "painting"
+ },
+ "r63_012": {
+  "claims": [
+   "A feeling first.",
+   "A convention first."
+  ],
+  "fact": "Utagawa Hiroshige published this print in 1857 within One Hundred Famous Views of Edo.",
+  "mats": [
+   "2 Pigment",
+   "1 Cord"
+  ],
+  "template": "painting"
+ },
+ "r63_013": {
+  "claims": [
+   "Certainty stays low.",
+   "We can be certain where it counts."
+  ],
+  "fact": "Toshusai Sharaku produced about 140 bold kabuki actor portraits in ten months from 1794, then stopped.",
+  "mats": [
+   "2 Wood",
+   "1 Charcoal"
+  ],
+  "template": "mask"
+ },
+ "r63_014": {
+  "claims": [
+   "Little about faces, much about fame.",
+   "Look closer and the women return."
+  ],
+  "fact": "Kitagawa Utamaro designed this print around 1793, showing three famous Edo beauties: a geisha and two teahouse waitresses.",
+  "mats": [
+   "2 Cloth",
+   "1 Cord"
+  ],
+  "template": "textile"
+ },
+ "r63_015": {
+  "claims": [
+   "Gain: a new eye.",
+   "Loss: the context."
+  ],
+  "fact": "In 1887 Vincent van Gogh painted an oil copy of Hiroshige's plum orchard print, adding borders of Japanese characters copied for their look.",
+  "mats": [
+   "2 Pigment",
+   "1 Cord"
+  ],
+  "template": "painting"
+ },
+ "r63_016": {
+  "claims": [
+   "When it removes a limit.",
+   "Materials open doors, artists walk through."
+  ],
+  "fact": "Prussian blue, invented in Berlin around 1706, reached Japan through Dutch and Chinese traders and became affordable in Edo by the late 1820s.",
+  "mats": [
+   "2 Glass",
+   "1 Charcoal"
+  ],
+  "template": "flask"
+ },
+ "r63_017": {
+  "claims": [
+   "Through the viewer's motion.",
+   "Through carved ambiguity."
+  ],
+  "fact": "The ko-omote mask represents a young woman and is deliberately carved so small tilts read as changing emotion.",
+  "mats": [
+   "2 Wood",
+   "1 Resin"
+  ],
+  "template": "mask"
+ },
+ "r63_018": {
+  "claims": [
+   "It forces disguise.",
+   "Disguise can deepen art."
+  ],
+  "fact": "Kanadehon Chushingura opened in 1748 as a puppet play and quickly moved to kabuki.",
+  "mats": [
+   "2 Paper",
+   "1 Cord"
+  ],
+  "template": "scroll"
+ },
+ "r63_019": {
+  "claims": [
+   "The plaques count fully.",
+   "They count as curated memory."
+  ],
+  "fact": "Brass plaques cast by Benin's royal guilds from the sixteenth century lined the palace pillars, recording rulers, warriors, and ceremonies.",
+  "mats": [
+   "2 Pigment",
+   "1 Cord"
+  ],
+  "template": "painting"
+ },
+ "r63_020": {
+  "claims": [
+   "The source community holds the strongest claim.",
+   "Custody arguments also invoke care and access."
+  ],
+  "fact": "This ivory mask portrays Idia, mother of Oba Esigie, and was worn at the Benin ruler's hip in the early sixteenth century.",
+  "mats": [
+   "2 Silver",
+   "1 Cord"
+  ],
+  "template": "amulet"
+ },
+ "r63_021": {
+  "claims": [
+   "Only partly.",
+   "Display adds a second life."
+  ],
+  "fact": "Benin casters made commemorative brass heads for royal ancestral altars, including heads of the Iyoba, the queen mother, wearing a pointed coral net.",
+  "mats": [
+   "2 Bronze",
+   "1 Cord"
+  ],
+  "template": "bell"
+ },
+ "r63_022": {
+  "claims": [
+   "A duty to repair.",
+   "A duty to learn first."
+  ],
+  "fact": "This brass cockerel, an altar piece from Benin City, was looted in 1897 and given to Jesus College, Cambridge in 1905.",
+  "mats": [
+   "2 Clay",
+   "1 Charcoal"
+  ],
+  "template": "pot"
+ },
+ "r63_023": {
+  "claims": [
+   "By verdicts of fire.",
+   "By lineage as license."
+  ],
+  "fact": "Igun Street in Benin City houses the hereditary bronze casters' guild, which has served the royal court for centuries and still uses the lost-wax…",
+  "mats": [
+   "2 Pigment",
+   "1 Resin"
+  ],
+  "template": "painting"
+ },
+ "r63_024": {
+  "claims": [
+   "Labels write the first draft.",
+   "Labels can also correct."
+  ],
+  "fact": "These leopards, carved from ivory tusks with inlaid copper spots, stood in the Benin royal palace as symbols of the Oba's authority.",
+  "mats": [
+   "2 Clay",
+   "1 Resin"
+  ],
+  "template": "pot"
+ },
+ "r63_025": {
+  "claims": [
+   "The center of the story moves.",
+   "The audience changes too."
+  ],
+  "fact": "Aaron Douglas painted this four-panel mural cycle in 1934 for the 135th Street branch of the New York Public Library, now the Schomburg Center.",
+  "mats": [
+   "2 Pigment",
+   "1 Resin"
+  ],
+  "template": "painting"
+ },
+ "r63_026": {
+  "claims": [
+   "The band thinks as one instrument.",
+   "The chart still rules."
+  ],
+  "fact": "Billy Strayhorn composed this tune from subway directions to Duke Ellington's Harlem home, and the Ellington Orchestra recorded it in February 1941.",
+  "mats": [
+   "2 Pigment",
+   "1 Cord"
+  ],
+  "template": "painting"
+ },
+ "r63_027": {
+  "claims": [
+   "By performance under witnesses.",
+   "By teaching."
+  ],
+  "fact": "Louis Armstrong played Selmer trumpets for much of his career, and his home in Corona, Queens, now a museum, preserves his gold-plated horns.",
+  "mats": [
+   "2 Wood",
+   "1 Charcoal"
+  ],
+  "template": "drum"
+ },
+ "r63_028": {
+  "claims": [
+   "Yes, as evidence of self-presentation.",
+   "Only with caution."
+  ],
+  "fact": "James Van Der Zee photographed Harlem for six decades from his studio, and this 1932 image shows a stylish couple with a Cadillac on West 127th…",
+  "mats": [
+   "2 Glass",
+   "1 Resin"
+  ],
+  "template": "camera"
+ },
+ "r63_029": {
+  "claims": [
+   "Pattern and feeling at once.",
+   "Less than it seems, without captions."
+  ],
+  "fact": "Jacob Lawrence painted sixty small panels in 1940 and 1941 narrating the Great Migration of Black Southerners to northern cities, moving color by…",
+  "mats": [
+   "2 Pigment",
+   "1 Resin"
+  ],
+  "template": "painting"
+ },
+ "r63_030": {
+  "claims": [
+   "A duty to unsettle.",
+   "A duty of care."
+  ],
+  "fact": "Abel Meeropol wrote this protest song about lynching, and Billie Holiday recorded it in April 1939 after Columbia refused, releasing it on the small…",
+  "mats": [
+   "2 Pigment",
+   "1 Resin"
+  ],
+  "template": "painting"
+ },
+ "r63_031": {
+  "claims": [
+   "Preservation follows funding.",
+   "Survival is not the only measure."
+  ],
+  "fact": "Augusta Savage created this sixteen-foot plaster sculpture for the 1939 New York World's Fair, shaping a choir of singers into the strings of a…",
+  "mats": [
+   "2 Wood",
+   "1 Resin"
+  ],
+  "template": "drum"
+ },
+ "r63_032": {
+  "claims": [
+   "When its job is steadiness, not prediction.",
+   "Never fully."
+  ],
+  "fact": "An elm called the Tree of Hope stood on Seventh Avenue near Harlem's theatres, and performers rubbed it for luck.",
+  "mats": [
+   "2 Pigment",
+   "1 Cord"
+  ],
+  "template": "painting"
+ },
+ "r63_033": {
+  "claims": [
+   "A new instrument appears.",
+   "A residue is lost."
+  ],
+  "fact": "Langston Hughes published this first poetry collection in 1926, pulling blues and jazz rhythms into printed verse about Black life in Harlem and…",
+  "mats": [
+   "2 Paper",
+   "1 Charcoal"
+  ],
+  "template": "book"
+ },
+ "r63_034": {
+  "claims": [
+   "Only to the edge of pattern.",
+   "Farther than silence suggests."
+  ],
+  "fact": "Four teenagers and a dog found the Lascaux cave in southwestern France in September 1940.",
+  "mats": [
+   "2 Pigment",
+   "1 Charcoal"
+  ],
+  "template": "painting"
+ },
+ "r63_035": {
+  "claims": [
+   "Radiocarbon rewrote the timeline.",
+   "Methods persuade only with cross-checks."
+  ],
+  "fact": "Three cavers found the Chauvet cave in December 1994, its walls carrying lions, rhinos, and horses in confident charcoal.",
+  "mats": [
+   "2 Silver",
+   "1 Charcoal"
+  ],
+  "template": "coin"
+ },
+ "r63_036": {
+  "claims": [
+   "Because the claim breaks the ruling theory.",
+   "Reversal came from converging finds."
+  ],
+  "fact": "Marcelino Sanz de Sautuola explored Altamira in northern Spain in 1879 after his young daughter Maria looked up and saw painted bison.",
+  "mats": [
+   "2 Pigment",
+   "1 Resin"
+  ],
+  "template": "painting"
+ },
+ "r63_037": {
+  "claims": [
+   "The claim states its limits openly.",
+   "Minimums still overturn maps."
+  ],
+  "fact": "Researchers published this life-size warty pig from Leang Tedongnge cave in Sulawesi in 2021.",
+  "mats": [
+   "2 Pigment",
+   "1 Cord"
+  ],
+  "template": "painting"
+ },
+ "r63_038": {
+  "claims": [
+   "They show continuity of practice.",
+   "They show presence, not meaning."
+  ],
+  "fact": "The Cave of the Hands above Argentina's Pinturas River canyon holds hundreds of stenciled hands, sprayed in mineral pigment through bone pipes, most…",
+  "mats": [
+   "2 Pigment",
+   "1 Charcoal"
+  ],
+  "template": "painting"
+ },
+ "r63_039": {
+  "claims": [
+   "Imagination builds the category.",
+   "Imagination needs anchors."
+  ],
+  "fact": "Found in fragments in a German cave in August 1939 and reassembled over decades, this mammoth-ivory figurine joins a lion's head to a human body and…",
+  "mats": [
+   "2 Wood",
+   "1 Charcoal"
+  ],
+  "template": "gameboard"
+ },
+ "r63_040": {
+  "claims": [
+   "By breaking the earliest boundary.",
+   "One find bends, many finds break."
+  ],
+  "fact": "Archaeologists at Blombos Cave in South Africa uncovered two abalone shells holding a ground mixture of ochre, charcoal, and bone, a paint-making…",
+  "mats": [
+   "2 Stone",
+   "1 Cord"
+  ],
+  "template": "tablet"
+ },
+ "r63_041": {
+  "claims": [
+   "They know the image, not the object.",
+   "They know a curated performance."
+  ],
+  "fact": "After breath, heat, and algae from a million visitors damaged Lascaux's paintings, France closed the cave in 1963 and opened Lascaux II in 1983, a…",
+  "mats": [
+   "2 Pigment",
+   "1 Cord"
+  ],
+  "template": "painting"
+ },
+ "r63_042": {
+  "claims": [
+   "They see different objects.",
+   "Difference can be a bridge."
+  ],
+  "fact": "Emily Kame Kngwarreye, an Anmatyerre elder from Utopia, began painting on canvas around age eighty and produced thousands of pieces in eight years.",
+  "mats": [
+   "2 Ink",
+   "1 Charcoal"
+  ],
+  "template": "pen"
+ },
+ "r63_043": {
+  "claims": [
+   "Both, layered.",
+   "The frame can mislead."
+  ],
+  "fact": "Albert Namatjira, a Western Arrernte man from Hermannsburg mission, learned watercolour in the 1930s and painted the ghost gums and ranges of his…",
+  "mats": [
+   "2 Pigment",
+   "1 Resin"
+  ],
+  "template": "painting"
+ },
+ "r63_044": {
+  "claims": [
+   "The custodians do.",
+   "Authority is negotiated under pressure."
+  ],
+  "fact": "In 1971 senior men at Papunya, encouraged by teacher Geoffrey Bardon, painted a Honey Ant Dreaming mural on the school wall, a founding act of the…",
+  "mats": [
+   "2 Pigment",
+   "1 Charcoal"
+  ],
+  "template": "painting"
+ },
+ "r63_045": {
+  "claims": [
+   "The law goes quiet.",
+   "Travel can also protect."
+  ],
+  "fact": "Djalu Gurruwiwi, a Galpu clan elder who died in 2022, was a renowned maker, player, and custodian of the yidaki, the instrument widely called the…",
+  "mats": [
+   "2 Pigment",
+   "1 Charcoal"
+  ],
+  "template": "painting"
+ },
+ "r63_046": {
+  "claims": [
+   "Yes.",
+   "Heritage rules complicate the yes."
+  ],
+  "fact": "Wandjina, cloud and rain beings with halo-like headdresses and mouthless faces, appear in rock shelters across the Kimberley in northwest Australia.",
+  "mats": [
+   "2 Pigment",
+   "1 Resin"
+  ],
+  "template": "painting"
+ },
+ "r63_047": {
+  "claims": [
+   "The panels answer yes in paint.",
+   "Coexistence needed a message."
+  ],
+  "fact": "In 1962 and 1963, Yolngu artists of the Dhuwa and Yirritja moieties painted two large panels of clan law and ancestral designs for the new Methodist…",
+  "mats": [
+   "2 Stone",
+   "1 Cord"
+  ],
+  "template": "building"
+ },
+ "r63_048": {
+  "claims": [
+   "Through incised design.",
+   "Function depends on the reader."
+  ],
+  "fact": "This possum-skin cloak from Lake Condah in western Victoria, collected in 1872, is one of very few nineteenth-century cloaks surviving, held by…",
+  "mats": [
+   "2 Pigment",
+   "1 Resin"
+  ],
+  "template": "painting"
+ },
+ "r63_049": {
+  "claims": [
+   "The expert's desire failed first.",
+   "The method failed with him."
+  ],
+  "fact": "Han van Meegeren painted this fake Vermeer in the 1930s, aged it with bakelite hardening, and sold it in 1937 after the leading expert Abraham…",
+  "mats": [
+   "2 Pigment",
+   "1 Resin"
+  ],
+  "template": "painting"
+ },
+ "r63_050": {
+  "claims": [
+   "More than it did.",
+   "Markets price probability, not truth."
+  ],
+  "fact": "This painting of Christ sold at Christie's in November 2017 for 450.3 million dollars, the highest price ever paid for a painting.",
+  "mats": [
+   "2 Silver",
+   "1 Charcoal"
+  ],
+  "template": "coin"
+ },
+ "r63_051": {
+  "claims": [
+   "Trained conservators, under protocols.",
+   "The outcome complicates the rule."
+  ],
+  "fact": "In 2012 Cecilia Gimenez, a parishioner in her eighties, attempted to restore a flaking 1930 fresco of Christ by Elias Garcia Martinez in her church…",
+  "mats": [
+   "2 Pigment",
+   "1 Charcoal"
+  ],
+  "template": "painting"
+ },
+ "r63_052": {
+  "claims": [
+   "The humans in the pipeline.",
+   "Credit tracked the signature."
+  ],
+  "fact": "The Paris collective Obvious generated this smeared portrait using a generative adversarial model trained on thousands of historical portraits,…",
+  "mats": [
+   "2 Silicon",
+   "1 Resin"
+  ],
+  "template": "machine"
+ },
+ "r63_053": {
+  "claims": [
+   "Fountain suggests no.",
+   "A defender can bite back: the objective property is the act."
+  ],
+  "fact": "In 1917 Marcel Duchamp submitted a standard urinal signed R.",
+  "mats": [
+   "2 Clay",
+   "1 Cord"
+  ],
+  "template": "pot"
+ },
+ "r63_054": {
+  "claims": [
+   "Display the doubt.",
+   "Doubt has a shelf life."
+  ],
+  "fact": "The Getty Museum bought this larger-than-life marble kouros in 1985 for millions, then found its ownership papers were forged.",
+  "mats": [
+   "2 Stone",
+   "1 Cord"
+  ],
+  "template": "building"
+ },
+ "r63_055": {
+  "claims": [
+   "The frame draws it.",
+   "The line must resist dissolving."
+  ],
+  "fact": "David Tudor premiered this three-movement piece in Woodstock, New York, in August 1952 by closing the piano lid and playing nothing for four minutes…",
+  "mats": [
+   "2 Pigment",
+   "1 Cord"
+  ],
+  "template": "painting"
+ },
+ "r63_056": {
+  "claims": [
+   "Standardization does heavy lifting.",
+   "The subjectivity returns at the scorer's desk."
+  ],
+  "fact": "Hermann Rorschach published his ten inkblot cards in 1921 in Bern, a year before his death.",
+  "mats": [
+   "2 Paper",
+   "1 Charcoal"
+  ],
+  "template": "letter"
+ },
+ "r63_057": {
+  "claims": [
+   "The gap is the whole lesson.",
+   "The gap can be overstated."
+  ],
+  "fact": "Rene Magritte painted a meticulous pipe above the sentence 'Ceci n'est pas une pipe' in 1929.",
+  "mats": [
+   "2 Pigment",
+   "1 Resin"
+  ],
+  "template": "painting"
+ },
+ "r63_058": {
+  "claims": [
+   "Because markets buy stories.",
+   "Because the destruction completed the piece."
+  ],
+  "fact": "Moments after Banksy's Girl with Balloon hammered for over a million pounds at Sotheby's in October 2018, a shredder hidden in the frame sliced the…",
+  "mats": [
+   "2 Pigment",
+   "1 Resin"
+  ],
+  "template": "painting"
+ },
+ "r63_059": {
+  "claims": [
+   "When the object prints itself.",
+   "Drawings still win at explanation."
+  ],
+  "fact": "Anna Atkins began issuing this album in October 1843, generally counted the first book illustrated with photographs.",
+  "mats": [
+   "2 Seed",
+   "1 Resin"
+  ],
+  "template": "plant"
+ },
+ "r63_060": {
+  "claims": [
+   "Notation carries structure, not sound.",
+   "Every performance is a translation."
+  ],
+  "fact": "Beethoven completed his final symphony in 1824, profoundly deaf, and reportedly had to be turned at the premiere to see the applause.",
+  "mats": [
+   "2 Paper",
+   "1 Cord"
+  ],
+  "template": "letter"
+ },
+ "r63_061": {
+  "claims": [
+   "Through apprenticeship as inheritance.",
+   "Living archives edit as they preserve."
+  ],
+  "fact": "Toumani Diabate of Bamako, who died in 2024, was the most celebrated modern master of the kora, the twenty-one-string calabash harp of West African…",
+  "mats": [
+   "2 Wood",
+   "1 Cord"
+  ],
+  "template": "drum"
+ },
+ "r63_062": {
+  "claims": [
+   "Guardianship means restraint.",
+   "Guardianship also means transmission."
+  ],
+  "fact": "The Sosso-Bala is a sacred balafon linked to the thirteenth-century Sunjata epic and the fall of the Sosso king Soumaoro Kante.",
+  "mats": [
+   "2 Paper",
+   "1 Charcoal"
+  ],
+  "template": "letter"
+ },
+ "r63_063": {
+  "claims": [
+   "As proof against erasure.",
+   "Symbols can outpace scholarship."
+  ],
+  "fact": "Eight carved soapstone birds once topped pillars at Great Zimbabwe, the stone city flourishing before 1500.",
+  "mats": [
+   "2 Stone",
+   "1 Resin"
+  ],
+  "template": "tablet"
+ },
+ "r63_064": {
+  "claims": [
+   "The story becomes bilingual.",
+   "The repainting also records unequal terms."
+  ],
+  "fact": "Marcos Zapata, a Quechua painter of the Cusco School, painted this Last Supper around 1753 for Cusco Cathedral, placing a roast guinea pig and…",
+  "mats": [
+   "2 Pigment",
+   "1 Resin"
+  ],
+  "template": "painting"
+ },
+ "r63_065": {
+  "claims": [
+   "Quite far, with discipline.",
+   "Reading risks projection."
+  ],
+  "fact": "Paracas weavers on Peru's south coast embroidered burial mantles with hundreds of flying and costumed figures around two thousand years ago,…",
+  "mats": [
+   "2 Cloth",
+   "1 Resin"
+  ],
+  "template": "textile"
+ },
+ "r63_066": {
+  "claims": [
+   "The loop exposes mediation.",
+   "The Buddha wins the staring contest."
+  ],
+  "fact": "Nam June Paik, the Korean-born founder of video art, set an antique Buddha statue before a live camera and monitor in 1974, letting it watch its own…",
+  "mats": [
+   "2 Pigment",
+   "1 Cord"
+  ],
+  "template": "painting"
+ },
+ "r63_067": {
+  "claims": [
+   "Influence moved to the platform.",
+   "The satire got lost in transit."
+  ],
+  "fact": "Psy uploaded this video satirizing the flashy Gangnam district in July 2012.",
+  "mats": [
+   "2 Pigment",
+   "1 Charcoal"
+  ],
+  "template": "painting"
+ },
+ "r63_068": {
+  "claims": [
+   "Because images argue without permission.",
+   "The stated reason was staging: cameras wanted a plain backdrop."
+  ],
+  "fact": "A tapestry copy of Picasso's Guernica, his 1937 response to the bombing of a Basque town, has hung outside the UN Security Council since 1985.",
+  "mats": [
+   "2 Cloth",
+   "1 Charcoal"
+  ],
+  "template": "textile"
+ },
+ "r63_069": {
+  "claims": [
+   "The panel's survival ranks first.",
+   "For believers the icon is not primarily wood."
+  ],
+  "fact": "Andrei Rublev painted this icon of three angels at Abraham's table around 1425 for the Trinity monastery.",
+  "mats": [
+   "2 Pigment",
+   "1 Charcoal"
+  ],
+  "template": "painting"
+ },
+ "r63_070": {
+  "claims": [
+   "Rebuild, where fragments allow.",
+   "Keep the niches empty."
+  ],
+  "fact": "Two colossal Buddhas, carved into an Afghan cliff in the sixth century, stood 38 and 55 meters tall until the Taliban dynamited them in March 2001…",
+  "mats": [
+   "2 Pigment",
+   "1 Charcoal"
+  ],
+  "template": "painting"
+ },
+ "r63_071": {
+  "claims": [
+   "Transformation earns authorship.",
+   "The source kept its claim."
+  ],
+  "fact": "Shepard Fairey created this stenciled portrait during the 2008 US campaign, basing it on a 2006 Associated Press photograph by Mannie Garcia.",
+  "mats": [
+   "2 Wood",
+   "1 Charcoal"
+  ],
+  "template": "chest"
+ },
+ "r63_072": {
+  "claims": [
+   "By selecting through its physics.",
+   "Misleading only to naive readers."
+  ],
+  "fact": "Louis Daguerre exposed this plate over a Paris boulevard in 1838.",
+  "mats": [
+   "2 Glass",
+   "1 Resin"
+  ],
+  "template": "camera"
+ },
+ "r63_073": {
+  "claims": [
+   "Evidence had been filtered by expectation.",
+   "The myth also survived on thin sampling."
+  ],
+  "fact": "The murals of Bonampak in Chiapas, painted around 791 and shown to outsiders in 1946, cover three rooms with processions, musicians, a fierce…",
+  "mats": [
+   "2 Wood",
+   "1 Cord"
+  ],
+  "template": "drum"
+ },
+ "r63_074": {
+  "claims": [
+   "All three, fused by design.",
+   "Then 'portrait' may be the wrong category."
+  ],
+  "fact": "K'inich Janaab' Pakal ruled Palenque for decades and died in 683; his tomb under the Temple of the Inscriptions, opened in 1952, held this jade…",
+  "mats": [
+   "2 Wood",
+   "1 Resin"
+  ],
+  "template": "mask"
+ },
+ "r63_075": {
+  "claims": [
+   "Return restores relationships along with possession.",
+   "Distance had preserved a different knowledge."
+  ],
+  "fact": "The Hawaiian chief Kalani'opu'u placed his feathered cloak on Captain James Cook in 1779.",
+  "mats": [
+   "2 Ink",
+   "1 Resin"
+  ],
+  "template": "pen"
+ },
+ "r63_076": {
+  "claims": [
+   "Shared code makes the difference.",
+   "Good explanations can teach their own code."
+  ],
+  "fact": "Kathakali, the classical dance-drama of Kerala, stages Hindu epics through codified hand gestures, facial control, drumming, and elaborate costume;…",
+  "mats": [
+   "2 Bronze",
+   "1 Cord"
+  ],
+  "template": "bell"
+ },
+ "r63_077": {
+  "claims": [
+   "Trust the textures, not the census.",
+   "The painting may be an argument, not a snapshot."
+  ],
+  "fact": "Zhang Zeduan painted this five-meter handscroll of a Song dynasty capital around 1100, packing in hundreds of figures, boats, bridges, and shops.",
+  "mats": [
+   "2 Wood",
+   "1 Charcoal"
+  ],
+  "template": "boat"
+ },
+ "r63_078": {
+  "claims": [
+   "By converging clues.",
+   "Convergence still leans on tradition."
+  ],
+  "fact": "The guqin named Jiuxiao Huanpei, often translated as Jade Pendants of the Nine Skies, is a Tang dynasty zither attributed to the celebrated Lei…",
+  "mats": [
+   "2 Pigment",
+   "1 Resin"
+  ],
+  "template": "painting"
+ },
+ "r63_079": {
+  "claims": [
+   "Precision and transfer.",
+   "A remainder escapes the ruler."
+  ],
+  "fact": "The philosopher al-Farabi, who died around 950, composed the Great Book of Music in the Abbasid world, treating pitch, intervals, rhythm, and…",
+  "mats": [
+   "2 Paper",
+   "1 Resin"
+  ],
+  "template": "book"
+ },
+ "r63_080": {
+  "claims": [
+   "Through a shared code of forms.",
+   "The code stays open to travel."
+  ],
+  "fact": "Tuareg smiths of the Sahara forge silver pendants in regional forms, each named for a town such as Agadez, Zinder, or Iferouane.",
+  "mats": [
+   "2 Silver",
+   "1 Resin"
+  ],
+  "template": "amulet"
+ },
+ "r63_081": {
+  "claims": [
+   "Yes: the pattern is the proof.",
+   "Call it knowledge-how, not knowledge-that."
+  ],
+  "fact": "The Darb-e Imam shrine in Isfahan, decorated from 1453, carries girih tile patterns.",
+  "mats": [
+   "2 Pigment",
+   "1 Resin"
+  ],
+  "template": "painting"
+ },
+ "r63_082": {
+  "claims": [
+   "By attacking the observer, not the eye's data.",
+   "Its success shows measurement is theory-laden."
+  ],
+  "fact": "The marine painter Norman Wilkinson proposed dazzle camouflage in 1917, and Allied navies painted thousands of ships in bold geometric schemes.",
+  "mats": [
+   "2 Wood",
+   "1 Cord"
+  ],
+  "template": "boat"
+ },
+ "r63_083": {
+  "claims": [
+   "To a large extent, with training.",
+   "An instrument with taste."
+  ],
+  "fact": "Conrad Martens joined HMS Beagle as ship's artist in 1833, sketching Tierra del Fuego, Patagonia, and the voyage Darwin traveled as naturalist.",
+  "mats": [
+   "2 Wood",
+   "1 Charcoal"
+  ],
+  "template": "boat"
+ },
+ "r63_084": {
+  "claims": [
+   "A chain of checkable evidence.",
+   "Luck opened the door justification walked through."
+  ],
+  "fact": "Faberge made this gold egg with a Vacheron Constantin watch inside for Tsar Alexander III's Easter gift of 1887, and it vanished after the Russian…",
+  "mats": [
+   "2 Pigment",
+   "1 Charcoal"
+  ],
+  "template": "painting"
+ },
+ "r63_085": {
+  "claims": [
+   "Invite the test.",
+   "Notice what the challenge revealed: the violin's fame rested on documents and trust, since its near-mint state exists precisely because players…"
+  ],
+  "fact": "Antonio Stradivari made this violin in 1716, and it survives in nearly unplayed condition, bequeathed to Oxford's Ashmolean Museum in 1939 on…",
+  "mats": [
+   "2 Wood",
+   "1 Charcoal"
+  ],
+  "template": "drum"
+ },
+ "r64_001": {
+  "claims": [
+   "A single cylinder in Sevres set the kilogram for over a century, so nations agreed to trust one physical stand-in instead of arguing over a…",
+   "Scientists retired the cylinder in 2019 for a formula tied to the Planck constant, so even a careful standard can still lose its job to a better…"
+  ],
+  "fact": "The International Bureau of Weights and Measures cast this platinum-iridium cylinder in 1889 and stored it near Sevres, France, as the world…",
+  "mats": [
+   "2 Brass",
+   "1 Cord"
+  ],
+  "template": "scale"
+ },
+ "r64_002": {
+  "claims": [
+   "The chart persuaded army officials to fund sanitation reform instead of more weapons, so a picture pushed policy change based on evidence.",
+   "The same chart also folded many different causes of death into a few clean wedges, so a simple shape can hide as much complexity as it reveals."
+  ],
+  "fact": "Florence Nightingale published this rose shaped diagram in 1858, titled 'Diagram of the Causes of Mortality in the Army in the East.' The chart…",
+  "mats": [
+   "2 Paper",
+   "1 Cord"
+  ],
+  "template": "chart"
+ },
+ "r64_003": {
+  "claims": [
+   "Maya rulers dated their reigns inside vast cycles the Long Count tracked, so a calendar could back a king's claim to cosmic authority.",
+   "Modern scholars now use the same count to line up Maya history with the Gregorian calendar, so one system serves a ruler's myth and a scholar's…"
+  ],
+  "fact": "Tortuguero Monument 6, a carved stone panel from Tabasco, Mexico, dates to around 669 CE.",
+  "mats": [
+   "2 Stone",
+   "1 Resin"
+  ],
+  "template": "building"
+ },
+ "r64_004": {
+  "claims": [
+   "Lovelace published steps to compute Bernoulli numbers for an engine no one finished building, so historians count her method as the first published…",
+   "Historians still debate how much of the mathematics came from Babbage's own notes versus Lovelace's added commentary, so credit for one document can…"
+  ],
+  "fact": "Ada Lovelace translated an Italian paper on Charles Babbage's Analytical Engine and added her own notes, published in 1843.",
+  "mats": [
+   "2 Silicon",
+   "1 Resin"
+  ],
+  "template": "machine"
+ },
+ "r64_005": {
+  "claims": [
+   "Hindu-Arabic numerals with a zero let large sums run fast, so a new symbol set carried trade math across the Islamic world and later Europe.",
+   "European merchants kept older counting boards for centuries after this book reached them, so a good method still needs slow habit change to take hold."
+  ],
+  "fact": "Muhammad ibn Musa al-Khwarizmi was based at the House of Wisdom in Baghdad in the early 800s.",
+  "mats": [
+   "2 Paper",
+   "1 Resin"
+  ],
+  "template": "book"
+ },
+ "r64_006": {
+  "claims": [
+   "Jyesthadeva wrote out full reasons in the Yuktibhasa, so a reader could check each step instead of trusting the author's word alone.",
+   "Earlier Sanskrit verses stayed short on purpose, since memorised verses needed to stay compact for spoken teaching, so brevity served memory more…"
+  ],
+  "fact": "Jyesthadeva of the Kerala school of astronomy and mathematics wrote the Yuktibhasa around 1530 in Malayalam.",
+  "mats": [
+   "2 Paper",
+   "1 Charcoal"
+  ],
+  "template": "scroll"
+ },
+ "r64_007": {
+  "claims": [
+   "A cuneiform tablet recorded partial rules for this race game, so a curator could rebuild a playable version from one surviving clue.",
+   "Different cities likely played local variants of the same board, so one tablet may fix rules for a game which never stayed the same everywhere."
+  ],
+  "fact": "Archaeologist Leonard Woolley found this board game in a royal tomb at Ur, in modern Iraq, during excavations in the 1920s, dating it to about 2600…",
+  "mats": [
+   "2 Wood",
+   "1 Charcoal"
+  ],
+  "template": "gameboard"
+ },
+ "r64_008": {
+  "claims": [
+   "Playfair's bars and lines let a reader compare decades of trade data at a glance, so a picture can speed clear understanding of a large table.",
+   "A chart also hides the raw numbers behind its shape, so a reader must trust the person who picked the scale and the colours."
+  ],
+  "fact": "The Scottish engineer William Playfair published 'The Commercial and Political Atlas' in London in 1786, introducing the bar chart and the time…",
+  "mats": [
+   "2 Paper",
+   "1 Charcoal"
+  ],
+  "template": "chart"
+ },
+ "r64_009": {
+  "claims": [
+   "The carved rook pieces bite their shields in a berserker pose, so a game token can preserve a warrior mood no surviving text recorded.",
+   "The same set mixes calm bishop figures into an old Norse design, so a single box can hold two belief systems side by side."
+  ],
+  "fact": "These walrus ivory chess pieces came to light on the Isle of Lewis, Scotland, in 1831.",
+  "mats": [
+   "2 Wood",
+   "1 Charcoal"
+  ],
+  "template": "gameboard"
+ },
+ "r64_010": {
+  "claims": [
+   "The rods turn multiplication into reading and adding, so a tired clerk can multiply large numbers without adding new errors.",
+   "A user still picks the wrong rod or misreads a row now and then, so a tool moves the risk of error without erasing it completely."
+  ],
+  "fact": "The Scottish mathematician John Napier described these numbered rods in a book published in Edinburgh in 1617.",
+  "mats": [
+   "2 Wood",
+   "1 Resin"
+  ],
+  "template": "tool"
+ },
+ "r64_011": {
+  "claims": [
+   "Minard's flow map ties troop numbers, direction, and temperature into one image, so a viewer feels an army shrink at a glance.",
+   "The same map flattens thousands of individual deaths into one shrinking band, so a clear image can explain a big number while hiding a single life…"
+  ],
+  "fact": "The French engineer Charles Minard published this flow map in 1869.",
+  "mats": [
+   "2 Paper",
+   "1 Resin"
+  ],
+  "template": "map"
+ },
+ "r64_012": {
+  "claims": [
+   "Thousands of computers agree on one shared ledger without a bank in the middle, so a network can hold a shared record instead of one institution…",
+   "The system still depends on most machines behaving as the protocol expects, so trust just shifts from a bank to a crowd instead of disappearing."
+  ],
+  "fact": "A programmer or group using the name Satoshi Nakamoto mined the Bitcoin genesis block on 3 January 2009, embedding a newspaper headline about a bank…",
+  "mats": [
+   "2 Silver",
+   "1 Charcoal"
+  ],
+  "template": "coin"
+ },
+ "r64_013": {
+  "claims": [
+   "Royal stamps on Lydian electrum guaranteed a fixed weight and purity, so strangers could trade without weighing metal every single time.",
+   "The same stamp only holds value while people trust the ruler behind it, so a coin can fail the moment its authority collapses."
+  ],
+  "fact": "The kingdom of Lydia, in modern day Turkey, struck these electrum coins in Sardis in the 6th century BCE under kings including Alyattes and Croesus.",
+  "mats": [
+   "2 Silver",
+   "1 Charcoal"
+  ],
+  "template": "coin"
+ },
+ "r64_014": {
+  "claims": [
+   "Maya astronomer priests tracked Venus and eclipse cycles precisely enough to predict future events years ahead, so accurate prediction became a…",
+   "A modern astronomer can run the same prediction from a formula in seconds, so a skill once reserved for priests now needs no priesthood at all."
+  ],
+  "fact": "The Dresden Codex is a bark paper Maya manuscript, likely copied around the 1200s from older sources.",
+  "mats": [
+   "2 Paper",
+   "1 Cord"
+  ],
+  "template": "book"
+ },
+ "r64_015": {
+  "claims": [
+   "The grouped notches match patterns a counting or lunar tracking system would leave, so a researcher can read numeracy into a bone with no writing on…",
+   "No note survives to say what the carver meant by the grouping, so every reading stays a guess dressed up as a fact."
+  ],
+  "fact": "A Belgian geologist found this bone tool near the Ishango settlement in the Democratic Republic of Congo in 1950.",
+  "mats": [
+   "2 Bone",
+   "1 Cord"
+  ],
+  "template": "bone"
+ },
+ "r64_016": {
+  "claims": [
+   "Euclid built every claim from a short list of stated axioms, so any reader could check each step without trusting the author's word.",
+   "Later mathematicians found small gaps in Euclid's own axioms centuries afterward, so even a long trusted standard can hide a quiet flaw."
+  ],
+  "fact": "This papyrus fragment, found at Oxyrhynchus in Egypt and dated to around 100 CE, preserves part of a diagram from Book II of Euclid's 'Elements.'…",
+  "mats": [
+   "2 Wood",
+   "1 Cord"
+  ],
+  "template": "tool"
+ },
+ "r64_017": {
+  "claims": [
+   "Halley built this table from actual burial and birth records in Breslau, so an insurer could price a policy on evidence instead of a guess.",
+   "The same table averages risk across a whole group, so one individual can end up paying a rate built for a stranger they do not resemble."
+  ],
+  "fact": "The English astronomer Edmond Halley published this mortality table in 1693, using birth and death records from the city of Breslau.",
+  "mats": [
+   "2 Paper",
+   "1 Resin"
+  ],
+  "template": "chart"
+ },
+ "r64_018": {
+  "claims": [
+   "Caesar put his own living face on this coin instead of a god or a dead hero, so a small object could announce a break from centuries of republican…",
+   "The Senate had Caesar killed weeks after the coin appeared, so a single image can provoke a response far larger than its size."
+  ],
+  "fact": "The Roman Senate allowed Julius Caesar to place his own portrait on this silver denarius in 44 BCE, the first time a living Roman appeared on the…",
+  "mats": [
+   "2 Silver",
+   "1 Cord"
+  ],
+  "template": "coin"
+ },
+ "r64_019": {
+  "claims": [
+   "Turing showed no single machine method can decide every mathematical question in advance, so a proof can mark a hard edge on what counts as knowable…",
+   "The same paper also imagines a general machine able to run any calculation given the right instructions, so a limit on certainty opened the door to…"
+  ],
+  "fact": "Alan Turing published 'On Computable Numbers, with an Application to the Entscheidungsproblem' in 1936, while a student at Cambridge.",
+  "mats": [
+   "2 Paper",
+   "1 Cord"
+  ],
+  "template": "letter"
+ },
+ "r64_020": {
+  "claims": [
+   "Sichuan merchants first used jiaozi as private deposit receipts before the Song government took over printing, so paper only functioned once a…",
+   "The government later printed more jiaozi than it could back with actual reserves, so trust in paper money can fall as fast as it rose once a promise…"
+  ],
+  "fact": "Merchants in Sichuan, China, began using jiaozi as private paper receipts for deposited coins around 1023.",
+  "mats": [
+   "2 Silver",
+   "1 Cord"
+  ],
+  "template": "coin"
+ },
+ "r64_021": {
+  "claims": [
+   "Egyptians buried senet boards with the dead so a soul could play safely through the afterlife, so a game meant for two players became a private…",
+   "Archaeologists still argue whether early senet was pure entertainment before it gained religious meaning later, so a single object can carry two…"
+  ],
+  "fact": "A senet game came to light among objects buried with the pharaoh Tutankhamun, who died around 1323 BCE.",
+  "mats": [
+   "2 Wood",
+   "1 Cord"
+  ],
+  "template": "gameboard"
+ },
+ "r64_022": {
+  "claims": [
+   "Kerala has counted years from the Kollam Era since around 825 CE, alongside the Gregorian calendar used in national business, so a region can hold…",
+   "Choosing which era to print on a document still signals identity as much as it marks a date, so a calendar can argue for a place's independence…"
+  ],
+  "fact": "The Kollam Era, also called the Malayalam Era, began around 825 CE on the Malabar coast of southern India.",
+  "mats": [
+   "2 Stone",
+   "1 Charcoal"
+  ],
+  "template": "tablet"
+ },
+ "r64_023": {
+  "claims": [
+   "King Henry VII fixed this bronze bushel as the legal grain measure for England in 1495, so buyers across the kingdom could trust one standard…",
+   "Local markets kept their own customary measures for generations after the law passed, so a royal standard on paper still needed years to reach every…"
+  ],
+  "fact": "King Henry VII authorised this bronze bushel measure in 1495 as the official standard for grain and dry goods across England.",
+  "mats": [
+   "2 Clay",
+   "1 Charcoal"
+  ],
+  "template": "food"
+ },
+ "r64_024": {
+  "claims": [
+   "Al-Battani corrected earlier Greek measurements of the solar year using his own decades of observation, so a long table of numbers could carry more…",
+   "Careful observers before modern telescopes could only measure angles by eye and simple tools, so any table from this period still carries small…"
+  ],
+  "fact": "The astronomer al-Battani was based near Raqqa, in modern Syria, compiling the 'Zij al-Sabi' around 900 CE.",
+  "mats": [
+   "2 Paper",
+   "1 Resin"
+  ],
+  "template": "chart"
+ },
+ "r64_025": {
+  "claims": [
+   "Maya and later Aztec traders priced goods in cacao beans because everyone already wanted them for drink and ritual, so a currency can grow straight…",
+   "Cacao beans rot and lose value within a year or two, so this currency forced traders to keep spending or trading instead of hoarding wealth for…"
+  ],
+  "fact": "Maya and Aztec societies used cacao beans as a form of currency across Mesoamerica during the Classic period and after, alongside their use in…",
+  "mats": [
+   "2 Silver",
+   "1 Charcoal"
+  ],
+  "template": "coin"
+ },
+ "r64_026": {
+  "claims": [
+   "Rubik built his first cube from wood and rubber bands to teach students about moving parts in three dimensions, so a design meant for a classroom…",
+   "Speedcubers later published fixed step by step methods called algorithms, so a puzzle once solved by trial and error now has a shared explanation…"
+  ],
+  "fact": "The Hungarian architecture professor Erno Rubik built the first prototype of his cube in Budapest in 1974, originally to help students grasp three…",
+  "mats": [
+   "2 Wood",
+   "1 Resin"
+  ],
+  "template": "gameboard"
+ },
+ "r64_027": {
+  "claims": [
+   "Graunt sorted London's weekly burial records by cause and age, so a pile of parish paperwork turned into the first evidence based patterns of birth,…",
+   "Graunt's own data left out unregistered burials and poorer parishes with weaker record keeping, so a groundbreaking count could still miss the very…"
+  ],
+  "fact": "The London merchant John Graunt published 'Natural and Political Observations Made upon the Bills of Mortality' in 1662, analysing decades of parish…",
+  "mats": [
+   "2 Paper",
+   "1 Resin"
+  ],
+  "template": "book"
+ },
+ "r64_028": {
+  "claims": [
+   "Godel showed any system strong enough for basic arithmetic contains true statements it cannot prove from inside itself, so pure certainty has a…",
+   "Mathematicians still build enormous, reliable structures on incomplete systems every day, so a theorem about limits does not stop practical…"
+  ],
+  "fact": "The logician Kurt Godel published his incompleteness theorems in Vienna in 1931.",
+  "mats": [
+   "2 Paper",
+   "1 Cord"
+  ],
+  "template": "book"
+ },
+ "r64_029": {
+  "claims": [
+   "Pascal organised binomial coefficients into a triangle and proved general rules behind patterns earlier scholars had only listed by hand, so a…",
+   "Similar triangles appeared centuries earlier in Chinese and Persian mathematics under different names, so a proof published in Paris still arrived…"
+  ],
+  "fact": "Blaise Pascal wrote his 'Traite du Triangle Arithmetique' around 1654, though publishers released it in Paris in 1665, after his death.",
+  "mats": [
+   "2 Paper",
+   "1 Cord"
+  ],
+  "template": "chart"
+ },
+ "r64_030": {
+  "claims": [
+   "Abbasid mints stamped each dirham with a required silver purity and the ruling caliph's name, so a central authority took responsibility for a…",
+   "Local governors sometimes debased coins by cutting the silver content while keeping the same stamp, so a signature of responsibility could still…"
+  ],
+  "fact": "The Abbasid caliphate minted silver dirhams in Baghdad from the late 700s onward, stamping each coin with religious text and the ruling caliph's name.",
+  "mats": [
+   "2 Silver",
+   "1 Resin"
+  ],
+  "template": "coin"
+ },
+ "r64_031": {
+  "claims": [
+   "Du Bois built these hand drawn charts from census data to show measurable Black American progress in property, education, and occupation since…",
+   "Du Bois chose which numbers to display and how to colour and shape each chart for maximum effect, so even a data based argument still carries the…"
+  ],
+  "fact": "W.E.B.",
+  "mats": [
+   "2 Paper",
+   "1 Resin"
+  ],
+  "template": "chart"
+ },
+ "r64_032": {
+  "claims": [
+   "Exchequer clerks notched a debt into a wooden stick, then split it lengthwise so the payer and the treasury each kept a matching half, so a shared…",
+   "The system needed both halves to fit back together for the record to count, so certainty here depended on keeping a piece of wood safe for years,…"
+  ],
+  "fact": "English royal clerks at the Exchequer recorded debts and payments on wooden tally sticks from the 12th century onward.",
+  "mats": [
+   "2 Paper",
+   "1 Resin"
+  ],
+  "template": "chart"
+ },
+ "r64_033": {
+  "claims": [
+   "Fibonacci explained Hindu-Arabic numerals through everyday merchant problems like currency conversion and profit sharing, so a foreign system spread…",
+   "Some Italian cities banned Hindu-Arabic numerals in official ledgers for a time, fearing figures were easier to forge than Roman numerals, so a…"
+  ],
+  "fact": "Leonardo of Pisa, known as Fibonacci, published 'Liber Abaci' in 1202 after studying arithmetic methods used by Arab traders in North Africa.",
+  "mats": [
+   "2 Paper",
+   "1 Cord"
+  ],
+  "template": "book"
+ },
+ "r64_034": {
+  "claims": [
+   "Jesse Owens won four gold medals in Berlin in 1936, in a stadium built to showcase Nazi racial ideology, so a crowd's applause could still…",
+   "German officials removed Owens' image from most official Olympic newsreels shown at home afterward, so open admiration in a stadium did not carry…"
+  ],
+  "fact": "The American sprinter Jesse Owens wore shoes made by Adolf 'Adi' Dassler, founder of what later became Adidas, when he won four gold medals at the…",
+  "mats": [
+   "2 Cloth",
+   "1 Cord"
+  ],
+  "template": "ball"
+ },
+ "r64_035": {
+  "claims": [
+   "Roman gold and silver coins turning up near the old port of Muziris show Kerala traded pepper directly with Rome, so buried metal can prove a route…",
+   "Hoards only mark where owners hid coins and never returned, so a find shows one moment of panic or death, not the everyday rhythm of trade around it."
+  ],
+  "fact": "Archaeologists and farmers have found several hoards of Roman gold and silver coins along the Kerala coast near the ancient port of Muziris, dating…",
+  "mats": [
+   "2 Clay",
+   "1 Cord"
+  ],
+  "template": "pot"
+ },
+ "r64_036": {
+  "claims": [
+   "Human clerks who copied logarithm tables by hand made small errors, which crept into printed books and shipping calculations, so a machine repeating…",
+   "Babbage never finished a full version of the Difference Engine in his own lifetime, so the promise of machine certainty still depended on funding…"
+  ],
+  "fact": "Charles Babbage designed the Difference Engine in the 1820s to calculate and print mathematical tables, including logarithms, without human copying…",
+  "mats": [
+   "2 Silicon",
+   "1 Resin"
+  ],
+  "template": "machine"
+ },
+ "r64_037": {
+  "claims": [
+   "Constantine fixed the solidus at a strict gold weight in the early 300s, and this stability let the coin serve as a trusted trade currency across…",
+   "The empire itself shrank badly after the 600s even while the coin kept its standard, so trust in a currency can outlast the political reach of the…"
+  ],
+  "fact": "Emperor Constantine the Great introduced the solidus as the main gold coin of the Roman and later Byzantine Empire around 312 CE, fixing its weight…",
+  "mats": [
+   "2 Silver",
+   "1 Resin"
+  ],
+  "template": "coin"
+ },
+ "r64_038": {
+  "claims": [
+   "Richard Price built new mortality tables from Northampton parish records to replace Halley's older Breslau figures, so insurers took more…",
+   "Later actuaries found Northampton's death rates ran higher than the national average, so Price's careful update still overcharged many policyholders…"
+  ],
+  "fact": "The Welsh moral philosopher and mathematician Richard Price published revised mortality tables in 1783, based on burial records from Northampton,…",
+  "mats": [
+   "2 Paper",
+   "1 Charcoal"
+  ],
+  "template": "chart"
+ },
+ "r64_039": {
+  "claims": [
+   "Archaeologists found dice from Pompeii with one side deliberately weighted or shaved, so a small piece of bone can still expose a stranger's…",
+   "Loaded dice only prove intent to cheat at games of chance, not whether the owner ever got to use them, so an object can suggest a plan without…"
+  ],
+  "fact": "Excavations at Pompeii and other Roman sites have recovered bone and ivory dice, some carved or weighted unevenly on purpose.",
+  "mats": [
+   "2 Wood",
+   "1 Charcoal"
+  ],
+  "template": "gameboard"
+ },
+ "r64_040": {
+  "claims": [
+   "Gauss unified scattered number theory results under one clear system of notation and proof, so a single book gave later mathematicians shared ground…",
+   "Gauss wrote in dense Latin aimed at expert readers, so the same book which unified a field also locked most readers out of following its…"
+  ],
+  "fact": "Carl Friedrich Gauss published 'Disquisitiones Arithmeticae' in Leipzig in 1801, at the age of twenty-four.",
+  "mats": [
+   "2 Paper",
+   "1 Resin"
+  ],
+  "template": "book"
+ },
+ "r64_041": {
+  "claims": [
+   "The Continental Congress printed this currency to fund a revolution before the new nation had won a single major battle, so paper money could…",
+   "Continental currency lost most of its value within a few years as Congress printed far more notes than it could back, so the same note which…"
+  ],
+  "fact": "The Continental Congress issued paper currency, including this forty dollar note, starting in 1775 to finance the American Revolutionary War.",
+  "mats": [
+   "2 Silver",
+   "1 Resin"
+  ],
+  "template": "coin"
+ },
+ "r64_042": {
+  "claims": [
+   "Bob Beamon jumped 8.90 metres at the 1968 Mexico City Olympics, beating the existing world record by over half a metre, so a single leap can redraw…",
+   "Thin high altitude air in Mexico City likely helped the jump travel further than sea level conditions would allow, so even a record breaking body…"
+  ],
+  "fact": "The American athlete Bob Beamon jumped 8.90 metres in the long jump final at the 1968 Mexico City Olympics, beating the previous world record by 55…",
+  "mats": [
+   "2 Paper",
+   "1 Charcoal"
+  ],
+  "template": "chart"
+ },
+ "r64_043": {
+  "claims": [
+   "Germany's Reichsbank printed ever larger banknotes through 1923 to cover war debts and reparations, so a state avoided one financial responsibility…",
+   "The introduction of the new Rentenmark in November 1923 stopped the collapse almost overnight, so responsible reform can undo years of damage once a…"
+  ],
+  "fact": "By late 1923, hyperinflation in the Weimar Republic pushed the Reichsbank to print banknotes in denominations as high as 100 trillion marks.",
+  "mats": [
+   "2 Paper",
+   "1 Charcoal"
+  ],
+  "template": "letter"
+ },
+ "r64_044": {
+  "claims": [
+   "The Equitable Life Assurance Society used age based mortality tables to set premiums, so a customer's price could be justified by data instead of a…",
+   "Early tables assumed a fairly uniform population and did not account for occupation, health, or location, so a data justified price could still…"
+  ],
+  "fact": "The Society for Equitable Assurances on Lives and Survivorships, founded in London in 1762, became one of the first insurers to price life insurance…",
+  "mats": [
+   "2 Paper",
+   "1 Cord"
+  ],
+  "template": "chart"
+ },
+ "r64_045": {
+  "claims": [
+   "Japanese schools still teach soroban technique because moving beads by hand builds a mental image of numbers some educators think calculators skip…",
+   "Younger students increasingly reach for phone calculators for daily maths, so a centuries old practice now survives mostly through deliberate school…"
+  ],
+  "fact": "The soroban reached its familiar Japanese form during the Edo period, adapted from earlier Chinese counting devices.",
+  "mats": [
+   "2 Wood",
+   "1 Cord"
+  ],
+  "template": "gameboard"
+ },
+ "r64_046": {
+  "claims": [
+   "Egyptian builders based the royal cubit on a pharaoh's forearm length, then cast master copies in stone or wood so every building project used the…",
+   "A new pharaoh could in theory reset the standard to his own arm, so a measurement presented as fixed and objective still traced back to one ruler's…"
+  ],
+  "fact": "Egyptian architects measured buildings and land using the royal cubit, based loosely on the length of a pharaoh's forearm plus the width of his…",
+  "mats": [
+   "2 Wood",
+   "1 Cord"
+  ],
+  "template": "tool"
+ },
+ "r64_047": {
+  "claims": [
+   "Cantor's diagonal argument builds a new number guaranteed to differ from every number on an assumed complete list, proving no listing can capture…",
+   "Several mathematicians of Cantor's own era rejected the idea of different sizes of infinity as absurd or even dangerous, so a mathematical truth can…"
+  ],
+  "fact": "Georg Cantor published his diagonal argument in 1891, proving the numbers on the continuous number line cannot be placed in a complete one to one…",
+  "mats": [
+   "2 Paper",
+   "1 Resin"
+  ],
+  "template": "chart"
+ },
+ "r64_048": {
+  "claims": [
+   "Cowrie shells arrived from the Indian Ocean and became trusted currency across large parts of West Africa because they were durable, hard to fake,…",
+   "European colonial administrations later replaced cowrie currency with coined money to fit their own tax and trade systems, so one culture's…"
+  ],
+  "fact": "Cowrie shells, mostly sourced from the Indian Ocean, circulated as currency across large parts of West Africa for centuries before European…",
+  "mats": [
+   "2 Silver",
+   "1 Resin"
+  ],
+  "template": "amulet"
+ },
+ "r64_049": {
+  "claims": [
+   "Qin Shi Huang standardised coinage, weights, writing, and even cart axle widths after unifying China in 221 BCE, so one round coin with a square…",
+   "Standardising currency also erased regional coin systems many local communities had used for generations, so unity for the empire meant an actual…"
+  ],
+  "fact": "After unifying China in 221 BCE, the First Emperor Qin Shi Huang standardised currency across the new empire, replacing varied regional coins with…",
+  "mats": [
+   "2 Silver",
+   "1 Resin"
+  ],
+  "template": "coin"
+ },
+ "r64_050": {
+  "claims": [
+   "RAND generated these digits from an electronic roulette wheel to give scientists a source of numbers free from human patterns or bias, so a book…",
+   "True randomness is hard to verify even from a machine, so researchers still had to test the published digits statistically before trusting them as…"
+  ],
+  "fact": "The RAND Corporation published 'A Million Random Digits with 100,000 Normal Deviates' in 1955, generated using an electronic roulette wheel…",
+  "mats": [
+   "2 Paper",
+   "1 Cord"
+  ],
+  "template": "chart"
+ },
+ "r64_051": {
+  "claims": [
+   "Charles Dow averaged the stock prices of twelve industrial companies in 1896 to create a fast reading of market mood, so a small sample turned into…",
+   "Critics have long argued the index leaves out entire sectors and weights companies by share price rather than company size, so a number treated as…"
+  ],
+  "fact": "The journalist Charles Dow published the first Dow Jones Industrial Average on 26 May 1896, averaging the stock prices of twelve American industrial…",
+  "mats": [
+   "2 Paper",
+   "1 Cord"
+  ],
+  "template": "chart"
+ },
+ "r64_052": {
+  "claims": [
+   "Chert cubical weights found across Indus Valley sites follow a consistent ratio system from Mohenjo-daro to Harappa, so archaeologists read strong…",
+   "Without readable texts to confirm intentions, every claim about Indus Valley trade or government stays an informed guess built from objects alone,…"
+  ],
+  "fact": "Archaeologists have found small cubical weights made of chert at Indus Valley sites including Mohenjo-daro and Harappa, dating to around 2600 BCE.",
+  "mats": [
+   "2 Stone",
+   "1 Cord"
+  ],
+  "template": "tablet"
+ },
+ "r64_053": {
+  "claims": [
+   "Appel and Haken reduced the four colour map problem to under two thousand cases and had a computer check each one, so a proof could be justified…",
+   "Some mathematicians refused to fully accept the result for years, since a proof no human being can read in full feels less like classical…"
+  ],
+  "fact": "Kenneth Appel and Wolfgang Haken proved the four colour theorem in 1976, showing any map can be coloured with only four colours so no two…",
+  "mats": [
+   "2 Paper",
+   "1 Resin"
+  ],
+  "template": "chart"
+ },
+ "r64_054": {
+  "claims": [
+   "Some historians read the yupana's stepped stone compartments as a base forty counting system linked to Inca administration, so an unfamiliar object…",
+   "Other researchers argue the compartments better fit a Fibonacci based counting scheme or a simple abacus, so the same board still supports more than…"
+  ],
+  "fact": "Archaeologists have found stone yupanas, boards divided into compartments of different sizes, at Inca sites across the Andes dating to around 1450…",
+  "mats": [
+   "2 Wood",
+   "1 Resin"
+  ],
+  "template": "gameboard"
+ },
+ "r64_055": {
+  "claims": [
+   "Pacioli's book explained double entry bookkeeping, where every transaction gets recorded twice to keep debits and credits balanced, so a merchant…",
+   "Double entry bookkeeping catches simple arithmetic mistakes but cannot catch a merchant who enters a false number on purpose, so a responsible…"
+  ],
+  "fact": "The Franciscan friar and mathematician Luca Pacioli published 'Summa de Arithmetica, Geometria, Proportioni et Proportionalita' in Venice in 1494.",
+  "mats": [
+   "2 Paper",
+   "1 Resin"
+  ],
+  "template": "book"
+ },
+ "r64_056": {
+  "claims": [
+   "Greek diviners cast astragali as a form of cleromancy, trusting the fall of bone to reveal a will beyond human choice, so pure chance could feel…",
+   "The same bones also turned up in ordinary children's games and gambling with no religious weight at all, so identical objects moved freely between…"
+  ],
+  "fact": "Ancient Greeks and Romans used the knucklebones of sheep or goats, called astragali, for both games of chance and divination.",
+  "mats": [
+   "2 Bone",
+   "1 Charcoal"
+  ],
+  "template": "bone"
+ },
+ "r64_057": {
+  "claims": [
+   "Merchants trusted the piece of eight's fixed silver content so widely the United States accepted it as legal currency until 1857, so a foreign coin…",
+   "Colonial silver mined at Potosi, largely by forced indigenous and enslaved labour, gave the coin its value, so a symbol of global trust also carried…"
+  ],
+  "fact": "Spain minted silver 'pieces of eight,' known as reales de a ocho, at Potosi and other colonial mints from the 1500s onward, using silver mined…",
+  "mats": [
+   "2 Silver",
+   "1 Charcoal"
+  ],
+  "template": "coin"
+ },
+ "r64_058": {
+  "claims": [
+   "A satirical obituary joked English cricket had died in 1882 and its ashes shipped to Australia, so a small joke created a rivalry both nations still…",
+   "No one fully agrees on what the tiny urn's actual ashes contain, with some accounts naming a bail or a ball, so the entire prize both teams chase…"
+  ],
+  "fact": "The Sporting Times printed a mock obituary for English cricket after Australia won a match at the Oval in 1882, joking the body would be cremated…",
+  "mats": [
+   "2 Clay",
+   "1 Charcoal"
+  ],
+  "template": "pot"
+ },
+ "r64_059": {
+  "claims": [
+   "A babalawo reads the pattern an opele chain makes when dropped, matching it to one of 256 odu verses memorised over years of training, so chance…",
+   "Outsiders sometimes dismiss divination as random guessing dressed up in ritual, so two observers can watch the identical chain fall and reach…"
+  ],
+  "fact": "Ifa divination, practised among the Yoruba people of West Africa, uses a chain called an opele, strung with eight seed pod halves, or a set of palm…",
+  "mats": [
+   "2 Paper",
+   "1 Charcoal"
+  ],
+  "template": "chart"
+ },
+ "r64_060": {
+  "claims": [
+   "Omar Khayyam solved cubic equations by finding where curves like parabolas and circles cross, since Islamic mathematics of his era had no symbolic…",
+   "Later mathematicians in Renaissance Italy solved the same cubic equations using purely symbolic algebra, so a problem once viewed only through…"
+  ],
+  "fact": "The Persian scholar Omar Khayyam wrote a treatise on algebra around 1070, based at courts in Samarkand and later Isfahan.",
+  "mats": [
+   "2 Wood",
+   "1 Resin"
+  ],
+  "template": "tool"
+ },
+ "r64_061": {
+  "claims": [
+   "The oval koban, stamped by hand with ink and a mint mark rather than cast round like Chinese or Western coins, reflected Japan's own metalworking…",
+   "Japan's isolation policy limited how far the koban ever needed to compete with foreign currencies, so a coin could stay unusual for centuries…"
+  ],
+  "fact": "The Tokugawa shogunate introduced the oval shaped koban gold coin starting in 1601, standardising currency across Japan under a new unified…",
+  "mats": [
+   "2 Silver",
+   "1 Charcoal"
+  ],
+  "template": "coin"
+ },
+ "r64_062": {
+  "claims": [
+   "Roulette's fixed house edge means the casino profits steadily over many spins even though any single player might win big, so responsibility for…",
+   "Casinos market roulette as pure entertainment while relying on players who misjudge the odds after a run of losses, so the house can claim a light…"
+  ],
+  "fact": "The Casino de Monte-Carlo opened in Monaco in 1863, building its early fortune partly on roulette.",
+  "mats": [
+   "2 Paper",
+   "1 Resin"
+  ],
+  "template": "chart"
+ },
+ "r64_063": {
+  "claims": [
+   "Roger Bannister ran the mile in 3 minutes 59.4 seconds at Oxford in 1954, breaking a barrier doctors and coaches once called dangerous or…",
+   "Another runner broke Bannister's own new record within 46 days of the first sub four minute mile, so a limit once treated as fixed by biology often…"
+  ],
+  "fact": "The British runner Roger Bannister ran a mile in 3 minutes 59.4 seconds at Iffley Road track in Oxford on 6 May 1954, becoming the first person…",
+  "mats": [
+   "2 Paper",
+   "1 Resin"
+  ],
+  "template": "chart"
+ },
+ "r64_064": {
+  "claims": [
+   "The Rhind papyrus preserves eighty four solved problems covering fractions, geometry, and distribution of goods, giving historians direct evidence…",
+   "A single training document copied by one scribe cannot show how widely these methods spread beyond scribal schools, so rich evidence from one…"
+  ],
+  "fact": "The scribe Ahmes copied this papyrus around 1650 BCE, stating it drew on material roughly two centuries older.",
+  "mats": [
+   "2 Paper",
+   "1 Cord"
+  ],
+  "template": "scroll"
+ },
+ "r64_065": {
+  "claims": [
+   "The numbers on Plimpton 322 form Pythagorean triples arranged in careful columns, leading some historians to read it as an early trigonometric table…",
+   "Other historians argue the tablet more likely served as a teacher's list of exercises for students practising a known method, so the identical rows…"
+  ],
+  "fact": "Plimpton 322 is a Babylonian clay tablet, dated to around 1800 BCE, inscribed with a table of numbers in cuneiform script arranged in four columns…",
+  "mats": [
+   "2 Stone",
+   "1 Cord"
+  ],
+  "template": "tablet"
+ },
+ "r64_066": {
+  "claims": [
+   "Lizzie Magie patented The Landlord's Game in 1904 to show how rent under a single owner concentrates wealth and power at the expense of everyone…",
+   "Players and later publishers enjoyed the pure thrill of buying property and bankrupting rivals far more than the lesson about monopoly Magie…"
+  ],
+  "fact": "Elizabeth 'Lizzie' Magie patented The Landlord's Game in 1904, designing it to illustrate economist Henry George's argument: concentrated land…",
+  "mats": [
+   "2 Wood",
+   "1 Charcoal"
+  ],
+  "template": "gameboard"
+ },
+ "r64_067": {
+  "claims": [
+   "European traders exchanged manillas, horseshoe shaped bronze or copper rings, for goods and, at their worst, for enslaved people along the West…",
+   "Manillas also served ordinary local trade and bridewealth payments across West Africa long before and after European contact, so the same currency…"
+  ],
+  "fact": "Manillas, horseshoe shaped rings of bronze or copper, circulated as currency across parts of West Africa, including the Benin region, for local…",
+  "mats": [
+   "2 Silver",
+   "1 Charcoal"
+  ],
+  "template": "coin"
+ },
+ "r64_068": {
+  "claims": [
+   "The Kibble balance measures mass by balancing gravitational force against a precisely measurable electromagnetic force, tying the kilogram to the…",
+   "Only a handful of laboratories in the world can currently build a Kibble balance precise enough for this task, so a more objective definition still…"
+  ],
+  "fact": "Scientists at NIST and other national metrology institutes refined the Kibble balance, a device balancing electromagnetic force against gravity, to…",
+  "mats": [
+   "2 Brass",
+   "1 Cord"
+  ],
+  "template": "scale"
+ },
+ "r64_069": {
+  "claims": [
+   "NIST-F1 defines a second by counting a fixed number of radiation cycles from caesium atoms, so a unit once tied to Earth's rotation now rests on an…",
+   "Even an atomic clock needs regular comparison against sister clocks worldwide to catch tiny drift, so an objective standard still runs on continuous…"
+  ],
+  "fact": "The National Institute of Standards and Technology unveiled the NIST-F1 caesium fountain atomic clock in 1999, accurate to within about one second…",
+  "mats": [
+   "2 Paper",
+   "1 Resin"
+  ],
+  "template": "chart"
+ },
+ "r64_070": {
+  "claims": [
+   "Grigori Perelman posted his proof of the Poincare conjecture on arXiv in 2002 instead of a journal, letting other mathematicians verify the argument…",
+   "Perelman turned down both the Fields Medal and a one million dollar Millennium Prize after his proof was confirmed, so total certainty about a…"
+  ],
+  "fact": "Grigori Perelman posted a series of preprints on arXiv between 2002 and 2003, proving the Poincare conjecture, a problem about the shape of three…",
+  "mats": [
+   "2 Paper",
+   "1 Cord"
+  ],
+  "template": "chart"
+ },
+ "r64_071": {
+  "claims": [
+   "Yapese communities tracked ownership of giant stone discs through shared memory and oral history rather than moving the stones themselves, so a…",
+   "Outsiders often called rai stones a strange or primitive form of money, yet the system tracked ownership about as reliably as a bank ledger, so an…"
+  ],
+  "fact": "The people of Yap, an island group in Micronesia, carved large stone discs called rai from limestone quarried on Palau, then transported them by…",
+  "mats": [
+   "2 Stone",
+   "1 Cord"
+  ],
+  "template": "tablet"
+ },
+ "r64_072": {
+  "claims": [
+   "Fijian communities present a polished sperm whale tooth, or tabua, to mark serious requests, apologies, or agreements, so an object exchanged…",
+   "A tabua only carries its full meaning inside a proper ceremony with the right words and standing between giver and receiver, so identical objects…"
+  ],
+  "fact": "Fijian communities have used tabua, polished and cured sperm whale teeth, in ceremonial exchange for serious requests, apologies, marriage…",
+  "mats": [
+   "2 Bone",
+   "1 Resin"
+  ],
+  "template": "bone"
+ },
+ "r64_073": {
+  "claims": [
+   "Monopoly rewards buying up property and charging rent until other players run out of money, so a family game quietly teaches and celebrates values…",
+   "Parker Brothers marketed Monopoly as good clean fun during the Great Depression, so a game mirroring economic ruin became especially popular exactly…"
+  ],
+  "fact": "Parker Brothers published its Atlantic City themed edition of Monopoly in 1935, licensing a design based on Charles Darrow's version, itself adapted…",
+  "mats": [
+   "2 Paper",
+   "1 Resin"
+  ],
+  "template": "book"
+ },
+ "r64_074": {
+  "claims": [
+   "Biomechanists studied Usain Bolt's 9.58 second 100 metre run in Berlin in 2009 frame by frame, explaining his speed through stride length, reaction…",
+   "No biomechanical model fully explains why one body produces a talent this rare, so science can describe a record in fine detail while still falling…"
+  ],
+  "fact": "The Jamaican sprinter Usain Bolt ran the 100 metres in 9.58 seconds at the 2009 World Championships in Berlin, wearing spikes made by Puma, still…",
+  "mats": [
+   "2 Wood",
+   "1 Charcoal"
+  ],
+  "template": "boat"
+ },
+ "r64_075": {
+  "claims": [
+   "The early Ming court issued the Da Ming Li calendar to replace Yuan dynasty astronomical systems, so a new ruling house rewrote the count of days…",
+   "Astronomers still had to reconcile the new calendar with the actual motion of the sun and moon, so political interpretation of the calendar still…"
+  ],
+  "fact": "The Ming dynasty adopted the Da Ming Li calendar system in the 1380s, early in the reign of the Hongwu Emperor, adapting earlier Yuan dynasty…",
+  "mats": [
+   "2 Paper",
+   "1 Charcoal"
+  ],
+  "template": "chart"
+ },
+ "r64_076": {
+  "claims": [
+   "The odds of matching all six UK National Lottery numbers sit at about one in fourteen million, so the evidence overwhelmingly favours the operator,…",
+   "Lottery revenue funds public projects including sports, arts, and heritage grants, so a game with terrible individual odds can still fund an actual…"
+  ],
+  "fact": "The UK National Lottery launched its first draw on 19 November 1994, with Camelot Group running the game under a government licence.",
+  "mats": [
+   "2 Paper",
+   "1 Charcoal"
+  ],
+  "template": "chart"
+ },
+ "r64_077": {
+  "claims": [
+   "Restorers pieced together the Coligny calendar from over one hundred fragments of a bronze tablet, so an interpretation of an entire Gaulish…",
+   "Gaps in the missing fragments still leave some month names and rules uncertain, so any full interpretation offered today rests partly on scholarly…"
+  ],
+  "fact": "Farmers discovered fragments of a bronze calendar near Coligny, France, in 1897, dating to around the 2nd century CE, from the late Gaulish period…",
+  "mats": [
+   "2 Stone",
+   "1 Cord"
+  ],
+  "template": "tablet"
+ },
+ "r64_078": {
+  "claims": [
+   "Euler's 'Introductio' explained functions as the central object of analysis and introduced notation, including f(x) and e for the constant now named…",
+   "Euler wrote for readers who already knew significant mathematics, so a book which reshaped how experts explain analysis still left beginners needing…"
+  ],
+  "fact": "Leonhard Euler published 'Introductio in Analysin Infinitorum' in 1748, while based at the court in Berlin, though the book appeared in print in…",
+  "mats": [
+   "2 Paper",
+   "1 Charcoal"
+  ],
+  "template": "book"
+ },
+ "r64_079": {
+  "claims": [
+   "South Sea Company shares rose nearly tenfold in 1720 on vague promises of trade profits in South America which never came close to matching the…",
+   "Parliament members and even Isaac Newton bought in near the peak and lost heavily when the price collapsed, so expertise in one field, like physics,…"
+  ],
+  "fact": "The South Sea Company, granted a monopoly on British trade with South America in 1711, saw its share price rise nearly tenfold between January and…",
+  "mats": [
+   "2 Paper",
+   "1 Charcoal"
+  ],
+  "template": "letter"
+ },
+ "r64_080": {
+  "claims": [
+   "FIFA commissioned this solid gold trophy in 1974 after Brazil permanently kept the earlier Jules Rimet Trophy for winning three tournaments, so a…",
+   "Critics point out FIFA itself has faced corruption scandals over hosting rights and finances, so the same golden trophy can represent both a value…"
+  ],
+  "fact": "The Italian sculptor Silvio Gazzaniga designed the current FIFA World Cup Trophy, made of solid gold with a malachite base, first awarded in 1974…",
+  "mats": [
+   "2 Silver",
+   "1 Resin"
+  ],
+  "template": "amulet"
+ },
+ "r64_081": {
+  "claims": [
+   "Traders once weighed gems against dried carob seeds, assumed to be fairly uniform, until an international agreement in 1907 fixed the carat at…",
+   "Weight alone still says nothing about a diamond's cut, clarity, or colour, so a certain, standard measure for one property can quietly stand in for…"
+  ],
+  "fact": "Jewellers historically weighed gemstones against carob seeds, valued for their assumed consistency, giving the carat its name from the Greek word…",
+  "mats": [
+   "2 Glass",
+   "1 Resin"
+  ],
+  "template": "gem"
+ },
+ "r64_082": {
+  "claims": [
+   "Don Bradman finished his Test cricket career with a batting average of 99.94, far above every other great player's figures, so statisticians still…",
+   "A single unlucky duck in his final innings, needing just four runs to finish exactly on 100, shows how much of even this record still came down to…"
+  ],
+  "fact": "The Australian batsman Don Bradman played Test cricket from 1928 to 1948, finishing with a career batting average of 99.94, a statistic still…",
+  "mats": [
+   "2 Wood",
+   "1 Resin"
+  ],
+  "template": "tool"
+ },
+ "r64_083": {
+  "claims": [
+   "Wilt Chamberlain scored 100 points in a single NBA game in Hershey, Pennsylvania, in 1962, a figure confirmed by the official scoresheet and box…",
+   "No television broadcast or complete film survives of the game, and only a partial radio recording remains, so an accepted historical fact still…"
+  ],
+  "fact": "Wilt Chamberlain scored 100 points for the Philadelphia Warriors against the New York Knicks on 2 March 1962, in Hershey, Pennsylvania, still the…",
+  "mats": [
+   "2 Cloth",
+   "1 Charcoal"
+  ],
+  "template": "ball"
+ },
+ "r64_084": {
+  "claims": [
+   "Thabit ibn Qurra proved a general rule for generating amicable numbers, pairs where each number equals the sum of the other's proper divisors, so a…",
+   "Earlier Greek mathematicians already knew one amicable pair, 220 and 284, centuries before Thabit's general rule, so a formula presented as a fresh…"
+  ],
+  "fact": "The mathematician and astronomer Thabit ibn Qurra, based in Baghdad in the 9th century, proved a general formula for generating pairs of amicable…",
+  "mats": [
+   "2 Paper",
+   "1 Cord"
+  ],
+  "template": "book"
+ },
+ "r64_085": {
+  "claims": [
+   "Engineers built the Great Clock with a gravity escapement precise enough to keep near perfect time, and its chimes grew so recognisable Big Ben now…",
+   "Visitors from outside Britain often call the whole tower Big Ben, though the name first belonged only to the great bell inside, so a nickname can…"
+  ],
+  "fact": "Engineers completed the Great Clock at the Palace of Westminster in 1859, designed by Edmund Beckett Denison with astronomer George Airy, using a…",
+  "mats": [
+   "2 Silicon",
+   "1 Cord"
+  ],
+  "template": "machine"
+ },
+ "r65_001": {
+  "claims": [
+   "Letter shapes place a text within a narrow span of decades.",
+   "Handwriting alone can mislead."
+  ],
+  "fact": "Constantin von Tischendorf found parts of this Greek Bible at Saint Catherine's Monastery in the Sinai desert in 1844 and 1859.",
+  "mats": [
+   "2 Paper",
+   "1 Resin"
+  ],
+  "template": "scroll"
+ },
+ "r65_002": {
+  "claims": [
+   "Radiocarbon tests on the parchment gave a date range in the third to sixth century, so scientists narrowed the guess with physical evidence, not…",
+   "Local tradition already named a date."
+  ],
+  "fact": "Monks at the Abba Garima Monastery in northern Ethiopia have kept these illuminated gospel books for over a thousand years.",
+  "mats": [
+   "2 Paper",
+   "1 Resin"
+  ],
+  "template": "book"
+ },
+ "r65_003": {
+  "claims": [
+   "The shape names an actual detail.",
+   "A shape can flatter more than it reports."
+  ],
+  "fact": "Carpenters in Teshie, near Accra, Ghana, began building figurative coffins in the mid twentieth century.",
+  "mats": [
+   "2 Silver",
+   "1 Charcoal"
+  ],
+  "template": "amulet"
+ },
+ "r65_004": {
+  "claims": [
+   "New readings can correct old mistakes.",
+   "A new reading can also displace a community memory."
+  ],
+  "fact": "Carvers raised the Rök Runestone in Östergötland, Sweden, around 800 CE, covering it with the longest known runic inscription.",
+  "mats": [
+   "2 Stone",
+   "1 Charcoal"
+  ],
+  "template": "tablet"
+ },
+ "r65_005": {
+  "claims": [
+   "Textual tradition sets the count.",
+   "The person spinning still matters."
+  ],
+  "fact": "Tibetan Buddhist practitioners spin these cylinders clockwise, each one packed with printed mantras, most often the phrase Om Mani Padme Hum.",
+  "mats": [
+   "2 Silver",
+   "1 Charcoal"
+  ],
+  "template": "amulet"
+ },
+ "r65_006": {
+  "claims": [
+   "A first date in print can justify the label.",
+   "Print is not the whole story."
+  ],
+  "fact": "The Dominican friar Domingo de Santo Tomás learned Quechua while stationed in Peru and published a grammar and dictionary in Valladolid, Spain, in…",
+  "mats": [
+   "2 Paper",
+   "1 Cord"
+  ],
+  "template": "book"
+ },
+ "r65_007": {
+  "claims": [
+   "Tea masters point to its flaws.",
+   "A label can carry the explanation instead of the object."
+  ],
+  "fact": "Korean potters made this everyday rice bowl during the Joseon dynasty, likely in the sixteenth century, with no plan for it to become art.",
+  "mats": [
+   "2 Clay",
+   "1 Cord"
+  ],
+  "template": "food"
+ },
+ "r65_008": {
+  "claims": [
+   "Method can support neutrality.",
+   "Full neutrality is not possible here."
+  ],
+  "fact": "The Barngarla language of South Australia's Eyre Peninsula had no fluent speakers by the early 2000s.",
+  "mats": [
+   "2 Paper",
+   "1 Charcoal"
+  ],
+  "template": "letter"
+ },
+ "r65_009": {
+  "claims": [
+   "Method sets a clear standard here.",
+   "Taste still comes from the drinker's own tradition."
+  ],
+  "fact": "Cooks across the former Ottoman Empire brew coffee in a small long handled pot called a cezve or ibrik, using grounds finer than espresso and no…",
+  "mats": [
+   "2 Wood",
+   "1 Charcoal"
+  ],
+  "template": "tool"
+ },
+ "r65_010": {
+  "claims": [
+   "Position carries meaning by design.",
+   "Without a guide, the plate stays silent."
+  ],
+  "fact": "Jewish families use a Seder plate during Passover to hold six symbolic foods, including a roasted bone, bitter herbs, and a sweet paste called…",
+  "mats": [
+   "2 Clay",
+   "1 Charcoal"
+  ],
+  "template": "pot"
+ },
+ "r65_011": {
+  "claims": [
+   "Independence mattered most.",
+   "Survival under pressure mattered too."
+  ],
+  "fact": "The Cherokee Nation launched the Cherokee Phoenix in New Echota, Georgia, in February 1828, printing text in both English and the Cherokee syllabary…",
+  "mats": [
+   "2 Paper",
+   "1 Charcoal"
+  ],
+  "template": "letter"
+ },
+ "r65_012": {
+  "claims": [
+   "The maker takes responsibility first.",
+   "Nature shares the responsibility too."
+  ],
+  "fact": "Korean households have stored kimchi in onggi, porous clay jars, for centuries, often burying them so soil insulates the contents through winter.",
+  "mats": [
+   "2 Clay",
+   "1 Cord"
+  ],
+  "template": "pot"
+ },
+ "r65_013": {
+  "claims": [
+   "A ketubah spells out clear obligations.",
+   "A contract shows intent more than daily practice."
+  ],
+  "fact": "A ketubah is a Jewish marriage contract that sets out a husband's financial obligations to his wife, a tradition dating back over two thousand years.",
+  "mats": [
+   "2 Silver",
+   "1 Cord"
+  ],
+  "template": "amulet"
+ },
+ "r65_014": {
+  "claims": [
+   "Ned Maddrell's death in 1974 marked the last native speaker, which linguists once treated as a certain endpoint for the language.",
+   "Revival efforts complicate this certainty."
+  ],
+  "fact": "Archibald Cregeen published his Manx Gaelic dictionary in 1835, recording the Celtic language spoken on the Isle of Man.",
+  "mats": [
+   "2 Paper",
+   "1 Resin"
+  ],
+  "template": "book"
+ },
+ "r65_015": {
+  "claims": [
+   "Bright color reframes the fact.",
+   "The decoration can hide as much as it reveals."
+  ],
+  "fact": "Mexican artisans in Oaxaca and elsewhere mold sugar skulls, calaveras de azúcar, for the Día de los Muertos holiday in late October and early…",
+  "mats": [
+   "2 Bone",
+   "1 Resin"
+  ],
+  "template": "bone"
+ },
+ "r65_016": {
+  "claims": [
+   "The carrier explains it on arrival.",
+   "Distance changes who gets to read it."
+  ],
+  "fact": "Aboriginal Australian communities carved message sticks with lines, dots, and shapes to help a messenger recall the details of an announcement, an…",
+  "mats": [
+   "2 Silver",
+   "1 Resin"
+  ],
+  "template": "amulet"
+ },
+ "r65_017": {
+  "claims": [
+   "Belief gives the bead its force.",
+   "The power may sit in the wearer's mind alone."
+  ],
+  "fact": "Glassmakers in Anatolia have shaped blue and white nazar beads for centuries to guard against the evil eye, a harmful gaze believed to come from…",
+  "mats": [
+   "2 Silver",
+   "1 Charcoal"
+  ],
+  "template": "amulet"
+ },
+ "r65_018": {
+  "claims": [
+   "Cross checking helps.",
+   "Copying itself invites doubt."
+  ],
+  "fact": "Apicius is the name attached to De Re Coquinaria, a collection of Roman recipes gathered from earlier sources in the fourth or fifth century CE.",
+  "mats": [
+   "2 Paper",
+   "1 Cord"
+  ],
+  "template": "scroll"
+ },
+ "r65_019": {
+  "claims": [
+   "Porous walls absorb oil from tea over years of use, so the clay itself keeps a record of flavor, and collectors treat that record as part of the…",
+   "The story can overstate the effect."
+  ],
+  "fact": "Potters in Yixing, in China's Jiangsu province, have shaped teapots from local purple clay, zisha, since the Ming dynasty.",
+  "mats": [
+   "2 Clay",
+   "1 Cord"
+  ],
+  "template": "pot"
+ },
+ "r65_020": {
+  "claims": [
+   "Labels can aim for neutral facts.",
+   "Neutral display is not fully possible here."
+  ],
+  "fact": "Lakota Ghost Dance followers wore painted shirts they believed could stop bullets during a spiritual movement in 1890.",
+  "mats": [
+   "2 Silver",
+   "1 Charcoal"
+  ],
+  "template": "amulet"
+ },
+ "r65_021": {
+  "claims": [
+   "The mask assigns a role completely.",
+   "The performer's skill still shapes the perspective shown."
+  ],
+  "fact": "Balinese performers use the Barong, a lion like protective spirit, in ritual dances that reenact a struggle between good and evil forces.",
+  "mats": [
+   "2 Wood",
+   "1 Charcoal"
+  ],
+  "template": "mask"
+ },
+ "r65_022": {
+  "claims": [
+   "Certain patterns stay reserved by rule.",
+   "Meaning can travel beyond the original rule."
+  ],
+  "fact": "Ashanti weavers in Ghana produce Kente cloth on narrow looms, stitching strips together into wide patterned sheets.",
+  "mats": [
+   "2 Cloth",
+   "1 Charcoal"
+  ],
+  "template": "textile"
+ },
+ "r65_023": {
+  "claims": [
+   "Place and process both count.",
+   "Protection also guards a market."
+  ],
+  "fact": "France granted Roquefort cheese one of its earliest Appellation d'Origine Controlee protections in 1925, tying the name to blue veined sheep's milk…",
+  "mats": [
+   "2 Silver",
+   "1 Cord"
+  ],
+  "template": "coin"
+ },
+ "r65_024": {
+  "claims": [
+   "The certifying body answers for it.",
+   "Responsibility spreads along the chain."
+  ],
+  "fact": "The Majlis Ugama Islam Singapura, Singapore's Islamic religious council, issues halal certification to food businesses that meet Islamic dietary law.",
+  "mats": [
+   "2 Silver",
+   "1 Cord"
+  ],
+  "template": "amulet"
+ },
+ "r65_025": {
+  "claims": [
+   "Chemical residue narrows the guess well.",
+   "A stain alone cannot fix the exact recipe."
+  ],
+  "fact": "Roman cooks fermented fish with salt for weeks to make garum, a strong sauce used across the empire much like modern fish sauce.",
+  "mats": [
+   "2 Clay",
+   "1 Cord"
+  ],
+  "template": "pot"
+ },
+ "r65_026": {
+  "claims": [
+   "Training gives the paqo confidence.",
+   "Outside observers can doubt the same certainty."
+  ],
+  "fact": "Q'ero ritual specialists, called paqos, in the Peruvian Andes read patterns formed by tossed coca leaves on a cloth, offering guidance on health,…",
+  "mats": [
+   "2 Seed",
+   "1 Resin"
+  ],
+  "template": "plant"
+ },
+ "r65_027": {
+  "claims": [
+   "A translator's word choices shape the felt truth.",
+   "The Kʼicheʼ original still anchors the truth."
+  ],
+  "fact": "The Popol Vuh records the creation stories and history of the Kʼicheʼ Maya people of highland Guatemala.",
+  "mats": [
+   "2 Paper",
+   "1 Resin"
+  ],
+  "template": "scroll"
+ },
+ "r65_028": {
+  "claims": [
+   "Context supports a political reading.",
+   "The devotional purpose still deserves weight."
+  ],
+  "fact": "Pope Pius V encouraged the recitation of the rosary before the Battle of Lepanto in October 1571, when a Holy League fleet defeated an Ottoman force…",
+  "mats": [
+   "2 Silver",
+   "1 Resin"
+  ],
+  "template": "amulet"
+ },
+ "r65_029": {
+  "claims": [
+   "State policy carried lasting force.",
+   "Power did not erase everything."
+  ],
+  "fact": "Linguist Kanazawa Shozaburo published an early Ainu language dictionary in 1898, recording vocabulary from the indigenous people of northern Japan.",
+  "mats": [
+   "2 Paper",
+   "1 Resin"
+  ],
+  "template": "book"
+ },
+ "r65_030": {
+  "claims": [
+   "Price stability protects farmers from market swings.",
+   "Buyers see a different justification."
+  ],
+  "fact": "Kuapa Kokoo, a cocoa farmers' cooperative founded in Ghana in 1993, became one of the first organizations in Africa to receive Fairtrade…",
+  "mats": [
+   "2 Silver",
+   "1 Cord"
+  ],
+  "template": "amulet"
+ },
+ "r65_031": {
+  "claims": [
+   "A Unicode block fixes every letter to one number, so any computer worldwide can display Osage script the same way, which explains the system clearly…",
+   "A code point cannot explain pronunciation or meaning on its own."
+  ],
+  "fact": "The Osage Nation partnered with linguist Herman Mongrain Lookout to design a modern Osage script, adapted from Sequoyah's Cherokee approach.",
+  "mats": [
+   "2 Silicon",
+   "1 Cord"
+  ],
+  "template": "machine"
+ },
+ "r65_032": {
+  "claims": [
+   "Believers use a plain outcome test.",
+   "Outcomes here resist a neutral count."
+  ],
+  "fact": "Catholic worshippers across Mexico and the wider Latin world pin small metal charms called milagros, shaped as hearts, limbs, or animals, to statues…",
+  "mats": [
+   "2 Silver",
+   "1 Cord"
+  ],
+  "template": "amulet"
+ },
+ "r65_033": {
+  "claims": [
+   "The performer speaks for a patron family.",
+   "Audiences add their own layer too."
+  ],
+  "fact": "Griots, called jeliw in Mande languages, serve as hereditary musicians and oral historians across West Africa, particularly in Mali, Senegal, and…",
+  "mats": [
+   "2 Silver",
+   "1 Resin"
+  ],
+  "template": "amulet"
+ },
+ "r65_034": {
+  "claims": [
+   "Specific colors and shapes marked status by law.",
+   "Modern viewers may miss that coded rank entirely."
+  ],
+  "fact": "The hanbok is Korea's traditional dress, with the jeogori jacket and chima skirt as core pieces for women.",
+  "mats": [
+   "2 Cloth",
+   "1 Resin"
+  ],
+  "template": "textile"
+ },
+ "r65_035": {
+  "claims": [
+   "Luxury signaled devotion.",
+   "Legibility mattered less here than status."
+  ],
+  "fact": "Craftsmen produced the Blue Qur'an, written in gold Kufic script on indigo dyed parchment, somewhere in the Islamic world during the ninth or tenth…",
+  "mats": [
+   "2 Paper",
+   "1 Resin"
+  ],
+  "template": "book"
+ },
+ "r65_036": {
+  "claims": [
+   "The ceremony itself creates new standing.",
+   "The duty likely exists before the ceremony too."
+  ],
+  "fact": "Zoroastrian children receive a white cotton undershirt, the sudreh, and a knotted wool cord, the kushti, during the Navjote initiation, typically…",
+  "mats": [
+   "2 Silver",
+   "1 Charcoal"
+  ],
+  "template": "amulet"
+ },
+ "r65_037": {
+  "claims": [
+   "The texture itself proves a method.",
+   "The object alone cannot show the reasoning behind it."
+  ],
+  "fact": "Andean farmers in the Q'ero region and across the high Peruvian and Bolivian altiplano freeze dry potatoes into chuño, exposing them to freezing…",
+  "mats": [
+   "2 Seed",
+   "1 Charcoal"
+  ],
+  "template": "plant"
+ },
+ "r65_038": {
+  "claims": [
+   "Tradition offers a fixed answer.",
+   "Sport science offers a different measure of certainty."
+  ],
+  "fact": "Sumo wrestlers throw handfuls of salt onto the dohyo, the ring, before each match, a practice rooted in Shinto purification rituals.",
+  "mats": [
+   "2 Silver",
+   "1 Charcoal"
+  ],
+  "template": "amulet"
+ },
+ "r65_039": {
+  "claims": [
+   "Continuity of method supports a yes.",
+   "Material continuity says no."
+  ],
+  "fact": "Shinto priests at the Ise Grand Shrine in Japan rebuild the main structures every twenty years in a ceremony called Shikinen Sengu, using fresh…",
+  "mats": [
+   "2 Silver",
+   "1 Charcoal"
+  ],
+  "template": "amulet"
+ },
+ "r65_040": {
+  "claims": [
+   "A shared picture limits confusion in urgent moments.",
+   "Pictures flatten intent."
+  ],
+  "fact": "The United States military issued phrasebooks nicknamed 'pointie talkies' during World War II, printing rows of simple images so soldiers and local…",
+  "mats": [
+   "2 Paper",
+   "1 Charcoal"
+  ],
+  "template": "book"
+ },
+ "r65_041": {
+  "claims": [
+   "Ritual gives the nail its function.",
+   "Outside the belief system, the power looks symbolic only."
+  ],
+  "fact": "Kongo carvers in Central Africa made nkisi nkondi figures to hold spiritual force, called nkisi, activated by a ritual specialist.",
+  "mats": [
+   "2 Stone",
+   "1 Charcoal"
+  ],
+  "template": "statue"
+ },
+ "r65_042": {
+  "claims": [
+   "Genealogy itself is the justification.",
+   "Use and care can justify a claim too."
+  ],
+  "fact": "Maori carvers in New Zealand shape hei-tiki pendants from pounamu, a greenstone found mainly on the South Island.",
+  "mats": [
+   "2 Stone",
+   "1 Cord"
+  ],
+  "template": "tablet"
+ },
+ "r65_043": {
+  "claims": [
+   "Visible process builds trust.",
+   "The explanation depends on shared expectation."
+  ],
+  "fact": "Ethiopian and Eritrean households hold a coffee ceremony that can last over an hour, roasting green beans, grinding them by hand, and brewing the…",
+  "mats": [
+   "2 Clay",
+   "1 Cord"
+  ],
+  "template": "pot"
+ },
+ "r65_044": {
+  "claims": [
+   "A single method applied everywhere aims at fairness.",
+   "The criteria still carry a starting point."
+  ],
+  "fact": "Supaporn Jaisingha, known as Jay Fai, cooks at a street stall in Bangkok's old town, famous for crab omelettes cooked over hot coals.",
+  "mats": [
+   "2 Silver",
+   "1 Resin"
+  ],
+  "template": "amulet"
+ },
+ "r65_045": {
+  "claims": [
+   "Rumi addressed a single companion, Husam al-Din, when composing the Masnavi, yet its parables use ordinary figures like merchants and parrots, built…",
+   "A perspective this personal cannot fully universalize."
+  ],
+  "fact": "The Persian poet Jalal ad-Din Rumi composed the Masnavi over the final decades of his life in Konya, in present day Turkey, completing roughly…",
+  "mats": [
+   "2 Paper",
+   "1 Resin"
+  ],
+  "template": "book"
+ },
+ "r65_046": {
+  "claims": [
+   "Specific patterns name a lineage or occasion.",
+   "Modern buyers can wear the cloth without that inside knowledge."
+  ],
+  "fact": "Yoruba weavers in southwestern Nigeria produce aso oke, a hand woven cloth used for ceremonial clothing, especially at weddings and chieftaincy…",
+  "mats": [
+   "2 Cloth",
+   "1 Resin"
+  ],
+  "template": "textile"
+ },
+ "r65_047": {
+  "claims": [
+   "Status and memory both mattered.",
+   "Control over standards mattered too."
+  ],
+  "fact": "Cooks in the court of King Richard II of England compiled the Forme of Cury around 1390, a manuscript listing about 196 recipes on a long parchment…",
+  "mats": [
+   "2 Paper",
+   "1 Charcoal"
+  ],
+  "template": "scroll"
+ },
+ "r65_048": {
+  "claims": [
+   "Victorian etiquette treated mourning as a duty with clear stages and dress rules, so wearing such a ring did carry a social obligation to grieve…",
+   "Private feeling need not match public rule."
+  ],
+  "fact": "Victorian mourners in Britain commissioned rings and brooches that wove a deceased relative's hair into the setting, a tradition strengthened after…",
+  "mats": [
+   "2 Silver",
+   "1 Resin"
+  ],
+  "template": "amulet"
+ },
+ "r65_049": {
+  "claims": [
+   "Specific measurements support strong evidence.",
+   "A recipe still leaves out the cook's touch."
+  ],
+  "fact": "Korean families have long passed kimchi recipes between generations through handwritten notebooks, adjusting salt, chili, and fermentation time by…",
+  "mats": [
+   "2 Paper",
+   "1 Resin"
+  ],
+  "template": "book"
+ },
+ "r65_050": {
+  "claims": [
+   "Kurosawa's film argues no.",
+   "A pattern still emerges across the versions."
+  ],
+  "fact": "Director Akira Kurosawa released Rashomon in Japan in 1950, telling one crime through four contradictory eyewitness accounts.",
+  "mats": [
+   "2 Glass",
+   "1 Resin"
+  ],
+  "template": "camera"
+ },
+ "r65_051": {
+  "claims": [
+   "Geometry supports a fairly firm yes.",
+   "Cooking still adds a variable the weave cannot fix."
+  ],
+  "fact": "Communities across the Malay Archipelago, including Malaysia, Indonesia, and Singapore, weave ketupat casings from young coconut or palm leaves,…",
+  "mats": [
+   "2 Seed",
+   "1 Resin"
+  ],
+  "template": "plant"
+ },
+ "r65_052": {
+  "claims": [
+   "Sikh tradition treats the Guru Granth Sahib as the eternal living Guru, so ceremonial carrying under a canopy expresses reverence consistent with…",
+   "A book cannot act like a ruler in practice."
+  ],
+  "fact": "Sikhs treat the Guru Granth Sahib, their central scripture compiled in its final form by Guru Gobind Singh in 1708, as the living and final Guru of…",
+  "mats": [
+   "2 Paper",
+   "1 Resin"
+  ],
+  "template": "book"
+ },
+ "r65_053": {
+  "claims": [
+   "Scale itself projected strength.",
+   "Spiritual purpose mattered beyond politics."
+  ],
+  "fact": "The Goryeo dynasty of Korea commissioned the Tripitaka Koreana, a full carving of the Buddhist canon onto over 81,000 wooden printing blocks,…",
+  "mats": [
+   "2 Pigment",
+   "1 Charcoal"
+  ],
+  "template": "painting"
+ },
+ "r65_054": {
+  "claims": [
+   "Resource control offers one justification.",
+   "Skill offers a separate justification."
+  ],
+  "fact": "Weavers in Terengganu, Malaysia, and Palembang, Indonesia, produce songket, a hand woven cloth with gold or silver metallic threads set into a silk…",
+  "mats": [
+   "2 Cloth",
+   "1 Charcoal"
+  ],
+  "template": "textile"
+ },
+ "r65_055": {
+  "claims": [
+   "Height and layers carry clear symbolism.",
+   "An outsider still needs a guide to read it."
+  ],
+  "fact": "Balinese Hindu families build elaborate cremation towers, wadah, to carry a body to the cremation ground during the Ngaben ceremony.",
+  "mats": [
+   "2 Stone",
+   "1 Charcoal"
+  ],
+  "template": "building"
+ },
+ "r65_056": {
+  "claims": [
+   "Standardized scoring pushes toward objectivity.",
+   "Interpretation still leans on the examiner's judgment."
+  ],
+  "fact": "Swiss psychiatrist Hermann Rorschach published his ten standardized inkblot cards in 1921, designing a test intended to reveal personality traits…",
+  "mats": [
+   "2 Paper",
+   "1 Cord"
+  ],
+  "template": "letter"
+ },
+ "r65_057": {
+  "claims": [
+   "Tradition points upward first.",
+   "The blast also acts on the people in the room."
+  ],
+  "fact": "Jewish communities sound the shofar, a horn traditionally made from a ram, during the Rosh Hashanah new year service and at the close of Yom Kippur.",
+  "mats": [
+   "2 Wood",
+   "1 Cord"
+  ],
+  "template": "drum"
+ },
+ "r65_058": {
+  "claims": [
+   "Consistent choice builds a strong association over time.",
+   "The link is learned, not fixed by nature."
+  ],
+  "fact": "Maasai herders in Kenya and Tanzania traditionally wear the shuka, a checked or striped cotton wrap, often in red, though blue and other colors also…",
+  "mats": [
+   "2 Cloth",
+   "1 Charcoal"
+  ],
+  "template": "textile"
+ },
+ "r65_059": {
+  "claims": [
+   "Professional standing mattered.",
+   "Passing knowledge forward mattered too."
+  ],
+  "fact": "Guillaume Tirel, known as Taillevent, served as a cook to the French royal court in the fourteenth century and is credited with Le Viandier, one of…",
+  "mats": [
+   "2 Paper",
+   "1 Charcoal"
+  ],
+  "template": "scroll"
+ },
+ "r65_060": {
+  "claims": [
+   "Brass bands and second line dancers carry that duty.",
+   "The whole community shares the responsibility too."
+  ],
+  "fact": "New Orleans jazz funerals traditionally move from a mourner's home or church to the cemetery behind a brass band playing slow hymns.",
+  "mats": [
+   "2 Silver",
+   "1 Charcoal"
+  ],
+  "template": "amulet"
+ },
+ "r65_061": {
+  "claims": [
+   "Surviving pages still anchor strong evidence.",
+   "Missing sections limit what the evidence can prove."
+  ],
+  "fact": "Scribe Shlomo ben Buya'a wrote the Aleppo Codex around 930 CE, and scholar Aaron ben Asher added its vowels, accents, and marginal notes, creating…",
+  "mats": [
+   "2 Paper",
+   "1 Charcoal"
+  ],
+  "template": "scroll"
+ },
+ "r65_062": {
+  "claims": [
+   "Fieldwork with living speakers gave solid confidence.",
+   "Language never holds fully still."
+  ],
+  "fact": "Finnish linguist Lauri Kettunen published a major Livonian dictionary in 1938, documenting a Uralic language once spoken by fishing communities on…",
+  "mats": [
+   "2 Paper",
+   "1 Charcoal"
+  ],
+  "template": "book"
+ },
+ "r65_063": {
+  "claims": [
+   "The claim resists any direct test.",
+   "A narrower claim can be tested."
+  ],
+  "fact": "Chinese families, especially during the Qing dynasty, gave children silver or gold locket charms called changmingsuo, meaning long life lock,…",
+  "mats": [
+   "2 Wood",
+   "1 Cord"
+  ],
+  "template": "chest"
+ },
+ "r65_064": {
+  "claims": [
+   "A shared neutral tongue can reduce certain mistakes.",
+   "Grammar alone cannot erase the ethical stakes."
+  ],
+  "fact": "L.",
+  "mats": [
+   "2 Paper",
+   "1 Cord"
+  ],
+  "template": "book"
+ },
+ "r65_065": {
+  "claims": [
+   "Cost and visible craft together broadcast standing clearly.",
+   "Rented and secondhand sarees complicate that signal."
+  ],
+  "fact": "Weavers in Varanasi, India, produce Banarasi silk sarees on handlooms, often setting gold or silver zari thread into elaborate floral and paisley…",
+  "mats": [
+   "2 Cloth",
+   "1 Cord"
+  ],
+  "template": "textile"
+ },
+ "r65_066": {
+  "claims": [
+   "Distinct growing conditions support the claim.",
+   "Legal protection also serves a market strategy."
+  ],
+  "fact": "India registered Darjeeling tea as its first Geographical Indication product in 2004, restricting the name to tea grown in specific gardens in the…",
+  "mats": [
+   "2 Seed",
+   "1 Resin"
+  ],
+  "template": "plant"
+ },
+ "r65_067": {
+  "claims": [
+   "A small fixed set of dots explains a large system efficiently.",
+   "The explanation only holds once a reader learns the code."
+  ],
+  "fact": "Louis Braille, blind since early childhood, developed his raised dot reading system in France by 1824, refining an earlier military code meant for…",
+  "mats": [
+   "2 Paper",
+   "1 Resin"
+  ],
+  "template": "letter"
+ },
+ "r65_068": {
+  "claims": [
+   "Local associations keep a strict standard.",
+   "Living tradition resists a fixed rule."
+  ],
+  "fact": "Norwegians wear the bunad, a regional folk costume, at weddings, confirmations, and national celebrations such as Constitution Day on May 17th.",
+  "mats": [
+   "2 Cloth",
+   "1 Cord"
+  ],
+  "template": "textile"
+ },
+ "r65_069": {
+  "claims": [
+   "The guardian's perspective decides completely.",
+   "Believers beyond the guardian also shape that power."
+  ],
+  "fact": "The Ethiopian Orthodox Church holds that the true Ark of the Covenant rests in the Church of Our Lady Mary of Zion in Axum, Ethiopia, guarded by a…",
+  "mats": [
+   "2 Wood",
+   "1 Cord"
+  ],
+  "template": "chest"
+ },
+ "r65_070": {
+  "claims": [
+   "The origin community's claim stands strongest.",
+   "Time abroad can add a layer too."
+  ],
+  "fact": "Builders at Great Zimbabwe carved eight soapstone birds, likely representing authority or ancestral messengers, probably between the thirteenth and…",
+  "mats": [
+   "2 Stone",
+   "1 Resin"
+  ],
+  "template": "tablet"
+ },
+ "r65_071": {
+  "claims": [
+   "Pleasure and display both mattered openly.",
+   "Control over knowledge mattered too."
+  ],
+  "fact": "Sultans of Mandu in central India commissioned the Ni'matnama, the Sultan's Book of Delights, around 1500, recording recipes, perfumes, and remedies…",
+  "mats": [
+   "2 Paper",
+   "1 Resin"
+  ],
+  "template": "scroll"
+ },
+ "r65_072": {
+  "claims": [
+   "Regimental tradition says yes clearly.",
+   "A wearer can separate cloth from conduct."
+  ],
+  "fact": "The British Army raised the Black Watch regiment in Scotland in 1739, issuing soldiers a dark green, blue, and black tartan that gave the unit its…",
+  "mats": [
+   "2 Cloth",
+   "1 Charcoal"
+  ],
+  "template": "banner"
+ },
+ "r65_073": {
+  "claims": [
+   "The huge print run supports strong evidence.",
+   "A huge number does not confirm every detail."
+  ],
+  "fact": "Empress Shotoku of Japan commissioned one million small wooden pagodas, each holding a printed Buddhist charm, the Hyakumanto Darani, completed…",
+  "mats": [
+   "2 Paper",
+   "1 Charcoal"
+  ],
+  "template": "scroll"
+ },
+ "r65_074": {
+  "claims": [
+   "Combining expertise builds firmer certainty.",
+   "Blended authorship can also blur a clean answer."
+  ],
+  "fact": "Mary Kawena Pukui, a native Hawaiian speaker and scholar, and linguist Samuel Elbert published their Hawaiian dictionary in 1957, later expanded in…",
+  "mats": [
+   "2 Paper",
+   "1 Cord"
+  ],
+  "template": "book"
+ },
+ "r65_075": {
+  "claims": [
+   "Technique can carry actual meaning here.",
+   "Skill and warmth do not always match perfectly."
+  ],
+  "fact": "Moroccan households prepare mint tea in a metal teapot called a berrad, brewing green tea with fresh mint and sugar.",
+  "mats": [
+   "2 Clay",
+   "1 Cord"
+  ],
+  "template": "food"
+ },
+ "r65_076": {
+  "claims": [
+   "Shared use across faiths argues against a single owner.",
+   "Naming still carries lasting stakes for identity."
+  ],
+  "fact": "Communities across North Africa and the Middle East have used the hamsa, a hand shaped amulet, for centuries to guard against the evil eye.",
+  "mats": [
+   "2 Silver",
+   "1 Cord"
+  ],
+  "template": "amulet"
+ },
+ "r65_077": {
+  "claims": [
+   "Vodou practice treats the flag as functional, not decorative.",
+   "Outside the ceremony the same object shifts categories entirely."
+  ],
+  "fact": "Haitian Vodou practitioners create drapo, sequined and beaded flags, each dedicated to a specific spirit, or lwa.",
+  "mats": [
+   "2 Cloth",
+   "1 Resin"
+  ],
+  "template": "banner"
+ },
+ "r65_078": {
+  "claims": [
+   "Shared custom justifies it within the group.",
+   "Health guidance can challenge that justification from outside."
+  ],
+  "fact": "Communities across Argentina, Uruguay, Paraguay, and southern Brazil drink yerba mate, a caffeinated tea, from a hollowed gourd through a metal…",
+  "mats": [
+   "2 Silver",
+   "1 Charcoal"
+  ],
+  "template": "amulet"
+ },
+ "r65_079": {
+  "claims": [
+   "One agreed system reduces confusion fast.",
+   "A single standard cannot explain every historical version."
+  ],
+  "fact": "Revivalists have rebuilt the Cornish language since the early twentieth century, drawing on historical texts after the last traditional native…",
+  "mats": [
+   "2 Paper",
+   "1 Charcoal"
+  ],
+  "template": "book"
+ },
+ "r65_080": {
+  "claims": [
+   "Material testing supports a fairly objective check.",
+   "Belief in an amulet's power resists any objective test entirely."
+  ],
+  "fact": "Monks at Wat Rakhang in Bangkok, under the guidance of the respected monk Somdej Toh in the nineteenth century, produced small clay Buddha amulets…",
+  "mats": [
+   "2 Silver",
+   "1 Charcoal"
+  ],
+  "template": "amulet"
+ },
+ "r65_081": {
+  "claims": [
+   "The name reframes the plants as partners immediately.",
+   "An outside agronomist can describe the same fields differently."
+  ],
+  "fact": "Haudenosaunee and other Indigenous nations in the northeastern woodlands of North America have long planted corn, beans, and squash together, a…",
+  "mats": [
+   "2 Seed",
+   "1 Charcoal"
+  ],
+  "template": "plant"
+ },
+ "r65_082": {
+  "claims": [
+   "Necessity and invention together built that meaning.",
+   "International recognition later added another layer."
+  ],
+  "fact": "Musicians in Trinidad developed the steel pan in the 1930s and 1940s, tuning sections of oil drums to produce distinct musical notes after British…",
+  "mats": [
+   "2 Wood",
+   "1 Charcoal"
+  ],
+  "template": "drum"
+ },
+ "r65_083": {
+  "claims": [
+   "Family identity often wins first.",
+   "Shared meaning can outweigh individual identity too."
+  ],
+  "fact": "Bakers across China and wider East Asia press sweet fillings into carved wooden or plastic molds to shape mooncakes for the Mid-Autumn Festival, a…",
+  "mats": [
+   "2 Silver",
+   "1 Cord"
+  ],
+  "template": "amulet"
+ },
+ "r65_084": {
+  "claims": [
+   "The certificate's rule creates a clear duty.",
+   "Enforcement relies on the walker's own word."
+  ],
+  "fact": "The Cathedral of Santiago de Compostela in Spain issues the Compostela, a certificate for pilgrims who complete at least the final 100 kilometers of…",
+  "mats": [
+   "2 Paper",
+   "1 Cord"
+  ],
+  "template": "letter"
+ },
+ "r65_085": {
+  "claims": [
+   "Design elements encode genealogy directly.",
+   "Meaning still depends on a knowledgeable viewer."
+  ],
+  "fact": "Maori tattoo artists in New Zealand traditionally carved ta moko designs into the skin using a bone or shell chisel called an uhi, striking it with…",
+  "mats": [
+   "2 Ink",
+   "1 Cord"
+  ],
+  "template": "pen"
+ },
+ "r66_001": {
+  "claims": [
+   "A private mark protects the weak voter.",
+   "Secrecy can also hide pressure at home."
+  ],
+  "fact": "The colony of Victoria printed the first government secret ballots in 1856.",
+  "mats": [
+   "2 Wood",
+   "1 Resin"
+  ],
+  "template": "chest"
+ },
+ "r66_002": {
+  "claims": [
+   "Layout steers the hand.",
+   "Voters still hold a duty to check."
+  ],
+  "fact": "Palm Beach County, Florida used a two-page butterfly layout in the 2000 United States presidential vote.",
+  "mats": [
+   "2 Paper",
+   "1 Resin"
+  ],
+  "template": "letter"
+ },
+ "r66_003": {
+  "claims": [
+   "A sealed machine removes some cheating.",
+   "Hidden code invites new doubt."
+  ],
+  "fact": "India's Election Commission spread Electronic Voting Machines across national polls from 2004.",
+  "mats": [
+   "2 Silicon",
+   "1 Charcoal"
+  ],
+  "template": "machine"
+ },
+ "r66_004": {
+  "claims": [
+   "A supreme charter guards against passing moods.",
+   "A fixed text can also freeze old error."
+  ],
+  "fact": "India adopted its Constitution on 26 January 1950.",
+  "mats": [
+   "2 Paper",
+   "1 Charcoal"
+  ],
+  "template": "scroll"
+ },
+ "r66_005": {
+  "claims": [
+   "Words on vellum can bind a ruler.",
+   "Force behind the words matters more."
+  ],
+  "fact": "English barons forced King John to seal Magna Carta at Runnymede in 1215.",
+  "mats": [
+   "2 Stone",
+   "1 Charcoal"
+  ],
+  "template": "building"
+ },
+ "r66_006": {
+  "claims": [
+   "Shared horror can forge shared rules.",
+   "One list can mask deep splits."
+  ],
+  "fact": "The United Nations General Assembly adopted the Universal Declaration of Human Rights in Paris on 10 December 1948.",
+  "mats": [
+   "2 Cloth",
+   "1 Cord"
+  ],
+  "template": "banner"
+ },
+ "r66_007": {
+  "claims": [
+   "A gathered crowd can ground a claim.",
+   "A committee still selects and edits."
+  ],
+  "fact": "About three thousand delegates met at Kliptown in June 1955 and adopted the Freedom Charter.",
+  "mats": [
+   "2 Cloth",
+   "1 Cord"
+  ],
+  "template": "banner"
+ },
+ "r66_008": {
+  "claims": [
+   "A first ballot can restore dignity.",
+   "One election cannot undo old harm."
+  ],
+  "fact": "South Africa held its first democratic election in April 1994.",
+  "mats": [
+   "2 Wood",
+   "1 Charcoal"
+  ],
+  "template": "chest"
+ },
+ "r66_009": {
+  "claims": [
+   "New courts can name new crimes.",
+   "Punishing acts under later rules risks unfairness."
+  ],
+  "fact": "The International Military Tribunal tried Nazi leaders at Nuremberg from 1945 to 1946.",
+  "mats": [
+   "2 Silicon",
+   "1 Charcoal"
+  ],
+  "template": "radio"
+ },
+ "r66_010": {
+  "claims": [
+   "Evidence can retire a bad precedent.",
+   "Courts can move ahead of the public and stall."
+  ],
+  "fact": "The United States Supreme Court decided Brown v.",
+  "mats": [
+   "2 Brass",
+   "1 Cord"
+  ],
+  "template": "scale"
+ },
+ "r66_011": {
+  "claims": [
+   "Records give a state control.",
+   "Records also trap the state on paper."
+  ],
+  "fact": "East Germany's secret police, the Stasi, kept files on millions of citizens until 1989.",
+  "mats": [
+   "2 Wood",
+   "1 Charcoal"
+  ],
+  "template": "chest"
+ },
+ "r66_012": {
+  "claims": [
+   "A record can be exact yet unjust.",
+   "Records carry the maker's frame."
+  ],
+  "fact": "Police in Montgomery, Alabama arrested Rosa Parks on 1 December 1955 after she kept her bus seat.",
+  "mats": [
+   "2 Paper",
+   "1 Charcoal"
+  ],
+  "template": "book"
+ },
+ "r66_013": {
+  "claims": [
+   "A loud claim can reopen a closed case.",
+   "A single voice can also inflame a crowd."
+  ],
+  "fact": "The novelist Emile Zola published the open letter J'Accuse...!",
+  "mats": [
+   "2 Paper",
+   "1 Charcoal"
+  ],
+  "template": "letter"
+ },
+ "r66_014": {
+  "claims": [
+   "Fixed text limits the judge.",
+   "Public stone still serves the ruler."
+  ],
+  "fact": "Babylon's King Hammurabi had his law code carved on a tall basalt stele around 1754 BCE.",
+  "mats": [
+   "2 Stone",
+   "1 Resin"
+  ],
+  "template": "tablet"
+ },
+ "r66_015": {
+  "claims": [
+   "Shared systems spread the blame.",
+   "A tool cannot hold guilt."
+  ],
+  "fact": "France adopted the guillotine in 1792 as a fast, uniform method of execution.",
+  "mats": [
+   "2 Wood",
+   "1 Resin"
+  ],
+  "template": "tool"
+ },
+ "r66_016": {
+  "claims": [
+   "One frame can hold a meaning.",
+   "One frame also hides the rest."
+  ],
+  "fact": "On 5 June 1989 a lone man blocked a column of tanks near Tiananmen Square in Beijing.",
+  "mats": [
+   "2 Glass",
+   "1 Cord"
+  ],
+  "template": "camera"
+ },
+ "r66_017": {
+  "claims": [
+   "A hard image can end a lie.",
+   "Publishing pain can also use the child."
+  ],
+  "fact": "Photographer Nick Ut took this image near Trang Bang, Vietnam on 8 June 1972.",
+  "mats": [
+   "2 Glass",
+   "1 Cord"
+  ],
+  "template": "camera"
+ },
+ "r66_018": {
+  "claims": [
+   "A stone at the doorstep makes loss local.",
+   "Scattered stones can also shrink grief."
+  ],
+  "fact": "Artist Gunter Demnig laid his first Stolpersteine, or stumbling stones, in Cologne in 1992.",
+  "mats": [
+   "2 Paper",
+   "1 Resin"
+  ],
+  "template": "letter"
+ },
+ "r66_019": {
+  "claims": [
+   "Names alone can carry weight.",
+   "Silence can dodge the hard question."
+  ],
+  "fact": "Maya Lin designed the Vietnam Veterans Memorial while a student, and it opened in Washington in 1982.",
+  "mats": [
+   "2 Paper",
+   "1 Cord"
+  ],
+  "template": "letter"
+ },
+ "r66_020": {
+  "claims": [
+   "A ruin can hold a warning for all.",
+   "A site still frames one nation's view."
+  ],
+  "fact": "An atomic bomb destroyed Hiroshima on 6 August 1945.",
+  "mats": [
+   "2 Stone",
+   "1 Charcoal"
+  ],
+  "template": "building"
+ },
+ "r66_021": {
+  "claims": [
+   "A private voice makes numbers human.",
+   "One diary cannot stand for millions."
+  ],
+  "fact": "Anne Frank wrote her diary while hiding from the Nazis in Amsterdam from 1942 to 1944.",
+  "mats": [
+   "2 Paper",
+   "1 Charcoal"
+  ],
+  "template": "book"
+ },
+ "r66_022": {
+  "claims": [
+   "Setting can force a cover.",
+   "Hiding an image can shout louder."
+  ],
+  "fact": "A tapestry copy of Picasso's Guernica hangs at the United Nations in New York.",
+  "mats": [
+   "2 Pigment",
+   "1 Resin"
+  ],
+  "template": "painting"
+ },
+ "r66_023": {
+  "claims": [
+   "Papers can pin a body to a place.",
+   "People still broke the hold."
+  ],
+  "fact": "The apartheid state made Black South Africans carry a pass book, the dompas, under the 1952 law.",
+  "mats": [
+   "2 Paper",
+   "1 Resin"
+  ],
+  "template": "book"
+ },
+ "r66_024": {
+  "claims": [
+   "A page can restore a place in the world.",
+   "Rights on loan stay fragile."
+  ],
+  "fact": "Explorer Fridtjof Nansen created this travel document for stateless refugees in 1922 through the League of Nations.",
+  "mats": [
+   "2 Paper",
+   "1 Cord"
+  ],
+  "template": "letter"
+ },
+ "r66_025": {
+  "claims": [
+   "Distance can promise fairness.",
+   "Distance can also breed blindness."
+  ],
+  "fact": "British lawyer Cyril Radcliffe drew the border between India and Pakistan in 1947.",
+  "mats": [
+   "2 Paper",
+   "1 Resin"
+  ],
+  "template": "map"
+ },
+ "r66_026": {
+  "claims": [
+   "A border can grow two worlds.",
+   "Shared roots can outlast a fence."
+  ],
+  "fact": "The armistice of 1953 fixed a Demilitarized Zone across the Korean peninsula near the 38th parallel.",
+  "mats": [
+   "2 Cloth",
+   "1 Cord"
+  ],
+  "template": "banner"
+ },
+ "r66_027": {
+  "claims": [
+   "Paint can flip a symbol.",
+   "Sold for museums, the concrete can lose its sting."
+  ],
+  "fact": "East Germany built the Berlin Wall in 1961 to stop people fleeing to the West.",
+  "mats": [
+   "2 Stone",
+   "1 Cord"
+  ],
+  "template": "tablet"
+ },
+ "r66_028": {
+  "claims": [
+   "Naming harm can start repair.",
+   "An account can also trade justice for calm."
+  ],
+  "fact": "South Africa's Truth and Reconciliation Commission gathered testimony on apartheid-era crimes and published its main report in 1998.",
+  "mats": [
+   "2 Paper",
+   "1 Cord"
+  ],
+  "template": "book"
+ },
+ "r66_029": {
+  "claims": [
+   "Bodies in a square can speak.",
+   "Symbols can also be captured."
+  ],
+  "fact": "From 1977 mothers of the disappeared marched in the Plaza de Mayo in Buenos Aires.",
+  "mats": [
+   "2 Cloth",
+   "1 Cord"
+  ],
+  "template": "textile"
+ },
+ "r66_030": {
+  "claims": [
+   "Later people can adopt the sign.",
+   "Adoption can rewrite the past."
+  ],
+  "fact": "Stone carvers at Great Zimbabwe shaped soapstone birds on tall columns between about 1200 and 1450.",
+  "mats": [
+   "2 Stone",
+   "1 Resin"
+  ],
+  "template": "tablet"
+ },
+ "r66_031": {
+  "claims": [
+   "The maker's home has a claim.",
+   "Museums claim a duty of care and access."
+  ],
+  "fact": "Artists in the Kingdom of Benin cast brass and bronze plaques from at least the 16th century for the royal palace.",
+  "mats": [
+   "2 Cloth",
+   "1 Resin"
+  ],
+  "template": "banner"
+ },
+ "r66_032": {
+  "claims": [
+   "Parallel paths can hold.",
+   "Woven and written records can clash."
+  ],
+  "fact": "The Haudenosaunee, or Iroquois, record an early treaty with Dutch traders around 1613 in the Two Row Wampum belt.",
+  "mats": [
+   "2 Cloth",
+   "1 Charcoal"
+  ],
+  "template": "banner"
+ },
+ "r66_033": {
+  "claims": [
+   "Pattern can carry meaning.",
+   "Lost keys leave gaps."
+  ],
+  "fact": "Inca officials kept records on khipu, cords of knotted string, across the Andes by about 1450.",
+  "mats": [
+   "2 Cloth",
+   "1 Resin"
+  ],
+  "template": "textile"
+ },
+ "r66_034": {
+  "claims": [
+   "Storing seeds shows hope and fear at once.",
+   "A frozen store cannot save a farm alone."
+  ],
+  "fact": "The Svalbard Global Seed Vault opened in 2008 inside a frozen mountain on a Norwegian island.",
+  "mats": [
+   "2 Seed",
+   "1 Charcoal"
+  ],
+  "template": "plant"
+ },
+ "r66_035": {
+  "claims": [
+   "Trapped bubbles hold old air.",
+   "Reading ice still needs models."
+  ],
+  "fact": "Drillers for the EPICA project reached deep Antarctic ice at Dome C by 2004.",
+  "mats": [
+   "2 Cloth",
+   "1 Charcoal"
+  ],
+  "template": "banner"
+ },
+ "r66_036": {
+  "claims": [
+   "A steady climb can settle a debate.",
+   "A chart alone moves no one."
+  ],
+  "fact": "Charles David Keeling began measuring carbon dioxide at Mauna Loa in Hawaii in 1958.",
+  "mats": [
+   "2 Paper",
+   "1 Cord"
+  ],
+  "template": "chart"
+ },
+ "r66_037": {
+  "claims": [
+   "A collar can map a hidden life.",
+   "A signal reduces a wolf to points."
+  ],
+  "fact": "Wildlife officers fitted a young grey wolf, tagged OR-7, with a GPS collar in Oregon in 2011.",
+  "mats": [
+   "2 Clay",
+   "1 Cord"
+  ],
+  "template": "pot"
+ },
+ "r66_038": {
+  "claims": [
+   "Each ring marks one year.",
+   "Rings can still mislead."
+  ],
+  "fact": "Researchers cored ancient bristlecone pines in California's White Mountains from the 1950s.",
+  "mats": [
+   "2 Silver",
+   "1 Cord"
+  ],
+  "template": "amulet"
+ },
+ "r66_039": {
+  "claims": [
+   "A writer can force a reckoning.",
+   "One book can also overreach."
+  ],
+  "fact": "Biologist Rachel Carson published Silent Spring in 1962.",
+  "mats": [
+   "2 Paper",
+   "1 Cord"
+  ],
+  "template": "book"
+ },
+ "r66_040": {
+  "claims": [
+   "A camp can shift the story.",
+   "Law and money can still win."
+  ],
+  "fact": "In 2016 members of the Standing Rock Sioux and allies camped to block the Dakota Access Pipeline near their water source in North Dakota.",
+  "mats": [
+   "2 Cloth",
+   "1 Charcoal"
+  ],
+  "template": "banner"
+ },
+ "r66_041": {
+  "claims": [
+   "Old use can ground a claim.",
+   "Foreign courts may not read it."
+  ],
+  "fact": "In 1963 Yolngu leaders in Arnhem Land sent bark petitions to Australia's Parliament.",
+  "mats": [
+   "2 Cloth",
+   "1 Charcoal"
+  ],
+  "template": "banner"
+ },
+ "r66_042": {
+  "claims": [
+   "Marks can jog a set message.",
+   "The stick alone says little."
+  ],
+  "fact": "Aboriginal groups across Australia sent message sticks with runners between clans.",
+  "mats": [
+   "2 Wood",
+   "1 Cord"
+  ],
+  "template": "tool"
+ },
+ "r66_043": {
+  "claims": [
+   "A model can capture a pattern.",
+   "A model is not the sea itself."
+  ],
+  "fact": "Navigators in the Marshall Islands made charts of curved sticks and shells.",
+  "mats": [
+   "2 Paper",
+   "1 Cord"
+  ],
+  "template": "globe"
+ },
+ "r66_044": {
+  "claims": [
+   "Evidence can topple a false doctrine.",
+   "A ruling can arrive too late for many."
+  ],
+  "fact": "In 1992 Australia's High Court decided Mabo v Queensland in favor of Eddie Mabo and the Meriam people.",
+  "mats": [
+   "2 Brass",
+   "1 Resin"
+  ],
+  "template": "scale"
+ },
+ "r66_045": {
+  "claims": [
+   "Exposure can guard democracy.",
+   "Leaks can also endanger."
+  ],
+  "fact": "In 2013 Edward Snowden gave journalists secret slides about PRISM, a United States surveillance program.",
+  "mats": [
+   "2 Cloth",
+   "1 Resin"
+  ],
+  "template": "banner"
+ },
+ "r66_046": {
+  "claims": [
+   "Watching can rule without force.",
+   "The eye needs belief to bite."
+  ],
+  "fact": "Philosopher Jeremy Bentham drew the Panopticon prison plan in 1791.",
+  "mats": [
+   "2 Pigment",
+   "1 Resin"
+  ],
+  "template": "painting"
+ },
+ "r66_047": {
+  "claims": [
+   "A lens records without a stake.",
+   "A camera still points where owners aim it."
+  ],
+  "fact": "British police spread closed-circuit cameras through public squares and streets from the 1990s.",
+  "mats": [
+   "2 Glass",
+   "1 Charcoal"
+  ],
+  "template": "camera"
+ },
+ "r66_048": {
+  "claims": [
+   "Numbers can fix identity.",
+   "Bodies change and charts fail."
+  ],
+  "fact": "French officer Alphonse Bertillon built a system of body measurements to identify criminals from 1883.",
+  "mats": [
+   "2 Paper",
+   "1 Resin"
+  ],
+  "template": "card"
+ },
+ "r66_049": {
+  "claims": [
+   "A rare pattern can point to one person.",
+   "A first use sets a risky rule."
+  ],
+  "fact": "The 1905 trial of the Stratton brothers in London was the first British murder case won on fingerprint evidence.",
+  "mats": [
+   "2 Glass",
+   "1 Resin"
+  ],
+  "template": "gem"
+ },
+ "r66_050": {
+  "claims": [
+   "Shared belief gives money value.",
+   "Belief can vanish overnight."
+  ],
+  "fact": "Zimbabwe printed a 100 trillion dollar note in 2008 during extreme hyperinflation.",
+  "mats": [
+   "2 Silver",
+   "1 Resin"
+  ],
+  "template": "coin"
+ },
+ "r66_051": {
+  "claims": [
+   "Hidden truth can betray voters.",
+   "States claim secrecy shields lives."
+  ],
+  "fact": "In 1971 Daniel Ellsberg leaked a secret Defense Department study of the Vietnam War to the press.",
+  "mats": [
+   "2 Cloth",
+   "1 Resin"
+  ],
+  "template": "banner"
+ },
+ "r66_052": {
+  "claims": [
+   "A shared text can break a code.",
+   "One key opens only one door."
+  ],
+  "fact": "The Rosetta Stone carries one decree from 196 BCE written in hieroglyphs, Demotic, and Greek.",
+  "mats": [
+   "2 Stone",
+   "1 Cord"
+  ],
+  "template": "tablet"
+ },
+ "r66_053": {
+  "claims": [
+   "A full count freezes a moment.",
+   "A survey serves its maker."
+  ],
+  "fact": "King William I ordered a survey of England in 1086, recorded in the Domesday Book.",
+  "mats": [
+   "2 Paper",
+   "1 Cord"
+  ],
+  "template": "book"
+ },
+ "r66_054": {
+  "claims": [
+   "Shaped lines can pick the winner.",
+   "Voters keep some counter-power."
+  ],
+  "fact": "In 1812 Massachusetts redrew a senate district into a long, twisted shape to help the ruling party.",
+  "mats": [
+   "2 Cloth",
+   "1 Cord"
+  ],
+  "template": "banner"
+ },
+ "r66_055": {
+  "claims": [
+   "Cards can count a nation fast.",
+   "Holes strip away the person."
+  ],
+  "fact": "Herman Hollerith built a punch-card machine to tally the 1890 United States census.",
+  "mats": [
+   "2 Paper",
+   "1 Charcoal"
+  ],
+  "template": "letter"
+ },
+ "r66_056": {
+  "claims": [
+   "A single sign can anchor memory.",
+   "One image leaves much out."
+  ],
+  "fact": "Lakota keepers recorded history on winter counts, hides marked with one picture per year.",
+  "mats": [
+   "2 Cloth",
+   "1 Charcoal"
+  ],
+  "template": "banner"
+ },
+ "r66_057": {
+  "claims": [
+   "Careful counts can reach the future.",
+   "A model can drift from the sky."
+  ],
+  "fact": "The Dresden Codex is a Maya book of bark paper from about 1200 to 1250.",
+  "mats": [
+   "2 Paper",
+   "1 Charcoal"
+  ],
+  "template": "book"
+ },
+ "r66_058": {
+  "claims": [
+   "Carved figures can hold a lineage.",
+   "Outsiders may misread the signs."
+  ],
+  "fact": "Haida carvers on the Northwest Coast raised totem poles of red cedar.",
+  "mats": [
+   "2 Stone",
+   "1 Cord"
+  ],
+  "template": "statue"
+ },
+ "r66_059": {
+  "claims": [
+   "A gap in words can hide a gap in aims.",
+   "Later reading can repair the split."
+  ],
+  "fact": "British officials and Maori chiefs signed the Treaty of Waitangi in 1840.",
+  "mats": [
+   "2 Ink",
+   "1 Cord"
+  ],
+  "template": "pen"
+ },
+ "r66_060": {
+  "claims": [
+   "Rulers who order the mark hold most blame.",
+   "Bystanders share the weight."
+  ],
+  "fact": "From 1941 Nazi Germany forced Jews to wear a yellow star badge in public.",
+  "mats": [
+   "2 Cloth",
+   "1 Charcoal"
+  ],
+  "template": "banner"
+ },
+ "r66_061": {
+  "claims": [
+   "A clock face can focus fear.",
+   "A metaphor is not a gauge."
+  ],
+  "fact": "The Bulletin of the Atomic Scientists created the Doomsday Clock in 1947.",
+  "mats": [
+   "2 Cloth",
+   "1 Cord"
+  ],
+  "template": "banner"
+ },
+ "r66_062": {
+  "claims": [
+   "Communities can carry the duty.",
+   "A state that stays silent fails a duty."
+  ],
+  "fact": "The Equal Justice Initiative opened a memorial in Montgomery, Alabama in 2018.",
+  "mats": [
+   "2 Paper",
+   "1 Charcoal"
+  ],
+  "template": "letter"
+ },
+ "r66_063": {
+  "claims": [
+   "A face can defy erasure.",
+   "A camera in cruel hands lies too."
+  ],
+  "fact": "The Khmer Rouge ran the S-21 prison in Phnom Penh from 1976.",
+  "mats": [
+   "2 Glass",
+   "1 Charcoal"
+  ],
+  "template": "camera"
+ },
+ "r66_064": {
+  "claims": [
+   "A decree can change the aim of a war.",
+   "Words need armies to bite."
+  ],
+  "fact": "President Abraham Lincoln issued the Emancipation Proclamation on 1 January 1863.",
+  "mats": [
+   "2 Paper",
+   "1 Resin"
+  ],
+  "template": "scroll"
+ },
+ "r66_065": {
+  "claims": [
+   "Local courts can reach the many.",
+   "Speed can bruise fairness."
+  ],
+  "fact": "Rwanda revived gacaca, a community court system, from 2001 to try crimes of the 1994 genocide.",
+  "mats": [
+   "2 Cloth",
+   "1 Resin"
+  ],
+  "template": "banner"
+ },
+ "r66_066": {
+  "claims": [
+   "A banner can unite many voices.",
+   "One slogan cannot hold every view."
+  ],
+  "fact": "The Women's Social and Political Union carried banners like Deeds Not Words from 1908 in Britain.",
+  "mats": [
+   "2 Cloth",
+   "1 Cord"
+  ],
+  "template": "banner"
+ },
+ "r66_067": {
+  "claims": [
+   "Shared limits can shield the weak.",
+   "Rules bend when states choose."
+  ],
+  "fact": "Nations signed the updated Geneva Conventions in 1949 after the Second World War.",
+  "mats": [
+   "2 Cloth",
+   "1 Cord"
+  ],
+  "template": "banner"
+ },
+ "r66_068": {
+  "claims": [
+   "A shared deal can build order.",
+   "The idea can shield abuse."
+  ],
+  "fact": "The Peace of Westphalia in 1648 ended the Thirty Years War in Europe.",
+  "mats": [
+   "2 Cloth",
+   "1 Cord"
+  ],
+  "template": "banner"
+ },
+ "r66_069": {
+  "claims": [
+   "A marker can name a wrong.",
+   "A short plaque can soften horror."
+  ],
+  "fact": "The United States forced the Cherokee and other nations west along the Trail of Tears in 1838.",
+  "mats": [
+   "2 Cloth",
+   "1 Resin"
+  ],
+  "template": "banner"
+ },
+ "r66_070": {
+  "claims": [
+   "Faith can steel a people.",
+   "Belief cannot bend fact."
+  ],
+  "fact": "The Ghost Dance movement spread among Plains nations around 1890.",
+  "mats": [
+   "2 Cloth",
+   "1 Resin"
+  ],
+  "template": "banner"
+ },
+ "r66_071": {
+  "claims": [
+   "A people can vest identity in one thing.",
+   "Outsiders miss the meaning."
+  ],
+  "fact": "The Ashanti of Ghana hold the Golden Stool as the sacred seat of their nation's soul.",
+  "mats": [
+   "2 Silver",
+   "1 Resin"
+  ],
+  "template": "amulet"
+ },
+ "r66_072": {
+  "claims": [
+   "Trained memory can hold centuries.",
+   "Memory can bend to please."
+  ],
+  "fact": "In West Africa, griots serve as trained oral historians, poets, and musicians.",
+  "mats": [
+   "2 Wood",
+   "1 Charcoal"
+  ],
+  "template": "drum"
+ },
+ "r66_073": {
+  "claims": [
+   "A neutral form can hide a bias.",
+   "The trick lay in the grading, not the page."
+  ],
+  "fact": "Some United States states used literacy tests to block Black citizens from voting into the 1960s.",
+  "mats": [
+   "2 Cloth",
+   "1 Charcoal"
+  ],
+  "template": "banner"
+ },
+ "r66_074": {
+  "claims": [
+   "A wide inquiry can build trust.",
+   "An official report can still miss or hide."
+  ],
+  "fact": "The United States set up a commission to study the attacks of 11 September 2001.",
+  "mats": [
+   "2 Paper",
+   "1 Cord"
+  ],
+  "template": "book"
+ },
+ "r66_075": {
+  "claims": [
+   "Footage fixes a moment for all.",
+   "Images do not explain themselves."
+  ],
+  "fact": "Abraham Zapruder filmed the killing of President John F.",
+  "mats": [
+   "2 Glass",
+   "1 Cord"
+  ],
+  "template": "camera"
+ },
+ "r66_076": {
+  "claims": [
+   "False science can license cruelty.",
+   "Naming a lie as science can also expose it."
+  ],
+  "fact": "Nazi Germany's Nuremberg Laws of 1935 sorted people by so-called racial blood.",
+  "mats": [
+   "2 Cloth",
+   "1 Resin"
+  ],
+  "template": "banner"
+ },
+ "r66_077": {
+  "claims": [
+   "Fresh tests can free the wronged.",
+   "Doubt should come before the cell."
+  ],
+  "fact": "A Maryland court sentenced Kirk Bloodsworth to death for murder in 1985.",
+  "mats": [
+   "2 Glass",
+   "1 Cord"
+  ],
+  "template": "flask"
+ },
+ "r66_078": {
+  "claims": [
+   "Chemistry can catch a lie.",
+   "Doubt must still stay open."
+  ],
+  "fact": "The Vinland Map seemed to show Norse knowledge of America before Columbus.",
+  "mats": [
+   "2 Paper",
+   "1 Charcoal"
+  ],
+  "template": "map"
+ },
+ "r66_079": {
+  "claims": [
+   "A fake can fit a hope.",
+   "Method can still win in the end."
+  ],
+  "fact": "In 1912 Charles Dawson presented skull bones as a missing link between apes and humans, found at Piltdown in England.",
+  "mats": [
+   "2 Bone",
+   "1 Charcoal"
+  ],
+  "template": "bone"
+ },
+ "r66_080": {
+  "claims": [
+   "Cold ledgers can expose horror.",
+   "The document hides as much as it shows."
+  ],
+  "fact": "In 1781 the crew of the slave ship Zong threw over 130 enslaved Africans into the sea.",
+  "mats": [
+   "2 Cloth",
+   "1 Charcoal"
+  ],
+  "template": "banner"
+ },
+ "r66_081": {
+  "claims": [
+   "A shared book can hold two voices.",
+   "One side still held the pen last."
+  ],
+  "fact": "The Codex Mendoza is an Aztec manuscript made about 1541 under Spanish rule.",
+  "mats": [
+   "2 Paper",
+   "1 Charcoal"
+  ],
+  "template": "book"
+ },
+ "r66_082": {
+  "claims": [
+   "A label can invite hard thought.",
+   "Nations guard their heroes' story."
+  ],
+  "fact": "The Smithsonian planned a 1995 exhibit of the Enola Gay, the plane that dropped the atomic bomb on Hiroshima.",
+  "mats": [
+   "2 Wood",
+   "1 Charcoal"
+  ],
+  "template": "boat"
+ },
+ "r66_083": {
+  "claims": [
+   "A shared goal can steer nations.",
+   "A pledge with no teeth can drift."
+  ],
+  "fact": "Nearly two hundred nations adopted the Paris Agreement on climate change in December 2015.",
+  "mats": [
+   "2 Wood",
+   "1 Cord"
+  ],
+  "template": "tool"
+ },
+ "r66_084": {
+  "claims": [
+   "Consent must guard the subject.",
+   "Rules can lag behind abuse."
+  ],
+  "fact": "Judges wrote the Nuremberg Code in 1947 after trials of Nazi doctors who ran cruel experiments.",
+  "mats": [
+   "2 Cloth",
+   "1 Cord"
+  ],
+  "template": "banner"
+ },
+ "r66_085": {
+  "claims": [
+   "A script may still guard meaning.",
+   "Unread marks may hold nothing."
+  ],
+  "fact": "The Voynich Manuscript is a book of about 240 pages in an unknown script, carbon-dated to around 1420.",
+  "mats": [
+   "2 Paper",
+   "1 Cord"
+  ],
+  "template": "scroll"
+ }
+}
