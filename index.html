@@ -35718,7 +35718,7 @@ E.relicsLoad([{"id":"v37_ch_door_math","name":"Ishango Bone, Congo Basin, c. 20,
     var f = FL();
     return {
       first: String(f.v37_p_first || ""), lastInit: String(f.v37_p_lastinit || ""),
-      email: String(f.v37_p_email || ""), callsign: String(f.v37_p_callsign || (SD().callsign || ""))
+      email: String(f.v37_p_email || ""), callsign: String(f.v37_p_callsign || ((SD().avatar && SD().avatar.name) || SD().callsign || ""))
     };
   }
   E.V37_RECORDS = { standings: buildStandings, tierOf: tierOf, tierName: tierName, readProfile: readProfile };
@@ -35933,6 +35933,18 @@ E.relicsLoad([{"id":"v37_ch_door_math","name":"Ishango Bone, Congo Basin, c. 20,
       } catch (e2) {}
       FL().v37_p_first = first; FL().v37_p_lastinit = lastI;
       FL().v37_p_email = email.toLowerCase(); FL().v37_p_callsign = call;
+      /* the base game keeps the call sign on the avatar and gates its naming
+         ceremony on named_ceremony. Write both, or the Ledger of Names asks
+         the same question a second time. */
+      try {
+        var d = SD();
+        if (d.avatar && !d.avatar.name) {
+          d.avatar.name = call;
+          FL().named_ceremony = true;
+          try { if (window.updateHud) window.updateHud(); } catch (e3) {}
+          try { if (window.checkBadges) window.checkBadges(); } catch (e4) {}
+        }
+      } catch (e5) {}
       save();
       wrap.remove();
       toast("Signed. The Chartroom knows " + call + " now.");
