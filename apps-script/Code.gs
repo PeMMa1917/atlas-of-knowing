@@ -26,6 +26,15 @@
 
 var TEACHER_PIN = "CHANGE-ME";   // <-- set your own before deploying
 
+/* WRITE_TOKEN: a second key, carried by the class link you hand out.
+   Anything writing to the Sheet must present it, so a class address copied
+   off a projected screen cannot post fake students or junk journal entries.
+   Leave it "" and writes stay open to anyone holding the address.
+   Set it, then give students the link with &t=<token> on the end:
+     https://<pages>/?class=<web app URL>&t=<token>
+   Teacher awards from teacher.html use TEACHER_PIN instead, not this. */
+var WRITE_TOKEN = "";
+
 var STUDENT_COLS = [
   "email", "first", "lastInit", "callsign", "updated", "level", "xp", "lumens",
   "minutes", "daysPlayed", "streak", "bestStreak", "journalTotal", "journalManual",
@@ -37,7 +46,10 @@ function doPost(e) {
   var out = { ok: false };
   try {
     var body = JSON.parse(e.postData.contents);
-    if (body.kind === "snapshot") out = handleSnapshot(body);
+    if (body.kind === "snapshot") {
+      if (WRITE_TOKEN && String(body.token || "") !== String(WRITE_TOKEN)) out = { ok: false, error: "bad token" };
+      else out = handleSnapshot(body);
+    }
     else if (body.kind === "award") out = handleAward(body);
     else out.error = "unknown kind";
   } catch (err) {
@@ -50,6 +62,9 @@ function doGet(e) {
   var p = (e && e.parameter) || {};
   try {
     if (p.action === "ping") return json({ ok: true, at: Date.now() });
+    /* the game asks here whether a typed code is the teacher PIN, so the PIN
+       stays in this account and never ships inside the public game file */
+    if (p.action === "teachcheck") return json({ ok: String(p.pin || "") === String(TEACHER_PIN) });
     if (p.action === "pull") return json(pullAwards(p.email, Number(p.since) || 0));
     if (p.action === "boards") return json(classBoards());
     if (p.action === "roster") return json(withPin(p.pin, roster));
