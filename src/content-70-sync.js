@@ -92,6 +92,18 @@
       } catch (e2) {}
       FL().v37_p_first = first; FL().v37_p_lastinit = lastI;
       FL().v37_p_email = email.toLowerCase(); FL().v37_p_callsign = call;
+      /* the base game keeps the call sign on the avatar and gates its naming
+         ceremony on named_ceremony. Write both, or the Ledger of Names asks
+         the same question a second time. */
+      try {
+        var d = SD();
+        if (d.avatar && !d.avatar.name) {
+          d.avatar.name = call;
+          FL().named_ceremony = true;
+          try { if (window.updateHud) window.updateHud(); } catch (e3) {}
+          try { if (window.checkBadges) window.checkBadges(); } catch (e4) {}
+        }
+      } catch (e5) {}
       save();
       wrap.remove();
       toast("Signed. The Chartroom knows " + call + " now.");

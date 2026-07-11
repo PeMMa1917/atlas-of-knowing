@@ -187,7 +187,7 @@
     var f = FL();
     return {
       first: String(f.v37_p_first || ""), lastInit: String(f.v37_p_lastinit || ""),
-      email: String(f.v37_p_email || ""), callsign: String(f.v37_p_callsign || (SD().callsign || ""))
+      email: String(f.v37_p_email || ""), callsign: String(f.v37_p_callsign || ((SD().avatar && SD().avatar.name) || SD().callsign || ""))
     };
   }
   E.V37_RECORDS = { standings: buildStandings, tierOf: tierOf, tierName: tierName, readProfile: readProfile };
