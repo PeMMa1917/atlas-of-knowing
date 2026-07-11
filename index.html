@@ -24343,10 +24343,29 @@ renderSettingsPanel = function(){
     '<div class="row" style="gap:6px;margin-top:8px;flex-wrap:wrap">' +
     (acctIsTeacher() ? '<button class="btn small gold" id="acctDeskGo">🗂 Open the Desk</button>' +
       '<button class="btn small" id="acctChartGo">📈 Open the Chartroom (Q)</button>' : '') +
-    '<button class="btn small" id="acctSwitch">Switch knower (new save)</button></div>';
+    (acctIsTeacher() ? '' : '<button class="btn small" id="acctClaim">🗂 I teach this class</button>') +
+    '<button class="btn small" id="acctSwitch">Switch knower (new save)</button></div>' +
+    '<div class="sub" id="acctClaimWhy" style="margin-top:6px;color:#e0a060;min-height:1em"></div>';
   elPanelBody.appendChild(card);
   var dg = document.getElementById("acctDeskGo");
   if (dg) dg.onclick = function(){ openPanel("warden"); acctDeskButton(); };
+  /* a teacher who signed in as a student can claim the Desk here: the PIN
+     goes to the class sheet, which answers yes or no. No wiping the save. */
+  var cl = document.getElementById("acctClaim");
+  if (cl) cl.onclick = function(){
+    var whyEl = document.getElementById("acctClaimWhy");
+    var pin = prompt("Type your class PIN. It travels to your class sheet, which answers yes or no.", "");
+    if (!pin) return;
+    whyEl.textContent = "Asking the class desk...";
+    acctTeachCheck(String(pin).trim(), function(ok, why){
+      if (!ok){ whyEl.textContent = why || "The class desk did not know that PIN."; return; }
+      state.data.flags.acct_role = "teacher";
+      scheduleSave();
+      acctDeskButton();
+      whyEl.textContent = "The Desk is yours. Reopen this panel to see it.";
+      try { flashToast("The Desk is yours"); } catch(e){}
+    });
+  };
   var cg = document.getElementById("acctChartGo");
   if (cg) cg.onclick = function(){ openPanel("chart"); };
   var sw = document.getElementById("acctSwitch");
