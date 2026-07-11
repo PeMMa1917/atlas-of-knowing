@@ -24104,16 +24104,19 @@ TOTAL_BADGES = BADGES.length;
    six-digit codes. Call-signs stay the public face in the world; the
    email is the ledger key the teacher's desk reads. */
 
-/* ══ TEACHER SETTINGS: edit these lines ══
+/* ══ TEACHER SETTINGS ══
    domains: school domains allowed to sign in. Empty list = any email.
-   teachers: emails that get the Desk. Add colleagues here.
-   deskCode: spoken fallback for teachers on any device. Change it.
    supabase: leave blank for roster mode (no verification email), or
-   paste your project URL and anon key to send real sign-in codes. */
+   paste your project URL and anon key to send real sign-in codes.
+
+   NO SECRETS AND NO EMAILS BELONG IN THIS FILE. Every student downloads it
+   to play, so anything written here can be read by anyone. Teacher status
+   gets settled by the class backend instead: the game sends the code typed
+   at the ledger to the class address, and Code.gs compares it to TEACHER_PIN
+   inside the teacher's own Google account. The PIN never ships with the game. */
 var AUTH_CONFIG = {
   domains: [],
-  teachers: ["mikayla.mp.peters@gmail.com"],
-  deskCode: "ATLASDESK",
+  teachers: [],
   supabase: { url: "", anonKey: "" }
 };
 
@@ -24167,12 +24170,13 @@ function acctOverlay(){
     document.body.appendChild(host);
   }
   host.hidden = false;
+  host.style.display = "flex";
   uiOpen = true;
   return host;
 }
 function acctClose(){
   var host = document.getElementById("acctHost");
-  if (host) host.hidden = true;
+  if (host) { host.hidden = true; host.style.display = "none"; host.innerHTML = ""; }
   uiOpen = satchelOpen || !!dlgCurrent || !!panelOpen;
   if (typeof canvas !== "undefined" && canvas.focus) canvas.focus();
 }
@@ -24238,8 +24242,8 @@ function acctLoginScreen(){
     '<button class="btn gold" id="acctGo">Sign the ledger</button>' +
     '<button class="btn small" id="acctTeach">I teach this class</button></div>' +
     '<div id="acctTeachRow" hidden style="margin-top:10px">' +
-    '<div style="font-size:0.8rem;opacity:.85">Teachers: a listed email signs you in as teacher by itself. Any other email plus the desk code works too.</div>' +
-    '<input id="acctDesk" placeholder="Desk code" autocomplete="off" style="width:100%;padding:8px;margin-top:6px"></div>');
+    '<div style="font-size:0.8rem;opacity:.85">Teachers: type your class PIN. The game asks your class sheet whether it matches; the PIN never travels inside this page. Students leave the box empty.</div>' +
+    '<input id="acctDesk" type="password" placeholder="Class PIN" autocomplete="off" style="width:100%;padding:8px;margin-top:6px"></div>');
   var whyEl = card.querySelector("#acctWhy");
   card.querySelector("#acctTeach").onclick = function(){
     var row = card.querySelector("#acctTeachRow");
@@ -24248,21 +24252,39 @@ function acctLoginScreen(){
   card.querySelector("#acctGo").onclick = function(){
     var v = acctEmailOk(card.querySelector("#acctEmail").value);
     if (!v.ok){ whyEl.textContent = v.why; return; }
-    var deskTyped = String(card.querySelector("#acctDesk").value || "").trim().toUpperCase();
-    var role = "student";
-    if (acctTeacherEmail(v.email)) role = "teacher";
-    else if (deskTyped && deskTyped === String(AUTH_CONFIG.deskCode).toUpperCase()) role = "teacher";
-    else if (deskTyped){ whyEl.textContent = "The desk code does not match. Students can sign in without one."; return; }
-    if (AUTH_CONFIG.supabase.url && AUTH_CONFIG.supabase.anonKey){
-      whyEl.textContent = "Sending your sign-in code...";
-      acctOtpSend(v.email, function(ok){
-        if (ok) acctCodeStep(host, v.email, role);
-        else { whyEl.textContent = "Code sending failed; signing you in on the roster instead."; setTimeout(function(){ acctFinish(v.email, role, false); }, 900); }
-      });
-    } else {
-      acctFinish(v.email, role, false);
-    }
+    var pinTyped = String(card.querySelector("#acctDesk").value || "").trim();
+    if (!pinTyped){ acctProceed(host, whyEl, v.email, "student"); return; }
+    whyEl.textContent = "Asking the class desk...";
+    acctTeachCheck(pinTyped, function(ok, why){
+      if (ok) acctProceed(host, whyEl, v.email, "teacher");
+      else whyEl.textContent = why || "The class desk did not know that PIN. Students sign in with the box empty.";
+    });
   };
+}
+
+/* the PIN lives in the teacher's Apps Script, never in this file: ask the desk */
+function acctTeachCheck(code, cb){
+  var url = "";
+  try { url = (window.V37_SYNC && window.V37_SYNC.classUrl()) || ""; } catch(e){}
+  if (!url){ cb(false, "No class address yet, so no desk to ask. Paste one through the Class chip first."); return; }
+  try {
+    fetch(url + (url.indexOf("?") > 0 ? "&" : "?") + "action=teachcheck&pin=" + encodeURIComponent(code))
+      .then(function(r){ return r.json(); })
+      .then(function(j){ cb(!!(j && j.ok), null); })
+      .catch(function(){ cb(false, "The class desk did not answer. Check the connection and try again."); });
+  } catch(e){ cb(false, "The class desk did not answer."); }
+}
+
+function acctProceed(host, whyEl, email, role){
+  if (AUTH_CONFIG.supabase.url && AUTH_CONFIG.supabase.anonKey){
+    whyEl.textContent = "Sending your sign-in code...";
+    acctOtpSend(email, function(ok){
+      if (ok) acctCodeStep(host, email, role);
+      else { whyEl.textContent = "Code sending failed; signing you in on the roster instead."; setTimeout(function(){ acctFinish(email, role, false); }, 900); }
+    });
+  } else {
+    acctFinish(email, role, false);
+  }
 }
 
 /* sign-in rides in front of the arrival */
@@ -35798,7 +35820,6 @@ E.relicsLoad([{"id":"v37_ch_door_math","name":"Ishango Bone, Congo Basin, c. 20,
 
 </script>
 <script>
-/* ---- content-70-sync.js ---- */
 /* ═══════════════════════════════════════════════════════════════════════
    THE ATLAS OF KNOWING · CLASSROOM SYNC (content-70)
    v37. Load after content-68 (and 71). Connects the game to a Google
@@ -35836,6 +35857,9 @@ E.relicsLoad([{"id":"v37_ch_door_math","name":"Ishango Bone, Congo Basin, c. 20,
     var f = String(FL().v37_sync_url || "");
     return f.indexOf("http") === 0 ? f : "";
   }
+  /* the write token: a second key the class link carries. Snapshots without
+     it bounce, so an address copied off a projected screen cannot post. */
+  function classToken() { return String(FL().v37_sync_token || ""); }
   (function readParam() {
     try {
       var m = /[?&]class=([^&]+)/.exec(location.search || "");
@@ -35843,8 +35867,12 @@ E.relicsLoad([{"id":"v37_ch_door_math","name":"Ishango Bone, Congo Basin, c. 20,
         var url = decodeURIComponent(m[1]);
         if (url.indexOf("https://script.google.com/") === 0) { FL().v37_sync_url = url; save(); }
       }
+      var tk = /[?&]t=([^&]+)/.exec(location.search || "");
+      if (tk) { FL().v37_sync_token = decodeURIComponent(tk[1]); save(); }
     } catch (e) {}
   })();
+  /* the ledger card in the base game asks the class desk about teacher PINs */
+  window.V37_SYNC = { classUrl: classUrl, classToken: classToken };
 
   /* ── identity ── */
   function profile() { return E.V37_RECORDS.readProfile(); }
@@ -35897,6 +35925,7 @@ E.relicsLoad([{"id":"v37_ch_door_math","name":"Ishango Bone, Congo Basin, c. 20,
   function post(payload, cb) {
     var url = classUrl(); if (!url) return;
     try {
+      payload = Object.assign({}, payload, { token: classToken() });
       fetch(url, { method: "POST", headers: { "Content-Type": "text/plain;charset=utf-8" }, body: JSON.stringify(payload) })
         .then(function (r) { return r.json(); }).then(function (j) { if (cb) cb(j); })
         .catch(function () { if (cb) cb(null); });
@@ -36010,8 +36039,11 @@ E.relicsLoad([{"id":"v37_ch_door_math","name":"Ishango Bone, Congo Basin, c. 20,
     b.addEventListener("click", function () {
       if (classUrl()) { askIdentity(true); return; }
       var url = prompt("Paste the class address your teacher shared (a script.google.com link):", "");
-      if (url && url.indexOf("https://script.google.com/") === 0) {
-        FL().v37_sync_url = url.trim(); save();
+      if (url && url.trim().indexOf("https://script.google.com/") === 0) {
+        url = url.trim();
+        var tm = /[?&]t=([^&]+)/.exec(url);
+        if (tm) { FL().v37_sync_token = decodeURIComponent(tm[1]); url = url.replace(/([?&])t=[^&]*/, "$1").replace(/[?&]$/, ""); }
+        FL().v37_sync_url = url; save();
         b.textContent = "Class: sign in";
         askIdentity(true);
       } else if (url) toast("The address should start with https://script.google.com/");
