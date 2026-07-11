@@ -1,0 +1,2671 @@
+[
+ {
+  "id": "r61_001",
+  "name": "The Diamond Sutra, Printed Scroll, Dunhuang, 868 CE",
+  "icon": "📜",
+  "region": "library",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Culture",
+   "v": 12
+  },
+  "tags": {
+   "c": "Culture",
+   "e": "Scope",
+   "s": "World Religions"
+  },
+  "kq": "Who decides which knowledge should be free for everyone?",
+  "ans": [
+   "The donor paid for printing so anyone could read the sutra. Free copies spread the teaching far beyond one temple.",
+   "Free access still follows a choice. One patron picked this text over all others, so a gift can also steer belief."
+  ],
+  "rw": "A colophon dates this printed Buddhist scroll to 11 May 868, the oldest dated printed book known. Wang Jie commissioned it 'for universal free distribution' in honour of his parents. Aurel Stein removed it from the Mogao caves in 1907, and the British Library holds it today.",
+  "desc": "A woodblock scroll older than any other dated printed book. Its last line gives it away for free.",
+  "mla": [
+   "\"Diamond Sutra.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Diamond_Sutra.",
+   "\"Diamond Sutra.\" Encyclopaedia Britannica, n.d., www.britannica.com/topic/Diamond-Sutra."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_002",
+  "name": "A Dictionary of the English Language, Samuel Johnson, 1755",
+  "icon": "📖",
+  "region": "vault_lang",
+  "pl": {
+   "mode": "cache",
+   "detail": "Shelved behind the folio atlases in the second alcove of the tongue tower."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Power",
+   "v": 10
+  },
+  "tags": {
+   "c": "Power",
+   "e": "Scope",
+   "s": "English A: Language and Literature"
+  },
+  "kq": "Who decides which words belong in a language?",
+  "ans": [
+   "A single editor drew the line here. Johnson chose the entries and wrote witty definitions, so the standard carried one man's taste.",
+   "Usage outvotes any editor. Speakers kept inventing words he excluded, so the language moved on while the book stood still."
+  ],
+  "rw": "Samuel Johnson published this dictionary in London in 1755 after nine years of writing. He defined about 40,000 words and supported them with literary quotations. Readers treated it as the authority on English for more than a century.",
+  "desc": "Two heavy volumes with opinions. Look up 'oats' and meet the editor's grin.",
+  "mla": [
+   "\"A Dictionary of the English Language.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/A_Dictionary_of_the_English_Language.",
+   "\"Samuel Johnson.\" Encyclopaedia Britannica, n.d., www.britannica.com/biography/Samuel-Johnson."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_003",
+  "name": "The Vinland Map, Yale Unveiling, 1965",
+  "icon": "🗺️",
+  "region": "library",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Evidence",
+   "v": 12
+  },
+  "tags": {
+   "c": "Evidence",
+   "e": "Methods and Tools",
+   "s": "Chemistry"
+  },
+  "kq": "How far can laboratory tests settle a dispute between historians?",
+  "ans": [
+   "Chemistry gave a hard answer here. The ink held a modern titanium compound, so the parchment could not carry a medieval drawing.",
+   "Tests close one question and open another. Scientists proved forgery, yet historians still ask who drew it and why experts believed."
+  ],
+  "rw": "Yale University revealed this map in 1965 as a claimed medieval chart showing Norse America. Ink studies from the 1970s onward found modern pigment, and Yale declared the map a fake in 2021. Belief in it lasted half a century because the story fit hopes about Viking voyages.",
+  "desc": "A map of a coast nobody drew in the Middle Ages. The ink confessed before the parchment did.",
+  "mla": [
+   "\"Vinland Map.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Vinland_Map."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_004",
+  "name": "Oxford English Dictionary, Part I, A to Ant, 1884",
+  "icon": "📚",
+  "region": "vault_lang",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Objectivity",
+   "v": 10
+  },
+  "tags": {
+   "c": "Objectivity",
+   "e": "Methods and Tools",
+   "s": "English A: Language and Literature"
+  },
+  "kq": "To what extent can a dictionary describe a language without ruling it?",
+  "ans": [
+   "The editors aimed to record, not command. Volunteer readers mailed quotation slips, so definitions followed printed use.",
+   "Selection still rules quietly. Editors chose which slips counted, so the record carries their judgment about good sources."
+  ],
+  "rw": "James Murray edited the first part of the Oxford English Dictionary, published in 1884 and covering A to Ant. Thousands of volunteer readers sent quotation slips, among them William Chester Minor, a patient held at Broadmoor asylum. The full first edition took until 1928 to complete.",
+  "desc": "A dictionary built from a mailbag. Every meaning arrives with a witness.",
+  "mla": [
+   "\"Oxford English Dictionary.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Oxford_English_Dictionary.",
+   "\"William Chester Minor.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/William_Chester_Minor."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_005",
+  "name": "Gutenberg Bible, 42-Line Edition, Mainz, c. 1455",
+  "icon": "🖨️",
+  "region": "library",
+  "pl": {
+   "mode": "shop",
+   "detail": "",
+   "cost": 150
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Power",
+   "v": 15
+  },
+  "tags": {
+   "c": "Power",
+   "e": "Methods and Tools",
+   "s": "History"
+  },
+  "kq": "How far does faster copying shift control over a message?",
+  "ans": [
+   "Print multiplied the text beyond any censor's reach. Identical Bibles left one press, so no single scribe or bishop could edit them all.",
+   "The press first served the old authority. Gutenberg printed the church's own book, so new tools often begin by strengthening the earlier voice."
+  ],
+  "rw": "Johannes Gutenberg printed about 180 copies of this Latin Bible in Mainz around 1455 using movable metal type. Copies matched each other page for page, a new fact in European book history. Within fifty years, presses ran in over two hundred European towns.",
+  "desc": "Black letters marching in perfect ranks. A machine cleared its throat, and Europe leaned in.",
+  "mla": [
+   "\"Gutenberg Bible.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Gutenberg_Bible.",
+   "\"Johannes Gutenberg.\" Encyclopaedia Britannica, n.d., www.britannica.com/biography/Johannes-Gutenberg."
+  ],
+  "img": "commons.wikimedia.org/wiki/Category:Gutenberg_Bible"
+ },
+ {
+  "id": "r61_006",
+  "name": "Shakespeare's First Folio, London, 1623",
+  "icon": "🎭",
+  "region": "library",
+  "pl": {
+   "mode": "shop",
+   "detail": "",
+   "cost": 120
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Values",
+   "v": 12
+  },
+  "tags": {
+   "c": "Values",
+   "e": "Scope",
+   "s": "Theatre"
+  },
+  "kq": "What do we lose when a performance becomes a printed page?",
+  "ans": [
+   "The page saves the words and drops the event. Eighteen plays had no other copy, so print rescued them from silence.",
+   "A script is a seed, not the play. Each staging remakes the meaning, so the Folio fixes far less than it seems."
+  ],
+  "rw": "John Heminges and Henry Condell, actors in Shakespeare's company, assembled this collection in 1623, seven years after his death. It preserved eighteen plays with no earlier printed text, including Macbeth and The Tempest. About 235 copies survive today.",
+  "desc": "A friend's rescue mission in folio size. Without it, no Macbeth.",
+  "mla": [
+   "\"First Folio.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/First_Folio.",
+   "\"First Folio.\" Encyclopaedia Britannica, n.d., www.britannica.com/topic/First-Folio."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_007",
+  "name": "The Voynich Manuscript, c. 1420",
+  "icon": "🔍",
+  "region": "library",
+  "pl": {
+   "mode": "minigame",
+   "detail": "Cipher of the Stacks"
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Certainty",
+   "v": 12
+  },
+  "tags": {
+   "c": "Certainty",
+   "e": "Methods and Tools",
+   "s": "Language B"
+  },
+  "kq": "Under what circumstances should experts admit a text may never be read?",
+  "ans": [
+   "Effort has limits. A century of code breakers failed, so a careful reader holds the question open instead of forcing an answer.",
+   "Unread does not mean unreadable. Linear B waited three thousand years for decipherment, so new tools or one insight could still unlock it."
+  ],
+  "rw": "This illustrated manuscript surfaced in 1912 when the book dealer Wilfrid Voynich bought it near Rome. Radiocarbon dating places its vellum in the early 1400s. Nobody has read its looping script, despite attempts by wartime code breakers and modern computers.",
+  "desc": "Plants no botanist knows, words no reader owns. The book keeps winning.",
+  "mla": [
+   "\"Voynich manuscript.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Voynich_manuscript."
+  ],
+  "img": "commons.wikimedia.org/wiki/Category:Voynich_manuscript"
+ },
+ {
+  "id": "r61_008",
+  "name": "Leonardo da Vinci's Codex Leicester, c. 1510",
+  "icon": "📓",
+  "region": "florence",
+  "pl": {
+   "mode": "npc",
+   "detail": "Ser Piero the copyist: he lends the mirror-script pages to patient readers, with a candle and a looking glass."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Explanation",
+   "v": 10
+  },
+  "tags": {
+   "c": "Explanation",
+   "e": "Methods and Tools",
+   "s": "Physics"
+  },
+  "kq": "How do private notebooks change our picture of discovery?",
+  "ans": [
+   "Notebooks show thinking in motion. Leonardo asks why the sky is blue and argues with himself, so science looks like drafts, not verdicts.",
+   "Private pages can also bury knowledge. He wrote in mirror script and never published, so his insights moved nobody for centuries."
+  ],
+  "rw": "Leonardo filled these 72 pages around 1508 to 1510 with studies of water, rock layers, and moonlight, all in mirror script. He explained fossil shells on mountains long before geology named the process. Bill Gates bought the codex in 1994 for 30.8 million dollars.",
+  "desc": "Backwards handwriting, forwards ideas. Hold it to a mirror and watch a mind at play.",
+  "mla": [
+   "\"Codex Leicester.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Codex_Leicester."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_009",
+  "name": "Fermat's Margin Note in Diophantus' Arithmetica, 1637",
+  "icon": "📝",
+  "region": "library",
+  "pl": {
+   "mode": "cache",
+   "detail": "Slipped inside the Arithmetica on the margin-readers' lectern."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Justification",
+   "v": 12
+  },
+  "tags": {
+   "c": "Justification",
+   "e": "Methods and Tools",
+   "s": "Mathematics"
+  },
+  "kq": "Does a claim without its proof count as knowledge?",
+  "ans": [
+   "In mathematics, no proof means no knowledge. The margin held a boast, and the field waited 358 years for the missing reason.",
+   "The claim still guided knowers. Generations tested it and trusted it, so an unproven statement can organize a whole field's search."
+  ],
+  "rw": "Around 1637, Pierre de Fermat wrote in his copy of Diophantus, claiming a marvellous proof too large for the margin. The note reached print in 1670 through his son's edition. Andrew Wiles finally proved the theorem in 1995.",
+  "desc": "The most expensive empty space in mathematics. The proof, he said, would not fit.",
+  "mla": [
+   "\"Fermat's Last Theorem.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Fermat%27s_Last_Theorem.",
+   "\"Pierre de Fermat.\" Encyclopaedia Britannica, n.d., www.britannica.com/biography/Pierre-de-Fermat."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_010",
+  "name": "Beethoven's Conversation Books, Vienna, 1818-1827",
+  "icon": "🎼",
+  "region": "vault_knower",
+  "pl": {
+   "mode": "npc",
+   "detail": "Anton the secretary: he hands over the notebooks and admits he rewrote some pages after the funeral."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Evidence",
+   "v": 12
+  },
+  "tags": {
+   "c": "Evidence",
+   "e": "Perspectives",
+   "s": "Music"
+  },
+  "kq": "How should historians treat evidence curated by someone with an agenda?",
+  "ans": [
+   "Every source needs a suspect list. Schindler added fake entries after Beethoven died, so scholars now weigh each page against outside records.",
+   "Tainted evidence still speaks. Even forged lines show what Schindler wanted the world to believe, so the lies become data about him."
+  ],
+  "rw": "Deaf from around 1818, Beethoven asked visitors to write their questions in notebooks and answered aloud. About 139 books survive. His secretary Anton Schindler destroyed some and forged entries in others to inflate his own role, a fraud confirmed by researchers in the 1970s.",
+  "desc": "One half of every conversation, in strangers' handwriting. The silence answered back.",
+  "mla": [
+   "\"Anton Schindler.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Anton_Schindler.",
+   "\"Ludwig van Beethoven.\" Encyclopaedia Britannica, n.d., www.britannica.com/biography/Ludwig-van-Beethoven."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_011",
+  "name": "The Flood Tablet, Gilgamesh XI, Nineveh, 7th Century BCE",
+  "icon": "🧱",
+  "region": "library",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "stamina",
+   "v": 1
+  },
+  "tags": {
+   "c": "Interpretation",
+   "e": "Scope",
+   "s": "Literature A"
+  },
+  "kq": "To what extent can an older text change the meaning of a newer one?",
+  "ans": [
+   "Age rearranges the family tree of stories. This flood tale predates Genesis, so readers began asking who borrowed from whom.",
+   "Meaning does not travel by date alone. Each community reads its own flood story for its own lessons, so the older text changed history more than faith."
+  ],
+  "rw": "George Smith read this tablet at the British Museum in 1872 and, by report, jumped up in excitement: it held a flood story older than the Bible's. Scribes copied it for King Ashurbanipal's library at Nineveh in the 7th century BCE. The find opened public debate about where scripture's stories began.",
+  "desc": "Baked clay, older than the flood you know. The library fire only made it harder.",
+  "mla": [
+   "\"Epic of Gilgamesh.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Epic_of_Gilgamesh.",
+   "\"Epic of Gilgamesh.\" Encyclopaedia Britannica, n.d., www.britannica.com/topic/Epic-of-Gilgamesh."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_012",
+  "name": "Popol Vuh, Father Ximenez Manuscript, c. 1701",
+  "icon": "🌽",
+  "region": "maya",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Culture",
+   "v": 12
+  },
+  "tags": {
+   "c": "Culture",
+   "e": "Perspectives",
+   "s": "Literature A"
+  },
+  "kq": "What happens to knowledge when survivors must store it in the colonizer's alphabet?",
+  "ans": [
+   "The alphabet saved the story. K'iche' authors wrote their creation account in Latin letters, so the narrative outlived the burned hieroglyphic books.",
+   "Rescue changed the container. A Spanish friar copied and translated it, so every reader now meets the text through colonial hands."
+  ],
+  "rw": "K'iche' Maya authors wrote this creation narrative in the Latin alphabet in the 1550s, soon after Spanish rule began. Friar Francisco Ximenez copied the only surviving version around 1701, with a Spanish translation beside the K'iche'. The text tells of the Hero Twins and of people shaped from maize.",
+  "desc": "A creation story wearing borrowed letters. Maize people, twin heroes, and a survivor's alphabet.",
+  "mla": [
+   "\"Popol Vuh.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Popol_Vuh.",
+   "\"Popol Vuh.\" Encyclopaedia Britannica, n.d., www.britannica.com/topic/Popol-Vuh."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_013",
+  "name": "Information Management: A Proposal, CERN, March 1989",
+  "icon": "🌐",
+  "region": "ring",
+  "pl": {
+   "mode": "minigame",
+   "detail": "Rung Climb"
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Explanation",
+   "v": 12
+  },
+  "tags": {
+   "c": "Explanation",
+   "e": "Methods and Tools",
+   "s": "Computer Science"
+  },
+  "kq": "Under what circumstances should an institution back an idea it cannot yet evaluate?",
+  "ans": [
+   "Big claims need small tests. Berners-Lee's manager let him build a prototype on the side, so a cheap trial answered what review could not.",
+   "Evaluation frames can blind us. The memo fit no existing category at CERN, so the sorting system, not the idea, produced the doubt."
+  ],
+  "rw": "Tim Berners-Lee handed this memo to his CERN supervisor in March 1989, proposing linked documents across computers. Mike Sendall wrote 'vague, but exciting' on the cover and let him try. The prototype became the World Wide Web, released to all in 1993.",
+  "desc": "A memo with a hesitant compliment pencilled on top. The whole web hatched from it.",
+  "mla": [
+   "\"Tim Berners-Lee.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Tim_Berners-Lee.",
+   "\"History of the World Wide Web.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/History_of_the_World_Wide_Web."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_014",
+  "name": "The Florentine Codex, Mexico City, 1577",
+  "icon": "🪶",
+  "region": "maya",
+  "pl": {
+   "mode": "npc",
+   "detail": "Fray Bernardino: he says his Nahua co-authors wrote pages the officials never bothered to read."
+  },
+  "eff": {
+   "t": "perspective",
+   "c": "Perspective"
+  },
+  "tags": {
+   "c": "Perspective",
+   "e": "Perspectives",
+   "s": "History"
+  },
+  "kq": "Who deserves the name of author when many hands build the record?",
+  "ans": [
+   "Credit follows the title page. Sahagun signed as author, so Nahua scholars like Antonio Valeriano stayed invisible for centuries.",
+   "The text itself reveals the team. Whole sections run in Nahuatl with Indigenous illustrations, so careful readers can restore the missing names."
+  ],
+  "rw": "Franciscan friar Bernardino de Sahagun and Nahua scholars completed this twelve-book study of Aztec life in 1577, written in parallel Nahuatl and Spanish columns with over 2,000 images. Nahua elders gave testimony and trained scribes recorded it. The Spanish crown then banned such research, and the volumes ended up in Florence.",
+  "desc": "Twelve books in two columns, Nahuatl beside Spanish. Read both and hear two tellings.",
+  "mla": [
+   "\"Florentine Codex.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Florentine_Codex.",
+   "\"Bernardino de Sahagun.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Bernardino_de_Sahag%C3%BAn."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_015",
+  "name": "The Negro Motorist Green Book, 1940 Edition",
+  "icon": "📗",
+  "region": "harlem",
+  "pl": {
+   "mode": "cache",
+   "detail": "Tucked in the glovebox of the parked sedan by the print shop."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Values",
+   "v": 12
+  },
+  "tags": {
+   "c": "Values",
+   "e": "Ethics",
+   "s": "Geography"
+  },
+  "kq": "What does a travel guide reveal about who moves safely through a country?",
+  "ans": [
+   "A guidebook can map danger instead of sights. Green listed which motels served Black travellers, so its pages recorded a divided nation.",
+   "The same pages carried dignity. Families planned holidays with confidence, so knowledge turned a hostile road into a passable one."
+  ],
+  "rw": "Victor Hugo Green, a Harlem postal carrier, published this guide yearly from 1936 to 1966. It listed hotels, filling stations, and private homes where Black motorists could stop safely under segregation. Green wrote of a future day when his guide could go out of print.",
+  "desc": "A slim green guide for long drives. It maps welcome, and by its silences, warning.",
+  "mla": [
+   "\"The Negro Motorist Green Book.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/The_Negro_Motorist_Green_Book.",
+   "\"Victor Hugo Green.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Victor_Hugo_Green."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_016",
+  "name": "Tarikh al-Sudan Chronicle, Timbuktu, c. 1655",
+  "icon": "📔",
+  "region": "timbuktu",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "stamina",
+   "v": 2
+  },
+  "tags": {
+   "c": "Evidence",
+   "e": "Scope",
+   "s": "History"
+  },
+  "kq": "How does a written chronicle change what later generations can claim about a city?",
+  "ans": [
+   "Documents anchor memory. Al-Sadi recorded scholars, trade, and kings, so Timbuktu's golden age rests on named pages, not rumour.",
+   "One chronicle is one window. The author wrote from his city's scholar class, so herders, women, and rivals appear only at the edges."
+  ],
+  "rw": "Abd al-Rahman al-Sadi completed this Arabic chronicle of the Songhai empire and Timbuktu around 1655. European scholars long claimed sub-Saharan Africa lacked written history, and this book helped bury the claim. Thousands of similar manuscripts survive in Timbuktu's family libraries.",
+  "desc": "A city writing its own biography. Paper proof against a continent-sized lie.",
+  "mla": [
+   "\"Tarikh al-Sudan.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Tarikh_al-Sudan.",
+   "\"Timbuktu Manuscripts.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Timbuktu_Manuscripts."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_017",
+  "name": "Abdel Kader Haidara's Manuscript Footlockers, Timbuktu, 2012",
+  "icon": "🧳",
+  "region": "timbuktu",
+  "pl": {
+   "mode": "npc",
+   "detail": "Abdel Kader the librarian: he packed the pages into trunks and sent them south by road and river at night."
+  },
+  "eff": {
+   "t": "ability",
+   "id": "dowse"
+  },
+  "tags": {
+   "c": "Responsibility",
+   "e": "Ethics",
+   "s": "History"
+  },
+  "kq": "Who bears responsibility for saving knowledge when a state cannot?",
+  "ans": [
+   "Custodians act first. Families had guarded these pages for centuries, so librarians, not armies, smuggled them to safety.",
+   "Rescue by individuals stays fragile. One checkpoint search could have ended it, so lasting protection still needs institutions and law."
+  ],
+  "rw": "When armed groups occupied Timbuktu in 2012, the librarian Abdel Kader Haidara organized couriers to move about 350,000 manuscripts to Bamako in metal trunks, by road and by river. Occupiers burned over 4,000 manuscripts left behind in 2013. Digitization projects now copy the rescued pages.",
+  "desc": "A dented trunk smelling of dust and river water. Inside, a library refusing to burn.",
+  "mla": [
+   "\"Abdel Kader Haidara.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Abdel_Kader_Haidara.",
+   "\"Timbuktu Manuscripts.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Timbuktu_Manuscripts."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_018",
+  "name": "Kitab al-Jabr of al-Khwarizmi, Baghdad, c. 820",
+  "icon": "📐",
+  "region": "baghdad",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Explanation",
+   "v": 10
+  },
+  "tags": {
+   "c": "Explanation",
+   "e": "Methods and Tools",
+   "s": "Mathematics"
+  },
+  "kq": "What makes a method more valuable than a single answer?",
+  "ans": [
+   "A method solves whole families of problems. Al-Khwarizmi showed steps anyone could repeat, so algebra outlived every equation in the book.",
+   "Methods hide their origins. He solved problems in words and diagrams, without symbols, so today's x and y can distort what he explained."
+  ],
+  "rw": "Muhammad ibn Musa al-Khwarizmi wrote this treatise on completion and balancing in Baghdad around 820. The word algebra comes from al-jabr in its title, and algorithm comes from his name. He included step-by-step examples for inheritance shares and trade.",
+  "desc": "A book of recipes for unknowns. Its title hides inside the word algebra.",
+  "mla": [
+   "\"Al-Khwarizmi.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Al-Khwarizmi.",
+   "\"Al-Khwarizmi.\" Encyclopaedia Britannica, n.d., www.britannica.com/biography/al-Khwarizmi."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_019",
+  "name": "Ibn al-Haytham's Book of Optics, Cairo, 1021",
+  "icon": "👁️",
+  "region": "baghdad",
+  "pl": {
+   "mode": "npc",
+   "detail": "Rashid the lens grinder: he repeats the master's rule, test the claim before you trust the eye."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Evidence",
+   "v": 12
+  },
+  "tags": {
+   "c": "Evidence",
+   "e": "Methods and Tools",
+   "s": "Physics"
+  },
+  "kq": "What role does deliberate testing play in trusting what we see?",
+  "ans": [
+   "Sight alone misleads. Ibn al-Haytham showed vision needs light entering the eye and tested his claims with dark chambers, so seeing became an experiment.",
+   "Testing rests on sight in the end. Every reading of every instrument reaches us through the senses, so we refine our trust, we never escape it."
+  ],
+  "rw": "Writing near Cairo around 1021, Ibn al-Haytham argued light travels into the eye and proved key points with camera obscura experiments. He urged readers to test every claim, including his own. Latin translations carried his method into European science.",
+  "desc": "Seven books on light by a man who doubted his own eyes, then built a dark room to check.",
+  "mla": [
+   "\"Ibn al-Haytham.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Ibn_al-Haytham.",
+   "\"Ibn al-Haytham.\" Encyclopaedia Britannica, n.d., www.britannica.com/biography/Ibn-al-Haytham."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_020",
+  "name": "The Fihrist of al-Nadim, Baghdad, 987",
+  "icon": "🗂️",
+  "region": "baghdad",
+  "pl": {
+   "mode": "cache",
+   "detail": "Behind the bookseller's curtain, lowest drawer of the catalogue chest."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Culture",
+   "v": 10
+  },
+  "tags": {
+   "c": "Culture",
+   "e": "Scope",
+   "s": "History"
+  },
+  "kq": "What does a catalogue of every known book say about a culture's idea of knowledge?",
+  "ans": [
+   "A list draws a map of learning. Al-Nadim included Greek, Persian, and Indian authors, so tenth-century Baghdad counted foreign thought as its own inheritance.",
+   "A catalogue also fixes borders. He sorted books into his ten categories, so later readers met knowledge pre-arranged by one bookseller's mind."
+  ],
+  "rw": "The Baghdad bookseller Ibn al-Nadim compiled this index of all books known to him in 987. It records thousands of titles, many now lost, covering law, poetry, science, and alchemy. Historians use it to glimpse the shelves of a vanished city.",
+  "desc": "An index to a library the fires never spared. The titles survive here, the books do not.",
+  "mla": [
+   "\"Al-Fihrist.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Al-Fihrist.",
+   "\"Ibn al-Nadim.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Ibn_al-Nadim."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_021",
+  "name": "Yongle Dadian Encyclopedia, Ming China, 1408",
+  "icon": "📚",
+  "region": "historian",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "stamina",
+   "v": 1
+  },
+  "tags": {
+   "c": "Power",
+   "e": "Scope",
+   "s": "History"
+  },
+  "kq": "Who benefits when a state gathers all knowledge into one set of books?",
+  "ans": [
+   "The throne gains a monument and a filter. The Yongle Emperor ordered the compilation, so inclusion followed imperial approval.",
+   "Later knowers gain a lifeboat. Lost books survive only as passages quoted inside it, so an emperor's showpiece became a rescue archive."
+  ],
+  "rw": "About 2,000 scholars completed this encyclopedia for the Yongle Emperor in 1408, filling more than 11,000 hand-copied volumes. No press ever printed it, and fewer than 400 volumes survive today. Scholars have recovered many lost texts from its quotations.",
+  "desc": "Eleven thousand volumes, one imperial signature. Fewer than four in a hundred remain.",
+  "mla": [
+   "\"Yongle Encyclopedia.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Yongle_Encyclopedia.",
+   "\"Yongle Emperor.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Yongle_Emperor."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_022",
+  "name": "Marie Curie's Laboratory Notebooks, Paris, 1897-1902",
+  "icon": "☢️",
+  "region": "ring",
+  "pl": {
+   "mode": "shop",
+   "detail": "",
+   "cost": 90
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Objectivity",
+   "v": 12
+  },
+  "tags": {
+   "c": "Objectivity",
+   "e": "Methods and Tools",
+   "s": "Chemistry"
+  },
+  "kq": "To what extent can a measurement stay separate from the person measuring?",
+  "ans": [
+   "Numbers aim at independence. Curie logged masses and readings anyone could repeat, so radium's claim rested on records, not reputation.",
+   "The record keeps the body in it. Radioactive traces from her own hands still mark the pages, so the observer never fully leaves the data."
+  ],
+  "rw": "Marie Curie recorded her radium and polonium experiments in these notebooks between 1897 and 1902. The pages remain radioactive, so the French national library stores them in lead-lined boxes and asks readers to sign a waiver. Curie won Nobel Prizes in physics in 1903 and chemistry in 1911.",
+  "desc": "A notebook you may read after signing for the risk. The experiment never quite ended.",
+  "mla": [
+   "\"Marie Curie.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Marie_Curie.",
+   "\"Marie Curie.\" Encyclopaedia Britannica, n.d., www.britannica.com/biography/Marie-Curie."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_023",
+  "name": "The Muqaddimah of Ibn Khaldun, 1377",
+  "icon": "📖",
+  "region": "baghdad",
+  "pl": {
+   "mode": "minigame",
+   "detail": "Assumption Sweep"
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Objectivity",
+   "v": 12
+  },
+  "tags": {
+   "c": "Objectivity",
+   "e": "Methods and Tools",
+   "s": "History"
+  },
+  "kq": "How can historians test reports of events they cannot witness?",
+  "ans": [
+   "Ibn Khaldun offered a filter: check each report against how societies actually behave. Impossible numbers and flattering tales fail the test.",
+   "The filter has its own settings. His rules grew from his experience of dynasties and deserts, so one thinker's laws can misjudge another region's record."
+  ],
+  "rw": "Ibn Khaldun wrote this introduction to history in 1377, in present-day Algeria. It tells historians to reject reports conflicting with the observed laws of society and to trace how dynasties rise and decay. Many scholars treat it as an early foundation for sociology and source criticism.",
+  "desc": "A rulebook for doubting old stories, written six centuries before your history class.",
+  "mla": [
+   "\"Muqaddimah.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Muqaddimah.",
+   "\"Ibn Khaldun.\" Encyclopaedia Britannica, n.d., www.britannica.com/biography/Ibn-Khaldun."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_024",
+  "name": "The Einstein-Szilard Letter to Roosevelt, August 2, 1939",
+  "icon": "✉️",
+  "region": "ring",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Responsibility",
+   "v": 15
+  },
+  "tags": {
+   "c": "Responsibility",
+   "e": "Ethics",
+   "s": "Physics"
+  },
+  "kq": "What responsibility do scientists carry for how leaders use their warnings?",
+  "ans": [
+   "Knowledge of danger demands speech. Szilard saw fission's military path first, so silence would have handed the choice to chance.",
+   "A warning starts a machine its authors cannot steer. The letter helped launch a bomb project neither man controlled, and Einstein later regretted signing."
+  ],
+  "rw": "Physicist Leo Szilard drafted this letter and Albert Einstein signed it on 2 August 1939. It warned President Roosevelt uranium could yield extremely strong bombs of a new type and urged American action. The letter helped trigger the research effort leading to the Manhattan Project.",
+  "desc": "Two pages, one signature, one warning. History turns on office mail.",
+  "mla": [
+   "\"Einstein-Szilard letter.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Einstein%E2%80%93Szilard_letter.",
+   "\"Leo Szilard.\" Encyclopaedia Britannica, n.d., www.britannica.com/biography/Leo-Szilard."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_025",
+  "name": "Tabula Rogeriana of al-Idrisi, Palermo, 1154",
+  "icon": "🗺️",
+  "region": "baghdad",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "path",
+   "region": "kerala"
+  },
+  "tags": {
+   "c": "Perspective",
+   "e": "Perspectives",
+   "s": "Geography"
+  },
+  "kq": "How does the mapmaker's home shape the world the map shows?",
+  "ans": [
+   "Every map has a centre of gravity. Al-Idrisi detailed the lands he knew from travellers, so his world leans toward Islamic trade routes.",
+   "Orientation is convention, not error. His map puts south at the top, so the page reminds us every direction on a map is a choice."
+  ],
+  "rw": "Muhammad al-Idrisi completed this world map and geography for King Roger II of Sicily in 1154, drawing on interviews with travellers and merchants. South sits at the top, following Islamic mapping practice. It remained among the most accurate world descriptions for centuries.",
+  "desc": "The world upside down, or yours is. Sicily paid for it, travellers filled it.",
+  "mla": [
+   "\"Tabula Rogeriana.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Tabula_Rogeriana.",
+   "\"Muhammad al-Idrisi.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Muhammad_al-Idrisi."
+  ],
+  "img": "commons.wikimedia.org/wiki/Category:Tabula_Rogeriana"
+ },
+ {
+  "id": "r61_026",
+  "name": "Treaty of Tordesillas, Signed Parchment, June 7, 1494",
+  "icon": "📜",
+  "region": "vault_pol",
+  "pl": {
+   "mode": "cache",
+   "detail": "In the map room's locked drawer, beneath the folded charts."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Power",
+   "v": 12
+  },
+  "tags": {
+   "c": "Power",
+   "e": "Scope",
+   "s": "Global Politics"
+  },
+  "kq": "By what right can a line on a map divide lands the drawers never saw?",
+  "ans": [
+   "The line was authority talking to itself. Spain and Portugal split future discoveries with papal blessing, and nobody from the other continents signed.",
+   "Even an arrogant line produces facts. Brazil speaks Portuguese today partly because of this parchment, so a paper claim became a lived border."
+  ],
+  "rw": "Spain and Portugal signed this treaty on 7 June 1494, dividing newly found lands along a meridian west of the Cape Verde islands. No African, Asian, or American nation took part. The line steered Portuguese claims to Brazil in 1500.",
+  "desc": "Two crowns split the unknown with a ruler. The unknown was not consulted.",
+  "mla": [
+   "\"Treaty of Tordesillas.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Treaty_of_Tordesillas.",
+   "\"Treaty of Tordesillas.\" Encyclopaedia Britannica, n.d., www.britannica.com/event/Treaty-of-Tordesillas."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_027",
+  "name": "Kangnido World Map, Joseon Korea, 1402",
+  "icon": "🌏",
+  "region": "seoul",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "path",
+   "region": "historian"
+  },
+  "tags": {
+   "c": "Perspective",
+   "e": "Scope",
+   "s": "Geography"
+  },
+  "kq": "What does a map's edge say about the limits of its makers' knowledge?",
+  "ans": [
+   "Edges confess. Europe and Africa shrink to thin shapes at the margin, so the map admits where Korean sources ran out.",
+   "Presence beats precision. Africa appears at all, with a rounded southern tip, so Asian scholars clearly gathered knowledge far beyond their own coasts."
+  ],
+  "rw": "Korean scholars produced this world map in 1402, blending Chinese, Islamic, and Korean sources. It shows Africa with open sea below its tip, decades before Portuguese ships rounded the Cape. Korea and China dominate the map's space.",
+  "desc": "A world drawn from a Joseon library. Africa hangs at the edge, already round.",
+  "mla": [
+   "\"Gangnido.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Gangnido."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_028",
+  "name": "Mao Kun Map of Zheng He's Routes, Printed 1628",
+  "icon": "🧭",
+  "region": "kerala",
+  "pl": {
+   "mode": "minigame",
+   "detail": "Boundary Maze"
+  },
+  "eff": {
+   "t": "path",
+   "region": "shore"
+  },
+  "tags": {
+   "c": "Explanation",
+   "e": "Methods and Tools",
+   "s": "Geography"
+  },
+  "kq": "How can sailing directions preserve voyages a state chose to forget?",
+  "ans": [
+   "Practical text outlives policy. The strip chart lists compass bearings and star heights to Africa, so the routes survived after the fleets stopped.",
+   "Survival came at one remove. The map reached us inside a 1628 military book, redrawn from lost originals, so we read the voyages through an editor's choices."
+  ],
+  "rw": "This long strip map records the sea routes of Zheng He's fleets, which reached East Africa between 1405 and 1433. Mao Yuanyi printed it in his 1628 military encyclopedia Wubei Zhi. It gives compass bearings and star altitudes for harbours from China to Hormuz.",
+  "desc": "An ocean folded into a ribbon of paper. Follow the bearings and the old fleet sails again.",
+  "mla": [
+   "\"Mao Kun map.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Mao_Kun_map.",
+   "\"Zheng He.\" Encyclopaedia Britannica, n.d., www.britannica.com/biography/Zheng-He."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_029",
+  "name": "Yuktibhasa of Jyesthadeva, Kerala, c. 1530",
+  "icon": "➗",
+  "region": "kerala",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Justification",
+   "v": 12
+  },
+  "tags": {
+   "c": "Justification",
+   "e": "Methods and Tools",
+   "s": "Mathematics"
+  },
+  "kq": "Why does mathematics demand reasons as well as correct results?",
+  "ans": [
+   "Proof turns a result into knowledge. Jyesthadeva wrote out the reasoning behind infinite series, so readers could check instead of believe.",
+   "Reasons travel badly across borders. The proofs stayed in Malayalam palm leaves unknown to Europe, so justification alone gave the ideas no global life."
+  ],
+  "rw": "Jyesthadeva composed this Malayalam text around 1530, setting out proofs for the infinite series of the Kerala school, including series for pi found long before European calculus. Palm-leaf copies preserved the text locally for centuries. Historians now cite it as a landmark of mathematical justification.",
+  "desc": "Palm leaves holding pi to many terms. The answers arrive with their reasons attached.",
+  "mla": [
+   "\"Kerala school of astronomy and mathematics.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Kerala_school_of_astronomy_and_mathematics."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_030",
+  "name": "The Bakhshali Manuscript, Birch Bark, c. 3rd Century CE",
+  "icon": "0️⃣",
+  "region": "kerala",
+  "pl": {
+   "mode": "cache",
+   "detail": "Inside the birch-bark bundle on the lowest shelf of the counting house."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Certainty",
+   "v": 12
+  },
+  "tags": {
+   "c": "Certainty",
+   "e": "Methods and Tools",
+   "s": "Mathematics"
+  },
+  "kq": "How certain can we be about the age of a document written in pieces?",
+  "ans": [
+   "Science gave a spread, not a date. Radiocarbon placed the folios centuries apart, so the manuscript is a collection, and each page needs its own claim.",
+   "Uncertainty can still move a field. Even the youngest reading keeps a written zero very early, so a fuzzy date can carry a solid conclusion."
+  ],
+  "rw": "A farmer dug up this birch-bark mathematics text near Bakhshali, in present-day Pakistan, in 1881. It uses a dot as a placeholder zero. Oxford's 2017 radiocarbon tests dated different folios to different centuries, from roughly 224 to 993 CE, and scholars still argue over the split.",
+  "desc": "Mathematics on tree bark, including a small dot with a big future.",
+  "mla": [
+   "\"Bakhshali manuscript.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Bakhshali_manuscript."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_031",
+  "name": "Panini's Ashtadhyayi, Sanskrit Grammar, c. 400 BCE",
+  "icon": "📏",
+  "region": "vault_lang",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Explanation",
+   "v": 10
+  },
+  "tags": {
+   "c": "Explanation",
+   "e": "Methods and Tools",
+   "s": "Language B"
+  },
+  "kq": "Can a living language be captured completely by a set of rules?",
+  "ans": [
+   "Panini came astonishingly close. His 4,000 compact rules generate correct Sanskrit forms, so grammar behaved like a machine long before machines.",
+   "A rulebook freezes a river. Spoken language kept drifting after him, so his grammar preserved one polished register, not the living whole."
+  ],
+  "rw": "Panini composed this grammar of Sanskrit in roughly 4,000 brief rules around the 4th century BCE. The rules apply in ordered steps, and modern linguists compare the system to a formal computer grammar. It fixed the standard for classical Sanskrit for over two thousand years.",
+  "desc": "Four thousand tiny rules, one language compiled. Linguists still take notes.",
+  "mla": [
+   "\"Ashtadhyayi.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Ashtadhyayi."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_032",
+  "name": "Hunminjeongeum Haerye, Hangul Manual, 1446",
+  "icon": "🔡",
+  "region": "seoul",
+  "pl": {
+   "mode": "npc",
+   "detail": "Scholar Shin: she recites the king's preface, a wise man learns these letters in a single morning."
+  },
+  "eff": {
+   "t": "perspective",
+   "c": "Culture"
+  },
+  "tags": {
+   "c": "Culture",
+   "e": "Methods and Tools",
+   "s": "Language B"
+  },
+  "kq": "What changes in a society when reading no longer belongs to an elite?",
+  "ans": [
+   "Access rewires who may know. Hangul's simple letters let commoners and women write, so new voices entered the written record.",
+   "Elites rarely retire quietly. Scholars kept Chinese characters for serious learning long after, so scripts can share a country and still split its status."
+  ],
+  "rw": "King Sejong announced the Hangul alphabet in 1443, and this 1446 manual explains the design and purpose of the letters. Their shapes mirror the mouth producing each sound. The book claims a clever man can learn the script in a morning, and a slow one within ten days.",
+  "desc": "An alphabet with an instruction manual. The letters draw the mouth speaking them.",
+  "mla": [
+   "\"Hunminjeongeum.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Hunminjeongeum.",
+   "\"Hangul.\" Encyclopaedia Britannica, n.d., www.britannica.com/topic/Hangul-Korean-alphabet."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_033",
+  "name": "Jikji, Metal Movable Type, Cheongju, 1377",
+  "icon": "📖",
+  "region": "seoul",
+  "pl": {
+   "mode": "shop",
+   "detail": "",
+   "cost": 140
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Power",
+   "v": 15
+  },
+  "tags": {
+   "c": "Power",
+   "e": "Ethics",
+   "s": "History"
+  },
+  "kq": "Who should hold a treasure when its home and its keeper disagree?",
+  "ans": [
+   "Objects teach where people can reach them. The surviving volume sits in Paris, far from Cheongju, so a French reading room decides who meets Korea's printing history.",
+   "Custody is not the same as meaning. Korea built a museum and UNESCO listed the book, so a nation can reclaim the story without holding the paper."
+  ],
+  "rw": "Buddhist monks printed Jikji with movable metal type in Cheongju, Korea, in 1377, 78 years before Gutenberg's Bible. A French diplomat acquired the surviving volume around 1900, and the National Library of France keeps it today. UNESCO added Jikji to its Memory of the World register in 2001.",
+  "desc": "The oldest book printed from metal type, living abroad. Its birthplace built a museum around an absence.",
+  "mla": [
+   "\"Jikji.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Jikji."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_034",
+  "name": "Kaitai Shinsho, New Book of Anatomy, Edo, 1774",
+  "icon": "🫀",
+  "region": "ukiyo",
+  "pl": {
+   "mode": "npc",
+   "detail": "Genpaku the translator: he checked every Dutch plate against the dissection he watched at dawn."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Truth",
+   "v": 12
+  },
+  "tags": {
+   "c": "Truth",
+   "e": "Methods and Tools",
+   "s": "Biology"
+  },
+  "kq": "Under what circumstances should a knower abandon an inherited authority?",
+  "ans": [
+   "Direct observation outranks the classics. The Dutch plates matched the body on the table and the Chinese texts did not, so the translators switched authorities.",
+   "Switching authority is still trusting. The team could barely read Dutch and copied its errors too, so they traded one borrowed truth for another."
+  ],
+  "rw": "Sugita Genpaku and his colleagues watched a dissection in 1771 and saw a Dutch anatomy book match the body better than their Chinese sources. They spent three years translating it with almost no dictionary and published Kaitai Shinsho in 1774. The book pushed Japanese medicine toward European methods within the Dutch learning movement called rangaku.",
+  "desc": "An anatomy book translated word by guessed word. The body on the table cast the deciding vote.",
+  "mla": [
+   "\"Kaitai Shinsho.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Kaitai_Shinsho.",
+   "\"Sugita Genpaku.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Sugita_Genpaku."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_035",
+  "name": "Records of the Grand Historian, Shiji, c. 94 BCE",
+  "icon": "🖌️",
+  "region": "historian",
+  "pl": {
+   "mode": "cache",
+   "detail": "Behind the bamboo-slip bundles in the third pigeonhole of the historian's desk."
+  },
+  "eff": {
+   "t": "key",
+   "door": "door_hist"
+  },
+  "tags": {
+   "c": "Responsibility",
+   "e": "Ethics",
+   "s": "History"
+  },
+  "kq": "What price should a knower accept to finish telling the truth?",
+  "ans": [
+   "Sima Qian chose disgrace over silence. He accepted a shaming punishment rather than abandon his father's history, so the record survived at a personal price.",
+   "Sacrifice does not certify accuracy. His suffering moves readers to trust him, yet loyalty to the Han court and to his father still shaped what he wrote."
+  ],
+  "rw": "Sima Qian completed this 130-chapter history of China around 94 BCE, covering two thousand years from the Yellow Emperor to his own era. After offending Emperor Wu, he chose punishment and prison over an honourable death so he could finish the book. Chinese dynastic histories followed his model for two millennia.",
+  "desc": "Bamboo and silk holding two thousand years. The author paid for the final chapters with his standing.",
+  "mla": [
+   "\"Records of the Grand Historian.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Records_of_the_Grand_Historian.",
+   "\"Sima Qian.\" Encyclopaedia Britannica, n.d., www.britannica.com/biography/Sima-Qian."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_036",
+  "name": "Inscribed Oracle Bone, Anyang, c. 1200 BCE",
+  "icon": "🦴",
+  "region": "historian",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "stamina",
+   "v": 1
+  },
+  "tags": {
+   "c": "Evidence",
+   "e": "Methods and Tools",
+   "s": "History"
+  },
+  "kq": "How far does the survival of evidence depend on accident?",
+  "ans": [
+   "Chance curated this archive. Farmers sold the bones as dragon-bone medicine until 1899, so a pharmacy accident returned a dynasty to history.",
+   "Accident still needs a prepared reader. Wang Yirong recognized writing where buyers saw medicine, so a find counts only when someone can read it."
+  ],
+  "rw": "Shang diviners carved questions on ox bones and turtle shells near Anyang around 1200 BCE, then read heat cracks as answers. Scholars identified the writing in 1899 after inscribed bones appeared in medicine shops. The inscriptions confirmed the Shang kings named in much later histories.",
+  "desc": "A question to the ancestors, filed in bone. It spent centuries labelled as medicine.",
+  "mla": [
+   "\"Oracle bone.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Oracle_bone.",
+   "\"Oracle bone script.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Oracle_bone_script."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_037",
+  "name": "Veritable Records of the Joseon Dynasty, 1392-1863",
+  "icon": "🗄️",
+  "region": "historian",
+  "pl": {
+   "mode": "npc",
+   "detail": "Recorder Han: she writes down the king's deeds, and the law forbids the king to read her scroll."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Objectivity",
+   "v": 12
+  },
+  "tags": {
+   "c": "Objectivity",
+   "e": "Ethics",
+   "s": "History"
+  },
+  "kq": "How far does independence from authority protect the objectivity of a record?",
+  "ans": [
+   "Distance defends the record. Reigning kings could not read the drafts, so historians wrote without fear of the throne's edits.",
+   "Rules bend under enough pressure. A few kings still peeked or purged historians, so objectivity lived in daily practice, not on paper alone."
+  ],
+  "rw": "Court historians recorded daily royal affairs across Korea's Joseon dynasty, compiling official annals after each king died. Rules barred a sitting king from reading the drafts, shielding the recorders. The annals fill 1,893 volumes and sit on UNESCO's Memory of the World register.",
+  "desc": "Every royal day, witnessed and filed. The king may rule the country, never the page.",
+  "mla": [
+   "\"Veritable Records of the Joseon Dynasty.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Veritable_Records_of_the_Joseon_Dynasty."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_038",
+  "name": "Dream Pool Essays of Shen Kuo, Song China, 1088",
+  "icon": "🧲",
+  "region": "historian",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Explanation",
+   "v": 10
+  },
+  "tags": {
+   "c": "Explanation",
+   "e": "Methods and Tools",
+   "s": "Physics"
+  },
+  "kq": "How does a notebook of scattered observations become science?",
+  "ans": [
+   "Careful description invites later theory. Shen Kuo logged the compass needle's slight lean away from true north, so a jotting became a base for navigation.",
+   "Scattered notes lack a system. His entries mix fossils, printing, and omens without method, so readers must supply the connecting explanation."
+  ],
+  "rw": "The Song dynasty official Shen Kuo compiled these notebooks around 1088, covering canals, astronomy, fossils, and Bi Sheng's movable type. He gave the first clear description of a magnetic compass used for finding direction and noted its needle points slightly off true north. Historians mine the text for early Chinese science.",
+  "desc": "A retired official's mind, emptied onto paper. Somewhere in the pile, the compass points.",
+  "mla": [
+   "\"Dream Pool Essays.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Dream_Pool_Essays.",
+   "\"Shen Kuo.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Shen_Kuo."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_039",
+  "name": "The Histories of Herodotus, c. 430 BCE",
+  "icon": "📜",
+  "region": "historian",
+  "pl": {
+   "mode": "minigame",
+   "detail": "Fallacy Volley"
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Truth",
+   "v": 12
+  },
+  "tags": {
+   "c": "Truth",
+   "e": "Perspectives",
+   "s": "History"
+  },
+  "kq": "When does collecting stories become writing history?",
+  "ans": [
+   "Method makes the difference. Herodotus names sources, compares versions, and flags his doubts, so curiosity grew into a discipline.",
+   "He also repeats gold-digging ants and flying snakes. Readers call him father of history and father of lies, so the title depends on which pages you weigh."
+  ],
+  "rw": "Herodotus of Halicarnassus completed his account of the Greek-Persian wars around 430 BCE, gathering reports through travel and interviews. He often presents several versions of an event and lets readers judge. Cicero later called him the father of history, and critics answered with father of lies.",
+  "desc": "Nine books of wars, wonders, and gossip, with the author shrugging: so I was told.",
+  "mla": [
+   "\"Histories (Herodotus).\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Histories_(Herodotus).",
+   "\"Herodotus.\" Encyclopaedia Britannica, n.d., www.britannica.com/biography/Herodotus-Greek-historian."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_040",
+  "name": "What Is History? by E. H. Carr, Cambridge, 1961",
+  "icon": "❓",
+  "region": "historian",
+  "pl": {
+   "mode": "shop",
+   "detail": "",
+   "cost": 60
+  },
+  "eff": {
+   "t": "perspective",
+   "c": "Interpretation"
+  },
+  "tags": {
+   "c": "Interpretation",
+   "e": "Perspectives",
+   "s": "History"
+  },
+  "kq": "To what extent do historians create the past they describe?",
+  "ans": [
+   "Facts never speak alone. Carr argued historians select which events count, so every history is a conversation between present and past.",
+   "Selection is not invention. Surviving documents still limit the claims a careful historian can defend, so creation has borders."
+  ],
+  "rw": "E. H. Carr delivered these lectures at Cambridge in 1961 and published them the same year. He attacked the idea of history as a simple pile of facts, describing instead an unending dialogue between historian and evidence. The book remains a standard first reading in historiography.",
+  "desc": "A small book asking historians an awkward personal question. They still argue about the answer.",
+  "mla": [
+   "\"What Is History?\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/What_Is_History%3F.",
+   "\"E. H. Carr.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/E._H._Carr."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_041",
+  "name": "El primer nueva coronica y buen gobierno, Peru, 1615",
+  "icon": "🖋️",
+  "region": "cusco",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "perspective",
+   "c": "Perspective"
+  },
+  "tags": {
+   "c": "Perspective",
+   "e": "Perspectives",
+   "s": "History"
+  },
+  "kq": "How can the colonized answer the official record?",
+  "ans": [
+   "Guaman Poma wrote back. His 1,189-page letter to the Spanish king mixes Andean views with nearly 400 drawings, so the archive holds an Indigenous rebuttal.",
+   "An unread answer changes little in its own time. The king likely never saw it, and it lay lost until 1908, so counter-records often win only across centuries."
+  ],
+  "rw": "Felipe Guaman Poma de Ayala, an Indigenous Andean, finished this illustrated chronicle around 1615 as a letter to King Philip III, documenting Inca history and colonial abuse. The manuscript surfaced in Copenhagen's royal library in 1908. Its drawings now anchor whole fields of Andean history.",
+  "desc": "Twelve hundred pages of protest, mailed to a king who never read them. The pictures testify anyway.",
+  "mla": [
+   "\"Felipe Guaman Poma de Ayala.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Felipe_Guaman_Poma_de_Ayala."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_042",
+  "name": "Inca Accounting Khipu, Puruchuco Archive, c. 1500",
+  "icon": "🪢",
+  "region": "cusco",
+  "pl": {
+   "mode": "cache",
+   "detail": "Coiled inside the storeroom jar, left of the accounting bench."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Interpretation",
+   "v": 12
+  },
+  "tags": {
+   "c": "Interpretation",
+   "e": "Methods and Tools",
+   "s": "Mathematics"
+  },
+  "kq": "Is a text still a text if nobody alive can read it?",
+  "ans": [
+   "Reading is a relationship, not a property. The cords held census and tribute data for trained keepers, so the knowledge waits for readers, like any lost script.",
+   "Without readers, objects fall silent. We recover numbers from the knots but no names or stories, so part of the medium may stay archaeology forever."
+  ],
+  "rw": "Inca administrators recorded numbers in knotted cords called khipu, and a set found at Puruchuco near Lima suggests linked levels of accounting around 1500. Spanish rule displaced the practice, and the reading tradition died. Researchers have decoded the number system, while any narrative content stays unread.",
+  "desc": "A pendant of knots, an empire's spreadsheet. The sums survive, the file format does not.",
+  "mla": [
+   "\"Quipu.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Quipu.",
+   "\"Quipu.\" Encyclopaedia Britannica, n.d., www.britannica.com/topic/quipu."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_043",
+  "name": "Sejarah Melayu, The Malay Annals, Raffles MS 18, 1612",
+  "icon": "👑",
+  "region": "kerala",
+  "pl": {
+   "mode": "npc",
+   "detail": "The court scribe: he traces the sultans' line to Alexander the Great, and smiles if you ask for proof."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Truth",
+   "v": 12
+  },
+  "tags": {
+   "c": "Truth",
+   "e": "Perspectives",
+   "s": "Literature A"
+  },
+  "kq": "What is a chronicle for, if not accuracy?",
+  "ans": [
+   "Chronicles build legitimacy. The Annals join Melaka's kings to Alexander the Great, so the text's task was authority, and myth served it well.",
+   "Purpose does not cancel evidence. Between the legends sit court customs, trade, and titles historians confirm elsewhere, so one book holds both charter and record."
+  ],
+  "rw": "This Malay court chronicle traces the kings of Melaka, and its 1612 recension is linked to the noble Tun Sri Lanang. It blends verifiable events with royal legend, opening with descent from Alexander the Great. UNESCO lists the Annals in its Memory of the World register.",
+  "desc": "A royal family tree with roots in legend. The court believed it where belief counted.",
+  "mla": [
+   "\"Malay Annals.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Malay_Annals."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_044",
+  "name": "The Requerimiento, Spanish Ultimatum Text, 1513",
+  "icon": "📯",
+  "region": "vault_pol",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Power",
+   "v": 12
+  },
+  "tags": {
+   "c": "Power",
+   "e": "Ethics",
+   "s": "Global Politics"
+  },
+  "kq": "Can an announcement no listener understands ever justify anything?",
+  "ans": [
+   "The document served the speakers, not the hearers. Officials read Spanish legal claims to villages and empty shores, so the ritual manufactured a consent nobody gave.",
+   "Even a hollow ritual reveals a conscience. Spain felt it needed legal form before conquest, so the text records an empire arguing with itself about right."
+  ],
+  "rw": "Spanish jurists drafted this proclamation in 1513 for use in the Americas. Conquistadors read it aloud in Spanish, sometimes to empty beaches or sleeping villages, declaring Spanish rule and faith before attacking. Critics such as Bartolome de las Casas mocked the practice within its own century.",
+  "desc": "A speech performed for the record, not the audience. Conquest, with the form filled in.",
+  "mla": [
+   "\"Spanish Requirement of 1513.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Spanish_Requirement_of_1513."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_045",
+  "name": "Encyclopedie of Diderot and d'Alembert, Volume I, 1751",
+  "icon": "🌳",
+  "region": "vault_pol",
+  "pl": {
+   "mode": "shop",
+   "detail": "",
+   "cost": 130
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Power",
+   "v": 12
+  },
+  "tags": {
+   "c": "Power",
+   "e": "Scope",
+   "s": "Philosophy"
+  },
+  "kq": "Why do authorities fear a book whose aim is to explain everything?",
+  "ans": [
+   "Explanation redistributes authority. Craft secrets and church claims sat in the same alphabet, so ranking by reason replaced ranking by rank.",
+   "Fear also advertised the project. Bans and revoked licences made the volumes famous, so censorship helped sell the Enlightenment."
+  ],
+  "rw": "Denis Diderot and Jean d'Alembert published the first volume of the Encyclopedie in Paris in 1751. The full project reached 28 volumes and over 70,000 articles, mapping trades, sciences, and contested ideas. French authorities revoked its licence in 1759, and printing continued half-underground.",
+  "desc": "The tree of knowledge, pressed flat and alphabetized. Handle it like contraband; it was.",
+  "mla": [
+   "\"Encyclopedie.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Encyclop%C3%A9die.",
+   "\"Denis Diderot.\" Encyclopaedia Britannica, n.d., www.britannica.com/biography/Denis-Diderot."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_046",
+  "name": "Truth and Reconciliation Commission Report, South Africa, 1998",
+  "icon": "🕊️",
+  "region": "commission",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Truth",
+   "v": 15
+  },
+  "tags": {
+   "c": "Truth",
+   "e": "Ethics",
+   "s": "Global Politics"
+  },
+  "kq": "Can a nation agree on truth without agreeing on justice?",
+  "ans": [
+   "The commission traded punishment for testimony. Amnesty unlocked confessions victims could finally hear, so the country gained truths courts might never reach.",
+   "Some called the trade unjust. Perpetrators left free with their confessions, so the report's truth carries an unpaid bill."
+  ],
+  "rw": "Archbishop Desmond Tutu chaired this commission, which heard over 21,000 victim statements about apartheid-era abuses and published a five-volume report in 1998. Perpetrators could request amnesty in exchange for full disclosure. Many later commissions worldwide adapted the model.",
+  "desc": "Five volumes of spoken wounds. Each page cost the country a trial it chose not to hold.",
+  "mla": [
+   "\"Truth and Reconciliation Commission (South Africa).\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Truth_and_Reconciliation_Commission_(South_Africa)."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_047",
+  "name": "Samizdat Typescript of The Gulag Archipelago, Moscow, 1974",
+  "icon": "📄",
+  "region": "vault_pol",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Power",
+   "v": 12
+  },
+  "tags": {
+   "c": "Power",
+   "e": "Ethics",
+   "s": "Literature A"
+  },
+  "kq": "How does knowledge move when publishing one is a crime?",
+  "ans": [
+   "Readers became the press. Typists retyped carbon copies and passed them hand to hand, so distribution itself turned into resistance.",
+   "Scarcity shapes reception. A borrowed copy read in one night leaves no time to check claims, so forbidden texts earn belief partly through danger."
+  ],
+  "rw": "Soviet authorities banned Aleksandr Solzhenitsyn's account of the labour camp system, first published abroad in 1973. Readers circulated hidden typescripts and photocopies, a practice called samizdat, self-publishing. Possession could end a career or bring arrest, and the author lost his citizenship in 1974.",
+  "desc": "Onion-skin pages, typed six carbons deep. Read fast, pass it on, say nothing.",
+  "mla": [
+   "\"The Gulag Archipelago.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/The_Gulag_Archipelago.",
+   "\"Samizdat.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Samizdat."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_048",
+  "name": "Stasi Shredded-File Sacks, Berlin, 1989",
+  "icon": "🧩",
+  "region": "commission",
+  "pl": {
+   "mode": "npc",
+   "detail": "Frau Poppe the archivist: she pieces torn files back together, sixteen thousand sacks remain."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Responsibility",
+   "v": 12
+  },
+  "tags": {
+   "c": "Responsibility",
+   "e": "Ethics",
+   "s": "Global Politics"
+  },
+  "kq": "What do we owe people whose lives were recorded without consent?",
+  "ans": [
+   "Access repays surveillance. Germany opened the files so citizens could read their own records and name their informers, so transparency became the remedy.",
+   "Opening files reopens wounds. A page can reveal a spying spouse or friend, so some argue sealed archives protect the living better than disclosure does."
+  ],
+  "rw": "East Germany's secret police shredded files as the state collapsed in 1989, leaving about 16,000 sacks of torn paper. Citizens occupied the offices to save the archives, and a federal agency has reassembled pages by hand and by computer since the 1990s. Millions have applied to read their own files.",
+  "desc": "A sack of confetti made of biographies. Somewhere inside, a sentence about you.",
+  "mla": [
+   "\"Stasi Records Agency.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Stasi_Records_Agency.",
+   "\"Stasi.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Stasi."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_049",
+  "name": "Anne Frank's Red-Checked Diary, Amsterdam, 1942",
+  "icon": "📔",
+  "region": "vault_knower",
+  "pl": {
+   "mode": "cache",
+   "detail": "Behind the hinged bookcase in the annex model, second landing."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Perspective",
+   "v": 15
+  },
+  "tags": {
+   "c": "Perspective",
+   "e": "Ethics",
+   "s": "Literature A"
+  },
+  "kq": "Whose choices shape a diary between the writing and the reading?",
+  "ans": [
+   "Editors stand between us and the page. Anne rewrote entries herself and her father removed private passages, so the published book is already an interpretation.",
+   "The voice still holds the centre. Restored editions let readers compare the versions, so we can watch the diary become a book and still hear her."
+  ],
+  "rw": "Anne Frank received this diary for her thirteenth birthday in June 1942 and wrote in hiding until August 1944. She revised her own entries after hearing a radio appeal to preserve wartime diaries. Her father Otto published an edited version in 1947, and fuller critical editions followed decades later.",
+  "desc": "A red-checked notebook from a hidden annex. Two years of a voice the small rooms could not contain.",
+  "mla": [
+   "\"The Diary of a Young Girl.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/The_Diary_of_a_Young_Girl.",
+   "\"Anne Frank.\" Anne Frank House, n.d., www.annefrank.org."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_050",
+  "name": "The Kurukan Fuga Charter, Mande Assembly, c. 1236",
+  "icon": "🪘",
+  "region": "griot",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "perspective",
+   "c": "Culture"
+  },
+  "tags": {
+   "c": "Culture",
+   "e": "Scope",
+   "s": "Global Politics"
+  },
+  "kq": "Does a constitution need writing to bind a people?",
+  "ans": [
+   "Memory can carry law. Griots preserved the charter's rules in trained speech for centuries, so the binding lived in people, not paper.",
+   "Oral law bends with its speakers. Versions differ between lineages, and the 1998 transcription froze one telling, so memory and writing each trade fidelity for reach."
+  ],
+  "rw": "Tradition holds Sundiata Keita's assembly proclaimed this charter after the battle of Krina around 1236, setting rules for clans, property, and social duties in the Mali empire. Griots transmitted it orally for centuries, and researchers compiled a written version from oral sources in 1998. UNESCO recognized the Manden Charter in 2009.",
+  "desc": "A constitution with no page one. Ask the reciter, and mind which lineage taught him.",
+  "mla": [
+   "\"Kouroukan Fouga.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Kouroukan_Fouga."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_051",
+  "name": "Sundiata, An Epic of Old Mali, Niane Edition, 1960",
+  "icon": "🦁",
+  "region": "griot",
+  "pl": {
+   "mode": "npc",
+   "detail": "Djeli Mamadou: he calls the printed book a shadow, and his sung version the body."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Interpretation",
+   "v": 12
+  },
+  "tags": {
+   "c": "Interpretation",
+   "e": "Perspectives",
+   "s": "Literature A"
+  },
+  "kq": "What survives and what dies when an oral epic enters print?",
+  "ans": [
+   "Print rescues reach. Niane's French text carried Sundiata into classrooms worldwide, so the hero outgrew his region.",
+   "Print removes performance. The fixed page drops music, audience, and the griot's living updates, so readers meet a transcript, not the epic."
+  ],
+  "rw": "The historian D. T. Niane published this French prose version in 1960, based on the telling of the griot Mamadou Kouyate. The epic recounts Sundiata Keita founding the Mali empire in the 13th century. Griot families still perform their own versions across West Africa.",
+  "desc": "An epic caught mid-flight and pinned to paper. The wings still twitch.",
+  "mla": [
+   "\"Epic of Sundiata.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Epic_of_Sundiata.",
+   "\"Sundiata Keita.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Sundiata_Keita."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_052",
+  "name": "Keep Calm and Carry On Poster, London, 1939",
+  "icon": "🪧",
+  "region": "vault_pol",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Interpretation",
+   "v": 10
+  },
+  "tags": {
+   "c": "Interpretation",
+   "e": "Perspectives",
+   "s": "History"
+  },
+  "kq": "Who controls what a message means once its moment has passed?",
+  "ans": [
+   "Context writes half the message. The poster waited for bombs and stayed in storage, so a 2000 rediscovery let a bookshop, then the internet, decide its meaning.",
+   "Design carries intent across decades. The crown and the calm imperative still signal wartime Britain, so the original purpose keeps a grip on every parody."
+  ],
+  "rw": "Britain's Ministry of Information printed about 2.45 million copies of this poster in 1939 and held it back for a severe invasion crisis. It never went on official display, and many copies were pulped. A bookshop in Alnwick found one in 2000, and reprints carried the design worldwide.",
+  "desc": "A wartime instruction nobody received, now on mugs everywhere. The message outlived its emergency.",
+  "mla": [
+   "\"Keep Calm and Carry On.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Keep_Calm_and_Carry_On."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_053",
+  "name": "The Catalan Atlas, Majorca, 1375",
+  "icon": "🐫",
+  "region": "library",
+  "pl": {
+   "mode": "cache",
+   "detail": "Rolled in the leather tube above the compass-rose cabinet."
+  },
+  "eff": {
+   "t": "path",
+   "region": "timbuktu"
+  },
+  "tags": {
+   "c": "Evidence",
+   "e": "Scope",
+   "s": "Geography"
+  },
+  "kq": "What can a map tell us about lands its maker never visited?",
+  "ans": [
+   "Maps compile testimony. Cresques drew Mali's king holding a gold nugget from traveller and trade reports, so the sheet stores other people's journeys.",
+   "Second-hand gold glitters brightest. Mansa Musa's wealth grew in each retelling, so the image records Europe's appetite along with Africa's riches."
+  ],
+  "rw": "Abraham Cresques, a Jewish mapmaker in Majorca, produced this atlas around 1375 for the French court. It shows Mansa Musa of Mali enthroned with a gold nugget, drawn from trade route reports. The panels blend accurate coastlines with marvels further inland.",
+  "desc": "Eight panels of coastline and rumour. A king of gold shines where the roads run out.",
+  "mla": [
+   "\"Catalan Atlas.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Catalan_Atlas.",
+   "\"Mansa Musa.\" Encyclopaedia Britannica, n.d., www.britannica.com/biography/Musa-I-of-Mali."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_054",
+  "name": "Waldseemuller World Map, Universalis Cosmographia, 1507",
+  "icon": "🌎",
+  "region": "library",
+  "pl": {
+   "mode": "shop",
+   "detail": "",
+   "cost": 160
+  },
+  "eff": {
+   "t": "battle",
+   "v": 1,
+   "kind": "reveal"
+  },
+  "tags": {
+   "c": "Power",
+   "e": "Scope",
+   "s": "Geography"
+  },
+  "kq": "How does a name on a map become a fact on the ground?",
+  "ans": [
+   "Print gives a christening reach. The map labelled the new continent America after Amerigo Vespucci, and a thousand copies made the name too common to recall.",
+   "The mapmaker repented too late. Waldseemuller dropped the name from his later maps, so authority over a word had passed from author to audience."
+  ],
+  "rw": "Martin Waldseemuller printed this twelve-sheet world map in 1507 and named the new continent America, honouring Amerigo Vespucci. He removed the name from later maps, but other mapmakers had adopted it. The only complete surviving copy hangs in the Library of Congress, bought in 2003 for ten million dollars.",
+  "desc": "A continent's birth certificate in twelve sheets. The godfather changed his mind too late.",
+  "mla": [
+   "\"Waldseemuller map.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Waldseem%C3%BCller_map."
+  ],
+  "img": "commons.wikimedia.org/wiki/Category:Waldseem%C3%BCller_map"
+ },
+ {
+  "id": "r61_055",
+  "name": "Mercator's World Map for Navigators, Duisburg, 1569",
+  "icon": "🗺️",
+  "region": "library",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "perspective",
+   "c": "Perspective"
+  },
+  "tags": {
+   "c": "Perspective",
+   "e": "Perspectives",
+   "s": "Geography"
+  },
+  "kq": "Can a map be correct and misleading at the same time?",
+  "ans": [
+   "Correct for its users. Straight compass courses cross Mercator's grid truthfully, so sailors got exactly the accuracy they needed.",
+   "Misleading for everyone else. The projection swells Greenland to rival Africa, so classroom walls taught generations a distorted world."
+  ],
+  "rw": "Gerardus Mercator published this projection in 1569 to help sailors plot straight compass courses. Its mathematics stretches land areas near the poles and shrinks the tropics by comparison. Wall maps kept the projection long after navigation moved on, feeding debates about distorted world views.",
+  "desc": "A grid built for helmsmen, hijacked by classrooms. Greenland ate the wall.",
+  "mla": [
+   "\"Mercator projection.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Mercator_projection.",
+   "\"Gerardus Mercator.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Gerardus_Mercator."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_056",
+  "name": "The Peters World Map, Equal-Area Projection, 1974",
+  "icon": "🌍",
+  "region": "vault_pol",
+  "pl": {
+   "mode": "minigame",
+   "detail": "Perspective Prism"
+  },
+  "eff": {
+   "t": "ability",
+   "id": "lens"
+  },
+  "tags": {
+   "c": "Perspective",
+   "e": "Perspectives",
+   "s": "Geography"
+  },
+  "kq": "Whose interests does a neutral-looking image of the world serve?",
+  "ans": [
+   "Peters called Mercator a colonial relic. His equal-area map restores the tropics' true size, so aid agencies adopted it to re-centre the Global South.",
+   "Correction brought new distortion. Shapes stretch until continents drip, and cartographers note older equal-area maps existed, so rival maps sell rival stories."
+  ],
+  "rw": "The historian Arno Peters presented this equal-area world map in 1973, arguing Mercator-based maps belittled the Global South. Cartographers pointed to James Gall's earlier identical projection and criticized the stretched shapes. UNESCO and aid organizations adopted it widely, and the dispute reshaped map literacy.",
+  "desc": "A world with its true areas and strange shapes. Pick your distortion; you must pick one.",
+  "mla": [
+   "\"Gall-Peters projection.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Gall%E2%80%93Peters_projection."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_057",
+  "name": "John Snow's Cholera Map, Broad Street, London, 1854",
+  "icon": "💧",
+  "region": "aggregate",
+  "pl": {
+   "mode": "cache",
+   "detail": "Pinned behind the Broad Street pump model, lower corner."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Evidence",
+   "v": 15
+  },
+  "tags": {
+   "c": "Evidence",
+   "e": "Methods and Tools",
+   "s": "Geography"
+  },
+  "kq": "How can arranging old facts on a page create new knowledge?",
+  "ans": [
+   "Position was the proof. Deaths clustered around one water pump once dotted on a street plan, so the map argued what the tables could not.",
+   "The map convinced with help. Snow already suspected water and questioned households door to door, so the picture sealed a case built by interviews."
+  ],
+  "rw": "The physician John Snow mapped cholera deaths near London's Broad Street pump during the 1854 outbreak. The clustering supported his claim of waterborne spread, against the ruling bad-air theory. Officials removed the pump handle, and epidemiology gained a founding image.",
+  "desc": "Black bars stacking around a water pump. Death, plotted, finally showed its address.",
+  "mla": [
+   "\"1854 Broad Street cholera outbreak.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/1854_Broad_Street_cholera_outbreak.",
+   "\"John Snow.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/John_Snow."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_058",
+  "name": "We Can Do It! Poster, Westinghouse Plant, 1943",
+  "icon": "💪",
+  "region": "vault_pol",
+  "pl": {
+   "mode": "cache",
+   "detail": "Rolled behind the factory lockers in the print rack."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Values",
+   "v": 10
+  },
+  "tags": {
+   "c": "Values",
+   "e": "Perspectives",
+   "s": "Visual Arts"
+  },
+  "kq": "Under what circumstances does an image acquire a meaning its makers never planned?",
+  "ans": [
+   "Audiences finish the message. Feminists revived the forgotten poster in the 1980s as an icon of women's strength, so today's meaning is a later gift.",
+   "The first purpose still teaches. Westinghouse displayed it for two weeks to steady wartime production, not to liberate anyone, so context checks the myth."
+  ],
+  "rw": "J. Howard Miller designed this poster in 1943 for Westinghouse factories, where it hung for about two weeks to encourage wartime production. Few people saw it during the war, and the Rosie the Riveter label came later. Rediscovered in the 1980s, it became a global emblem of women's strength.",
+  "desc": "A flexed arm in a polka-dot bandana. The 1940s printed it; the 1980s wrote its speech.",
+  "mla": [
+   "\"We Can Do It!\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/We_Can_Do_It!."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_059",
+  "name": "Rebbelib Stick Chart, Marshall Islands, 19th Century",
+  "icon": "🌊",
+  "region": "shore",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "stamina",
+   "v": 2
+  },
+  "tags": {
+   "c": "Interpretation",
+   "e": "Methods and Tools",
+   "s": "Geography"
+  },
+  "kq": "Can knowledge be stored in an object only its maker can read?",
+  "ans": [
+   "The chart was a memory aid, not a message. Shells marked atolls and curved ribs marked swells for the navigator who bound them, so the medium presumed its author.",
+   "Objects outlive private codes. Museum charts now teach wave piloting in general, so even a personal tool can seed public knowledge once experts translate it."
+  ],
+  "rw": "Marshallese navigators bound palm ribs and cowrie shells into charts modelling how ocean swells bend around atolls. A pilot memorized his own chart before a voyage and sailed without it. Collectors gathered many in the 19th century, and the wave-reading tradition, weakened under colonial rule, continues in revival programs.",
+  "desc": "Sticks and shells mapping waves, not coastlines. The sea's grammar, bound with cord.",
+  "mla": [
+   "\"Marshall Islands stick chart.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Marshall_Islands_stick_chart."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_060",
+  "name": "Tupaia's Chart of Pacific Islands, HMS Endeavour, 1769",
+  "icon": "⛵",
+  "region": "shore",
+  "pl": {
+   "mode": "npc",
+   "detail": "Tupaia's apprentice: he says the chart holds island paths Cook's officers never learned to read."
+  },
+  "eff": {
+   "t": "ability",
+   "id": "beacon"
+  },
+  "tags": {
+   "c": "Perspective",
+   "e": "Perspectives",
+   "s": "Geography"
+  },
+  "kq": "What gets lost when one knowledge system is drawn inside another's format?",
+  "ans": [
+   "Translation bent the content. Tupaia arranged islands by sailing logic while European readers expected fixed distances, so the chart confused its students.",
+   "The document still proves mastery. It names dozens of islands across thousands of kilometres, so the paper records a navigation science Europe lacked words for."
+  ],
+  "rw": "Tupaia, a Polynesian priest and navigator from Raiatea, drew this chart of about 74 islands with James Cook's crew in 1769. Scholars long called it confused, and recent studies argue it encodes bearings in a Polynesian system. Tupaia also piloted the Endeavour to Rurutu and interpreted in New Zealand.",
+  "desc": "Islands scattered on British paper in un-British order. The order was the knowledge.",
+  "mla": [
+   "\"Tupaia (navigator).\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Tupaia_(navigator)."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_061",
+  "name": "Letter from Birmingham Jail, April 16, 1963",
+  "icon": "📃",
+  "region": "vault_pol",
+  "pl": {
+   "mode": "npc",
+   "detail": "The courier: he carried pages written on newspaper margins out of the jail, one visit at a time."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Justification",
+   "v": 15
+  },
+  "tags": {
+   "c": "Justification",
+   "e": "Ethics",
+   "s": "Global Politics"
+  },
+  "kq": "Who decides whether a law deserves obedience?",
+  "ans": [
+   "King answered with criteria. A just law uplifts human personality and binds everyone equally, so citizens can test statutes instead of simply obeying them.",
+   "Self-chosen criteria alarm others. The clergymen he answered feared chaos if every conscience picks its laws, so justification must convince beyond the believer."
+  ],
+  "rw": "Martin Luther King Jr. wrote this open letter on 16 April 1963 while jailed for marching in Birmingham, Alabama, beginning on newspaper margins and scraps. It answers white clergymen who had called the protests unwise and defends nonviolent direct action. The letter now anchors courses on civil disobedience.",
+  "desc": "An argument assembled from margins and smuggled scraps. The cell held the writer, not the reasons.",
+  "mla": [
+   "\"Letter from Birmingham Jail.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Letter_from_Birmingham_Jail.",
+   "\"Martin Luther King, Jr.\" Encyclopaedia Britannica, n.d., www.britannica.com/biography/Martin-Luther-King-Jr."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_062",
+  "name": "John Harrison's H4 Sea Watch, London, 1759",
+  "icon": "⌚",
+  "region": "royal",
+  "pl": {
+   "mode": "npc",
+   "detail": "The Board's clerk: he releases the sea watch only after the second voyage repeats the first."
+  },
+  "eff": {
+   "t": "ability",
+   "id": "stride"
+  },
+  "tags": {
+   "c": "Certainty",
+   "e": "Methods and Tools",
+   "s": "Physics"
+  },
+  "kq": "How many successful tests turn a device into trusted knowledge?",
+  "ans": [
+   "One triumph can be luck. H4 lost only seconds crossing to Jamaica, yet the Board demanded a second voyage, so repetition, not brilliance, bought trust.",
+   "Institutions also protect their bets. Astronomers on the Board favoured their rival lunar method, so the demand for more proof mixed rigour with rivalry."
+  ],
+  "rw": "John Harrison completed this large silver watch in 1759 to solve the longitude problem. It kept time within seconds on a 1761-62 voyage to Jamaica, and Parliament's Board of Longitude required a second trial before releasing rewards in stages. Accurate sea clocks finally let navigators fix east-west position.",
+  "desc": "A pocket watch grown to the size of a plate. Inside it, east and west finally agree.",
+  "mla": [
+   "\"John Harrison.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/John_Harrison.",
+   "\"Marine chronometer.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Marine_chronometer."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_063",
+  "name": "The Nautical Almanac, First Edition, London, 1767",
+  "icon": "📘",
+  "region": "royal",
+  "pl": {
+   "mode": "cache",
+   "detail": "Under the tide tables at the observatory clerk's desk."
+  },
+  "eff": {
+   "t": "battle",
+   "v": 1,
+   "kind": "time"
+  },
+  "tags": {
+   "c": "Objectivity",
+   "e": "Methods and Tools",
+   "s": "Mathematics"
+  },
+  "kq": "To what extent can procedures replace individual genius in producing knowledge?",
+  "ans": [
+   "Rules scale better than brilliance. Human computers followed printed instructions and cross-checked each other's sums, so ordinary diligence produced navigation-grade truth.",
+   "Procedures inherit their designer. Maskelyne set the methods and tolerances, so one astronomer's judgment hid inside every anonymous table."
+  ],
+  "rw": "Astronomer Royal Nevil Maskelyne published the first Nautical Almanac in 1767, tabulating the Moon's position so sailors could find longitude. Freelance human computers calculated the tables to fixed procedures with built-in cross-checks. Sailors relied on its successors for two centuries.",
+  "desc": "A year of moon positions, computed by hand twice over. Trust the table, reach the port.",
+  "mla": [
+   "\"Nautical almanac.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Nautical_almanac.",
+   "\"Nevil Maskelyne.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Nevil_Maskelyne."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_064",
+  "name": "Darwin's Notebook B, the 'I think' Tree Sketch, 1837",
+  "icon": "🌿",
+  "region": "beagle",
+  "pl": {
+   "mode": "cache",
+   "detail": "Wedged between two beetle boxes in the ship-cabin trunk."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Explanation",
+   "v": 15
+  },
+  "tags": {
+   "c": "Explanation",
+   "e": "Methods and Tools",
+   "s": "Biology"
+  },
+  "kq": "What does a first sketch reveal about how explanations are born?",
+  "ans": [
+   "Ideas start as doodles with doubts. Darwin drew a branching tree and wrote 'I think' above it, so a world-changing theory began as a hedge.",
+   "The sketch was already loaded. Years of Beagle specimens stood behind those branches, so the flash of insight compressed a long apprenticeship."
+  ],
+  "rw": "Charles Darwin opened Notebook B on the transmutation of species in 1837, the year after the Beagle returned. One page holds a branching diagram of species under the words 'I think'. Cambridge University Library reported two such notebooks missing in 2020, and they returned anonymously in 2022 in a pink gift bag.",
+  "desc": "A pocket notebook with a shy little tree. Two words above it, already unsure, already right.",
+  "mla": [
+   "\"Charles Darwin.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Charles_Darwin.",
+   "\"On the Origin of Species.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/On_the_Origin_of_Species."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_065",
+  "name": "The Zinoviev Letter, Daily Mail Front Page, October 25, 1924",
+  "icon": "📰",
+  "region": "vault_pol",
+  "pl": {
+   "mode": "shop",
+   "detail": "",
+   "cost": 30
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Power",
+   "v": 12
+  },
+  "tags": {
+   "c": "Power",
+   "e": "Ethics",
+   "s": "Global Politics"
+  },
+  "kq": "What role does timing play in the damage a false document can do?",
+  "ans": [
+   "Four days left no room for checking. The letter ran just before the election and denials came after the vote, so the calendar did the forgery's heavy lifting.",
+   "Damage needs a ready audience. Readers already feared communist plots, so the fake supplied evidence for a belief waiting to be confirmed."
+  ],
+  "rw": "The Daily Mail published this letter on 25 October 1924, presenting it as the Soviet official Grigory Zinoviev instructing British communists, four days before the general election. Labour lost, and historians along with a 1999 Foreign Office review judged the letter a forgery by persons still uncertain. It remains Britain's classic election-eve fake.",
+  "desc": "A scoop printed four days before the vote, disproved long after. Cheap to buy, expensive to believe.",
+  "mla": [
+   "\"Zinoviev letter.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Zinoviev_letter."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_066",
+  "name": "Dewey Defeats Truman, Chicago Daily Tribune, November 3, 1948",
+  "icon": "🗞️",
+  "region": "vault_pol",
+  "pl": {
+   "mode": "minigame",
+   "detail": "Assumption Sweep"
+  },
+  "eff": {
+   "t": "battle",
+   "v": 1,
+   "kind": "time"
+  },
+  "tags": {
+   "c": "Certainty",
+   "e": "Methods and Tools",
+   "s": "Global Politics"
+  },
+  "kq": "Under what circumstances does more data bring more confidence but not more truth?",
+  "ans": [
+   "The sample betrayed the sum. Phone polls over-reached wealthier voters and pollsters stopped asking weeks early, so mountains of skewed numbers built one wrong headline.",
+   "Deadlines finished the fallacy. A printers' strike forced typesetting before the results, so the paper printed its expectation and called it news."
+  ],
+  "rw": "The Chicago Daily Tribune printed this early edition headline on 3 November 1948, declaring Thomas Dewey the winner over President Harry Truman. Polling had stopped weeks early and sampled unevenly, and a strike pushed printing deadlines forward. Truman won and posed laughing with the paper.",
+  "desc": "The most famous wrong headline in print. The grin holding it up was the correction.",
+  "mla": [
+   "\"Dewey Defeats Truman.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Dewey_Defeats_Truman."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_067",
+  "name": "J'Accuse...! Front Page of L'Aurore, January 13, 1898",
+  "icon": "✒️",
+  "region": "vault_pol",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Responsibility",
+   "v": 15
+  },
+  "tags": {
+   "c": "Responsibility",
+   "e": "Ethics",
+   "s": "History"
+  },
+  "kq": "What risks should a knower take to force hidden evidence into the open?",
+  "ans": [
+   "Zola gambled his freedom on a headline. He invited his own libel trial so suppressed evidence about Dreyfus would enter a courtroom, so risk became a method.",
+   "Spectacle cuts both ways. The front page split France into camps as much as it revealed facts, so forcing truth loudly can harden an audience against it."
+  ],
+  "rw": "Emile Zola published this open letter to France's president on the front page of L'Aurore on 13 January 1898, accusing the army of framing Alfred Dreyfus, a Jewish officer. Courts convicted Zola of libel and he fled to England, yet the case reopened. France later cleared and reinstated Dreyfus.",
+  "desc": "Two words and an exclamation mark, set in headline type. A newspaper page used as a crowbar.",
+  "mla": [
+   "\"Dreyfus affair.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Dreyfus_affair.",
+   "\"Emile Zola.\" Encyclopaedia Britannica, n.d., www.britannica.com/biography/Emile-Zola."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_068",
+  "name": "The Great Moon Hoax, The Sun, New York, August 25, 1835",
+  "icon": "🌙",
+  "region": "vault_pol",
+  "pl": {
+   "mode": "minigame",
+   "detail": "Fallacy Volley"
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Truth",
+   "v": 12
+  },
+  "tags": {
+   "c": "Truth",
+   "e": "Ethics",
+   "s": "English A: Language and Literature"
+  },
+  "kq": "Why do audiences believe spectacular claims from ordinary sources?",
+  "ans": [
+   "Borrowed authority does the lifting. The articles cited a famous astronomer and a serious journal, both misused, so trust in science carried the bat-men.",
+   "Wanting wonder lowers the bar. Readers enjoyed the story too much to test it, so the appetite for marvels, then and now, feeds the fake."
+  ],
+  "rw": "The New York Sun ran six articles from 25 August 1835 describing bat-winged people and unicorns on the Moon, credited falsely to the astronomer John Herschel. Circulation soared, and rival papers reprinted the series. The Sun never fully retracted it, and the case became a founding study of media hoaxes.",
+  "desc": "Six days of moon unicorns, sold at a penny. The telescope was fiction; the sales were not.",
+  "mla": [
+   "\"Great Moon Hoax.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Great_Moon_Hoax."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_069",
+  "name": "Domesday Book, Royal Survey of England, 1086",
+  "icon": "📕",
+  "region": "vault_pol",
+  "pl": {
+   "mode": "npc",
+   "detail": "The Exchequer clerk: he says no appeal stands against the great survey's page."
+  },
+  "eff": {
+   "t": "key",
+   "door": "door_hist"
+  },
+  "tags": {
+   "c": "Power",
+   "e": "Scope",
+   "s": "Economics"
+  },
+  "kq": "What does a ruler gain by counting everything a country owns?",
+  "ans": [
+   "Counting converts land into control. William's commissioners listed every plough and pig for tax and dispute, so the survey turned conquest into administration.",
+   "The count also fixed the counted. Villagers nicknamed it Domesday because its word was final, so a database became a verdict nobody could appeal."
+  ],
+  "rw": "William the Conqueror ordered this survey of England in 1085, and clerks completed the main volumes by 1086, recording landholders, livestock, and values across thousands of settlements. Within a century people called it Domesday, the day of judgment, because its entries allowed no appeal. The UK National Archives holds it today.",
+  "desc": "England, itemized: every manor, mill, and pig with a price. Judgment, in ink.",
+  "mla": [
+   "\"Domesday Book.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Domesday_Book.",
+   "\"Domesday Book.\" Encyclopaedia Britannica, n.d., www.britannica.com/topic/Domesday-Book."
+  ],
+  "img": "commons.wikimedia.org/wiki/Category:Domesday_Book"
+ },
+ {
+  "id": "r61_070",
+  "name": "The Donation of Constantine, Exposed by Valla, 1440",
+  "icon": "📜",
+  "region": "vault_lang",
+  "pl": {
+   "mode": "minigame",
+   "detail": "Claim Forge"
+  },
+  "eff": {
+   "t": "key",
+   "door": "secret_hi"
+  },
+  "tags": {
+   "c": "Evidence",
+   "e": "Methods and Tools",
+   "s": "History"
+  },
+  "kq": "How can the language of a document betray its true age?",
+  "ans": [
+   "Words carry timestamps. Valla showed the Latin used terms unknown in Constantine's century, so grammar convicted the parchment of forgery.",
+   "Motive found the method. Valla served a king quarrelling with the pope, so his brilliant philology also had a paymaster, and readers should weigh both."
+  ],
+  "rw": "This document claimed Emperor Constantine granted the papacy rule over the western empire, and popes cited it for centuries. In 1440 Lorenzo Valla proved from its Latin style and anachronisms the text arose centuries after Constantine. His method helped found modern textual criticism.",
+  "desc": "An empire, gifted on parchment nobody signed. The grammar was the fingerprint.",
+  "mla": [
+   "\"Donation of Constantine.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Donation_of_Constantine.",
+   "\"Lorenzo Valla.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Lorenzo_Valla."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_071",
+  "name": "The Code of Hammurabi Stela, Babylon, c. 1754 BCE",
+  "icon": "🗿",
+  "region": "vault_pol",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "stamina",
+   "v": 2
+  },
+  "tags": {
+   "c": "Justification",
+   "e": "Ethics",
+   "s": "Global Politics"
+  },
+  "kq": "Why do rulers carve laws in stone instead of keeping them in memory?",
+  "ans": [
+   "Stone makes justice checkable. Anyone could point to the carved penalty for a broken tooth, so written law promised protection from a judge's whim.",
+   "Stone also stages authority. The relief shows the sun god handing Hammurabi the rules, so the medium justifies the king along with the laws."
+  ],
+  "rw": "Hammurabi of Babylon had this basalt stela carved around 1754 BCE with 282 laws on trade, family, and injury. The top shows the god Shamash granting him authority. French archaeologists found it at Susa in 1901, and the Louvre displays it.",
+  "desc": "Two metres of if-then justice. Break a tooth, consult the stone.",
+  "mla": [
+   "\"Code of Hammurabi.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Code_of_Hammurabi.",
+   "\"Code of Hammurabi.\" Encyclopaedia Britannica, n.d., www.britannica.com/topic/Code-of-Hammurabi."
+  ],
+  "img": "commons.wikimedia.org/wiki/Category:Code_of_Hammurabi"
+ },
+ {
+  "id": "r61_072",
+  "name": "Sequoyah's Cherokee Syllabary Chart, 1821",
+  "icon": "🔤",
+  "region": "vault_lang",
+  "pl": {
+   "mode": "minigame",
+   "detail": "Cipher of the Stacks"
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Culture",
+   "v": 15
+  },
+  "tags": {
+   "c": "Culture",
+   "e": "Methods and Tools",
+   "s": "Language B"
+  },
+  "kq": "Can someone invent a writing system without first being able to read?",
+  "ans": [
+   "Sequoyah did exactly this. He could not read English yet built 85 signs for Cherokee syllables, so invention needed insight into his own language, not schooling in another.",
+   "He still borrowed shapes. Letter forms from English printing fill the chart with new sounds attached, so even radical invention recycles available materials."
+  ],
+  "rw": "Sequoyah, a Cherokee silversmith, completed his syllabary in 1821 after about twelve years of solo experiments. Each of its 85 characters records a syllable, and learners gained literacy within weeks. The Cherokee Nation adopted it officially, and the Cherokee Phoenix newspaper printed in it from 1828.",
+  "desc": "Eighty-five borrowed shapes with brand-new voices. One man handed his nation a writing system.",
+  "mla": [
+   "\"Sequoyah.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Sequoyah.",
+   "\"Cherokee syllabary.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Cherokee_syllabary."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_073",
+  "name": "Tripitaka Koreana Woodblocks, Haeinsa, 1251",
+  "icon": "🪵",
+  "region": "vault_rel",
+  "pl": {
+   "mode": "npc",
+   "detail": "Monk Sugi the proofreader: he checked eighty thousand blocks and logged every correction he made."
+  },
+  "eff": {
+   "t": "stamina",
+   "v": 2
+  },
+  "tags": {
+   "c": "Values",
+   "e": "Methods and Tools",
+   "s": "World Religions"
+  },
+  "kq": "What does the care given to copying reveal about a community's values?",
+  "ans": [
+   "Precision was devotion. Carvers produced over 81,000 blocks with almost no errors during an invasion, so accuracy itself became an offering.",
+   "The project also served the state. The court sponsored the canon to rally protection for the kingdom, so sacred care and political need shared the chisel."
+  ],
+  "rw": "Korean artisans carved the Buddhist canon onto 81,258 wooden printing blocks between 1237 and 1251, during the Mongol invasions, replacing a set burned earlier. The monk Sugi led the collation and recorded his corrections across editions. The blocks survive at Haeinsa temple with remarkably few errors.",
+  "desc": "A forest turned into scripture, cut twice because fire took the first. Error rate: nearly zero.",
+  "mla": [
+   "\"Tripitaka Koreana.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Tripitaka_Koreana."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_074",
+  "name": "The Garima Gospels, Abba Garima Monastery, c. 500",
+  "icon": "📙",
+  "region": "vault_rel",
+  "pl": {
+   "mode": "cache",
+   "detail": "Wrapped in silk inside the drum case at the monastery treasury door."
+  },
+  "eff": {
+   "t": "stamina",
+   "v": 1
+  },
+  "tags": {
+   "c": "Evidence",
+   "e": "Methods and Tools",
+   "s": "World Religions"
+  },
+  "kq": "How should belief respond when science redates a sacred object?",
+  "ans": [
+   "The lab strengthened the legend's core. Radiocarbon moved the gospels back near the monastery's founding era, so tradition gained scientific company.",
+   "Convergence here sets no rule. The same method has undermined other relics, so communities must decide in advance whether dating counts only when it flatters."
+  ],
+  "rw": "Monks at Abba Garima monastery in Ethiopia preserved these two illuminated Ge'ez gospel books for centuries, with tradition crediting the founding saint. Radiocarbon tests reported around 2010 dated pages to roughly 390-660 CE, placing them among the earliest illuminated Christian manuscripts. The books have never left the monastery.",
+  "desc": "Painted evangelists on goat-skin pages, older than the legend needed. The mountain kept them.",
+  "mla": [
+   "\"Garima Gospels.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Garima_Gospels."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_075",
+  "name": "Samuel Pepys's Shorthand Diary, London, 1660-1669",
+  "icon": "🔥",
+  "region": "royal",
+  "pl": {
+   "mode": "shop",
+   "detail": "",
+   "cost": 60
+  },
+  "eff": {
+   "t": "ability",
+   "id": "echo"
+  },
+  "tags": {
+   "c": "Perspective",
+   "e": "Scope",
+   "s": "History"
+  },
+  "kq": "What makes a private record precious to public history?",
+  "ans": [
+   "Privacy buys candour. Pepys wrote in shorthand for nobody's eyes, so his plague and fire entries record fear and pettiness official accounts trimmed.",
+   "One candid witness is still one seat. He watched London burn as a wealthy official, so the diary's vividness can crowd out the unrecorded poor."
+  ],
+  "rw": "Samuel Pepys kept this diary in Shelton shorthand from 1660 to 1669, recording the plague of 1665 and the Great Fire of 1666, including burying his parmesan cheese to save it. Failing eyesight ended the diary. Translators decoded the six volumes in the 1820s, and historians treat them as a prime source for Restoration London.",
+  "desc": "Nine years of London in secret squiggles. The fire, the plague, and the buried cheese.",
+  "mla": [
+   "\"Samuel Pepys.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Samuel_Pepys.",
+   "\"Samuel Pepys.\" Encyclopaedia Britannica, n.d., www.britannica.com/biography/Samuel-Pepys."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_076",
+  "name": "Harry Beck's London Underground Diagram, 1933",
+  "icon": "🚇",
+  "region": "vault_tech",
+  "pl": {
+   "mode": "shop",
+   "detail": "",
+   "cost": 40
+  },
+  "eff": {
+   "t": "path",
+   "region": "hall"
+  },
+  "tags": {
+   "c": "Explanation",
+   "e": "Methods and Tools",
+   "s": "Design Technology"
+  },
+  "kq": "When does distorting the truth make a message clearer?",
+  "ans": [
+   "Beck deleted geography to save the traveller. Even spacing and 45-degree angles answer the only question riders ask, which line and where to change.",
+   "Clarity redraws the city. The diagram makes far stations feel close, so a map meant for trains quietly reshapes decisions above ground."
+  ],
+  "rw": "Harry Beck, an engineering draughtsman, designed this diagrammatic map in 1931, and London Underground printed it in 1933 after early doubts. It abandons true distances for an electrical-circuit style of even spacing and fixed angles. Nearly every metro map on earth now follows its rules.",
+  "desc": "A city redrawn as a circuit board. Wrong about distances, right about journeys.",
+  "mla": [
+   "\"Tube map.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Tube_map.",
+   "\"Harry Beck.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Harry_Beck."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_077",
+  "name": "The Zimmermann Telegram Decrypt, Room 40, 1917",
+  "icon": "📨",
+  "region": "hut8",
+  "pl": {
+   "mode": "minigame",
+   "detail": "Cipher of the Stacks"
+  },
+  "eff": {
+   "t": "battle",
+   "v": 1,
+   "kind": "reveal"
+  },
+  "tags": {
+   "c": "Evidence",
+   "e": "Methods and Tools",
+   "s": "History"
+  },
+  "kq": "How can intelligence be shared without revealing how it was gained?",
+  "ans": [
+   "Sources need cover stories. Britain staged a Mexican telegraph leak so Germany would not suspect broken codes, so the truth travelled wearing a disguise.",
+   "Disguised origins invite doubt. Skeptics called the telegram a British plant until Zimmermann himself confirmed it, so concealment nearly cancelled the coup."
+  ],
+  "rw": "British codebreakers in Room 40 decrypted this German telegram in January 1917, in which Foreign Secretary Arthur Zimmermann offered Mexico an alliance and lost United States territory. Britain disguised how it obtained the text to protect its codebreaking. Publication in March pushed American opinion toward war, and Zimmermann publicly admitted the message.",
+  "desc": "A telegram promising Texas to Mexico, read first in London. The codebook never forgave it.",
+  "mla": [
+   "\"Zimmermann Telegram.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Zimmermann_Telegram."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_078",
+  "name": "Venona Decrypt Release, National Security Agency, 1995",
+  "icon": "📇",
+  "region": "hut8",
+  "pl": {
+   "mode": "npc",
+   "detail": "Gardner the linguist: he read the spies' cables for years and could tell almost no one."
+  },
+  "eff": {
+   "t": "battle",
+   "v": 1,
+   "kind": "reveal"
+  },
+  "tags": {
+   "c": "Certainty",
+   "e": "Methods and Tools",
+   "s": "Global Politics"
+  },
+  "kq": "What happens to public debate when the decisive evidence stays secret?",
+  "ans": [
+   "Secrecy split knowledge from argument. Officials read Soviet cables while courts and citizens argued blind, so two versions of the Cold War ran in parallel.",
+   "Late release reopened closed cases. The 1995 declassification let historians retest famous verdicts, so certainty in history can arrive half a century behind the events."
+  ],
+  "rw": "American cryptanalysts began decoding Soviet intelligence cables in 1943 under the Venona project, eventually reading portions of thousands of messages. The government kept the program secret for decades, and the NSA released the decrypts in 1995. Historians still debate identifications resting on partial texts.",
+  "desc": "Cables read in secret for fifty years. History waited in a locked drawer.",
+  "mla": [
+   "\"Venona project.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Venona_project."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_079",
+  "name": "Churchill's 'Action This Day' Minute, Bletchley, 1941",
+  "icon": "⏱️",
+  "region": "hut8",
+  "pl": {
+   "mode": "npc",
+   "detail": "The Whitehall messenger: he brings the minute stamped with the Prime Minister's red demand."
+  },
+  "eff": {
+   "t": "battle",
+   "v": 1,
+   "kind": "time"
+  },
+  "tags": {
+   "c": "Power",
+   "e": "Methods and Tools",
+   "s": "History"
+  },
+  "kq": "Who decides which knowledge deserves a nation's resources?",
+  "ans": [
+   "Sometimes the knowers must go over every head. Four codebreakers wrote directly to Churchill about staff shortages, and his one-line order unblocked Bletchley within weeks.",
+   "Rescue by one leader is also a warning. The system had starved its best minds until a letter reached the top, so knowledge depending on a single patron stays fragile."
+  ],
+  "rw": "On 21 October 1941, Alan Turing and three senior colleagues wrote directly to Winston Churchill about staff shortages slowing their codebreaking at Bletchley Park. Churchill stamped the request 'Action this day' and ordered they receive everything on extreme priority. Resources followed, and decryption sped the Atlantic war effort.",
+  "desc": "A begging letter from geniuses, answered in red ink. Bureaucracy lost in one day.",
+  "mla": [
+   "\"Bletchley Park.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Bletchley_Park.",
+   "\"Alan Turing.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Alan_Turing."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_080",
+  "name": "The Pentagon Papers, Leaked Study, Washington, 1971",
+  "icon": "📑",
+  "region": "vault_pol",
+  "pl": {
+   "mode": "minigame",
+   "detail": "Scales of Justification"
+  },
+  "eff": {
+   "t": "battle",
+   "v": 1,
+   "kind": "reveal"
+  },
+  "tags": {
+   "c": "Responsibility",
+   "e": "Ethics",
+   "s": "Global Politics"
+  },
+  "kq": "When does a citizen's duty to share knowledge outweigh a legal duty to keep it?",
+  "ans": [
+   "Ellsberg judged the public the rightful owner. The study showed officials doubting a war they praised, so he chose the audience the documents described.",
+   "Leaks bypass every safeguard. One analyst decided for millions which secrecy to break, so conscience without process can also misfire; courts drew the final line."
+  ],
+  "rw": "Military analyst Daniel Ellsberg copied this 7,000-page secret study of the Vietnam war and gave it to the New York Times, which began publishing on 13 June 1971. The papers showed successive administrations privately doubted the war while publicly promising success. The Supreme Court refused to block publication later that month.",
+  "desc": "Seven thousand photocopied pages of second thoughts. The war read differently in its own files.",
+  "mla": [
+   "\"Pentagon Papers.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Pentagon_Papers.",
+   "\"Pentagon Papers.\" Encyclopaedia Britannica, n.d., www.britannica.com/event/Pentagon-Papers."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_081",
+  "name": "Hippocratic Oath Papyrus, Oxyrhynchus, 3rd Century CE",
+  "icon": "🩺",
+  "region": "library",
+  "pl": {
+   "mode": "minigame",
+   "detail": "Socratic Serve"
+  },
+  "eff": {
+   "t": "perspective",
+   "c": "Values"
+  },
+  "tags": {
+   "c": "Values",
+   "e": "Ethics",
+   "s": "Philosophy"
+  },
+  "kq": "Why do professions bind new knowers with promises?",
+  "ans": [
+   "An oath converts skill into trust. The text swears the healer to help and never harm, so patients can submit to a stranger's knife.",
+   "Promises age. The old oath invokes Greek gods and bans practices doctors now perform, so each era rewrites the vow while keeping the ritual."
+  ],
+  "rw": "This papyrus fragment from Oxyrhynchus in Egypt preserves part of the Hippocratic Oath, copied around the 3rd century CE. The oath, credited to the circle of Hippocrates, binds healers to help patients and avoid harm. Medical schools today use rewritten versions, and few keep the original text.",
+  "desc": "A scrap of promise from an ancient rubbish mound. Two thousand years of first, do no harm.",
+  "mla": [
+   "\"Hippocratic Oath.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Hippocratic_Oath.",
+   "\"Hippocratic oath.\" Encyclopaedia Britannica, n.d., www.britannica.com/topic/Hippocratic-oath."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_082",
+  "name": "Sokal's Hoax Paper in Social Text, Spring 1996",
+  "icon": "🃏",
+  "region": "vault_knower",
+  "pl": {
+   "mode": "minigame",
+   "detail": "Fallacy Volley"
+  },
+  "eff": {
+   "t": "battle",
+   "v": 1,
+   "kind": "reveal"
+  },
+  "tags": {
+   "c": "Justification",
+   "e": "Methods and Tools",
+   "s": "Philosophy"
+  },
+  "kq": "What does a successful hoax prove about a field's standards?",
+  "ans": [
+   "The acceptance exposed a gap. Editors published flattering nonsense without expert review, so the hoax showed prestige and ideology standing in for checking.",
+   "One sting proves less than it seems. A single journal fooled once is a data point, not a verdict on whole disciplines, so critics ask for a fair sample too."
+  ],
+  "rw": "Physicist Alan Sokal submitted a deliberately absurd article framing quantum gravity as a cultural construct to the journal Social Text, which published it in spring 1996. Sokal revealed the hoax immediately in another magazine. The affair fed lasting arguments about rigour, peer review, and the science wars.",
+  "desc": "A trap disguised as a compliment, in academic dress. The journal said yes.",
+  "mla": [
+   "\"Sokal affair.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Sokal_affair."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_083",
+  "name": "Treaty of Waitangi, Two-Language Parchment, 1840",
+  "icon": "🤝",
+  "region": "vault_lang",
+  "pl": {
+   "mode": "npc",
+   "detail": "Missionary printer Colenso: he warned the chiefs were hearing a different treaty from the governor's."
+  },
+  "eff": {
+   "t": "perspective",
+   "c": "Interpretation"
+  },
+  "tags": {
+   "c": "Interpretation",
+   "e": "Perspectives",
+   "s": "Global Politics"
+  },
+  "kq": "Can a treaty exist in two languages and remain one agreement?",
+  "ans": [
+   "The versions promise different things. The English text takes sovereignty while the Maori text cedes governorship and keeps chiefly authority, so signers agreed to different documents.",
+   "Living institutions can bridge texts. New Zealand's tribunal now weighs both versions and their spirit, so interpretation became a continuing duty, not a one-day event."
+  ],
+  "rw": "British officials and over 500 Maori chiefs signed this treaty from 6 February 1840, most signing the Maori text. The translation renders sovereignty as kawanatanga, governorship, while guaranteeing chiefs tino rangatiratanga, full authority. The Waitangi Tribunal has examined claims arising from the gap since 1975.",
+  "desc": "One nation's founding document, twice. The translations never quite shook hands.",
+  "mla": [
+   "\"Treaty of Waitangi.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Treaty_of_Waitangi."
+  ],
+  "img": "commons.wikimedia.org/wiki/Category:Treaty_of_Waitangi"
+ },
+ {
+  "id": "r61_084",
+  "name": "Champollion's Lettre a M. Dacier, Paris, 1822",
+  "icon": "🦅",
+  "region": "vault_lang",
+  "pl": {
+   "mode": "minigame",
+   "detail": "Rung Climb"
+  },
+  "eff": {
+   "t": "perspective",
+   "c": "Explanation"
+  },
+  "tags": {
+   "c": "Explanation",
+   "e": "Methods and Tools",
+   "s": "Language B"
+  },
+  "kq": "How does a single announcement turn scattered clues into a discipline?",
+  "ans": [
+   "The letter assembled other people's steps. Young's sign values and the Rosetta Stone's three scripts fed Champollion's leap, so the breakthrough crowned a relay, not a solo race.",
+   "Announcement also claims territory. He rushed the letter to the Academy to fix priority over rivals, so the founding paper of Egyptology is equally a flag."
+  ],
+  "rw": "Jean-Francois Champollion announced his decipherment of hieroglyphs in this letter read to the French Academy on 27 September 1822, building on the Rosetta Stone and Thomas Young's partial results. He showed the script mixes sound signs and meaning signs. Egyptology dates its birth to the letter.",
+  "desc": "Fourteen pages ending a fourteen-century silence. The birds and suns spoke after all.",
+  "mla": [
+   "\"Jean-Francois Champollion.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Jean-Fran%C3%A7ois_Champollion.",
+   "\"Rosetta Stone.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Rosetta_Stone."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r61_085",
+  "name": "Yirrkala Bark Petitions, Yolngu to Parliament, 1963",
+  "icon": "🖼️",
+  "region": "songlines",
+  "pl": {
+   "mode": "npc",
+   "detail": "A Yolngu elder: she shows law painted at the borders and typed petition at the centre, one document."
+  },
+  "eff": {
+   "t": "perspective",
+   "c": "Culture"
+  },
+  "tags": {
+   "c": "Culture",
+   "e": "Ethics",
+   "s": "Global Politics"
+  },
+  "kq": "What must knowledge wear to be admitted into an institution?",
+  "ans": [
+   "The petitions dressed law in two systems. Typed English sat framed by painted clan designs asserting title, so the document spoke both to Parliament and from country.",
+   "Admission required the colonizer's form. Only the typed clauses had standing in 1963, so the bark's own law waited decades for courts to begin listening."
+  ],
+  "rw": "Yolngu clans of Yirrkala sent these petitions to Australia's Parliament in August 1963, protesting bauxite mining approved on their land without consultation. Typed text in Gumatj and English sits inside painted bark borders carrying clan law. Parliament displays them, and they helped open the legal road toward land rights.",
+  "desc": "A petition with painted borders older than the parliament receiving it. Two laws, one sheet of bark.",
+  "mla": [
+   "\"Yirrkala bark petitions.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Yirrkala_bark_petitions."
+  ],
+  "img": ""
+ }
+]

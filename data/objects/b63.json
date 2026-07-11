@@ -1,0 +1,2620 @@
+[
+ {
+  "id": "r63_001",
+  "name": "David, Marble Colossus by Michelangelo, Florence, 1504",
+  "icon": "🗿",
+  "region": "florence",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "key",
+   "door": "door_arts"
+  },
+  "tags": {
+   "c": "Culture",
+   "e": "Perspectives",
+   "s": "Visual Arts"
+  },
+  "kq": "Who decides what a public statue means once it leaves the sculptor's hands?",
+  "ans": [
+   "The community decides. Florence placed David at the town hall as a warning to rivals, so a Bible story became a civic badge through use, not through the carver's intent.",
+   "The maker still anchors the meaning. Michelangelo shaped the pose and the gaze, and every later reading must answer to those choices in the marble."
+  ],
+  "rw": "Michelangelo carved David between 1501 and 1504 from a block two earlier sculptors had abandoned. The city placed it outside the Palazzo Vecchio as a symbol of the republic, and moved it indoors to the Accademia in 1873. Copies now stand in its old spot and on a hill above the city.",
+  "desc": "A giant in white marble watches the doorway. His sling rests easy, his eyes do not.",
+  "mla": [
+   "\"David (Michelangelo).\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/David_(Michelangelo)."
+  ],
+  "img": "commons.wikimedia.org/wiki/Category:David_by_Michelangelo"
+ },
+ {
+  "id": "r63_002",
+  "name": "Primavera by Sandro Botticelli, Uffizi, c. 1482",
+  "icon": "🌸",
+  "region": "florence",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Interpretation",
+   "v": 12
+  },
+  "tags": {
+   "c": "Interpretation",
+   "e": "Perspectives",
+   "s": "Visual Arts"
+  },
+  "kq": "To what extent can a picture hold a fixed meaning when its maker left no explanation?",
+  "ans": [
+   "Meaning stays open. Scholars have read Primavera as myth, wedding gift, and philosophy lesson for five centuries, and the panel cannot rule between them.",
+   "Openness has limits. The orange grove, the named gods, and the Medici household records narrow the field, so some readings carry more support than others."
+  ],
+  "rw": "Botticelli painted this large panel of Venus, Flora, and dancing Graces around 1482, probably for the Medici family. No document records what the scene means, and specialists still publish rival readings. It hangs in the Uffizi Gallery in Florence.",
+  "desc": "Nine figures wait in an orange grove. Five hundred springs have passed, and nobody agrees why they gathered.",
+  "mla": [
+   "\"Primavera (Botticelli).\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Primavera_(Botticelli)."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_003",
+  "name": "Gates of Paradise, East Doors by Ghiberti, Florence, 1452",
+  "icon": "🚪",
+  "region": "florence",
+  "pl": {
+   "mode": "npc",
+   "detail": "Maestro Lippo: he polishes a gilded panel and hands it over, still boasting his master beat Brunelleschi in the door contest of 1401."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Justification",
+   "v": 10
+  },
+  "tags": {
+   "c": "Justification",
+   "e": "Methods and Tools",
+   "s": "Visual Arts"
+  },
+  "kq": "How do judges justify calling one piece better than another in a public contest?",
+  "ans": [
+   "Panels can be compared on shared tests: casting skill, story clarity, cost of bronze. The 1401 jury weighed trial panels on the same subject, which gave the verdict a method.",
+   "Shared tests hide taste. Two panels can pass every test and still split a jury, so the final call rests on values the rules never state."
+  ],
+  "rw": "Lorenzo Ghiberti won a public competition in 1401 to make bronze doors for the Florence Baptistery, then spent decades on a second set, finished in 1452. Michelangelo reportedly called the gilded doors fit to be the Gates of Paradise. The restored originals sit in the cathedral museum, with replicas on the building.",
+  "desc": "Ten golden panels tell scripture in receding depth. A contest started them, and a lifetime finished them.",
+  "mla": [
+   "\"Gates of Paradise.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Gates_of_Paradise."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_004",
+  "name": "Il Libro dell'Arte, Cennini's Craft Handbook, c. 1400",
+  "icon": "📖",
+  "region": "florence",
+  "pl": {
+   "mode": "shop",
+   "detail": "",
+   "cost": 40
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Explanation",
+   "v": 10
+  },
+  "tags": {
+   "c": "Explanation",
+   "e": "Methods and Tools",
+   "s": "Visual Arts"
+  },
+  "kq": "Can a written recipe fully explain a skill learned by hand?",
+  "ans": [
+   "No. Cennini tells you how to grind pigment and lay gesso, yet the feel of a loaded brush only enters the body through years beside a master.",
+   "Partly, and the part matters. The book preserved exact recipes for centuries, so later restorers could rebuild lost methods from its pages alone."
+  ],
+  "rw": "Cennino Cennini wrote this manual around 1400, recording the methods of Florentine painting bottegas: egg tempera, gesso grounds, gilding, and pigment recipes. Conservators still consult it to understand how early Renaissance panels were built layer by layer.",
+  "desc": "A recipe book for pictures. Egg yolk, ground stone, and patience, measured in a steady apprentice hand.",
+  "mla": [
+   "\"Cennino Cennini.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Cennino_Cennini."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_005",
+  "name": "Jar of Ultramarine Ground from Badakhshan Lapis, c. 1470",
+  "icon": "🔵",
+  "region": "florence",
+  "pl": {
+   "mode": "cache",
+   "detail": "Behind the loose brick beside the grinding bench in the pigment cellar."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Values",
+   "v": 12
+  },
+  "tags": {
+   "c": "Values",
+   "e": "Methods and Tools",
+   "s": "Chemistry"
+  },
+  "kq": "What role do material costs play in deciding which ideas get painted?",
+  "ans": [
+   "A large role. Ultramarine crossed mountains and seas and cost more than gold, so contracts saved it for the robes of Mary, and price quietly wrote the color code of belief.",
+   "Cost sets limits, not meanings. Painters chose where the blue went within the budget, so value followed the story they wanted to tell, not the invoice."
+  ],
+  "rw": "True ultramarine was ground from lapis lazuli mined in Badakhshan, in present-day Afghanistan, and refined through a slow kneading process. Renaissance contracts often priced it separately and reserved it for sacred figures. A cheap synthetic version only arrived in the 1820s.",
+  "desc": "A small jar of impossible blue. Mountains, caravans, and a contract clause rest inside it.",
+  "mla": [
+   "\"Ultramarine.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Ultramarine."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_006",
+  "name": "Judith Slaying Holofernes, Artemisia Gentileschi, c. 1620",
+  "icon": "🗡️",
+  "region": "florence",
+  "pl": {
+   "mode": "minigame",
+   "detail": "Perspective Prism"
+  },
+  "eff": {
+   "t": "battle",
+   "v": 1,
+   "kind": "life"
+  },
+  "tags": {
+   "c": "Perspective",
+   "e": "Perspectives",
+   "s": "Visual Arts"
+  },
+  "kq": "How far should a painter's life story guide how we read the canvas?",
+  "ans": [
+   "Biography illuminates. Artemisia survived assault and a brutal trial, and knowing this, the blood and the braced arms read as testimony, not decoration.",
+   "Biography can shrink a painter. The same canvas shows mastery of light and anatomy learned from Caravaggio, and reading it only as her life reduces skill to diary."
+  ],
+  "rw": "Artemisia Gentileschi painted this scene of Judith beheading an Assyrian general around 1620; the version in the Uffizi followed an earlier one in Naples. She was among the few women admitted to Florence's art academy in her era. Critics still debate how much her biography should shape readings of the picture.",
+  "desc": "Two women hold down a general. The lamplight is calm, the business is not.",
+  "mla": [
+   "\"Artemisia Gentileschi.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Artemisia_Gentileschi."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_007",
+  "name": "Lives of the Artists, Giorgio Vasari, First Edition, 1550",
+  "icon": "📚",
+  "region": "florence",
+  "pl": {
+   "mode": "npc",
+   "detail": "Messer Giorgio: he trades the volume for a promise to repeat his best anecdotes, accurate or not."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Truth",
+   "v": 12
+  },
+  "tags": {
+   "c": "Truth",
+   "e": "Scope",
+   "s": "History"
+  },
+  "kq": "When a source is both foundational and unreliable, how should historians use it?",
+  "ans": [
+   "Use it with cross-checks. Vasari invented dialogue and tidied dates, so each claim needs outside support before it counts as fact.",
+   "Use it as evidence of its own time. Even his tall tales show what Florence around 1550 wanted artists to be, so the errors carry information the archives lack."
+  ],
+  "rw": "Giorgio Vasari published these biographies of Italian artists in 1550 and expanded them in 1568. The book created the story of art rising from Giotto to Michelangelo, and much of art history still leans on it. Scholars have caught many of its anecdotes bending fact toward legend.",
+  "desc": "Gossip, genius, and dates in one binding. The first draft of art history, charming and slippery.",
+  "mla": [
+   "\"Lives of the Most Excellent Painters, Sculptors, and Architects.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Lives_of_the_Most_Excellent_Painters,_Sculptors,_and_Architects."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_008",
+  "name": "Vitruvian Man, Pen and Ink by Leonardo, c. 1490",
+  "icon": "📐",
+  "region": "florence",
+  "pl": {
+   "mode": "minigame",
+   "detail": "Rung Climb"
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Objectivity",
+   "v": 12
+  },
+  "tags": {
+   "c": "Objectivity",
+   "e": "Methods and Tools",
+   "s": "Mathematics"
+  },
+  "kq": "To what extent can mathematics describe an ideal human body without smuggling in a preference?",
+  "ans": [
+   "Ratios feel neutral, yet Leonardo chose one adult male frame as the measure of all. The geometry is exact while the choice of subject is a value judgment.",
+   "The drawing tests a claim, not a preference. Leonardo measured actual bodies against Vitruvius and corrected the old figures, treating proportion as a hypothesis."
+  ],
+  "rw": "Leonardo da Vinci drew this figure inside a circle and a square around 1490, testing the ancient architect Vitruvius's claims about human proportion. The Gallerie dell'Accademia in Venice keeps it and rarely displays it, since light damages the ink. It has become shorthand for joining art with science.",
+  "desc": "A man with four arms and four legs fills a circle and a square. Measurement dreams of perfection here.",
+  "mla": [
+   "\"Vitruvian Man.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Vitruvian_Man."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_009",
+  "name": "Mona Lisa, Painted c. 1503, Stolen from the Louvre, 1911",
+  "icon": "🖼️",
+  "region": "florence",
+  "pl": {
+   "mode": "cache",
+   "detail": "Rolled in a trunk with a false bottom, the same trick Peruggia used."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Power",
+   "v": 14
+  },
+  "tags": {
+   "c": "Power",
+   "e": "Perspectives",
+   "s": "Visual Arts"
+  },
+  "kq": "Who gains the power to make one painting matter more than ten thousand others?",
+  "ans": [
+   "Mass attention holds the lever. Newspapers turned the 1911 theft into a serial drama, and the empty wall drew crowds; fame grew from headlines, not new brushstrokes.",
+   "Institutions hold it first. The Louvre, the guidebooks, and the insurance valuations had already ranked the picture, and the thief only cashed in on a hierarchy museums built."
+  ],
+  "rw": "Leonardo painted this portrait, probably of Lisa del Giocondo, beginning around 1503. In 1911 the museum handyman Vincenzo Peruggia walked out of the Louvre with it, kept it in a trunk for two years, and was caught offering it to the Uffizi. The theft and recovery made it the most famous painting on earth.",
+  "desc": "A quiet portrait with a criminal record. She smiles like she remembers the trunk.",
+  "mla": [
+   "\"Mona Lisa.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Mona_Lisa.",
+   "\"Vincenzo Peruggia.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Vincenzo_Peruggia."
+  ],
+  "img": "commons.wikimedia.org/wiki/Category:Mona_Lisa"
+ },
+ {
+  "id": "r63_010",
+  "name": "Annunciation Fresco by Fra Angelico, San Marco, c. 1440",
+  "icon": "😇",
+  "region": "florence",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Values",
+   "v": 10
+  },
+  "tags": {
+   "c": "Values",
+   "e": "Ethics",
+   "s": "World Religions"
+  },
+  "kq": "Under what circumstances does an image count as an act of devotion rather than decoration?",
+  "ans": [
+   "Purpose decides. Fra Angelico painted for friars' silent cells, not for buyers, so the fresco served prayer the same as a bell or a psalm.",
+   "The viewer decides. Tourists now photograph the same wall as art history, so devotion sits in the person looking, not in the plaster."
+  ],
+  "rw": "The friar-painter Fra Angelico frescoed the convent of San Marco in Florence around 1440, placing an Annunciation at the top of the dormitory stairs and scenes in each cell. The images guided the friars' daily meditation. Tradition holds he prayed before painting.",
+  "desc": "An angel and a girl lean toward each other under a painted arch. The corridor smells of plaster and quiet.",
+  "mla": [
+   "\"Fra Angelico.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Fra_Angelico."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_011",
+  "name": "The Great Wave off Kanagawa, Hokusai Print, c. 1831",
+  "icon": "🌊",
+  "region": "ukiyo",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "key",
+   "door": "door_arts"
+  },
+  "tags": {
+   "c": "Perspective",
+   "e": "Perspectives",
+   "s": "Visual Arts"
+  },
+  "kq": "How does a chosen viewpoint change what an image claims about the world?",
+  "ans": [
+   "Hokusai put the viewer down in the trough among the boats, so the print claims the sea rules and the sacred mountain shrinks. Move the eye, and the claim reverses.",
+   "The viewpoint suggests, the viewer completes. Edo buyers saw fishermen at steady labor where later Europeans saw nature's terror, so one angle still yields rival claims."
+  ],
+  "rw": "Katsushika Hokusai designed this woodblock print around 1831 as part of Thirty-six Views of Mount Fuji. Thousands of impressions were printed and sold cheaply in Edo, and its imported Prussian blue was part of its appeal. It later shaped European artists from Monet to Debussy.",
+  "desc": "A wave lifts its claws over two boats. Far away, tiny and patient, sits the mountain.",
+  "mla": [
+   "\"The Great Wave off Kanagawa.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/The_Great_Wave_off_Kanagawa."
+  ],
+  "img": "commons.wikimedia.org/wiki/Category:The_Great_Wave_off_Kanagawa"
+ },
+ {
+  "id": "r63_012",
+  "name": "Sudden Shower over Shin-Ohashi Bridge, Hiroshige, 1857",
+  "icon": "🌧️",
+  "region": "ukiyo",
+  "pl": {
+   "mode": "shop",
+   "detail": "",
+   "cost": 60
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Interpretation",
+   "v": 10
+  },
+  "tags": {
+   "c": "Interpretation",
+   "e": "Perspectives",
+   "s": "Visual Arts"
+  },
+  "kq": "What does a landscape print record: a place, a feeling, or a convention?",
+  "ans": [
+   "A feeling first. Hiroshige cut the rain as slanting lines nobody's eye actually sees, yet everyone recognizes the shiver of a sudden shower.",
+   "A convention first. The lines follow print-shop formulas for weather, so the shiver we feel is a trained response passed between pictures, not from the sky."
+  ],
+  "rw": "Utagawa Hiroshige published this print in 1857 within One Hundred Famous Views of Edo. Figures hurry across a wooden bridge under ruled lines of rain. Vincent van Gogh copied it in oils thirty years later while teaching himself Japanese design.",
+  "desc": "Rain drawn as straight needles. Everyone on the bridge has somewhere better to be.",
+  "mla": [
+   "\"One Hundred Famous Views of Edo.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/One_Hundred_Famous_Views_of_Edo."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_013",
+  "name": "Otani Oniji III as Edobei, Sharaku Print, 1794",
+  "icon": "👺",
+  "region": "ukiyo",
+  "pl": {
+   "mode": "minigame",
+   "detail": "Memory of the Hall"
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Certainty",
+   "v": 12
+  },
+  "tags": {
+   "c": "Certainty",
+   "e": "Scope",
+   "s": "Theatre"
+  },
+  "kq": "How certain can we be about a creator who left only the creations?",
+  "ans": [
+   "Certainty stays low. Sharaku published for ten months in 1794 and vanished, and rival theories name a Noh actor, a poet, or a publisher's team, with no diary to settle it.",
+   "We can be certain where it counts. The prints themselves fix his eye, his line, and his dates, so the anonymous hand is well known even while the name floats."
+  ],
+  "rw": "Toshusai Sharaku produced about 140 bold kabuki actor portraits in ten months from 1794, then stopped. His true identity remains unproven despite two centuries of theories. This print shows the actor Otani Oniji III glaring as the villain Edobei, fingers spread.",
+  "desc": "An actor's grimace frozen mid-threat. The man who caught it slipped out of history's stage door.",
+  "mla": [
+   "\"Sharaku.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Sharaku."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_014",
+  "name": "Three Beauties of the Present Day, Utamaro, c. 1793",
+  "icon": "👘",
+  "region": "ukiyo",
+  "pl": {
+   "mode": "npc",
+   "detail": "Okyou the teahouse keeper: she gives up the print once you admit you cannot tell the three famous faces apart."
+  },
+  "eff": {
+   "t": "perspective",
+   "c": "Culture"
+  },
+  "tags": {
+   "c": "Interpretation",
+   "e": "Perspectives",
+   "s": "Visual Arts"
+  },
+  "kq": "When portraits follow an ideal of beauty, what can they still tell us about the people shown?",
+  "ans": [
+   "Little about faces, much about fame. Utamaro drew three celebrities with nearly one face, so the print records a beauty standard and a fan culture rather than three women.",
+   "Look closer and the women return. Contemporaries read the tiny differences in eyes and brows at a glance, so the portrait held identity for those trained to see it."
+  ],
+  "rw": "Kitagawa Utamaro designed this print around 1793, showing three famous Edo beauties: a geisha and two teahouse waitresses. He gave them almost identical idealized faces, varied only in small details, and crested kimonos identify them. Fans of the era collected such portraits like celebrity cards.",
+  "desc": "Three famous faces, nearly one face. Their fans knew the difference and paid for it.",
+  "mla": [
+   "\"Three Beauties of the Present Day.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Three_Beauties_of_the_Present_Day."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_015",
+  "name": "Flowering Plum Orchard, Van Gogh after Hiroshige, 1887",
+  "icon": "🎨",
+  "region": "ukiyo",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "path",
+   "region": "florence"
+  },
+  "tags": {
+   "c": "Culture",
+   "e": "Perspectives",
+   "s": "Visual Arts"
+  },
+  "kq": "What is gained and lost when one culture copies another's images to learn from them?",
+  "ans": [
+   "Gain: a new eye. Copying Hiroshige taught Van Gogh flat color and cropped views, and European painting changed course because he borrowed openly.",
+   "Loss: the context. He framed the copy with kanji he could not read, decoration standing in for meaning, so the lesson arrived with the language stripped out."
+  ],
+  "rw": "In 1887 Vincent van Gogh painted an oil copy of Hiroshige's plum orchard print, adding borders of Japanese characters copied for their look. He collected hundreds of ukiyo-e prints in Paris and called Japanese art a religion for artists. The canvas hangs in the Van Gogh Museum in Amsterdam.",
+  "desc": "A Dutch hand repaints an Edo spring. The borrowed letters spell nothing and say plenty.",
+  "mla": [
+   "\"Japonaiserie (Van Gogh).\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Japonaiserie_(Van_Gogh)."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_016",
+  "name": "Chest of Berlin Blue Pigment, Edo Import, 1829",
+  "icon": "🧪",
+  "region": "ukiyo",
+  "pl": {
+   "mode": "cache",
+   "detail": "Under the print shop's third floorboard, wrapped in oiled paper."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Culture",
+   "v": 10
+  },
+  "tags": {
+   "c": "Culture",
+   "e": "Methods and Tools",
+   "s": "Chemistry"
+  },
+  "kq": "Under what circumstances does a new material change what a culture can imagine?",
+  "ans": [
+   "When it removes a limit. Older organic blues faded fast, so deep skies and seas were rare; the stable imported blue let Hokusai build whole prints on water and distance.",
+   "Materials open doors, artists walk through. The same pigment sat in Europe for a century without making a Great Wave, so imagination, not chemistry, set the course."
+  ],
+  "rw": "Prussian blue, invented in Berlin around 1706, reached Japan through Dutch and Chinese traders and became affordable in Edo by the late 1820s. Printmakers used it for entire blue-printed pictures, and Hokusai's Fuji series rode the fashion. The color resisted fading far better than older vegetable blues.",
+  "desc": "A foreign blue in a sealed chest. Whole oceans of prints wait inside the powder.",
+  "mla": [
+   "\"Prussian blue.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Prussian_blue."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_017",
+  "name": "Ko-omote Noh Mask 'Yuki', Attributed to Tatsuemon, 1500s",
+  "icon": "🎭",
+  "region": "ukiyo",
+  "pl": {
+   "mode": "npc",
+   "detail": "Master Kanze: he tilts the mask from shadow to lamplight, and once you see it change expression, he lets you carry it."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Interpretation",
+   "v": 14
+  },
+  "tags": {
+   "c": "Interpretation",
+   "e": "Methods and Tools",
+   "s": "Theatre"
+  },
+  "kq": "How can a fixed object express emotions its surface never shows?",
+  "ans": [
+   "Through the viewer's motion. A ko-omote smiles when tilted down and grieves when tilted up, so the audience's eye, guided by the actor's neck, paints the feeling.",
+   "Through carved ambiguity. The maker cut features balanced between moods on purpose; the emotion is stored in the wood as potential, and performance only releases it."
+  ],
+  "rw": "The ko-omote mask represents a young woman and is deliberately carved so small tilts read as changing emotion. Tradition attributes the famous mask called Yuki, or Snow, to the carver Tatsuemon, and prizes it as a treasure of the Konparu school of Noh. Such masks pass between generations of performers like instruments.",
+  "desc": "A pale wooden face, neither happy nor sad. Tilt it, and it decides.",
+  "mla": [
+   "\"Noh.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Noh."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_018",
+  "name": "Kanadehon Chushingura Playbill, Edo, 1748",
+  "icon": "📜",
+  "region": "ukiyo",
+  "pl": {
+   "mode": "shop",
+   "detail": "",
+   "cost": 35
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Power",
+   "v": 12
+  },
+  "tags": {
+   "c": "Power",
+   "e": "Ethics",
+   "s": "Theatre"
+  },
+  "kq": "How does censorship shape the stories a society is allowed to tell about itself?",
+  "ans": [
+   "It forces disguise. The shogunate banned plays about current events, so writers moved the forty-seven ronin into a distant century with false names, and audiences decoded it anyway.",
+   "Disguise can deepen art. The forced distance turned one news story into a lasting drama about loyalty and law, so the censor accidentally built a classic."
+  ],
+  "rw": "Kanadehon Chushingura opened in 1748 as a puppet play and quickly moved to kabuki. It retells the 1701 to 1703 revenge of the forty-seven ronin, but censorship rules forced the setting into the fourteenth century with renamed characters. Audiences fully understood the code, and the play remains a staple.",
+  "desc": "A theatre bill promising an old tale. Every reader in Edo knew exactly how new it was.",
+  "mla": [
+   "\"Kanadehon Ch%C5%ABshingura.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Kanadehon_Ch%C5%ABshingura."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_019",
+  "name": "Benin Bronze Plaque of a Warrior Chief, Cast c. 1550",
+  "icon": "🛡️",
+  "region": "benin",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Evidence",
+   "v": 14
+  },
+  "tags": {
+   "c": "Evidence",
+   "e": "Methods and Tools",
+   "s": "History"
+  },
+  "kq": "What counts as a historical record in a society whose archive is cast in metal?",
+  "ans": [
+   "The plaques count fully. They fix regalia, rank, and ritual in durable brass, and historians of Benin read them as court documents in relief.",
+   "They count as curated memory. The palace chose what to cast, as every archive chooses what to keep, so the plaques record the court's self-image, and silence sits between them."
+  ],
+  "rw": "Brass plaques cast by Benin's royal guilds from the sixteenth century lined the palace pillars, recording rulers, warriors, and ceremonies. British forces looted thousands of such pieces in 1897, scattering them to museums worldwide. Scholars use them today as a visual chronicle of the kingdom.",
+  "desc": "A chief in high relief, spear ready, coral beads exact. The palace wall remembers in brass.",
+  "mla": [
+   "\"Benin Bronzes.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Benin_Bronzes."
+  ],
+  "img": "commons.wikimedia.org/wiki/Category:Benin_Bronzes"
+ },
+ {
+  "id": "r63_020",
+  "name": "Queen Idia Ivory Pendant Mask, Benin, Early 1500s",
+  "icon": "👑",
+  "region": "benin",
+  "pl": {
+   "mode": "minigame",
+   "detail": "Perspective Prism"
+  },
+  "eff": {
+   "t": "perspective",
+   "c": "Power"
+  },
+  "tags": {
+   "c": "Power",
+   "e": "Perspectives",
+   "s": "Visual Arts"
+  },
+  "kq": "Who decides where a looted object belongs, and on what grounds?",
+  "ans": [
+   "The source community holds the strongest claim. The mask honors a Benin queen mother, was seized in an invasion, and its meaning lives in Benin's court tradition, not in a display case.",
+   "Custody arguments also invoke care and access. Holding museums cite conservation and global audiences; the question is whether those grounds outweigh how the object arrived."
+  ],
+  "rw": "This ivory mask portrays Idia, mother of Oba Esigie, and was worn at the Benin ruler's hip in the early sixteenth century. British troops took it in the 1897 expedition, and versions sit in the British Museum and the Met. Nigeria chose it as the emblem of the FESTAC '77 festival, and requests for return continue.",
+  "desc": "A queen mother carved in ivory, serene and exact. Two cities claim the right to keep her.",
+  "mla": [
+   "\"Benin ivory mask.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Benin_ivory_mask."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_021",
+  "name": "Bronze Head of an Iyoba, Benin Royal Altar, c. 1550",
+  "icon": "🕯️",
+  "region": "benin",
+  "pl": {
+   "mode": "npc",
+   "detail": "Cast-master Ehioze: he entrusts the head after you promise to name the queen mother it honors."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Culture",
+   "v": 12
+  },
+  "tags": {
+   "c": "Culture",
+   "e": "Scope",
+   "s": "Visual Arts"
+  },
+  "kq": "How far can objects made for ritual be understood once displayed as art?",
+  "ans": [
+   "Only partly. On an altar the head anchored ceremonies binding a living court to an ancestor; under gallery glass it becomes form and technique, and its job disappears.",
+   "Display adds a second life. New audiences meet Benin casting skill and ask how the head was used, so museum framing can open a door back toward the ritual meaning."
+  ],
+  "rw": "Benin casters made commemorative brass heads for royal ancestral altars, including heads of the Iyoba, the queen mother, wearing a pointed coral net. The heads focused rites linking the reigning Oba to his forebears. Many were taken in 1897 and now stand in museum galleries far from any altar.",
+  "desc": "A woman's face in cool brass, coral net rising like a flame. It once had duties.",
+  "mla": [
+   "\"Benin Bronzes.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Benin_Bronzes."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_022",
+  "name": "Okukor, Benin Bronze Cockerel Returned by Jesus College, 2021",
+  "icon": "🐓",
+  "region": "benin",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Responsibility",
+   "v": 15
+  },
+  "tags": {
+   "c": "Responsibility",
+   "e": "Ethics",
+   "s": "Global Politics"
+  },
+  "kq": "What responsibilities come with holding knowledge or objects acquired through injustice?",
+  "ans": [
+   "A duty to repair. The college concluded the cockerel was loot, so keeping it would extend the 1897 raid into the present; return was the clean ledger entry.",
+   "A duty to learn first. Return closes one account but can end study and public access; some argue institutions owe education about the theft alongside, or before, the handover."
+  ],
+  "rw": "This brass cockerel, an altar piece from Benin City, was looted in 1897 and given to Jesus College, Cambridge in 1905. Students campaigned from 2016 for its removal from the dining hall, and in October 2021 the college handed it to a Nigerian delegation, the first such institutional return in the UK.",
+  "desc": "A brass rooster with a passport at last. It crossed the sea twice, once as loot, once as apology.",
+  "mla": [
+   "\"Benin Bronzes.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Benin_Bronzes."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_023",
+  "name": "Lost-Wax Casting Crucible, Igun Street, Benin City",
+  "icon": "🔥",
+  "region": "benin",
+  "pl": {
+   "mode": "cache",
+   "detail": "Buried in the casting sand behind the guild furnace."
+  },
+  "eff": {
+   "t": "stamina",
+   "v": 2
+  },
+  "tags": {
+   "c": "Justification",
+   "e": "Methods and Tools",
+   "s": "Design Technology"
+  },
+  "kq": "How is mastery of a craft proven inside a guild rather than a classroom?",
+  "ans": [
+   "By verdicts of fire. A caster's claim to skill is justified when the mold breaks open clean, generation after generation, with elders as examiners.",
+   "By lineage as license. On Igun Street the right to cast is inherited and guarded, so justification includes ancestry alongside skill; outsiders may ask if ability alone should suffice."
+  ],
+  "rw": "Igun Street in Benin City houses the hereditary bronze casters' guild, which has served the royal court for centuries and still uses the lost-wax method. Molten brass is poured into clay molds formed over wax models. The street is protected as part of Benin's heritage, and the guild answers to the Oba.",
+  "desc": "A scorched clay cup, glazed with old metal. Somewhere between fire and family, skill became law.",
+  "mla": [
+   "\"Lost-wax casting.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Lost-wax_casting."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_024",
+  "name": "Pair of Benin Ivory Leopards with Copper Spots, Taken 1897",
+  "icon": "🐆",
+  "region": "benin",
+  "pl": {
+   "mode": "npc",
+   "detail": "Curator Adesuwa: she hands over the record card, noting the word 'gift' where 'seized' should stand."
+  },
+  "eff": {
+   "t": "perspective",
+   "c": "Perspective"
+  },
+  "tags": {
+   "c": "Perspective",
+   "e": "Ethics",
+   "s": "History"
+  },
+  "kq": "How do museum labels shape what visitors believe about how objects arrived?",
+  "ans": [
+   "Labels write the first draft. 'Presented to Queen Victoria' sounds like diplomacy and hides an invasion, so a single verb can launder a provenance.",
+   "Labels can also correct. Rewritten texts now name the 1897 expedition, showing institutions can use the same small plaque to restore the record they once smoothed."
+  ],
+  "rw": "These leopards, carved from ivory tusks with inlaid copper spots, stood in the Benin royal palace as symbols of the Oba's authority. British forces took them in the 1897 expedition and presented them to Queen Victoria, and they entered the Royal Collection. Leopards signified the ruler's command over the wild.",
+  "desc": "Two spotted cats, tusk-born, forever mid-stalk. Their paperwork purrs more softly than the truth.",
+  "mla": [
+   "\"Benin Expedition of 1897.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Benin_Expedition_of_1897."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_025",
+  "name": "Aspects of Negro Life Murals, Aaron Douglas, 1934",
+  "icon": "🌆",
+  "region": "harlem",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Perspective",
+   "v": 12
+  },
+  "tags": {
+   "c": "Perspective",
+   "e": "Perspectives",
+   "s": "Visual Arts"
+  },
+  "kq": "What changes when a community paints its own history instead of being painted by others?",
+  "ans": [
+   "The center of the story moves. Douglas set Black figures as founders and builders, not background, so the same past yields a different cast of knowers and actors.",
+   "The audience changes too. Murals in a Harlem library spoke first to neighbors, and history told at home can claim things textbooks of the era refused to print."
+  ],
+  "rw": "Aaron Douglas painted this four-panel mural cycle in 1934 for the 135th Street branch of the New York Public Library, now the Schomburg Center. Silhouetted figures move from Africa through slavery, Reconstruction, and city life. It stands among the defining public art of the Harlem Renaissance.",
+  "desc": "Silhouettes stride through rings of light. A library wall carries a people's own telling.",
+  "mla": [
+   "\"Aaron Douglas.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Aaron_Douglas."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_026",
+  "name": "Take the 'A' Train, Ellington Orchestra 78 rpm, 1941",
+  "icon": "🚇",
+  "region": "harlem",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "ability",
+   "id": "stride"
+  },
+  "tags": {
+   "c": "Culture",
+   "e": "Methods and Tools",
+   "s": "Music"
+  },
+  "kq": "How does collective improvisation produce knowledge no single musician holds?",
+  "ans": [
+   "The band thinks as one instrument. Each soloist answers the others in the moment, and the resulting form exists only between players, like a conversation nobody could script alone.",
+   "The chart still rules. Strayhorn's written arrangement sets the rails the solos run on, so the collective freedom is built on one composer's private craft."
+  ],
+  "rw": "Billy Strayhorn composed this tune from subway directions to Duke Ellington's Harlem home, and the Ellington Orchestra recorded it in February 1941. It became the band's signature theme. The record fixed one night's arrangement of music the band varied for decades.",
+  "desc": "A shellac disc humming with subway steel. The fastest route uptown runs through a saxophone.",
+  "mla": [
+   "\"Take the 'A' Train.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Take_the_%22A%22_Train."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_027",
+  "name": "Louis Armstrong's Gold-Plated Selmer Trumpet, Queens",
+  "icon": "🎺",
+  "region": "harlem",
+  "pl": {
+   "mode": "shop",
+   "detail": "",
+   "cost": 120
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Justification",
+   "v": 12
+  },
+  "tags": {
+   "c": "Justification",
+   "e": "Methods and Tools",
+   "s": "Music"
+  },
+  "kq": "How do we justify claims about skill held in the body rather than written down?",
+  "ans": [
+   "By performance under witnesses. Armstrong's mastery was justified nightly, in front of crowds and microphones; recordings stand as repeatable evidence of knowing how.",
+   "By teaching. Bodily knowledge proves itself when it transfers; generations of trumpeters learned phrasing from him, and successful transmission is stronger proof than applause."
+  ],
+  "rw": "Louis Armstrong played Selmer trumpets for much of his career, and his home in Corona, Queens, now a museum, preserves his gold-plated horns. His playing and singing reshaped jazz phrasing worldwide. The house archive also holds his tapes, scrapbooks, and mouthpieces.",
+  "desc": "A horn polished by decades of breath. It remembers phrases nobody wrote down.",
+  "mla": [
+   "\"Louis Armstrong House Museum.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Louis_Armstrong_House_Museum."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_028",
+  "name": "Couple in Raccoon Coats, James Van Der Zee Photo, 1932",
+  "icon": "📷",
+  "region": "harlem",
+  "pl": {
+   "mode": "minigame",
+   "detail": "Claim Forge"
+  },
+  "eff": {
+   "t": "perspective",
+   "c": "Perspective"
+  },
+  "tags": {
+   "c": "Evidence",
+   "e": "Perspectives",
+   "s": "Visual Arts"
+  },
+  "kq": "Can a carefully staged photograph still count as evidence about a community?",
+  "ans": [
+   "Yes, as evidence of self-presentation. Van Der Zee's clients chose the car, the coats, and the pose, and those choices document Harlem's aspirations as firmly as any candid shot.",
+   "Only with caution. Staging selects the best day and the best coat, so treating studio images as typical life would mistake a portrait of hope for a census."
+  ],
+  "rw": "James Van Der Zee photographed Harlem for six decades from his studio, and this 1932 image shows a stylish couple with a Cadillac on West 127th Street. He posed clients with props and retouched negatives to match their self-image. His archive became a key record of Black middle-class life between the wars.",
+  "desc": "Fur coats, a gleaming car, and steady eyes. A neighborhood states its case on photographic paper.",
+  "mla": [
+   "\"James Van Der Zee.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/James_Van_Der_Zee."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_029",
+  "name": "The Migration Series, Panel No. 1, Jacob Lawrence, 1941",
+  "icon": "🧳",
+  "region": "harlem",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Explanation",
+   "v": 12
+  },
+  "tags": {
+   "c": "Explanation",
+   "e": "Scope",
+   "s": "History"
+  },
+  "kq": "What can a sequence of paintings explain about history better than a written chronicle?",
+  "ans": [
+   "Pattern and feeling at once. Sixty panels with repeated colors let viewers grasp a mass movement as one rhythm, the crowds, the trains, the arrivals, faster than tables of numbers.",
+   "Less than it seems, without captions. Lawrence paired every panel with text because images alone cannot fix causes; the explanation lives in the marriage of word and paint."
+  ],
+  "rw": "Jacob Lawrence painted sixty small panels in 1940 and 1941 narrating the Great Migration of Black Southerners to northern cities, moving color by color across all panels so they match. He wrote a caption for each. The set is split between MoMA and the Phillips Collection.",
+  "desc": "Panel one: a crowded station, three gates, three cities. Sixty small paintings carry a million journeys.",
+  "mla": [
+   "\"The Migration Series.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/The_Migration_Series."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_030",
+  "name": "Strange Fruit, Billie Holiday on Commodore Records, 1939",
+  "icon": "🎙️",
+  "region": "harlem",
+  "pl": {
+   "mode": "npc",
+   "detail": "Barney the club owner: he passes you the disc, saying the big label refused it and the small one did not blink."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Responsibility",
+   "v": 15
+  },
+  "tags": {
+   "c": "Responsibility",
+   "e": "Ethics",
+   "s": "Music"
+  },
+  "kq": "What responsibilities do artists take on when they turn atrocity into art?",
+  "ans": [
+   "A duty to unsettle. Holiday sang about lynching to nightclub audiences with the lights down and no encore, insisting comfort was not on the menu; the song aimed to change knowers, not please them.",
+   "A duty of care. Turning victims into imagery risks spectacle; the artist must answer to those whose suffering supplies the material, and some argue only communities affected should carry such songs."
+  ],
+  "rw": "Abel Meeropol wrote this protest song about lynching, and Billie Holiday recorded it in April 1939 after Columbia refused, releasing it on the small Commodore label. She closed shows with it: service stopped, lights dimmed, no encore. Time magazine later named it the song of the century.",
+  "desc": "A slow song heavy as a verdict. The room goes silent before the needle drops.",
+  "mla": [
+   "\"Strange Fruit.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Strange_Fruit."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_031",
+  "name": "The Harp (Lift Every Voice and Sing), Augusta Savage, 1939",
+  "icon": "🎤",
+  "region": "harlem",
+  "pl": {
+   "mode": "cache",
+   "detail": "A plaster fragment rests under the fairground's north ramp."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Values",
+   "v": 14
+  },
+  "tags": {
+   "c": "Values",
+   "e": "Ethics",
+   "s": "Visual Arts"
+  },
+  "kq": "Whose art gets preserved, and what do those choices reveal about a society's values?",
+  "ans": [
+   "Preservation follows funding. Savage's sixteen-foot choir was demolished with the fair because no one paid for casting, so the loss records which artists' futures institutions chose to insure.",
+   "Survival is not the only measure. The Harp lives on in photographs, small souvenir casts, and influence on her students, so value can outlast the object a budget destroyed."
+  ],
+  "rw": "Augusta Savage created this sixteen-foot plaster sculpture for the 1939 New York World's Fair, shaping a choir of singers into the strings of a harp, inspired by the hymn Lift Every Voice and Sing. No funds existed to cast or store it, and it was destroyed when the fair closed. Photographs and small replicas remain.",
+  "desc": "Twelve singers rise like strings under a great hand. Only their photograph survived the bulldozer.",
+  "mla": [
+   "\"Augusta Savage.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Augusta_Savage."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_032",
+  "name": "The Tree of Hope Stump, Apollo Theater Stage, Harlem",
+  "icon": "🌳",
+  "region": "harlem",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "stamina",
+   "v": 2
+  },
+  "tags": {
+   "c": "Justification",
+   "e": "Perspectives",
+   "s": "Theatre"
+  },
+  "kq": "Under what circumstances is a belief justified by what it does rather than by evidence?",
+  "ans": [
+   "When its job is steadiness, not prediction. Rubbing the log settles Amateur Night nerves, and calm fingers are an actual effect; the ritual earns its keep without any magic claim.",
+   "Never fully. Comfort explains why people keep the belief, not why the belief is true; a practice can be useful and still teach us nothing about how luck operates."
+  ],
+  "rw": "An elm called the Tree of Hope stood on Seventh Avenue near Harlem's theatres, and performers rubbed it for luck. When the street was widened in 1934, a section of the trunk was saved, and a log from it now stands on the Apollo Theater stage. Amateur Night contestants still touch it before performing.",
+  "desc": "A polished stump on a famous stage. Ten thousand nervous hands have shined it smooth.",
+  "mla": [
+   "\"Apollo Theater.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Apollo_Theater."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_033",
+  "name": "The Weary Blues, Langston Hughes First Edition, 1926",
+  "icon": "📘",
+  "region": "harlem",
+  "pl": {
+   "mode": "shop",
+   "detail": "",
+   "cost": 45
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Interpretation",
+   "v": 10
+  },
+  "tags": {
+   "c": "Interpretation",
+   "e": "Scope",
+   "s": "Literature A"
+  },
+  "kq": "What happens to music's meaning when a poet translates it into printed words?",
+  "ans": [
+   "A new instrument appears. Hughes bent line breaks and repetition until the page itself syncopates, so print does not copy the blues, it performs them by other means.",
+   "A residue is lost. Pitch, timbre, and a singer's voice die on paper; the poem gestures at a sound the reader must already know, so the page depends on the club."
+  ],
+  "rw": "Langston Hughes published this first poetry collection in 1926, pulling blues and jazz rhythms into printed verse about Black life in Harlem and beyond. The title poem describes a piano player on Lenox Avenue. The book helped define the Harlem Renaissance's literary voice.",
+  "desc": "A slim book with a piano inside it. Read it aloud and your foot starts keeping time.",
+  "mla": [
+   "\"The Weary Blues.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/The_Weary_Blues."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_034",
+  "name": "Hall of the Bulls, Lascaux Cave, c. 15,000 BC",
+  "icon": "🐂",
+  "region": "cave",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "stamina",
+   "v": 3
+  },
+  "tags": {
+   "c": "Interpretation",
+   "e": "Scope",
+   "s": "Visual Arts"
+  },
+  "kq": "How far can we interpret images whose makers can never be asked?",
+  "ans": [
+   "Only to the edge of pattern. We can measure pigments, count species, and map placement, but hunting magic, myth, or star charts remain guesses the walls cannot confirm.",
+   "Farther than silence suggests. The painters chose deep chambers, repeated conventions, and monumental scale, and those choices communicate seriousness across the gap, even without a translator."
+  ],
+  "rw": "Four teenagers and a dog found the Lascaux cave in southwestern France in September 1940. Its Hall of the Bulls carries aurochs up to five meters long, painted roughly 17,000 years ago. The cave closed to visitors in 1963 after breath and algae began damaging the walls.",
+  "desc": "Great bulls stampede across stone in mineral black and ochre. The painters left everything except an explanation.",
+  "mla": [
+   "\"Lascaux.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Lascaux."
+  ],
+  "img": "commons.wikimedia.org/wiki/Category:Lascaux"
+ },
+ {
+  "id": "r63_035",
+  "name": "The Lion Panel, Chauvet Cave, France",
+  "icon": "🦁",
+  "region": "cave",
+  "pl": {
+   "mode": "npc",
+   "detail": "Warden Brunel: she guards the sealed entrance and lends you the survey copy, since nobody enters the original."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Evidence",
+   "v": 14
+  },
+  "tags": {
+   "c": "Evidence",
+   "e": "Methods and Tools",
+   "s": "Physics"
+  },
+  "kq": "How do dating methods change what we accept about the deep past?",
+  "ans": [
+   "Radiocarbon rewrote the timeline. Charcoal from Chauvet returned ages beyond 30,000 years, forcing experts to accept mastery of shading and motion far earlier than theories of slow artistic progress allowed.",
+   "Methods persuade only with cross-checks. Single dates met doubt, and confidence grew from dozens of samples, multiple labs, and sealed floors; the evidence convinced as a web, not a number."
+  ],
+  "rw": "Three cavers found the Chauvet cave in December 1994, its walls carrying lions, rhinos, and horses in confident charcoal. Radiocarbon dating places much of the art beyond 30,000 years ago, among the oldest known paintings. The cave is sealed, and the public visits a full-scale replica nearby.",
+  "desc": "A pride of lions drawn with sure charcoal lines. Their hunt has lasted thirty thousand years.",
+  "mla": [
+   "\"Chauvet Cave.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Chauvet_Cave."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_036",
+  "name": "The Bison Ceiling of Altamira, Found 1879",
+  "icon": "🦬",
+  "region": "cave",
+  "pl": {
+   "mode": "minigame",
+   "detail": "Fallacy Volley"
+  },
+  "eff": {
+   "t": "battle",
+   "v": 1,
+   "kind": "reveal"
+  },
+  "tags": {
+   "c": "Truth",
+   "e": "Perspectives",
+   "s": "History"
+  },
+  "kq": "Why do experts sometimes reject true claims, and how do such verdicts get reversed?",
+  "ans": [
+   "Because the claim breaks the ruling theory. Painted bison seemed too skilled for 'primitive' humans, so specialists called Altamira a fraud; the error lived in their assumptions, not the wall.",
+   "Reversal came from converging finds. New caves with buried entrances made forgery impossible, and in 1902 the chief skeptic published his apology; the system corrected, slowly, in public."
+  ],
+  "rw": "Marcelino Sanz de Sautuola explored Altamira in northern Spain in 1879 after his young daughter Maria looked up and saw painted bison. Leading prehistorians dismissed the ceiling as a modern fake, and Sautuola died discredited. Discoveries in France forced the field to reverse, and Emile Cartailhac published his famous apology in 1902.",
+  "desc": "Red bison crowd a low stone sky. A child saw them first, and the professors saw last.",
+  "mla": [
+   "\"Cave of Altamira.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Cave_of_Altamira."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_037",
+  "name": "Warty Pig Painting, Leang Tedongnge Cave, Sulawesi",
+  "icon": "🐗",
+  "region": "cave",
+  "pl": {
+   "mode": "cache",
+   "detail": "Behind the dripping limestone tooth at the passage's end."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Certainty",
+   "v": 12
+  },
+  "tags": {
+   "c": "Certainty",
+   "e": "Methods and Tools",
+   "s": "ESS"
+  },
+  "kq": "What does it mean when scientists can state only a minimum age for a discovery?",
+  "ans": [
+   "The claim states its limits openly. The dated mineral crust grew over the pig after painting, so 45,500 years is a floor, not the age; the method measures the lid, never the letter inside.",
+   "Minimums still overturn maps. Even as a floor, the date moved art's origins into Indonesia and away from a Europe-first story, so bounded certainty can carry unbounded consequences."
+  ],
+  "rw": "Researchers published this life-size warty pig from Leang Tedongnge cave in Sulawesi in 2021. Uranium-series dating of a calcite deposit over the ochre gave a minimum age of about 45,500 years, placing it among the oldest known figurative paintings. The date describes the crust, so the image itself is older.",
+  "desc": "A plump pig in red ochre, mid-trot since before the last ice age ended. The stone kept its receipt.",
+  "mla": [
+   "\"Leang Tedongnge.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Leang_Tedongnge."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_038",
+  "name": "Hand Stencils, Cueva de las Manos, Argentina",
+  "icon": "✋",
+  "region": "cave",
+  "pl": {
+   "mode": "cache",
+   "detail": "Reach into the crevice where the river wall bends."
+  },
+  "eff": {
+   "t": "stamina",
+   "v": 1
+  },
+  "tags": {
+   "c": "Culture",
+   "e": "Scope",
+   "s": "Visual Arts"
+  },
+  "kq": "What can repeated marks made over thousands of years tell us about a community?",
+  "ans": [
+   "They show continuity of practice. Generations returned to the same wall with the same bone-pipe spray technique, so the cliff records a tradition outliving any single life by centuries.",
+   "They show presence, not meaning. Hundreds of hands say 'we were here' with certainty, yet whether the gesture meant ritual, signature, or play stays beyond the evidence."
+  ],
+  "rw": "The Cave of the Hands above Argentina's Pinturas River canyon holds hundreds of stenciled hands, sprayed in mineral pigment through bone pipes, most made between about 9,000 and 13,000 years ago, with activity spanning millennia. Most are left hands, suggesting artists sprayed with the right. UNESCO listed the site in 1999.",
+  "desc": "A wall of raised hands in red, black, and yellow. The oldest crowd photo on the continent.",
+  "mla": [
+   "\"Cueva de las Manos.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Cueva_de_las_Manos."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_039",
+  "name": "The Lion Man of Hohlenstein-Stadel, c. 38,000 BC",
+  "icon": "🧩",
+  "region": "cave",
+  "pl": {
+   "mode": "npc",
+   "detail": "Reassembler Ute: she presses the ivory figure into your hands, having spent years fitting its six hundred fragments."
+  },
+  "eff": {
+   "t": "battle",
+   "v": 1,
+   "kind": "life"
+  },
+  "tags": {
+   "c": "Explanation",
+   "e": "Scope",
+   "s": "Psychology"
+  },
+  "kq": "What role does imagination play in producing knowledge of things nobody has ever seen?",
+  "ans": [
+   "Imagination builds the category. A lion-headed human exists nowhere in nature, so the carver combined observations into a new being; abstraction and myth start in exactly this move.",
+   "Imagination needs anchors. Every invented part copies a studied original, lion or man, so even the wildest figure testifies first to close observation of actual bodies."
+  ],
+  "rw": "Found in fragments in a German cave in August 1939 and reassembled over decades, this mammoth-ivory figurine joins a lion's head to a human body and is around 35,000 to 40,000 years old. Experiments suggest it took hundreds of hours to carve. It stands in the museum in Ulm as the oldest known figurative sculpture of an imagined being.",
+  "desc": "Half lion, half human, all ivory. Someone spent a winter carving a creature only minds contain.",
+  "mla": [
+   "\"Lion-man.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Lion-man."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_040",
+  "name": "Ochre Processing Kit, Blombos Cave, c. 100,000 Years Old",
+  "icon": "🪨",
+  "region": "cave",
+  "pl": {
+   "mode": "minigame",
+   "detail": "Assumption Sweep"
+  },
+  "eff": {
+   "t": "stamina",
+   "v": 2
+  },
+  "tags": {
+   "c": "Evidence",
+   "e": "Methods and Tools",
+   "s": "Chemistry"
+  },
+  "kq": "How does one small find force a rewrite of a whole timeline?",
+  "ans": [
+   "By breaking the earliest boundary. Abalone shells with mixed ochre paint push planned pigment chemistry to 100,000 years, so every story starting art in ice-age Europe now begins on the wrong continent.",
+   "One find bends, many finds break. The kit alone could be an outlier; its force comes from joining engraved ochre and shell beads at the same site, a cluster no old timeline survives."
+  ],
+  "rw": "Archaeologists at Blombos Cave in South Africa uncovered two abalone shells holding a ground mixture of ochre, charcoal, and bone, a paint-making kit about 100,000 years old, published in 2011. The cave also yielded engraved ochre and a 73,000-year-old crosshatched drawing. The finds place planned pigment production deep in the African past.",
+  "desc": "A shell bowl with rust-red residue. Recipe number one in the history of color.",
+  "mla": [
+   "\"Blombos Cave.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Blombos_Cave."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_041",
+  "name": "Lascaux II, The Replica Cave, Opened 1983",
+  "icon": "🪞",
+  "region": "cave",
+  "pl": {
+   "mode": "shop",
+   "detail": "",
+   "cost": 30
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Truth",
+   "v": 10
+  },
+  "tags": {
+   "c": "Truth",
+   "e": "Ethics",
+   "s": "Design Technology"
+  },
+  "kq": "When visitors tour an exact copy, what have they actually come to know?",
+  "ans": [
+   "They know the image, not the object. Every contour is measured and true, so the knowledge of form transfers fully; only the age is missing, and age cannot be seen anyway.",
+   "They know a curated performance. The replica selects chambers, lighting, and route, so visitors learn an edited Lascaux, and the missing original quietly certifies the edit."
+  ],
+  "rw": "After breath, heat, and algae from a million visitors damaged Lascaux's paintings, France closed the cave in 1963 and opened Lascaux II in 1983, a concrete replica of its two most famous galleries built two hundred meters away. Painters copied the originals using matching pigments. A fuller replica, Lascaux IV, followed in 2016.",
+  "desc": "A cave pretending to be a cave, and admitting it. The bulls are copies; the awe is original.",
+  "mla": [
+   "\"Lascaux.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Lascaux."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_042",
+  "name": "Earth's Creation I, Emily Kame Kngwarreye, 1994",
+  "icon": "🖌️",
+  "region": "songlines",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Interpretation",
+   "v": 14
+  },
+  "tags": {
+   "c": "Interpretation",
+   "e": "Perspectives",
+   "s": "Visual Arts"
+  },
+  "kq": "To what extent do galleries and communities see the same painting when they look at one canvas?",
+  "ans": [
+   "They see different objects. Critics filed her canvases beside Western abstraction, while for Kngwarreye the piece held Country, ceremony, and yam roots; the paint carries both readings without merging them.",
+   "Difference can be a bridge. The gallery frame brought global attention, and attention brought curiosity about Anmatyerre knowledge, so the two ways of seeing feed each other in trade."
+  ],
+  "rw": "Emily Kame Kngwarreye, an Anmatyerre elder from Utopia, began painting on canvas around age eighty and produced thousands of pieces in eight years. Earth's Creation I, painted in 1994, sold in 2007 for over a million Australian dollars, then a record for an Australian woman artist. Her images hold her Country and its cycles.",
+  "desc": "Color storms across a huge canvas. An elder painted a lifetime of Country in her final years.",
+  "mla": [
+   "\"Emily Kame Kngwarreye.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Emily_Kame_Kngwarreye."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_043",
+  "name": "Ghost Gum Watercolour, Albert Namatjira, Hermannsburg",
+  "icon": "🏜️",
+  "region": "songlines",
+  "pl": {
+   "mode": "npc",
+   "detail": "Ranger Ellie: she hands over the framed sheet, saying her grandmother watched him paint at the mission."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Perspective",
+   "v": 12
+  },
+  "tags": {
+   "c": "Perspective",
+   "e": "Perspectives",
+   "s": "Visual Arts"
+  },
+  "kq": "Whose knowledge appears when an artist paints his own Country using another culture's medium?",
+  "ans": [
+   "Both, layered. The watercolour technique is European, but the choice of trees, waterholes, and viewpoints follows Arrernte relations to Country, so ancestral knowledge rides inside the imported medium.",
+   "The frame can mislead. Buyers praised 'pretty landscapes' and missed the sacred geography, so the medium translated Country into scenery, and much of the knowledge stayed invisible to its audience."
+  ],
+  "rw": "Albert Namatjira, a Western Arrernte man from Hermannsburg mission, learned watercolour in the 1930s and painted the ghost gums and ranges of his Country to national fame. He and his wife became the first Aboriginal Australians granted full citizenship in 1957, a decade before the referendum extended rights more broadly. His white gums stand as icons of Central Australia.",
+  "desc": "A white-trunked gum against dry ranges. Two ways of seeing share one sheet of paper.",
+  "mla": [
+   "\"Albert Namatjira.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Albert_Namatjira."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_044",
+  "name": "Honey Ant Dreaming Mural, Papunya School, 1971",
+  "icon": "🐜",
+  "region": "songlines",
+  "pl": {
+   "mode": "cache",
+   "detail": "Behind the school's repainted wall, a tracing survives."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Power",
+   "v": 14
+  },
+  "tags": {
+   "c": "Power",
+   "e": "Ethics",
+   "s": "Visual Arts"
+  },
+  "kq": "Who holds the authority to decide which knowledge may be made public?",
+  "ans": [
+   "The custodians do. Elders judged some painted designs too sacred for open display, and later Papunya artists veiled restricted elements under dotting; the community, not the market, drew the line.",
+   "Authority is negotiated under pressure. A school wall, a teacher's encouragement, and buyers' interest all pushed toward disclosure, so control of sacred knowledge had to be re-won inside new institutions."
+  ],
+  "rw": "In 1971 senior men at Papunya, encouraged by teacher Geoffrey Bardon, painted a Honey Ant Dreaming mural on the school wall, a founding act of the Western Desert painting movement. Disputes followed over showing sacred designs, and the mural was later painted over. The movement grew as artists adapted designs for public view.",
+  "desc": "Ants and circles once crossed this school wall. The paint is gone; the argument it started reshaped a continent's art.",
+  "mla": [
+   "\"Papunya Tula.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Papunya_Tula."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_045",
+  "name": "Yidaki Made by Djalu Gurruwiwi, Arnhem Land",
+  "icon": "🪵",
+  "region": "songlines",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "stamina",
+   "v": 2
+  },
+  "tags": {
+   "c": "Culture",
+   "e": "Methods and Tools",
+   "s": "Music"
+  },
+  "kq": "What is lost when an instrument travels beyond the community whose law it carries?",
+  "ans": [
+   "The law goes quiet. For Yolngu players a yidaki sounds clan identity and ceremony, and a buyer abroad hears only drone and rhythm, so the instrument arrives while its meaning stays home.",
+   "Travel can also protect. Djalu taught outsiders deliberately, betting shared breath would win respect and allies for Yolngu culture; a silent museum piece teaches less than a taught student."
+  ],
+  "rw": "Djalu Gurruwiwi, a Galpu clan elder who died in 2022, was a renowned maker, player, and custodian of the yidaki, the instrument widely called the didgeridoo. Termites hollow the eucalyptus trunks, and makers tune them by ear and shaping. Djalu taught students worldwide to secure the tradition's future.",
+  "desc": "A termite-hollowed trunk painted with clan patterns. Breathe correctly and it speaks with an old voice.",
+  "mla": [
+   "\"Djalu Gurruwiwi.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Djalu_Gurruwiwi.",
+   "\"Didgeridoo.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Didgeridoo."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_046",
+  "name": "Wandjina Figures of the Kimberley Rock Shelters",
+  "icon": "⛈️",
+  "region": "songlines",
+  "pl": {
+   "mode": "cache",
+   "detail": "High on the overhang where the rain spirits watch the pool."
+  },
+  "eff": {
+   "t": "perspective",
+   "c": "Responsibility"
+  },
+  "tags": {
+   "c": "Responsibility",
+   "e": "Ethics",
+   "s": "World Religions"
+  },
+  "kq": "Should the right to renew sacred images belong only to particular knowers?",
+  "ans": [
+   "Yes. For Worrorra, Ngarinyin, and Wunambal custodians, repainting Wandjina is lawful maintenance by initiated hands; done by others the act turns from restoration into violation, whatever the technique.",
+   "Heritage rules complicate the yes. When a 1987 repainting project drew outrage, governments and conservators claimed a say, so in practice the right is contested between traditional law and heritage law."
+  ],
+  "rw": "Wandjina, cloud and rain beings with halo-like headdresses and mouthless faces, appear in rock shelters across the Kimberley in northwest Australia. Custodial families traditionally repaint them to renew their force, a practice governed by traditional law. A 1987 repainting funded as a heritage project set off national debate over who may touch the images.",
+  "desc": "Wide dark eyes under a storm halo. No mouth, yet the wall clearly issues instructions.",
+  "mla": [
+   "\"Wandjina.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Wandjina."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_047",
+  "name": "Yirrkala Church Panels, Painted 1962 to 1963",
+  "icon": "⛪",
+  "region": "songlines",
+  "pl": {
+   "mode": "npc",
+   "detail": "Elder Gulwirri: she explains the clans painted their law beside scripture, then lets you study the copy boards."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Justification",
+   "v": 12
+  },
+  "tags": {
+   "c": "Justification",
+   "e": "Perspectives",
+   "s": "World Religions"
+  },
+  "kq": "Can two systems of justified belief stand side by side without one absorbing the other?",
+  "ans": [
+   "The panels answer yes in paint. Dhuwa and Yirritja law flanked the mission altar as equal testimony, each system keeping its own grounds, ancestors on one side, scripture on the other.",
+   "Coexistence needed a message. The panels also argued to the church and the state: our law is old, written, and binding. Their placement was justification aimed outward, a claim as much as a truce."
+  ],
+  "rw": "In 1962 and 1963, Yolngu artists of the Dhuwa and Yirritja moieties painted two large panels of clan law and ancestral designs for the new Methodist church at Yirrkala, placing them beside the altar. The panels preceded the famous Yirrkala bark petitions to parliament. They are now kept at the community's Buku-Larrnggay Mulka art centre.",
+  "desc": "Two tall boards dense with clan design. Law stood next to scripture and did not blink.",
+  "mla": [
+   "\"Yirrkala.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Yirrkala."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_048",
+  "name": "Lake Condah Possum-Skin Cloak, Collected 1872",
+  "icon": "🧥",
+  "region": "songlines",
+  "pl": {
+   "mode": "minigame",
+   "detail": "Boundary Maze"
+  },
+  "eff": {
+   "t": "perspective",
+   "c": "Culture"
+  },
+  "tags": {
+   "c": "Culture",
+   "e": "Scope",
+   "s": "Geography"
+  },
+  "kq": "How can a garment function as a map, a biography, and a legal document at once?",
+  "ans": [
+   "Through incised design. Patterns cut into the skins record the wearer's Country and clan, growing panel by panel through life, so the cloak is worn geography and identity, readable to those with the code.",
+   "Function depends on the reader. In a museum drawer the same cloak became an ethnographic specimen; its map and law revived only when Gunditjmara makers studied it to cut new cloaks, restoring the readers the object required."
+  ],
+  "rw": "This possum-skin cloak from Lake Condah in western Victoria, collected in 1872, is one of very few nineteenth-century cloaks surviving, held by Museums Victoria. Panels of sewn skins carry incised designs recording Country and belonging, and cloaks accompanied their owners from infancy to burial. Gunditjmara and other communities revived cloak-making from these survivors in the 2000s.",
+  "desc": "Soft fur outside, carved stories inside. A coat you could navigate by.",
+  "mla": [
+   "\"Possum-skin cloak.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Possum-skin_cloak."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_049",
+  "name": "The Supper at Emmaus, Van Meegeren's Fake Vermeer, 1937",
+  "icon": "🧑‍🎨",
+  "region": "vault_knower",
+  "pl": {
+   "mode": "minigame",
+   "detail": "Claim Forge"
+  },
+  "eff": {
+   "t": "battle",
+   "v": 1,
+   "kind": "reveal"
+  },
+  "tags": {
+   "c": "Justification",
+   "e": "Methods and Tools",
+   "s": "Visual Arts"
+  },
+  "kq": "When experts authenticate a forgery, what exactly failed: the method, the expert, or the question?",
+  "ans": [
+   "The expert's desire failed first. Bredius longed for a religious Vermeer to complete his theory, and the forger painted the wish; authority plus expectation beat the evidence of the eye.",
+   "The method failed with him. Connoisseurship rested on trained intuition without chemical checks, so the field lacked any test the forger had not already studied; the fraud exposed a missing tool, and X-rays and solvents entered the courtroom because of it."
+  ],
+  "rw": "Han van Meegeren painted this fake Vermeer in the 1930s, aged it with bakelite hardening, and sold it in 1937 after the leading expert Abraham Bredius praised it as Vermeer's masterpiece. Arrested in 1945 for selling another 'Vermeer' to Hermann Goering, van Meegeren confessed to forgery and painted a new fake under supervision to prove it. He was convicted in 1947.",
+  "desc": "A quiet biblical supper with a criminal past. The signature says Vermeer; the chemistry says 1937.",
+  "mla": [
+   "\"Han van Meegeren.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Han_van_Meegeren."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_050",
+  "name": "Salvator Mundi, Sold for 450 Million Dollars, 2017",
+  "icon": "💰",
+  "region": "vault_knower",
+  "pl": {
+   "mode": "npc",
+   "detail": "Broker Ansel: he slides the crate across, whispering the attribution is the price."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Certainty",
+   "v": 14
+  },
+  "tags": {
+   "c": "Certainty",
+   "e": "Methods and Tools",
+   "s": "Economics"
+  },
+  "kq": "How much certainty should a market demand before treating a claim as fact?",
+  "ans": [
+   "More than it did. Specialists split between Leonardo, his studio, and assistants, yet the sale price encoded near-certainty; money settled publicly what scholarship had not.",
+   "Markets price probability, not truth. The bid can be read as a wager: even a modest chance of an authentic Leonardo justifies a fortune, so the price measured appetite for risk, not a verdict."
+  ],
+  "rw": "This painting of Christ sold at Christie's in November 2017 for 450.3 million dollars, the highest price ever paid for a painting. Bought for around a thousand dollars in 2005 and heavily restored, it was promoted as a rediscovered Leonardo, an attribution many specialists dispute in favor of his studio. It has not been publicly displayed since the sale.",
+  "desc": "A blessing hand, a crystal orb, and a price tag heavier than the panel. Certainty sold separately.",
+  "mla": [
+   "\"Salvator Mundi (Leonardo).\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Salvator_Mundi_(Leonardo)."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_051",
+  "name": "Ecce Homo of Borja, Restoration by Cecilia Gimenez, 2012",
+  "icon": "🩹",
+  "region": "vault_knower",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "perspective",
+   "c": "Interpretation"
+  },
+  "tags": {
+   "c": "Responsibility",
+   "e": "Ethics",
+   "s": "Visual Arts"
+  },
+  "kq": "Who should be allowed to repair cultural objects, and who answers for the result?",
+  "ans": [
+   "Trained conservators, under protocols. The Borja fresco shows why: good intentions without method erased a face forever, and love of an object is no license to alter it.",
+   "The outcome complicates the rule. The failed repair drew crowds, funded the town's charity, and became beloved; responsibility looks different when a mistake creates more value than the original held."
+  ],
+  "rw": "In 2012 Cecilia Gimenez, a parishioner in her eighties, attempted to restore a flaking 1930 fresco of Christ by Elias Garcia Martinez in her church in Borja, Spain. The result, nicknamed Ecce Mono, went viral worldwide. Tourists now pay to see it, and proceeds support a local charity, turning a conservation disaster into an unlikely economy.",
+  "desc": "A blurred holy face, repainted with more love than training. Pilgrims of the internet arrive daily.",
+  "mla": [
+   "\"Ecce Homo (Mart%C3%ADnez and Gim%C3%A9nez).\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Ecce_Homo_(Mart%C3%ADnez_and_Gim%C3%A9nez)."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_052",
+  "name": "Portrait of Edmond de Belamy, AI Painting, 2018",
+  "icon": "🤖",
+  "region": "vault_knower",
+  "pl": {
+   "mode": "minigame",
+   "detail": "Socratic Serve"
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Values",
+   "v": 12
+  },
+  "tags": {
+   "c": "Values",
+   "e": "Scope",
+   "s": "Computer Science"
+  },
+  "kq": "When an algorithm generates a portrait, who deserves the credit and the payment?",
+  "ans": [
+   "The humans in the pipeline. The collective chose the data, tuned the model, and printed the canvas, and much of the code came from another programmer; the machine is a brush with extra steps.",
+   "Credit tracked the signature. Christie's buyers paid for the story of machine creativity, signed with a loss function, so the market rewarded framing and novelty over labor, revealing what buyers value in art."
+  ],
+  "rw": "The Paris collective Obvious generated this smeared portrait using a generative adversarial model trained on thousands of historical portraits, building on open code by the artist-programmer Robbie Barrat. Christie's sold it in October 2018 for 432,500 dollars against a high estimate of 10,000. The signature on the canvas is the model's loss function.",
+  "desc": "A gentleman with no fixed face, signed by an equation. The auction room applauded the algorithm's ghost.",
+  "mla": [
+   "\"Edmond de Belamy.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Edmond_de_Belamy."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_053",
+  "name": "Fountain, Porcelain Urinal Signed R. Mutt, 1917",
+  "icon": "🚽",
+  "region": "vault_knower",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Objectivity",
+   "v": 12
+  },
+  "tags": {
+   "c": "Objectivity",
+   "e": "Scope",
+   "s": "Visual Arts"
+  },
+  "kq": "Is there any objective property separating art from ordinary objects?",
+  "ans": [
+   "Fountain suggests no. Nothing physical changed except a signature and a pedestal, so art status came from context and institutional acceptance, a social fact rather than a property of porcelain.",
+   "A defender can bite back: the objective property is the act. Selection, title, and placement are observable historical facts, so 'being chosen by an artist within a practice' functions as a testable, if odd, criterion."
+  ],
+  "rw": "In 1917 Marcel Duchamp submitted a standard urinal signed R. Mutt to a New York exhibition promising to accept all entries; the committee hid it. The original vanished, surviving through a Stieglitz photograph, and Duchamp authorized replicas in 1964. In 2004 five hundred art professionals voted it the most influential modern art piece.",
+  "desc": "Plumbing on a pedestal. It asks one question and has refused to stop asking since 1917.",
+  "mla": [
+   "\"Fountain (Duchamp).\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Fountain_(Duchamp)."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_054",
+  "name": "The Getty Kouros, Marble Youth of Disputed Age",
+  "icon": "🏛️",
+  "region": "vault_knower",
+  "pl": {
+   "mode": "cache",
+   "detail": "Sealed in a storeroom crate stamped 'Greek, about 530 BC, or modern forgery'."
+  },
+  "eff": {
+   "t": "battle",
+   "v": 1,
+   "kind": "reveal"
+  },
+  "tags": {
+   "c": "Certainty",
+   "e": "Methods and Tools",
+   "s": "History"
+  },
+  "kq": "What should a museum do when scientific tests and expert eyes reach opposite verdicts?",
+  "ans": [
+   "Display the doubt. For years the Getty's label admitted both possibilities, treating uncertainty as information for visitors rather than a failure to hide.",
+   "Doubt has a shelf life. Forged documents and stylistic conflicts accumulated until the museum pulled the statue in 2018; at some point institutions must rule, or their silence endorses a maybe-fake."
+  ],
+  "rw": "The Getty Museum bought this larger-than-life marble kouros in 1985 for millions, then found its ownership papers were forged. Stone tests could not settle whether the surface aged naturally or by trick, while many specialists judged the style a modern pastiche. Its label long read 'Greek, about 530 BC, or modern forgery', and the museum removed it from display in 2018.",
+  "desc": "A smiling stone youth with excellent posture and terrible paperwork. Even his birthday is contested.",
+  "mla": [
+   "\"Getty kouros.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Getty_kouros."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_055",
+  "name": "4'33\", Score by John Cage, Premiered 1952",
+  "icon": "🤫",
+  "region": "vault_knower",
+  "pl": {
+   "mode": "minigame",
+   "detail": "Boundary Maze"
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Interpretation",
+   "v": 12
+  },
+  "tags": {
+   "c": "Interpretation",
+   "e": "Scope",
+   "s": "Music"
+  },
+  "kq": "Where does music end and mere sound begin, and who draws the line?",
+  "ans": [
+   "The frame draws it. Cage's score, timings, and a seated pianist instruct the audience to listen, and under those instructions coughs and rain become the performance; attention, not vibration, defines music.",
+   "The line must resist dissolving. If every framed noise counts, 'music' stops naming a craft of organized sound, so critics argue 4'33\" is brilliant philosophy performed in a concert hall, not a composition."
+  ],
+  "rw": "David Tudor premiered this three-movement piece in Woodstock, New York, in August 1952 by closing the piano lid and playing nothing for four minutes and thirty-three seconds. Cage credited the anechoic chamber, where he still heard his own body, and Rauschenberg's white paintings as inspirations. The audience supplies the sounds.",
+  "desc": "A score with empty measures and strict timing. Somewhere in the silence, the audience becomes the orchestra.",
+  "mla": [
+   "\"John Cage.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/John_Cage."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_056",
+  "name": "Rorschach Test, Card I, Published Bern, 1921",
+  "icon": "🦇",
+  "region": "vault_knower",
+  "pl": {
+   "mode": "shop",
+   "detail": "",
+   "cost": 55
+  },
+  "eff": {
+   "t": "battle",
+   "v": 1,
+   "kind": "reveal"
+  },
+  "tags": {
+   "c": "Objectivity",
+   "e": "Methods and Tools",
+   "s": "Psychology"
+  },
+  "kq": "Can a standardized image measure minds objectively when every answer is an interpretation?",
+  "ans": [
+   "Standardization does heavy lifting. Fixed cards, fixed order, and coded scoring systems let clinicians compare responses across people, pulling statistical signal out of subjective ink.",
+   "The subjectivity returns at the scorer's desk. Coding a response still requires judgment, and validity debates have followed the blots for a century; the instrument measures the dialogue as much as the mind."
+  ],
+  "rw": "Hermann Rorschach published his ten inkblot cards in 1921 in Bern, a year before his death. Clinicians present the cards in fixed order and code the responses, most famously under Exner's system. When the images appeared on Wikipedia in 2009, psychologists protested the test had been compromised, reigniting debates over its validity.",
+  "desc": "A symmetrical stain, ready to become a bat, a mask, or a pelvis. It listens more than it shows.",
+  "mla": [
+   "\"Rorschach test.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Rorschach_test."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_057",
+  "name": "The Treachery of Images, Rene Magritte, 1929",
+  "icon": "🚬",
+  "region": "vault_knower",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "ability",
+   "id": "lens"
+  },
+  "tags": {
+   "c": "Truth",
+   "e": "Scope",
+   "s": "Philosophy"
+  },
+  "kq": "How do representations differ from the things they represent, and why does the gap matter?",
+  "ans": [
+   "The gap is the whole lesson. You cannot stuff Magritte's painted pipe, so the caption is strictly true; forgetting this difference is how maps, models, and photos get mistaken for the world.",
+   "The gap can be overstated. We navigate life through representations because they preserve structure; the painting serves as a warning label, not a proof images cannot carry truth."
+  ],
+  "rw": "Rene Magritte painted a meticulous pipe above the sentence 'Ceci n'est pas une pipe' in 1929. The picture insists an image of a thing is not the thing, and philosophers, including Foucault in a 1973 essay, have circled it ever since. It hangs in the Los Angeles County Museum of Art.",
+  "desc": "A perfect pipe and a sentence denying it. Both are telling the truth, which is the trick.",
+  "mla": [
+   "\"The Treachery of Images.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/The_Treachery_of_Images."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_058",
+  "name": "Love is in the Bin, Banksy, Shredded at Sotheby's, 2018",
+  "icon": "🗑️",
+  "region": "vault_knower",
+  "pl": {
+   "mode": "cache",
+   "detail": "Inside the auction house vent, half through the shredder slot."
+  },
+  "eff": {
+   "t": "key",
+   "door": "secret_ar"
+  },
+  "tags": {
+   "c": "Values",
+   "e": "Perspectives",
+   "s": "Business Management"
+  },
+  "kq": "Why can an act of destruction increase an object's value?",
+  "ans": [
+   "Because markets buy stories. The shredding created a unique event with global witnesses, and scarcity plus legend beats intact canvas; the price measured the tale, not the material.",
+   "Because the destruction completed the piece. The prank made the market critique physical, and collectors paid for the only object embodying it, so value tracked meaning, with irony fully priced in."
+  ],
+  "rw": "Moments after Banksy's Girl with Balloon hammered for over a million pounds at Sotheby's in October 2018, a shredder hidden in the frame sliced the canvas halfway. The buyer kept it, retitled Love is in the Bin, and in 2021 it resold for 18.6 million pounds. The stunt attacked the art market and enriched it simultaneously.",
+  "desc": "Half a girl, half ribbons, all headline. The frame ate the painting and the price tripled.",
+  "mla": [
+   "\"Love is in the Bin.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Love_is_in_the_Bin."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_059",
+  "name": "Photographs of British Algae, Anna Atkins Cyanotypes, 1843",
+  "icon": "🌿",
+  "region": "royal",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Evidence",
+   "v": 12
+  },
+  "tags": {
+   "c": "Evidence",
+   "e": "Methods and Tools",
+   "s": "Biology"
+  },
+  "kq": "Under what circumstances is a photograph better scientific evidence than a drawing?",
+  "ans": [
+   "When the object prints itself. Atkins laid actual specimens on treated paper, so shape and scale transferred without a draftsman's habits; the seaweed is its own witness in Prussian blue.",
+   "Drawings still win at explanation. A photogram records one specimen, shadows and flaws included, while a drawing can combine many into an ideal type; evidence and clarity are different virtues."
+  ],
+  "rw": "Anna Atkins began issuing this album in October 1843, generally counted the first book illustrated with photographs. She placed algae specimens directly on cyanotype paper, producing white silhouettes on deep blue. A botanist connected to the Royal Society circle, she made the copies by hand for fellow scientists.",
+  "desc": "Seaweed ghosts float on blue pages. A specimen shook hands with sunlight and left its signature.",
+  "mla": [
+   "\"Anna Atkins.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Anna_Atkins."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_060",
+  "name": "Beethoven's Ninth Symphony Autograph Score, 1824",
+  "icon": "🎼",
+  "region": "library",
+  "pl": {
+   "mode": "npc",
+   "detail": "Archivist Lotte: she lends the facsimile once you promise to argue about the metronome marks."
+  },
+  "eff": {
+   "t": "ability",
+   "id": "echo"
+  },
+  "tags": {
+   "c": "Interpretation",
+   "e": "Methods and Tools",
+   "s": "Music"
+  },
+  "kq": "How faithfully can notation transmit an experience its creator could no longer hear?",
+  "ans": [
+   "Notation carries structure, not sound. Beethoven, deaf at the premiere, trusted symbols to hold the symphony, and every orchestra since has rebuilt the sound from ink; the code demonstrably suffices.",
+   "Every performance is a translation. Conductors quarrel over his tempo marks and scratched revisions, so the score under-determines the music, and tradition fills the gaps the composer could not check by ear."
+  ],
+  "rw": "Beethoven completed his final symphony in 1824, profoundly deaf, and reportedly had to be turned at the premiere to see the applause. Most of the autograph manuscript sits in the Berlin State Library, its pages full of corrections. UNESCO added it to the Memory of the World register in 2001.",
+  "desc": "Ink storms across ruled paper, crossed out and rewritten. The composer heard all of it, only inwardly.",
+  "mla": [
+   "\"Symphony No. 9 (Beethoven).\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Symphony_No._9_(Beethoven)."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_061",
+  "name": "Toumani Diabate's Kora, Bamako",
+  "icon": "🪕",
+  "region": "griot",
+  "pl": {
+   "mode": "npc",
+   "detail": "Griot Madina: she hands over the calabash harp, reciting the family's generations of players as its provenance."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Culture",
+   "v": 12
+  },
+  "tags": {
+   "c": "Culture",
+   "e": "Methods and Tools",
+   "s": "Music"
+  },
+  "kq": "How does knowledge survive when its archive is a family rather than a library?",
+  "ans": [
+   "Through apprenticeship as inheritance. Diabate placed himself in a line of griot musicians said to span seventy-one generations, each learning repertoire and history by hand and ear; the lineage is the shelf.",
+   "Living archives edit as they preserve. Each player adapts songs to new patrons and eras, so the tradition arrives current but altered, and no original recording exists to check the drift."
+  ],
+  "rw": "Toumani Diabate of Bamako, who died in 2024, was the most celebrated modern master of the kora, the twenty-one-string calabash harp of West African griots. He described his family as griot musicians across seventy-one generations, and he recorded with artists from flamenco groups to Bjork. Griots carry genealogy, history, and diplomacy in performance.",
+  "desc": "Twenty-one strings over a gourd. Pluck one and several centuries clear their throat.",
+  "mla": [
+   "\"Toumani Diabat%C3%A9.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Toumani_Diabat%C3%A9.",
+   "\"Kora (instrument).\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Kora_(instrument)."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_062",
+  "name": "The Sosso-Bala Balafon, Kept at Niagassola, Guinea",
+  "icon": "🎶",
+  "region": "griot",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "stamina",
+   "v": 3
+  },
+  "tags": {
+   "c": "Responsibility",
+   "e": "Ethics",
+   "s": "Music"
+  },
+  "kq": "What duties fall on the keepers of an object a whole culture treats as its memory?",
+  "ans": [
+   "Guardianship means restraint. The Balatigui allows the instrument played only on set occasions, because overuse would wear away both the wood and the aura binding the community to the Sunjata story.",
+   "Guardianship also means transmission. Keeping the balafon silent too long would starve the tradition; the family must train young players and tell the epic, so the duty is a balance of lock and key."
+  ],
+  "rw": "The Sosso-Bala is a sacred balafon linked to the thirteenth-century Sunjata epic and the fall of the Sosso king Soumaoro Kante. The Dokala branch of the Kouyate griot family guards it at Niagassola in Guinea, under a patriarch called the Balatigui, and it sounds only on prescribed occasions. UNESCO proclaimed its cultural space a masterpiece of heritage in 2001.",
+  "desc": "Wooden keys older than empires, resting under guard. It plays rarely, and everyone remembers when.",
+  "mla": [
+   "\"Sosso-bala.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Sosso-bala."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_063",
+  "name": "Soapstone Zimbabwe Bird, Fragment Returned in 2003",
+  "icon": "🦅",
+  "region": "zimbabwe",
+  "pl": {
+   "mode": "cache",
+   "detail": "On the ledge above the eastern enclosure's doorway."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Power",
+   "v": 12
+  },
+  "tags": {
+   "c": "Power",
+   "e": "Ethics",
+   "s": "History"
+  },
+  "kq": "How do nations use recovered objects to rebuild interrupted histories?",
+  "ans": [
+   "As proof against erasure. Colonial writers denied Africans built Great Zimbabwe; the returned bird, restored to its site's museum, physically contradicts the lie and anchors the flag's emblem to its origin.",
+   "Symbols can outpace scholarship. The bird on the flag serves the present state, and its ancient meaning stays uncertain; recovered objects answer political questions faster than historical ones."
+  ],
+  "rw": "Eight carved soapstone birds once topped pillars at Great Zimbabwe, the stone city flourishing before 1500. Colonial collectors dispersed several, and Cecil Rhodes kept one at his Cape Town estate. Germany returned a bird's lower fragment in 2003, rejoining its top half, and the bird remains the national emblem on Zimbabwe's flag.",
+  "desc": "A stone raptor with a broken past, mended in public. Nations, like carvings, can be reassembled.",
+  "mla": [
+   "\"Zimbabwe Bird.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Zimbabwe_Bird."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_064",
+  "name": "Last Supper with Guinea Pig, Marcos Zapata, Cusco, 1753",
+  "icon": "🍽️",
+  "region": "cusco",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "perspective",
+   "c": "Culture"
+  },
+  "tags": {
+   "c": "Culture",
+   "e": "Perspectives",
+   "s": "World Religions"
+  },
+  "kq": "What happens to a story when a converted culture repaints it with local ingredients?",
+  "ans": [
+   "The story becomes bilingual. Zapata set roast cuy and chicha on Christ's table, so Andean viewers met the sacrament inside their own food and festivity; translation reached the plate, and belief followed.",
+   "The repainting also records unequal terms. Indigenous painters trained under colonial commissions could localize details but not doctrine, so the canvas shows both agency and its limits, hospitality inside hierarchy."
+  ],
+  "rw": "Marcos Zapata, a Quechua painter of the Cusco School, painted this Last Supper around 1753 for Cusco Cathedral, placing a roast guinea pig and Andean maize drink on the table. The Cusco School blended European religious models with local materials and motifs. The canvas remains one of the city's most visited images.",
+  "desc": "A holy meal with a distinctly Andean menu. Translation, it turns out, includes dinner.",
+  "mla": [
+   "\"Cusco School.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Cuzco_School."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_065",
+  "name": "Paracas Embroidered Mantle, c. 100 BC, Returned from Sweden",
+  "icon": "🧵",
+  "region": "qero",
+  "pl": {
+   "mode": "npc",
+   "detail": "Weaver Killa: she unfolds the border figures one by one, then trusts you to carry the cloth respectfully."
+  },
+  "eff": {
+   "t": "perspective",
+   "c": "Perspective"
+  },
+  "tags": {
+   "c": "Interpretation",
+   "e": "Scope",
+   "s": "Design Technology"
+  },
+  "kq": "How far can we read a textile as a text when its makers left no writing?",
+  "ans": [
+   "Quite far, with discipline. Repeated embroidered beings, color orders, and border sequences behave like vocabulary and syntax, so scholars reconstruct meaning families even without a dictionary.",
+   "Reading risks projection. We sort the figures into gods and myths using later Andean cultures as a key, and the mantle cannot object; each 'translation' says as much about our categories as theirs."
+  ],
+  "rw": "Paracas weavers on Peru's south coast embroidered burial mantles with hundreds of flying and costumed figures around two thousand years ago, wrapping their dead in layered cloth. Many mantles excavated in the 1920s were smuggled to Sweden, and Gothenburg's museum agreed in 2014 to return its collection to Peru, with pieces arriving through 2021.",
+  "desc": "A field of stitched beings in mineral colors. Nobody alive can read it fluently, and it shows no concern.",
+  "mla": [
+   "\"Paracas culture.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Paracas_culture."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_066",
+  "name": "TV Buddha, Nam June Paik Installation, 1974",
+  "icon": "📺",
+  "region": "seoul",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "perspective",
+   "c": "Perspective"
+  },
+  "tags": {
+   "c": "Perspective",
+   "e": "Scope",
+   "s": "Visual Arts"
+  },
+  "kq": "What changes in observation when the observer becomes the observed?",
+  "ans": [
+   "The loop exposes mediation. The statue 'sees' only its broadcast double, a few milliseconds late and forever framed, so the piece stages how all self-knowledge passes through instruments and delay.",
+   "The Buddha wins the staring contest. Centuries of carved calm meet the screen without blinking, suggesting contemplative traditions already understood self-observation long before closed-circuit cameras."
+  ],
+  "rw": "Nam June Paik, the Korean-born founder of video art, set an antique Buddha statue before a live camera and monitor in 1974, letting it watch its own image endlessly. Versions sit in major collections including Amsterdam's Stedelijk Museum. The loop of statue, camera, and screen has become a signature image of the media age.",
+  "desc": "A serene statue watches itself on live television. Neither party has moved in fifty years.",
+  "mla": [
+   "\"Nam June Paik.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Nam_June_Paik."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_067",
+  "name": "Gangnam Style Music Video Upload, Seoul, 2012",
+  "icon": "🕺",
+  "region": "seoul",
+  "pl": {
+   "mode": "minigame",
+   "detail": "Memory of the Hall"
+  },
+  "eff": {
+   "t": "path",
+   "region": "vault_tech"
+  },
+  "tags": {
+   "c": "Power",
+   "e": "Scope",
+   "s": "Film"
+  },
+  "kq": "How does viral spread change where cultural influence lives?",
+  "ans": [
+   "Influence moved to the platform. A Korean satire of a Seoul district reached two billion views without Western radio gatekeepers, proving distribution networks, not capitals, now crown cultural exporters.",
+   "The satire got lost in transit. Global audiences danced to a critique of luxury they largely missed, so scale traded meaning for reach; influence spread while the message thinned."
+  ],
+  "rw": "Psy uploaded this video satirizing the flashy Gangnam district in July 2012. It became the first YouTube video to pass a billion views, and its count overflowed the site's 32-bit counter in 2014, forcing an upgrade. The song marked a turning point in the global reach of Korean pop culture.",
+  "desc": "An invisible horse, ridden by a man in sunglasses, carried a district's name around the planet.",
+  "mla": [
+   "\"Gangnam Style.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Gangnam_Style."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_068",
+  "name": "Guernica Tapestry at the UN, Veiled February 2003",
+  "icon": "🕊️",
+  "region": "commission",
+  "pl": {
+   "mode": "cache",
+   "detail": "Folded behind the council chamber's blue curtain."
+  },
+  "eff": {
+   "t": "path",
+   "region": "vault_pol"
+  },
+  "tags": {
+   "c": "Power",
+   "e": "Ethics",
+   "s": "Global Politics"
+  },
+  "kq": "Why would officials silence an image, and what does the silencing itself communicate?",
+  "ans": [
+   "Because images argue without permission. Picasso's screaming horse behind a case for war would have testified against the speaker, so covering it conceded the tapestry's force better than any review.",
+   "The stated reason was staging: cameras wanted a plain backdrop. Yet audiences read the curtain as censorship, showing the meaning of an act belongs to interpreters, not to press officers."
+  ],
+  "rw": "A tapestry copy of Picasso's Guernica, his 1937 response to the bombing of a Basque town, has hung outside the UN Security Council since 1985. In February 2003 officials covered it with a blue curtain while diplomats argued for war in Iraq before the press. UN spokesmen cited television staging; much of the world read censorship.",
+  "desc": "A war painting in wool, briefly given a curtain. The curtain became the loudest object in the building.",
+  "mla": [
+   "\"Guernica (Picasso).\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Guernica_(Picasso)."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_069",
+  "name": "Trinity Icon by Andrei Rublev, Moscow, c. 1425",
+  "icon": "☦️",
+  "region": "vault_rel",
+  "pl": {
+   "mode": "npc",
+   "detail": "Brother Feodor: he passes the panel across the candlelight, asking whether it belongs to prayer or to preservation."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Values",
+   "v": 14
+  },
+  "tags": {
+   "c": "Values",
+   "e": "Ethics",
+   "s": "World Religions"
+  },
+  "kq": "When religious and conservation values collide over one object, whose claim should prevail?",
+  "ans": [
+   "The panel's survival ranks first. Conservators warned the fragile fifteenth-century wood could not endure candles and crowds, and once cracked, neither church nor museum keeps anything; care is the precondition of every other value.",
+   "For believers the icon is not primarily wood. Its purpose is veneration, and a century in a gallery was the anomaly; risk to the object weighs against restoring the use it was painted for."
+  ],
+  "rw": "Andrei Rublev painted this icon of three angels at Abraham's table around 1425 for the Trinity monastery. Soviet authorities moved it to the Tretyakov Gallery in 1929, and in 2023 the Russian state ordered it returned to the Church despite conservators' warnings about its fragile condition. The transfer reopened old questions about custody of sacred art.",
+  "desc": "Three angels lean around a cup in gold and lapis. Museum and monastery both call this home.",
+  "mla": [
+   "\"Trinity (Andrei Rublev).\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Trinity_(Andrei_Rublev)."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_070",
+  "name": "Fragment of the Bamiyan Buddhas, Destroyed 2001",
+  "icon": "🏔️",
+  "region": "vault_rel",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Responsibility",
+   "v": 14
+  },
+  "tags": {
+   "c": "Responsibility",
+   "e": "Ethics",
+   "s": "History"
+  },
+  "kq": "Should destroyed heritage be rebuilt, or do empty spaces teach what replicas cannot?",
+  "ans": [
+   "Rebuild, where fragments allow. Reassembly restores the valley's skyline and denies the destroyers the final word; communities regain a monument, and techniques exist to mark old stone from new.",
+   "Keep the niches empty. The absence is now the historical fact, a lesson about iconoclasm no reconstruction could state; filling the void would edit the crime out of the record."
+  ],
+  "rw": "Two colossal Buddhas, carved into an Afghan cliff in the sixth century, stood 38 and 55 meters tall until the Taliban dynamited them in March 2001 before global protest. Fragments remain stored in the valley, and UNESCO lists the site. Experts still debate reconstruction versus preserving the empty niches.",
+  "desc": "A piece of carved cliff, heavier with absence than with stone. The niche behind it holds a missing giant.",
+  "mla": [
+   "\"Buddhas of Bamiyan.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Buddhas_of_Bamiyan."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_071",
+  "name": "Barack Obama HOPE Poster, Shepard Fairey, 2008",
+  "icon": "🗳️",
+  "region": "vault_pol",
+  "pl": {
+   "mode": "minigame",
+   "detail": "Scales of Justification"
+  },
+  "eff": {
+   "t": "battle",
+   "v": 1,
+   "kind": "time"
+  },
+  "tags": {
+   "c": "Justification",
+   "e": "Ethics",
+   "s": "Global Politics"
+  },
+  "kq": "When does transforming an existing image justify claiming it as new creation?",
+  "ans": [
+   "Transformation earns authorship. Fairey turned a routine press photo into a stylized emblem carrying new meaning, and copyright law itself weighs such change; the poster argues the remix is the art.",
+   "The source kept its claim. The pose, angle, and gaze were the photographer's capture, and Fairey's later destruction of evidence weakened his case; borrowing without credit shifted from homage toward taking."
+  ],
+  "rw": "Shepard Fairey created this stenciled portrait during the 2008 US campaign, basing it on a 2006 Associated Press photograph by Mannie Garcia. AP and Fairey sued each other over fair use and settled in 2011, and Fairey later admitted destroying evidence about which photo he used. The image became the campaign's unofficial emblem and a template for endless parodies.",
+  "desc": "Red, beige, and blue certainty. Under the ink, a wire photo quietly files its claim.",
+  "mla": [
+   "\"Barack Obama 'Hope' poster.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Barack_Obama_%22Hope%22_poster."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_072",
+  "name": "Boulevard du Temple Daguerreotype, Paris, 1838",
+  "icon": "📸",
+  "region": "vault_tech",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Evidence",
+   "v": 14
+  },
+  "tags": {
+   "c": "Evidence",
+   "e": "Methods and Tools",
+   "s": "Physics"
+  },
+  "kq": "How can a truthful instrument still produce a misleading record?",
+  "ans": [
+   "By selecting through its physics. The long exposure erased every moving carriage and pedestrian, leaving a false ghost town; the plate reports light faithfully and the street falsely.",
+   "Misleading only to naive readers. Once exposure time is known, the empty boulevard becomes accurate data about motion and optics; instruments mislead when we forget to read the method with the record."
+  ],
+  "rw": "Louis Daguerre exposed this plate over a Paris boulevard in 1838. The minutes-long exposure wiped the busy street clear of moving traffic, but a man having his boots polished stood still long enough to remain: the first photograph of a person. The plate later entered a Munich collection.",
+  "desc": "A crowded street rendered empty, except one patient customer. The camera told the truth and missed everyone.",
+  "mla": [
+   "\"Louis Daguerre.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Louis_Daguerre."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_073",
+  "name": "Bonampak Murals, Room 2 Battle Scene, c. 791",
+  "icon": "🥁",
+  "region": "maya",
+  "pl": {
+   "mode": "cache",
+   "detail": "Behind the vine curtain at the temple's third doorway."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Truth",
+   "v": 12
+  },
+  "tags": {
+   "c": "Truth",
+   "e": "Perspectives",
+   "s": "History"
+  },
+  "kq": "How do comfortable scholarly myths survive until a single site contradicts them?",
+  "ans": [
+   "Evidence had been filtered by expectation. Scholars cast the Maya as peaceful stargazers and read ambiguous finds accordingly; Bonampak's painted battle and captives forced the picture the theory had screened out.",
+   "The myth also survived on thin sampling. Murals rarely survive rainforest climates, so the record skewed gentle by accident of preservation; one lucky room showed how much history hides in missing paint."
+  ],
+  "rw": "The murals of Bonampak in Chiapas, painted around 791 and shown to outsiders in 1946, cover three rooms with processions, musicians, a fierce battle, and the presentation of captives. Their violence helped demolish the once-standard image of the Maya as uniquely peaceful. They remain the best-preserved Maya wall paintings known.",
+  "desc": "Painted drummers, lords, and prisoners crowd the plaster. A quiet legend about a quiet people ends here.",
+  "mla": [
+   "\"Bonampak.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Bonampak."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_074",
+  "name": "Jade Mosaic Death Mask of Pakal, Palenque, 683",
+  "icon": "💀",
+  "region": "maya",
+  "pl": {
+   "mode": "shop",
+   "detail": "",
+   "cost": 140
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Interpretation",
+   "v": 12
+  },
+  "tags": {
+   "c": "Interpretation",
+   "e": "Perspectives",
+   "s": "Visual Arts"
+  },
+  "kq": "Does a royal portrait show a person, an office, or a belief about death?",
+  "ans": [
+   "All three, fused by design. The mosaic gives the aged king a youthful face of jade, the stone of breath and maize, so the mask portrays rebirth and rank more than one man's features.",
+   "Then 'portrait' may be the wrong category. If the face records ideology rather than likeness, historians should read it like a coronation text, and treat any resemblance to Pakal as a bonus, not a claim."
+  ],
+  "rw": "K'inich Janaab' Pakal ruled Palenque for decades and died in 683; his tomb under the Temple of the Inscriptions, opened in 1952, held this jade mosaic mask over the king's face. Thieves stole it from Mexico's National Museum of Anthropology in a 1985 raid, and police recovered it in 1989. Jade signified breath, maize, and renewal for the Maya.",
+  "desc": "A face assembled from green stone and shell eyes. It was built for a journey, and once took an extra one.",
+  "mla": [
+   "\"Palenque.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Palenque."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_075",
+  "name": "'Ahu 'ula Feather Cloak of Kalani'opu'u, Returned 2016",
+  "icon": "🪶",
+  "region": "shore",
+  "pl": {
+   "mode": "npc",
+   "detail": "Navigator Keala: she drapes the case in kapa cloth and entrusts it for the last leg of a very long voyage home."
+  },
+  "eff": {
+   "t": "ability",
+   "id": "beacon"
+  },
+  "tags": {
+   "c": "Culture",
+   "e": "Ethics",
+   "s": "History"
+  },
+  "kq": "What does an object's journey home add to what a community can know and feel?",
+  "ans": [
+   "Return restores relationships along with possession. Elders greeted the cloak with protocol and genealogy chants, reconnecting living families to a chief's act of 1779; proximity lets knowledge become ceremony again.",
+   "Distance had preserved a different knowledge. In New Zealand the cloak taught generations about Pacific connections and museum care; homecoming trades one audience's learning for another's belonging, and both count."
+  ],
+  "rw": "The Hawaiian chief Kalani'opu'u placed his feathered cloak on Captain James Cook in 1779. The 'ahu 'ula, made from hundreds of thousands of red and yellow feathers, later entered New Zealand's Te Papa museum, which returned it to Hawaii's Bishop Museum on long-term loan in 2016 with full ceremony. Such cloaks embodied chiefly rank and divine protection.",
+  "desc": "A cape of sunset feathers, light as breath, heavy as rank. It crossed the Pacific twice to get home.",
+  "mla": [
+   "\"Feather cloak.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Feather_cloak."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_076",
+  "name": "Kathakali Kireetam Crown, Kerala Kalamandalam",
+  "icon": "🪔",
+  "region": "kerala",
+  "pl": {
+   "mode": "shop",
+   "detail": "",
+   "cost": 70
+  },
+  "eff": {
+   "t": "stamina",
+   "v": 2
+  },
+  "tags": {
+   "c": "Explanation",
+   "e": "Methods and Tools",
+   "s": "Theatre"
+  },
+  "kq": "What makes a performance a good explanation for one audience and a mystery for another?",
+  "ans": [
+   "Shared code makes the difference. Kathakali tells epics through fixed gestures, eye movements, and color-coded makeup; spectators trained from childhood read whole sentences where visitors see beautiful noise.",
+   "Good explanations can teach their own code. Companies now perform with introductions demonstrating the gesture language, so the mystery is a missing lesson, not a wall; clarity is buildable."
+  ],
+  "rw": "Kathakali, the classical dance-drama of Kerala, stages Hindu epics through codified hand gestures, facial control, drumming, and elaborate costume; the carved and gilded kireetam crowns mark heroes and kings. The Kerala Kalamandalam academy, founded in 1930, trains performers through years of dawn-to-night discipline. Performances traditionally run through the night by lamplight.",
+  "desc": "A gilded halo of carved wood. Under it, an actor's eyebrows will do the talking.",
+  "mla": [
+   "\"Kathakali.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Kathakali.",
+   "\"Kerala Kalamandalam.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Kerala_Kalamandalam."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_077",
+  "name": "Along the River During the Qingming Festival, c. 1100",
+  "icon": "🛶",
+  "region": "historian",
+  "pl": {
+   "mode": "npc",
+   "detail": "Scholar Wen: he unrolls an arm's length at a time, and surrenders the scroll once you spot the bridge crisis."
+  },
+  "eff": {
+   "t": "path",
+   "region": "ukiyo"
+  },
+  "tags": {
+   "c": "Evidence",
+   "e": "Scope",
+   "s": "History"
+  },
+  "kq": "Can a panoramic painting's detail be trusted as a document of daily life?",
+  "ans": [
+   "Trust the textures, not the census. Zhang Zeduan's boats, shop signs, and crane machinery match other Song records, so historians mine the scroll for material culture while doubting its arithmetic of a perfect city.",
+   "The painting may be an argument, not a snapshot. Some scholars read its idealized commerce as advice or nostalgia for the capital, meaning its 'evidence' was curated; a beautiful source needs the same suspicion as a written one."
+  ],
+  "rw": "Zhang Zeduan painted this five-meter handscroll of a Song dynasty capital around 1100, packing in hundreds of figures, boats, bridges, and shops. Emperors treasured it, later dynasties produced famous reinterpretations, and the original now rests in Beijing's Palace Museum, displayed only rarely. Historians debate how documentary its bustling city actually is.",
+  "desc": "A city unrolls under your hands, boat by boat, argument by argument. Mind the bridge; the barge is late.",
+  "mla": [
+   "\"Along the River During the Qingming Festival.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Along_the_River_During_the_Qingming_Festival."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_078",
+  "name": "'Jiuxiao Huanpei' Tang Dynasty Guqin, 8th Century",
+  "icon": "🎵",
+  "region": "historian",
+  "pl": {
+   "mode": "cache",
+   "detail": "Wrapped in silk inside the study's qin table drawer."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Certainty",
+   "v": 10
+  },
+  "tags": {
+   "c": "Certainty",
+   "e": "Methods and Tools",
+   "s": "Music"
+  },
+  "kq": "How do experts establish the age of an instrument with no birth certificate?",
+  "ans": [
+   "By converging clues. Inscriptions, silk-string wear, form, and the crackle pattern aging lacquer develops over centuries each give a rough date, and agreement between them builds confidence no single clue could.",
+   "Convergence still leans on tradition. Attributions to the famed Lei family rest partly on inherited connoisseurship, and honoring an instrument raises the stakes of doubting it; certainty here is scholarship braided with reverence."
+  ],
+  "rw": "The guqin named Jiuxiao Huanpei, often translated as Jade Pendants of the Nine Skies, is a Tang dynasty zither attributed to the celebrated Lei family of makers and kept in Beijing's Palace Museum. Connoisseurs date such instruments partly by duanwen, the crackle patterns old lacquer develops. It has occasionally been played in modern times, letting audiences hear twelve-century-old wood.",
+  "desc": "Seven silk strings over ancient lacquer. Its cracks are wrinkles, and the wrinkles are its passport.",
+  "mla": [
+   "\"Guqin.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Guqin."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_079",
+  "name": "Kitab al-Musiqa al-Kabir, al-Farabi, 10th Century",
+  "icon": "📗",
+  "region": "baghdad",
+  "pl": {
+   "mode": "shop",
+   "detail": "",
+   "cost": 50
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Explanation",
+   "v": 12
+  },
+  "tags": {
+   "c": "Explanation",
+   "e": "Scope",
+   "s": "Music"
+  },
+  "kq": "What is gained when an art is explained as a science?",
+  "ans": [
+   "Precision and transfer. Al-Farabi measured intervals and analyzed instruments mathematically, so tuning could be taught, compared, and corrected across centuries and borders without relying on any single master's ear.",
+   "A remainder escapes the ruler. He also wrote on music's effects on the soul, conceding number alone cannot capture why a mode consoles; the science explains the strings and stops short of the shiver."
+  ],
+  "rw": "The philosopher al-Farabi, who died around 950, composed the Great Book of Music in the Abbasid world, treating pitch, intervals, rhythm, and instruments with mathematical rigor alongside music's effects on listeners. The treatise shaped music theory in Arabic and, through translation, in Europe. It stands among the era's most systematic studies of any art.",
+  "desc": "A treatise where geometry tunes the strings. The oud, it argues, obeys ratios and moves souls.",
+  "mla": [
+   "\"Al-Farabi.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Al-Farabi."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_080",
+  "name": "Cross of Agadez, Tuareg Silver Pendant, Niger",
+  "icon": "🧿",
+  "region": "timbuktu",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "path",
+   "region": "griot"
+  },
+  "tags": {
+   "c": "Culture",
+   "e": "Perspectives",
+   "s": "Design Technology"
+  },
+  "kq": "How can a small crafted object carry a person's geography and belonging?",
+  "ans": [
+   "Through a shared code of forms. Each Tuareg cross form is named for a town, so a pendant quietly announces where its wearer's line belongs, a wearable address across the desert.",
+   "The code stays open to travel. Fathers pass crosses to sons with blessings for the four directions, and smiths sell variants to visitors; the object marks belonging while inviting movement, roots cast in silver."
+  ],
+  "rw": "Tuareg smiths of the Sahara forge silver pendants in regional forms, each named for a town such as Agadez, Zinder, or Iferouane. Tradition passes them from father to son, in a saying granting the four corners of the world. The inaden, the hereditary smith caste, guard the craft and its symbolism.",
+  "desc": "A silver compass with no needle. It points wherever your family is from.",
+  "mla": [
+   "\"Agadez cross.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Agadez_cross."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_081",
+  "name": "Girih Tilework, Darb-e Imam Shrine, Isfahan, 1453",
+  "icon": "🔷",
+  "region": "rod",
+  "pl": {
+   "mode": "minigame",
+   "detail": "Cipher of the Stacks"
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Objectivity",
+   "v": 12
+  },
+  "tags": {
+   "c": "Objectivity",
+   "e": "Methods and Tools",
+   "s": "Mathematics"
+  },
+  "kq": "Can craft traditions hold mathematical knowledge their makers never wrote as theory?",
+  "ans": [
+   "Yes: the pattern is the proof. The shrine's tiling encodes near-perfect quasicrystal geometry five centuries before Western mathematics described it, so the knowledge existed in rules of assembly rather than theorems.",
+   "Call it knowledge-how, not knowledge-that. The artisans could generate the pattern but perhaps not state its properties; the 2007 analysis added the explanation, and the two only together equal the mathematics."
+  ],
+  "rw": "The Darb-e Imam shrine in Isfahan, decorated from 1453, carries girih tile patterns. A 2007 study in Science by Lu and Steinhardt showed the design approaches a quasicrystalline pattern, the geometry Penrose formalized in the 1970s. Medieval artisans composed such designs from a standard set of five tile shapes.",
+  "desc": "Stars and polygons interlock without ever repeating. The tiles knew something the textbooks learned in 1974.",
+  "mla": [
+   "\"Girih tiles.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Girih_tiles."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_082",
+  "name": "Dazzle Camouflage Plan by Norman Wilkinson, 1917",
+  "icon": "🚢",
+  "region": "hut8",
+  "pl": {
+   "mode": "npc",
+   "detail": "Lt. Vane: she hands over the striped ship plans, delighted the navy finally hired painters to confuse mathematicians."
+  },
+  "eff": {
+   "t": "battle",
+   "v": 1,
+   "kind": "time"
+  },
+  "tags": {
+   "c": "Perspective",
+   "e": "Methods and Tools",
+   "s": "Design Technology"
+  },
+  "kq": "How can understanding perception be used to defeat measurement?",
+  "ans": [
+   "By attacking the observer, not the eye's data. Dazzle never hid a ship; its clashing stripes broke the cues a U-boat officer used to judge course and speed, corrupting the calculation between sight and torpedo.",
+   "Its success shows measurement is theory-laden. The rangefinder was fine; the human model reading it failed. Whether dazzle sank statistics or just morale stayed debated, proving even camouflage needs evidence."
+  ],
+  "rw": "The marine painter Norman Wilkinson proposed dazzle camouflage in 1917, and Allied navies painted thousands of ships in bold geometric schemes. The aim was not invisibility but distortion: breaking up form so submarine officers misjudged a ship's heading and speed. Artists supervised the painting schemes in port, and studies of dazzle's effectiveness remained mixed.",
+  "desc": "Blueprints for a battleship in carnival stripes. Serious people painted this on purpose.",
+  "mla": [
+   "\"Dazzle camouflage.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Dazzle_camouflage."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_083",
+  "name": "Conrad Martens's Beagle Watercolours, 1833",
+  "icon": "⛵",
+  "region": "beagle",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Objectivity",
+   "v": 12
+  },
+  "tags": {
+   "c": "Objectivity",
+   "e": "Methods and Tools",
+   "s": "Geography"
+  },
+  "kq": "To what extent could a ship's artist serve as a scientific instrument before photography?",
+  "ans": [
+   "To a large extent, with training. Martens recorded coastlines, weather, and peoples the expedition could not otherwise capture, and surveyors relied on such images; the trained hand was the era's camera.",
+   "An instrument with taste. He composed scenes by picturesque conventions, warming skies and framing peaks, so his records carry style as systematic error; useful data, provided historians correct for beauty."
+  ],
+  "rw": "Conrad Martens joined HMS Beagle as ship's artist in 1833, sketching Tierra del Fuego, Patagonia, and the voyage Darwin traveled as naturalist. He left the ship in Valparaiso in 1834 and settled in Sydney, where Darwin later bought his pieces. His watercolours remain key visual records of the expedition.",
+  "desc": "Wet paint fixed a coastline the ship might never see again. Science kept a seat for the easel.",
+  "mla": [
+   "\"Conrad Martens.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Conrad_Martens."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_084",
+  "name": "Third Imperial Faberge Egg, 1887, Found at a Flea Market",
+  "icon": "🥚",
+  "region": "reliquary",
+  "pl": {
+   "mode": "npc",
+   "detail": "Dealer Vic: he bought it for the gold weight, googled the watchmaker's name, and now hands it over with shaking hands."
+  },
+  "eff": {
+   "t": "ability",
+   "id": "dowse"
+  },
+  "tags": {
+   "c": "Justification",
+   "e": "Methods and Tools",
+   "s": "History"
+  },
+  "kq": "What separates a lucky guess from a justified identification?",
+  "ans": [
+   "A chain of checkable evidence. The buyer matched his egg to a 1964 auction photo and a 1902 exhibition record, and specialists confirmed the marks; the identification stood on documents, not hope.",
+   "Luck opened the door justification walked through. Without the accidental purchase no method would have fired at all, showing discovery often needs chance first and rigor second, in that order."
+  ],
+  "rw": "Faberge made this gold egg with a Vacheron Constantin watch inside for Tsar Alexander III's Easter gift of 1887, and it vanished after the Russian Revolution. A US scrap-metal dealer bought it for about 14,000 dollars, planning to melt it, then identified it after an internet search led him to the London jewelers Wartski. It sold to a private collector and went on public display in 2014.",
+  "desc": "A golden egg on lion feet, nearly melted for parts. Its rescue began with a search bar.",
+  "mla": [
+   "\"Third Imperial Egg.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Third_Imperial_Egg."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r63_085",
+  "name": "The 'Messiah' Stradivarius Violin, Cremona, 1716",
+  "icon": "🎻",
+  "region": "reliquary",
+  "pl": {
+   "mode": "minigame",
+   "detail": "Scales of Justification"
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Certainty",
+   "v": 12
+  },
+  "tags": {
+   "c": "Certainty",
+   "e": "Methods and Tools",
+   "s": "Music"
+  },
+  "kq": "How should institutions respond when a prized object's authenticity is publicly challenged?",
+  "ans": [
+   "Invite the test. When doubts surfaced in the late 1990s, tree-ring analysis compared the violin's wood with other Stradivari instruments and supported its date; openness converted attack into stronger certainty.",
+   "Notice what the challenge revealed: the violin's fame rested on documents and trust, since its near-mint state exists precisely because players almost never call for it. Certainty about objects we must not touch will always lean on paper."
+  ],
+  "rw": "Antonio Stradivari made this violin in 1716, and it survives in nearly unplayed condition, bequeathed to Oxford's Ashmolean Museum in 1939 on condition it never be played. In the late 1990s a specialist questioned its authenticity, and dendrochronology studies matched its wood to Stradivari's era and to his other instruments. It remains the most famous violin never heard in concert.",
+  "desc": "A violin kept perfect by silence. Its voice is a rumor with excellent provenance.",
+  "mla": [
+   "\"Messiah Stradivarius.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Messiah_Stradivarius."
+  ],
+  "img": ""
+ }
+]

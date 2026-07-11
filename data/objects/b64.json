@@ -1,0 +1,2672 @@
+[
+ {
+  "id": "r64_001",
+  "name": "Le Grand K, International Prototype Kilogram, Sevres, 1889",
+  "icon": "⚖️",
+  "region": "reliquary",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Objectivity",
+   "v": 15
+  },
+  "tags": {
+   "c": "Objectivity",
+   "e": "Methods and Tools",
+   "s": "Physics"
+  },
+  "kq": "How far can one object fix the meaning of a unit for the whole world?",
+  "ans": [
+   "A single cylinder in Sevres set the kilogram for over a century, so nations agreed to trust one physical stand-in instead of arguing over a definition.",
+   "Scientists retired the cylinder in 2019 for a formula tied to the Planck constant, so even a careful standard can still lose its job to a better method."
+  ],
+  "rw": "The International Bureau of Weights and Measures cast this platinum-iridium cylinder in 1889 and stored it near Sevres, France, as the world standard for the kilogram. Officials compared it to national copies every few decades and found tiny drifts in mass between cleanings. In 2019 the General Conference on Weights and Measures redefined the kilogram using the Planck constant instead, retiring the cylinder from active duty.",
+  "desc": "A metal cylinder under three glass domes. For over a century, its own mass was the mass of a kilogram.",
+  "mla": [
+   "\"Kilogram.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Kilogram.",
+   "\"International Prototype of the Kilogram.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/International_Prototype_of_the_Kilogram."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_002",
+  "name": "Florence Nightingale's Rose Diagram, Causes of Mortality, 1858",
+  "icon": "📊",
+  "region": "aggregate",
+  "pl": {
+   "mode": "npc",
+   "detail": "Nurse Iris Calder: She hands over the chart to visitors who ask why soldiers died more often away from battle."
+  },
+  "eff": {
+   "t": "ability",
+   "id": "lens"
+  },
+  "tags": {
+   "c": "Interpretation",
+   "e": "Methods and Tools",
+   "s": "Mathematics"
+  },
+  "kq": "How far can a picture change what people decide to fix?",
+  "ans": [
+   "The chart persuaded army officials to fund sanitation reform instead of more weapons, so a picture pushed policy change based on evidence.",
+   "The same chart also folded many different causes of death into a few clean wedges, so a simple shape can hide as much complexity as it reveals."
+  ],
+  "rw": "Florence Nightingale published this rose shaped diagram in 1858, titled 'Diagram of the Causes of Mortality in the Army in the East.' The chart showed British soldiers in the Crimean War died from preventable disease far more often than from wounds in battle. Nightingale used the image to push the British Army toward sanitation and hospital reform.",
+  "desc": "A wheel of coloured wedges. Each slice counts a soldier the army lost to dirt, not to a blade.",
+  "mla": [
+   "\"Florence Nightingale.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Florence_Nightingale.",
+   "\"Florence Nightingale.\" Encyclopaedia Britannica, n.d., www.britannica.com/biography/Florence-Nightingale."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_003",
+  "name": "Maya Long Count Calendar, Tortuguero Monument 6, 669 CE",
+  "icon": "📅",
+  "region": "maya",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "perspective",
+   "c": "Perspective"
+  },
+  "tags": {
+   "c": "Perspective",
+   "e": "Perspectives",
+   "s": "History"
+  },
+  "kq": "Who decides which day a new cycle of time should start?",
+  "ans": [
+   "Maya rulers dated their reigns inside vast cycles the Long Count tracked, so a calendar could back a king's claim to cosmic authority.",
+   "Modern scholars now use the same count to line up Maya history with the Gregorian calendar, so one system serves a ruler's myth and a scholar's timeline at once."
+  ],
+  "rw": "Tortuguero Monument 6, a carved stone panel from Tabasco, Mexico, dates to around 669 CE. The inscription includes a Long Count date equivalent to 21 December 2012, a line some popular writers misread as a doomsday prophecy. Maya epigraphers instead read the passage as a reference to a future ceremony, tied to the calendar's normal cycle of endings and beginnings.",
+  "desc": "A weathered stone slab. One carved date on its face points a thousand years past its own carving.",
+  "mla": [
+   "\"Maya Calendar.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Maya_calendar.",
+   "\"2012 Phenomenon.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/2012_phenomenon."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_004",
+  "name": "Ada Lovelace's Note G, Sketch of the Analytical Engine, 1843",
+  "icon": "⚙️",
+  "region": "hut8",
+  "pl": {
+   "mode": "cache",
+   "detail": "Behind the punch card drawers in the second gallery of the codebreaking hut."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Justification",
+   "v": 16
+  },
+  "tags": {
+   "c": "Justification",
+   "e": "Methods and Tools",
+   "s": "Computer Science"
+  },
+  "kq": "How far does a set of instructions count as new knowledge?",
+  "ans": [
+   "Lovelace published steps to compute Bernoulli numbers for an engine no one finished building, so historians count her method as the first published program, even without a machine to test it on.",
+   "Historians still debate how much of the mathematics came from Babbage's own notes versus Lovelace's added commentary, so credit for one document can split between two minds."
+  ],
+  "rw": "Ada Lovelace translated an Italian paper on Charles Babbage's Analytical Engine and added her own notes, published in 1843. Her longest note, labelled Note G, laid out steps for the engine to compute Bernoulli numbers. Historians now count this note among the first published algorithms written for a machine, decades before any computer existed to run it.",
+  "desc": "A pale page of tangled notes and numbers. Its last footnote quietly invents a computer program.",
+  "mla": [
+   "\"Ada Lovelace.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Ada_Lovelace.",
+   "\"Analytical Engine.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Analytical_Engine."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_005",
+  "name": "Al-Khwarizmi's Book of Hindu Numerals, Baghdad, c. 825",
+  "icon": "🔢",
+  "region": "baghdad",
+  "pl": {
+   "mode": "npc",
+   "detail": "Scribe Yusuf al-Katib: He copies the book for visitors who can already count past ten in Roman numerals."
+  },
+  "eff": {
+   "t": "path",
+   "region": "rod"
+  },
+  "tags": {
+   "c": "Explanation",
+   "e": "Methods and Tools",
+   "s": "Mathematics"
+  },
+  "kq": "How does a new symbol help a method spread?",
+  "ans": [
+   "Hindu-Arabic numerals with a zero let large sums run fast, so a new symbol set carried trade math across the Islamic world and later Europe.",
+   "European merchants kept older counting boards for centuries after this book reached them, so a good method still needs slow habit change to take hold."
+  ],
+  "rw": "Muhammad ibn Musa al-Khwarizmi was based at the House of Wisdom in Baghdad in the early 800s. His treatise explained the Hindu-Arabic numeral system, including the use of zero and place value, for arithmetic and administrative calculation. A Latin translation, known from the title 'Algoritmi de numero Indorum,' later gave Europe both the numerals and, through his Latinised name, the word 'algorithm.'",
+  "desc": "A slim book of nine strange digits and one empty circle. Together they replace a whole counting board.",
+  "mla": [
+   "\"Al-Khwarizmi.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Al-Khwarizmi.",
+   "\"Hindu-Arabic Numeral System.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Hindu%E2%80%93Arabic_numeral_system."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_006",
+  "name": "Yuktibhasa Manuscript, Kerala School of Mathematics, c. 1530",
+  "icon": "📜",
+  "region": "kerala",
+  "pl": {
+   "mode": "shop",
+   "detail": "",
+   "cost": 90
+  },
+  "eff": {
+   "t": "path",
+   "region": "hut8"
+  },
+  "tags": {
+   "c": "Justification",
+   "e": "Methods and Tools",
+   "s": "Mathematics"
+  },
+  "kq": "Why do some proofs give reasons and others give rules only?",
+  "ans": [
+   "Jyesthadeva wrote out full reasons in the Yuktibhasa, so a reader could check each step instead of trusting the author's word alone.",
+   "Earlier Sanskrit verses stayed short on purpose, since memorised verses needed to stay compact for spoken teaching, so brevity served memory more than proof."
+  ],
+  "rw": "Jyesthadeva of the Kerala school of astronomy and mathematics wrote the Yuktibhasa around 1530 in Malayalam. The text sets out full reasoning behind results the earlier mathematician Madhava had found for infinite series, including series for pi and for the sine function, centuries before calculus reached Europe.",
+  "desc": "A palm leaf manuscript dense with reasoning. It explains why a rule for pi holds true, step by step.",
+  "mla": [
+   "\"Yuktibhasa.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Yuktibhasa.",
+   "\"Kerala School of Astronomy and Mathematics.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Kerala_school_of_astronomy_and_mathematics."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_007",
+  "name": "Royal Game of Ur Gameboard, Ur, c. 2600 BCE",
+  "icon": "🎲",
+  "region": "reliquary",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "battle",
+   "v": 1,
+   "kind": "reveal"
+  },
+  "tags": {
+   "c": "Interpretation",
+   "e": "Methods and Tools",
+   "s": "History"
+  },
+  "kq": "How much can a fragment tell a scholar about a full set of rules?",
+  "ans": [
+   "A cuneiform tablet recorded partial rules for this race game, so a curator could rebuild a playable version from one surviving clue.",
+   "Different cities likely played local variants of the same board, so one tablet may fix rules for a game which never stayed the same everywhere."
+  ],
+  "rw": "Archaeologist Leonard Woolley found this board game in a royal tomb at Ur, in modern Iraq, during excavations in the 1920s, dating it to about 2600 BCE. Assyriologist Irving Finkel later used a cuneiform tablet, written centuries after the game's invention, to reconstruct playable rules for the race game in the 1980s. The British Museum now displays an original board.",
+  "desc": "A carved board older than most written religions. Its rules slept in clay for two thousand years before anyone read them again.",
+  "mla": [
+   "\"Royal Game of Ur.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Royal_Game_of_Ur.",
+   "\"Irving Finkel.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Irving_Finkel."
+  ],
+  "img": "commons.wikimedia.org/wiki/Category:Royal_Game_of_Ur"
+ },
+ {
+  "id": "r64_008",
+  "name": "William Playfair's Commercial and Political Atlas, London, 1786",
+  "icon": "📈",
+  "region": "aggregate",
+  "pl": {
+   "mode": "minigame",
+   "detail": "Cipher of the Stacks"
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Evidence",
+   "v": 14
+  },
+  "tags": {
+   "c": "Evidence",
+   "e": "Methods and Tools",
+   "s": "Economics"
+  },
+  "kq": "How does turning numbers into pictures change what a reader trusts?",
+  "ans": [
+   "Playfair's bars and lines let a reader compare decades of trade data at a glance, so a picture can speed clear understanding of a large table.",
+   "A chart also hides the raw numbers behind its shape, so a reader must trust the person who picked the scale and the colours."
+  ],
+  "rw": "The Scottish engineer William Playfair published 'The Commercial and Political Atlas' in London in 1786, introducing the bar chart and the time series line graph to economic data. A later book added the pie chart. Playfair's basic chart forms remain standard tools in statistics today.",
+  "desc": "A book of bars and lines. Trade numbers finally stand up and show their shape.",
+  "mla": [
+   "\"William Playfair.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/William_Playfair."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_009",
+  "name": "Lewis Chessmen, Walrus Ivory, Isle of Lewis, c. 1150",
+  "icon": "♟️",
+  "region": "reliquary",
+  "pl": {
+   "mode": "npc",
+   "detail": "Curator Freya Sund: She lends a single piece to a visitor who can name the difference between a rook and a warder."
+  },
+  "eff": {
+   "t": "battle",
+   "v": 1,
+   "kind": "life"
+  },
+  "tags": {
+   "c": "Culture",
+   "e": "Perspectives",
+   "s": "History"
+  },
+  "kq": "Under what circumstances does a game piece carry a whole culture inside it?",
+  "ans": [
+   "The carved rook pieces bite their shields in a berserker pose, so a game token can preserve a warrior mood no surviving text recorded.",
+   "The same set mixes calm bishop figures into an old Norse design, so a single box can hold two belief systems side by side."
+  ],
+  "rw": "These walrus ivory chess pieces came to light on the Isle of Lewis, Scotland, in 1831. Most historians link the carving style to Norway, which ruled the Hebrides at the time, and date the pieces to around 1150 to 1200. The British Museum and National Museum of Scotland now divide and display the set.",
+  "desc": "A handful of ivory kings, bishops, and wide eyed warders. Each face still glares from under a stone lid.",
+  "mla": [
+   "\"Lewis Chessmen.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Lewis_chessmen.",
+   "\"Lewis Chessmen.\" Encyclopaedia Britannica, n.d., www.britannica.com/topic/Lewis-chessmen."
+  ],
+  "img": "commons.wikimedia.org/wiki/Category:Lewis_chessmen"
+ },
+ {
+  "id": "r64_010",
+  "name": "Napier's Bones Calculating Rods, Edinburgh, 1617",
+  "icon": "📏",
+  "region": "rod",
+  "pl": {
+   "mode": "cache",
+   "detail": "Tucked inside a velvet case under the lecture bench in the geometry hall."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Certainty",
+   "v": 11
+  },
+  "tags": {
+   "c": "Certainty",
+   "e": "Methods and Tools",
+   "s": "Mathematics"
+  },
+  "kq": "Can a tool make a calculation more certain than the person using it?",
+  "ans": [
+   "The rods turn multiplication into reading and adding, so a tired clerk can multiply large numbers without adding new errors.",
+   "A user still picks the wrong rod or misreads a row now and then, so a tool moves the risk of error without erasing it completely."
+  ],
+  "rw": "The Scottish mathematician John Napier described these numbered rods in a book published in Edinburgh in 1617. Merchants and scholars laid out the ivory or wood strips side by side to multiply and divide large numbers by hand, well before mechanical calculators existed.",
+  "desc": "A case of numbered sticks. Line them up right and the answer reads straight off the rows.",
+  "mla": [
+   "\"Napier's Bones.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Napier%27s_bones.",
+   "\"John Napier.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/John_Napier."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_011",
+  "name": "Charles Minard's Map of Napoleon's Russian Campaign, 1869",
+  "icon": "🗺️",
+  "region": "aggregate",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "ability",
+   "id": "echo"
+  },
+  "tags": {
+   "c": "Explanation",
+   "e": "Methods and Tools",
+   "s": "History"
+  },
+  "kq": "How far can one image explain a disaster better than a paragraph?",
+  "ans": [
+   "Minard's flow map ties troop numbers, direction, and temperature into one image, so a viewer feels an army shrink at a glance.",
+   "The same map flattens thousands of individual deaths into one shrinking band, so a clear image can explain a big number while hiding a single life inside it."
+  ],
+  "rw": "The French engineer Charles Minard published this flow map in 1869. It tracks Napoleon's army shrinking from about 422,000 to roughly 10,000 troops during the 1812 invasion of Russia, plotting the retreat's direction, distance, and falling temperatures on one sheet.",
+  "desc": "A pale band thinning as it crosses a map. Every narrowing marks thousands of soldiers who did not come home.",
+  "mla": [
+   "\"Charles Joseph Minard.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Charles_Joseph_Minard."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_012",
+  "name": "Bitcoin Genesis Block Printout, 3 January 2009",
+  "icon": "🔗",
+  "region": "seoul",
+  "pl": {
+   "mode": "npc",
+   "detail": "Trader Priya Nandi: She passes a printed copy to anyone who can explain why no bank signs the ledger."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Truth",
+   "v": 19
+  },
+  "tags": {
+   "c": "Truth",
+   "e": "Methods and Tools",
+   "s": "Computer Science"
+  },
+  "kq": "Who decides which record of a transaction counts as the true one?",
+  "ans": [
+   "Thousands of computers agree on one shared ledger without a bank in the middle, so a network can hold a shared record instead of one institution alone.",
+   "The system still depends on most machines behaving as the protocol expects, so trust just shifts from a bank to a crowd instead of disappearing."
+  ],
+  "rw": "A programmer or group using the name Satoshi Nakamoto mined the Bitcoin genesis block on 3 January 2009, embedding a newspaper headline about a bank bailout inside its code. The block began a public ledger, now recording every Bitcoin transaction without a central bank.",
+  "desc": "A short string of code and one buried newspaper line. It marks the first block in a ledger no bank controls.",
+  "mla": [
+   "\"Bitcoin.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Bitcoin.",
+   "\"History of Bitcoin.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/History_of_bitcoin."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_013",
+  "name": "Lydian Electrum Stater of Croesus, Sardis, c. 550 BCE",
+  "icon": "🪙",
+  "region": "reliquary",
+  "pl": {
+   "mode": "minigame",
+   "detail": "Claim Forge"
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Power",
+   "v": 13
+  },
+  "tags": {
+   "c": "Power",
+   "e": "Scope",
+   "s": "Economics"
+  },
+  "kq": "Why does a government stamp count more than a promise?",
+  "ans": [
+   "Royal stamps on Lydian electrum guaranteed a fixed weight and purity, so strangers could trade without weighing metal every single time.",
+   "The same stamp only holds value while people trust the ruler behind it, so a coin can fail the moment its authority collapses."
+  ],
+  "rw": "The kingdom of Lydia, in modern day Turkey, struck these electrum coins in Sardis in the 6th century BCE under kings including Alyattes and Croesus. Historians count them among the first true coins, since a stamped image guaranteed a fixed weight and value instead of leaving buyers to weigh raw metal by hand.",
+  "desc": "A lumpy pale gold coin stamped with a lion and a bull. Its face promises a weight no merchant needs to check twice.",
+  "mla": [
+   "\"Croesus.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Croesus.",
+   "\"Lydia.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Lydia."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_014",
+  "name": "Dresden Codex Eclipse Tables, Maya, c. 1200",
+  "icon": "🌘",
+  "region": "maya",
+  "pl": {
+   "mode": "cache",
+   "detail": "Folded inside a bark cloth wrap behind the stela replicas."
+  },
+  "eff": {
+   "t": "perspective",
+   "c": "Explanation"
+  },
+  "tags": {
+   "c": "Explanation",
+   "e": "Perspectives",
+   "s": "Physics"
+  },
+  "kq": "How does predicting an eclipse change who holds authority over the sky?",
+  "ans": [
+   "Maya astronomer priests tracked Venus and eclipse cycles precisely enough to predict future events years ahead, so accurate prediction became a claim to priestly authority.",
+   "A modern astronomer can run the same prediction from a formula in seconds, so a skill once reserved for priests now needs no priesthood at all."
+  ],
+  "rw": "The Dresden Codex is a bark paper Maya manuscript, likely copied around the 1200s from older sources. It contains tables tracking the cycle of Venus and predicting eclipses. Saxon librarians acquired the codex for the Dresden royal library in 1739, and it survives as one of only a few Maya books to escape burning during Spanish colonial rule.",
+  "desc": "A folded bark paper book covered in tiny glyphs and red dots. Each row counts down toward the next eclipse.",
+  "mla": [
+   "\"Dresden Codex.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Dresden_Codex."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_015",
+  "name": "Ishango Bone Tally Marks, Congo, c. 20,000 BCE",
+  "icon": "🦴",
+  "region": "reliquary",
+  "pl": {
+   "mode": "shop",
+   "detail": "",
+   "cost": 60
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Evidence",
+   "v": 9
+  },
+  "tags": {
+   "c": "Evidence",
+   "e": "Scope",
+   "s": "Mathematics"
+  },
+  "kq": "How much can a set of scratches prove about a mind long gone?",
+  "ans": [
+   "The grouped notches match patterns a counting or lunar tracking system would leave, so a researcher can read numeracy into a bone with no writing on it at all.",
+   "No note survives to say what the carver meant by the grouping, so every reading stays a guess dressed up as a fact."
+  ],
+  "rw": "A Belgian geologist found this bone tool near the Ishango settlement in the Democratic Republic of Congo in 1950. Later radiocarbon testing dated it to roughly 20,000 years old. Rows of notches cut into its surface may record tallies, lunar cycles, or a counting game, though experts still debate the intended use.",
+  "desc": "A slim bone covered in grouped notches. Someone counted something here long before writing existed.",
+  "mla": [
+   "\"Ishango Bone.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Ishango_bone."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_016",
+  "name": "Euclid's Elements, Oxyrhynchus Papyrus Fragment, c. 100 CE",
+  "icon": "📐",
+  "region": "rod",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "key",
+   "door": "door_math"
+  },
+  "tags": {
+   "c": "Justification",
+   "e": "Methods and Tools",
+   "s": "Mathematics"
+  },
+  "kq": "Why did one book set the standard for proof for over two thousand years?",
+  "ans": [
+   "Euclid built every claim from a short list of stated axioms, so any reader could check each step without trusting the author's word.",
+   "Later mathematicians found small gaps in Euclid's own axioms centuries afterward, so even a long trusted standard can hide a quiet flaw."
+  ],
+  "rw": "This papyrus fragment, found at Oxyrhynchus in Egypt and dated to around 100 CE, preserves part of a diagram from Book II of Euclid's 'Elements.' Euclid composed the 'Elements' around 300 BCE in Alexandria as a geometry textbook built from stated axioms and proofs. Schools used it as a core geometry text for more than two thousand years.",
+  "desc": "A scrap of papyrus with one geometric diagram still visible. It once belonged to a much longer proof.",
+  "mla": [
+   "\"Euclid's Elements.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Euclid%27s_Elements.",
+   "\"Oxyrhynchus Papyri.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Oxyrhynchus_Papyri."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_017",
+  "name": "Edmond Halley's Breslau Mortality Table, London, 1693",
+  "icon": "📋",
+  "region": "aggregate",
+  "pl": {
+   "mode": "minigame",
+   "detail": "Scales of Justification"
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Responsibility",
+   "v": 17
+  },
+  "tags": {
+   "c": "Responsibility",
+   "e": "Methods and Tools",
+   "s": "Business Management"
+  },
+  "kq": "Who takes responsibility when a table predicts a stranger's death?",
+  "ans": [
+   "Halley built this table from actual burial and birth records in Breslau, so an insurer could price a policy on evidence instead of a guess.",
+   "The same table averages risk across a whole group, so one individual can end up paying a rate built for a stranger they do not resemble."
+  ],
+  "rw": "The English astronomer Edmond Halley published this mortality table in 1693, using birth and death records from the city of Breslau. The table let insurers calculate life annuity prices by age instead of a flat guess, founding a method actuaries still use today.",
+  "desc": "A printed table of ages and death counts. Somewhere in its rows sits a stranger's future, priced in advance.",
+  "mla": [
+   "\"Edmond Halley.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Edmond_Halley.",
+   "\"Life Table.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Life_table."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_018",
+  "name": "Roman Silver Denarius of Julius Caesar, Rome, 44 BCE",
+  "icon": "🪙",
+  "region": "reliquary",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Power",
+   "v": 20
+  },
+  "tags": {
+   "c": "Power",
+   "e": "Ethics",
+   "s": "History"
+  },
+  "kq": "How far can a ruler bend tradition just by changing a coin's face?",
+  "ans": [
+   "Caesar put his own living face on this coin instead of a god or a dead hero, so a small object could announce a break from centuries of republican custom.",
+   "The Senate had Caesar killed weeks after the coin appeared, so a single image can provoke a response far larger than its size."
+  ],
+  "rw": "The Roman Senate allowed Julius Caesar to place his own portrait on this silver denarius in 44 BCE, the first time a living Roman appeared on the city's coinage. Caesar was assassinated in March, within weeks of the coin entering circulation. Historians still read the coin as a sign of how far Caesar had moved Rome from republican tradition toward one man's rule.",
+  "desc": "A worn silver coin with a stern profile stamped on one face. Its owner did not live long after it left the mint.",
+  "mla": [
+   "\"Julius Caesar.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Julius_Caesar.",
+   "\"Roman Currency.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Roman_currency."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_019",
+  "name": "Alan Turing's On Computable Numbers Paper, 1936",
+  "icon": "📄",
+  "region": "hut8",
+  "pl": {
+   "mode": "npc",
+   "detail": "Fellow Max Newman: He shares a copy with students who can explain why a machine might never halt."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Truth",
+   "v": 18
+  },
+  "tags": {
+   "c": "Truth",
+   "e": "Scope",
+   "s": "Computer Science"
+  },
+  "kq": "Can a single proof mark the edge of what mathematics can ever settle?",
+  "ans": [
+   "Turing showed no single machine method can decide every mathematical question in advance, so a proof can mark a hard edge on what counts as knowable by calculation.",
+   "The same paper also imagines a general machine able to run any calculation given the right instructions, so a limit on certainty opened the door to a new universal tool."
+  ],
+  "rw": "Alan Turing published 'On Computable Numbers, with an Application to the Entscheidungsproblem' in 1936, while a student at Cambridge. The paper describes an imagined machine able to carry out any calculation given the right rules, now called a Turing machine, and proves some mathematical questions have no method able to solve them in every case.",
+  "desc": "A typed paper full of odd machine diagrams. It quietly draws a line around what any computer could ever solve.",
+  "mla": [
+   "\"Alan Turing.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Alan_Turing.",
+   "\"On Computable Numbers.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/On_Computable_Numbers."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_020",
+  "name": "Song Dynasty Jiaozi, First Paper Money, Chengdu, c. 1023",
+  "icon": "💴",
+  "region": "historian",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "path",
+   "region": "seoul"
+  },
+  "tags": {
+   "c": "Values",
+   "e": "Ethics",
+   "s": "Economics"
+  },
+  "kq": "What must people trust before paper can act as money?",
+  "ans": [
+   "Sichuan merchants first used jiaozi as private deposit receipts before the Song government took over printing, so paper only functioned once a trusted group stood behind its promise.",
+   "The government later printed more jiaozi than it could back with actual reserves, so trust in paper money can fall as fast as it rose once a promise outgrows its backing."
+  ],
+  "rw": "Merchants in Sichuan, China, began using jiaozi as private paper receipts for deposited coins around 1023. The Song government soon took over printing and made jiaozi official currency, backed by reserves held in government treasuries. Historians count it as the first paper money issued by a state, though later overprinting led to inflation.",
+  "desc": "A printed slip of paper standing in for a chest of coins. Someone has to believe it first.",
+  "mla": [
+   "\"Jiaozi (Currency).\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Jiaozi_(currency).",
+   "\"Song Dynasty.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Song_dynasty."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_021",
+  "name": "Senet Game Box of Tutankhamun, Thebes, c. 1323 BCE",
+  "icon": "🎲",
+  "region": "reliquary",
+  "pl": {
+   "mode": "cache",
+   "detail": "Wrapped in linen inside the third replica burial chest."
+  },
+  "eff": {
+   "t": "battle",
+   "v": 1,
+   "kind": "time"
+  },
+  "tags": {
+   "c": "Culture",
+   "e": "Perspectives",
+   "s": "World Religions"
+  },
+  "kq": "How does a game for the living become a map for the dead?",
+  "ans": [
+   "Egyptians buried senet boards with the dead so a soul could play safely through the afterlife, so a game meant for two players became a private ritual for one traveller.",
+   "Archaeologists still argue whether early senet was pure entertainment before it gained religious meaning later, so a single object can carry two very different purposes across centuries."
+  ],
+  "rw": "A senet game came to light among objects buried with the pharaoh Tutankhamun, who died around 1323 BCE. Egyptians played senet for entertainment for centuries before spells from the Book of the Dead linked its squares to a soul's journey through the afterlife. Several boards, including finely made examples, came from his tomb in the Valley of the Kings.",
+  "desc": "A long wooden box marked with thirty squares. Half a game, half a prayer for safe passage.",
+  "mla": [
+   "\"Senet.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Senet.",
+   "\"Tutankhamun.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Tutankhamun."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_022",
+  "name": "Kollam Era Calendar Inscription, Kerala, 825 CE",
+  "icon": "📅",
+  "region": "kerala",
+  "pl": {
+   "mode": "npc",
+   "detail": "Temple Keeper Devaki Amma: She reads the inscription aloud to anyone who asks how old the era truly is."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Perspective",
+   "v": 12
+  },
+  "tags": {
+   "c": "Perspective",
+   "e": "Perspectives",
+   "s": "History"
+  },
+  "kq": "Why do some places keep two calendars running side by side?",
+  "ans": [
+   "Kerala has counted years from the Kollam Era since around 825 CE, alongside the Gregorian calendar used in national business, so a region can hold two valid clocks at once.",
+   "Choosing which era to print on a document still signals identity as much as it marks a date, so a calendar can argue for a place's independence while it tracks time."
+  ],
+  "rw": "The Kollam Era, also called the Malayalam Era, began around 825 CE on the Malabar coast of southern India. Temples, land records, and local newspapers in Kerala have used this counting system for centuries alongside the Gregorian calendar. The era's exact starting event remains debated among historians.",
+  "desc": "A stone slip carved with two dates for one day. Kerala never fully switched to a single clock.",
+  "mla": [
+   "\"Malayalam Calendar.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Malayalam_calendar."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_023",
+  "name": "Winchester Bushel Measure, England, 1495",
+  "icon": "🥣",
+  "region": "royal",
+  "pl": {
+   "mode": "shop",
+   "detail": "",
+   "cost": 70
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Objectivity",
+   "v": 13
+  },
+  "tags": {
+   "c": "Objectivity",
+   "e": "Scope",
+   "s": "Business Management"
+  },
+  "kq": "How far should one region's measure reach before it needs to change?",
+  "ans": [
+   "King Henry VII fixed this bronze bushel as the legal grain measure for England in 1495, so buyers across the kingdom could trust one standard instead of haggling over local scoops.",
+   "Local markets kept their own customary measures for generations after the law passed, so a royal standard on paper still needed years to reach every market stall."
+  ],
+  "rw": "King Henry VII authorised this bronze bushel measure in 1495 as the official standard for grain and dry goods across England. Officials kept it at the Exchequer as a reference copy against which other regional measures could be checked. Britain used bushel measures for trade until the country moved fully to metric units in later centuries.",
+  "desc": "A wide bronze bowl with a flat rim. Fill it once, and an entire kingdom agrees on a bushel.",
+  "mla": [
+   "\"Winchester Measure.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Winchester_measure.",
+   "\"Bushel.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Bushel."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_024",
+  "name": "Al-Battani's Zij al-Sabi Star Tables, Raqqa, c. 900",
+  "icon": "🌟",
+  "region": "baghdad",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Certainty",
+   "v": 15
+  },
+  "tags": {
+   "c": "Certainty",
+   "e": "Methods and Tools",
+   "s": "Physics"
+  },
+  "kq": "How much certainty can a table of numbers borrow from centuries of watching the sky?",
+  "ans": [
+   "Al-Battani corrected earlier Greek measurements of the solar year using his own decades of observation, so a long table of numbers could carry more certainty than an old book copied without question.",
+   "Careful observers before modern telescopes could only measure angles by eye and simple tools, so any table from this period still carries small errors passed down as fact."
+  ],
+  "rw": "The astronomer al-Battani was based near Raqqa, in modern Syria, compiling the 'Zij al-Sabi' around 900 CE. The tables recorded star positions and improved on earlier Greek calculations of the length of the solar year and the tilt of Earth's axis. Later European astronomers, including Copernicus, cited al-Battani's figures directly.",
+  "desc": "A dense grid of numbers tracking stars across the seasons. Each column argues quietly with an older Greek book.",
+  "mla": [
+   "\"Al-Battani.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Al-Battani."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_025",
+  "name": "Cacao Bean Currency, Maya Lowlands, Classic Period",
+  "icon": "🍫",
+  "region": "maya",
+  "pl": {
+   "mode": "minigame",
+   "detail": "Perspective Prism"
+  },
+  "eff": {
+   "t": "perspective",
+   "c": "Values"
+  },
+  "tags": {
+   "c": "Values",
+   "e": "Perspectives",
+   "s": "Economics"
+  },
+  "kq": "Why did a spoiling crop still count as money for centuries?",
+  "ans": [
+   "Maya and later Aztec traders priced goods in cacao beans because everyone already wanted them for drink and ritual, so a currency can grow straight out of a shared taste instead of a government decree.",
+   "Cacao beans rot and lose value within a year or two, so this currency forced traders to keep spending or trading instead of hoarding wealth for decades."
+  ],
+  "rw": "Maya and Aztec societies used cacao beans as a form of currency across Mesoamerica during the Classic period and after, alongside their use in ceremonial drinks. Spanish colonial records from the 1500s describe prices for goods and services listed in numbers of beans. Counterfeiters even hollowed out beans and refilled them with dirt to pass as currency, prompting inspection before trade.",
+  "desc": "A handful of dried brown beans in a woven pouch. Somewhere between a drink and a coin.",
+  "mla": [
+   "\"Cocoa Bean.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Cocoa_bean.",
+   "\"Maya Civilization.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Maya_civilization."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_026",
+  "name": "Original Rubik's Cube Prototype, Erno Rubik, Budapest, 1974",
+  "icon": "🧩",
+  "region": "vault_tech",
+  "pl": {
+   "mode": "npc",
+   "detail": "Toy Maker Zsofia Toth: She hands over a prototype to anyone who can turn one face without wrecking the rest."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Explanation",
+   "v": 12
+  },
+  "tags": {
+   "c": "Explanation",
+   "e": "Methods and Tools",
+   "s": "Design Technology"
+  },
+  "kq": "How does solving a puzzle change once someone writes down the steps?",
+  "ans": [
+   "Rubik built his first cube from wood and rubber bands to teach students about moving parts in three dimensions, so a design meant for a classroom became a puzzle solved by millions.",
+   "Speedcubers later published fixed step by step methods called algorithms, so a puzzle once solved by trial and error now has a shared explanation anyone can learn."
+  ],
+  "rw": "The Hungarian architecture professor Erno Rubik built the first prototype of his cube in Budapest in 1974, originally to help students grasp three dimensional movement. Ideal Toy Corporation licensed the puzzle for worldwide sale in 1980, and it went on to sell hundreds of millions of units, holding the record as the best selling puzzle toy in history.",
+  "desc": "A small cube of twisted coloured squares. Every twist scrambles a pattern only patience can undo.",
+  "mla": [
+   "\"Rubik's Cube.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Rubik%27s_Cube."
+  ],
+  "img": "commons.wikimedia.org/wiki/Category:Rubik%27s_Cube"
+ },
+ {
+  "id": "r64_027",
+  "name": "John Graunt's Bills of Mortality Study, London, 1662",
+  "icon": "📕",
+  "region": "royal",
+  "pl": {
+   "mode": "cache",
+   "detail": "Filed among the parish ledgers in the third archive box of the reading room."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Evidence",
+   "v": 14
+  },
+  "tags": {
+   "c": "Evidence",
+   "e": "Ethics",
+   "s": "Mathematics"
+  },
+  "kq": "How far can counting the dead reveal patterns about the living?",
+  "ans": [
+   "Graunt sorted London's weekly burial records by cause and age, so a pile of parish paperwork turned into the first evidence based patterns of birth, death, and disease in a city.",
+   "Graunt's own data left out unregistered burials and poorer parishes with weaker record keeping, so a groundbreaking count could still miss the very people it claimed to describe."
+  ],
+  "rw": "The London merchant John Graunt published 'Natural and Political Observations Made upon the Bills of Mortality' in 1662, analysing decades of parish burial and christening records. His tables estimated causes of death, life expectancy, and population trends for the city, founding methods statisticians and demographers still build on today.",
+  "desc": "A slim printed book of tables and counts. Each row turns a burial record into a pattern.",
+  "mla": [
+   "\"John Graunt.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/John_Graunt.",
+   "\"Bills of Mortality.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Bills_of_mortality."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_028",
+  "name": "Godel's Incompleteness Theorem Manuscript, Vienna, 1931",
+  "icon": "♾️",
+  "region": "hut8",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Certainty",
+   "v": 20
+  },
+  "tags": {
+   "c": "Certainty",
+   "e": "Scope",
+   "s": "Philosophy"
+  },
+  "kq": "Can a system of proof ever fully prove its own certainty?",
+  "ans": [
+   "Godel showed any system strong enough for basic arithmetic contains true statements it cannot prove from inside itself, so pure certainty has a built in ceiling even in mathematics.",
+   "Mathematicians still build enormous, reliable structures on incomplete systems every day, so a theorem about limits does not stop practical certainty from holding up most of the time."
+  ],
+  "rw": "The logician Kurt Godel published his incompleteness theorems in Vienna in 1931. He proved any consistent mathematical system strong enough to describe basic arithmetic must contain true statements the system itself cannot prove. The result reshaped philosophy of mathematics and set firm limits on programs seeking one complete, self-proving foundation for all mathematics.",
+  "desc": "A dense typed proof in careful German sentences. It quietly proves mathematics can never fully check itself.",
+  "mla": [
+   "\"Kurt Godel.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Kurt_G%C3%B6del.",
+   "\"Godel's Incompleteness Theorems.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_029",
+  "name": "Pascal's Traite du Triangle Arithmetique, Paris, 1665",
+  "icon": "🔺",
+  "region": "rod",
+  "pl": {
+   "mode": "npc",
+   "detail": "Apprentice Copyist Marguerite Loeb: She lends her transcription to anyone who can explain one diagonal of the triangle."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Justification",
+   "v": 13
+  },
+  "tags": {
+   "c": "Justification",
+   "e": "Methods and Tools",
+   "s": "Mathematics"
+  },
+  "kq": "Why does a pattern still need a proof once a reader can already see it?",
+  "ans": [
+   "Pascal organised binomial coefficients into a triangle and proved general rules behind patterns earlier scholars had only listed by hand, so a visual pattern gained a logical backbone.",
+   "Similar triangles appeared centuries earlier in Chinese and Persian mathematics under different names, so a proof published in Paris still arrived long after other cultures had already found the pattern."
+  ],
+  "rw": "Blaise Pascal wrote his 'Traite du Triangle Arithmetique' around 1654, though publishers released it in Paris in 1665, after his death. The book organised binomial coefficients into a triangular table and proved general rules connecting the entries. Mathematicians in China, Persia, and India had described similar triangles centuries earlier, each arriving at the pattern independently.",
+  "desc": "A triangle of numbers stacked row upon row. Each entry quietly equals two neighbours above it.",
+  "mla": [
+   "\"Pascal's Triangle.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Pascal%27s_triangle.",
+   "\"Blaise Pascal.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Blaise_Pascal."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_030",
+  "name": "Abbasid Silver Dirham, Baghdad Mint, c. 800",
+  "icon": "🪙",
+  "region": "baghdad",
+  "pl": {
+   "mode": "minigame",
+   "detail": "Assumption Sweep"
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Responsibility",
+   "v": 11
+  },
+  "tags": {
+   "c": "Responsibility",
+   "e": "Ethics",
+   "s": "Economics"
+  },
+  "kq": "Who answers for a coin's value once it leaves the mint?",
+  "ans": [
+   "Abbasid mints stamped each dirham with a required silver purity and the ruling caliph's name, so a central authority took responsibility for a coin's value wherever it travelled.",
+   "Local governors sometimes debased coins by cutting the silver content while keeping the same stamp, so a signature of responsibility could still hide a quiet lie."
+  ],
+  "rw": "The Abbasid caliphate minted silver dirhams in Baghdad from the late 700s onward, stamping each coin with religious text and the ruling caliph's name. A fixed silver standard let dirhams circulate as trusted currency from Spain to Central Asia. Archaeologists have found Abbasid dirhams as far away as Viking hoards in Scandinavia, showing the coin's wide reach through trade.",
+  "desc": "A thin silver disc stamped with careful script. No portrait, just a promise written in words.",
+  "mla": [
+   "\"Abbasid Caliphate.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Abbasid_Caliphate.",
+   "\"Dirham.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Dirham."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_031",
+  "name": "W.E.B. Du Bois's Data Portraits, Paris Exposition, 1900",
+  "icon": "📊",
+  "region": "aggregate",
+  "pl": {
+   "mode": "cache",
+   "detail": "Rolled inside a map tube behind the archive's tallest filing cabinet."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Objectivity",
+   "v": 16
+  },
+  "tags": {
+   "c": "Objectivity",
+   "e": "Ethics",
+   "s": "Global Politics"
+  },
+  "kq": "Can a chart argue a political point while still counting as objective evidence?",
+  "ans": [
+   "Du Bois built these hand drawn charts from census data to show measurable Black American progress in property, education, and occupation since slavery, so a set of numbers could counter prejudice with evidence instead of opinion.",
+   "Du Bois chose which numbers to display and how to colour and shape each chart for maximum effect, so even a data based argument still carries the hand of the person who built it."
+  ],
+  "rw": "W.E.B. Du Bois and students at Atlanta University created dozens of hand drawn charts and graphs for the 'American Negro' exhibit at the 1900 Paris Exposition. The charts used census and survey data to show economic and educational gains made by Black Americans since emancipation. The exhibit won a grand prize at the exposition and now sits in the Library of Congress.",
+  "desc": "A bright hand drawn chart of spirals and bars. Each curve argues a case no speech could make as fast.",
+  "mla": [
+   "\"W. E. B. Du Bois.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/W._E._B._Du_Bois."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_032",
+  "name": "Exchequer Tally Sticks, Westminster, 12th Century",
+  "icon": "🪵",
+  "region": "royal",
+  "pl": {
+   "mode": "shop",
+   "detail": "",
+   "cost": 40
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Certainty",
+   "v": 10
+  },
+  "tags": {
+   "c": "Certainty",
+   "e": "Scope",
+   "s": "Business Management"
+  },
+  "kq": "How does splitting a record in two make a debt harder to fake?",
+  "ans": [
+   "Exchequer clerks notched a debt into a wooden stick, then split it lengthwise so the payer and the treasury each kept a matching half, so a shared record could not be faked by one side alone.",
+   "The system needed both halves to fit back together for the record to count, so certainty here depended on keeping a piece of wood safe for years, not on any written signature."
+  ],
+  "rw": "English royal clerks at the Exchequer recorded debts and payments on wooden tally sticks from the 12th century onward. Officials cut notches to represent an amount, then split the stick lengthwise, giving one half to the payer as a receipt and keeping the other as the treasury's record. The system stayed in official use for government accounts until 1826.",
+  "desc": "A notched wooden stick split clean down its length. Its missing other half proves a debt paid.",
+  "mla": [
+   "\"Tally Stick.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Tally_stick."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_033",
+  "name": "Fibonacci's Liber Abaci, Pisa, 1202",
+  "icon": "📗",
+  "region": "florence",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Explanation",
+   "v": 15
+  },
+  "tags": {
+   "c": "Explanation",
+   "e": "Perspectives",
+   "s": "Mathematics"
+  },
+  "kq": "Why did European merchants need convincing before they trusted a foreign number system?",
+  "ans": [
+   "Fibonacci explained Hindu-Arabic numerals through everyday merchant problems like currency conversion and profit sharing, so a foreign system spread faster once it solved problems traders already faced.",
+   "Some Italian cities banned Hindu-Arabic numerals in official ledgers for a time, fearing figures were easier to forge than Roman numerals, so a clearer system still met resistance built on suspicion."
+  ],
+  "rw": "Leonardo of Pisa, known as Fibonacci, published 'Liber Abaci' in 1202 after studying arithmetic methods used by Arab traders in North Africa. The book explained Hindu-Arabic numerals and place value through practical merchant problems, helping the system spread across Europe over the following centuries. A rabbit population problem in the book also introduced the sequence now named after him.",
+  "desc": "A merchant's arithmetic manual disguised as a mathematics book. Its rabbit problem quietly hides a famous sequence.",
+  "mla": [
+   "\"Liber Abaci.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Liber_Abaci.",
+   "\"Fibonacci.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Fibonacci."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_034",
+  "name": "Jesse Owens' Adidas Running Shoes, Berlin Olympics, 1936",
+  "icon": "👟",
+  "region": "reliquary",
+  "pl": {
+   "mode": "minigame",
+   "detail": "Rung Climb"
+  },
+  "eff": {
+   "t": "stamina",
+   "v": 2
+  },
+  "tags": {
+   "c": "Values",
+   "e": "Ethics",
+   "s": "Sports Science"
+  },
+  "kq": "What does a stadium full of cheers prove about a government's own beliefs?",
+  "ans": [
+   "Jesse Owens won four gold medals in Berlin in 1936, in a stadium built to showcase Nazi racial ideology, so a crowd's applause could still contradict the very ideology it gathered to celebrate.",
+   "German officials removed Owens' image from most official Olympic newsreels shown at home afterward, so open admiration in a stadium did not carry over into a regime's public record."
+  ],
+  "rw": "The American sprinter Jesse Owens wore shoes made by Adolf 'Adi' Dassler, founder of what later became Adidas, when he won four gold medals at the 1936 Berlin Olympics. Nazi Germany had built the games to promote ideas of racial superiority, and Owens' performance directly challenged the regime's own propaganda in front of a home crowd.",
+  "desc": "A pair of worn leather spikes. They carried a sprinter past a stadium built to prove the opposite of what he showed.",
+  "mla": [
+   "\"Jesse Owens.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Jesse_Owens.",
+   "\"1936 Summer Olympics.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/1936_Summer_Olympics."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_035",
+  "name": "Muziris Roman Coin Hoard, Kerala Coast, 1st Century CE",
+  "icon": "🏺",
+  "region": "kerala",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Evidence",
+   "v": 14
+  },
+  "tags": {
+   "c": "Evidence",
+   "e": "Scope",
+   "s": "Geography"
+  },
+  "kq": "How far can a handful of buried coins map a trade route no map recorded?",
+  "ans": [
+   "Roman gold and silver coins turning up near the old port of Muziris show Kerala traded pepper directly with Rome, so buried metal can prove a route no surviving text fully described.",
+   "Hoards only mark where owners hid coins and never returned, so a find shows one moment of panic or death, not the everyday rhythm of trade around it."
+  ],
+  "rw": "Archaeologists and farmers have found several hoards of Roman gold and silver coins along the Kerala coast near the ancient port of Muziris, dating mostly to the 1st century CE. Roman writers, including the author of the 'Periplus of the Erythraean Sea,' described ships sailing from Egypt to Kerala for pepper and spices, and the coin finds support this account with physical evidence.",
+  "desc": "A cluster of foreign gold coins in a clay pot. Pepper once bought Rome's own currency here.",
+  "mla": [
+   "\"Muziris.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Muziris.",
+   "\"Indo-Roman Trade Relations.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Indo-Roman_trade_relations."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_036",
+  "name": "Babbage's Difference Engine Logarithm Table, London, 1824",
+  "icon": "⚙️",
+  "region": "hut8",
+  "pl": {
+   "mode": "npc",
+   "detail": "Engineer Joseph Clement: He hands over a proof sheet to visitors who promise not to touch the gears."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Certainty",
+   "v": 16
+  },
+  "tags": {
+   "c": "Certainty",
+   "e": "Methods and Tools",
+   "s": "Computer Science"
+  },
+  "kq": "Why did a machine seem more trustworthy than a human clerk at arithmetic?",
+  "ans": [
+   "Human clerks who copied logarithm tables by hand made small errors, which crept into printed books and shipping calculations, so a machine repeating the same steps every time offered a new kind of certainty.",
+   "Babbage never finished a full version of the Difference Engine in his own lifetime, so the promise of machine certainty still depended on funding and engineering which fell short."
+  ],
+  "rw": "Charles Babbage designed the Difference Engine in the 1820s to calculate and print mathematical tables, including logarithms, without human copying errors. The British government funded early construction, and engineer Joseph Clement built precision parts for a demonstration section. Babbage completed only part of the full design before funding stopped in the 1830s, though the Science Museum in London later built a complete engine from his drawings in the 1990s.",
+  "desc": "A brass gear assembly bristling with numbered wheels. Turn the crank, and it grinds out a table with no tired human hand involved.",
+  "mla": [
+   "\"Charles Babbage.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Charles_Babbage.",
+   "\"Difference Engine.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Difference_engine."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_037",
+  "name": "Byzantine Gold Solidus of Constantine, Constantinople, 312 CE",
+  "icon": "🪙",
+  "region": "reliquary",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Power",
+   "v": 18
+  },
+  "tags": {
+   "c": "Power",
+   "e": "Scope",
+   "s": "History"
+  },
+  "kq": "How does one coin stay trusted for seven hundred years while empires change around it?",
+  "ans": [
+   "Constantine fixed the solidus at a strict gold weight in the early 300s, and this stability let the coin serve as a trusted trade currency across Europe, Asia, and Africa for centuries.",
+   "The empire itself shrank badly after the 600s even while the coin kept its standard, so trust in a currency can outlast the political reach of the government behind it."
+  ],
+  "rw": "Emperor Constantine the Great introduced the solidus as the main gold coin of the Roman and later Byzantine Empire around 312 CE, fixing its weight at about 4.5 grams of nearly pure gold. Byzantine mints kept this standard remarkably stable for around seven hundred years, and merchants from Britain to India accepted the coin in trade. The stability gave the solidus a reputation as one of history's most reliable currencies.",
+  "desc": "A thin gold disc stamped with an emperor's profile. Centuries of traders trusted its weight without a second thought.",
+  "mla": [
+   "\"Solidus (Coin).\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Solidus_(coin).",
+   "\"Constantine the Great.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Constantine_the_Great."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_038",
+  "name": "Richard Price's Northampton Mortality Table, London, 1783",
+  "icon": "📋",
+  "region": "royal",
+  "pl": {
+   "mode": "cache",
+   "detail": "Bound inside a ledger on the bottom shelf of the actuary's reading alcove."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Responsibility",
+   "v": 14
+  },
+  "tags": {
+   "c": "Responsibility",
+   "e": "Ethics",
+   "s": "Mathematics"
+  },
+  "kq": "What happens to fairness when an actuarial table uses the wrong town's data?",
+  "ans": [
+   "Richard Price built new mortality tables from Northampton parish records to replace Halley's older Breslau figures, so insurers took more responsibility for matching data to the population they actually priced.",
+   "Later actuaries found Northampton's death rates ran higher than the national average, so Price's careful update still overcharged many policyholders for decades before anyone corrected it."
+  ],
+  "rw": "The Welsh moral philosopher and mathematician Richard Price published revised mortality tables in 1783, based on burial records from Northampton, England. Equitable Life and other insurers adopted the Northampton table to price life insurance and annuities. Actuaries used it well into the 1800s, even after later analysis showed Northampton's death rates were higher than the national picture, meaning many customers overpaid.",
+  "desc": "A column of ages beside a column of expected deaths. One town's bad luck became a national pricing rule.",
+  "mla": [
+   "\"Richard Price.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Richard_Price.",
+   "\"Life Table.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Life_table."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_039",
+  "name": "Pompeii Loaded Bone Dice, Italy, 1st Century CE",
+  "icon": "🎲",
+  "region": "reliquary",
+  "pl": {
+   "mode": "npc",
+   "detail": "Gambler's Ghost Lucius: He rattles the dice for anyone willing to bet a story instead of coin."
+  },
+  "eff": {
+   "t": "battle",
+   "v": 1,
+   "kind": "life"
+  },
+  "tags": {
+   "c": "Truth",
+   "e": "Ethics",
+   "s": "Psychology"
+  },
+  "kq": "How does an object prove a lie centuries after the liar has gone?",
+  "ans": [
+   "Archaeologists found dice from Pompeii with one side deliberately weighted or shaved, so a small piece of bone can still expose a stranger's cheating two thousand years later.",
+   "Loaded dice only prove intent to cheat at games of chance, not whether the owner ever got to use them, so an object can suggest a plan without proving the crime happened."
+  ],
+  "rw": "Excavations at Pompeii and other Roman sites have recovered bone and ivory dice, some carved or weighted unevenly on purpose. Roman writers, including Cicero, complained about gambling and dice cheats in taverns and at dinner parties. Roman law technically restricted gambling for money to certain festival days, though enforcement stayed loose in practice.",
+  "desc": "A small bone cube, slightly heavier on one face than fair play allows. Someone always wanted the better odds.",
+  "mla": [
+   "\"Dice.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Dice.",
+   "\"Pompeii.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Pompeii."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_040",
+  "name": "Gauss's Disquisitiones Arithmeticae, Leipzig, 1801",
+  "icon": "📘",
+  "region": "rod",
+  "pl": {
+   "mode": "shop",
+   "detail": "",
+   "cost": 130
+  },
+  "eff": {
+   "t": "key",
+   "door": "door_math"
+  },
+  "tags": {
+   "c": "Justification",
+   "e": "Methods and Tools",
+   "s": "Mathematics"
+  },
+  "kq": "How does one dense book reorganise an entire field of proof?",
+  "ans": [
+   "Gauss unified scattered number theory results under one clear system of notation and proof, so a single book gave later mathematicians shared ground to build justified new results from.",
+   "Gauss wrote in dense Latin aimed at expert readers, so the same book which unified a field also locked most readers out of following its justification."
+  ],
+  "rw": "Carl Friedrich Gauss published 'Disquisitiones Arithmeticae' in Leipzig in 1801, at the age of twenty-four. The book organised earlier scattered results in number theory, including results by Fermat and Euler, into one system with consistent notation and rigorous proofs. Mathematicians still consider it a founding text of modern number theory.",
+  "desc": "A thick Latin volume dense with theorems on numbers. It quietly founded a field others had only sketched in pieces.",
+  "mla": [
+   "\"Disquisitiones Arithmeticae.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Disquisitiones_Arithmeticae.",
+   "\"Carl Friedrich Gauss.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Carl_Friedrich_Gauss."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_041",
+  "name": "Continental Currency Forty Dollar Note, Philadelphia, 1776",
+  "icon": "💵",
+  "region": "reliquary",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Power",
+   "v": 12
+  },
+  "tags": {
+   "c": "Power",
+   "e": "Perspectives",
+   "s": "History"
+  },
+  "kq": "Can a piece of paper declare a nation before soldiers win its independence?",
+  "ans": [
+   "The Continental Congress printed this currency to fund a revolution before the new nation had won a single major battle, so paper money could announce a country's existence before the fighting proved it.",
+   "Continental currency lost most of its value within a few years as Congress printed far more notes than it could back, so the same note which declared independence also became a lesson in how fast trust in paper can collapse."
+  ],
+  "rw": "The Continental Congress issued paper currency, including this forty dollar note, starting in 1775 to finance the American Revolutionary War. Congress printed the notes without gold or silver backing and issued far more over time, causing rapid inflation. By the early 1780s the currency had lost most of its value, and Congress eventually stopped issuing it.",
+  "desc": "A printed note promising forty dollars from a country not yet won. Its ink outran the army it was meant to pay.",
+  "mla": [
+   "\"Continental Currency.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Continental_currency."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_042",
+  "name": "Bob Beamon's Puma Long Jump Shoes, Mexico City, 1968",
+  "icon": "👟",
+  "region": "seoul",
+  "pl": {
+   "mode": "minigame",
+   "detail": "Boundary Maze"
+  },
+  "eff": {
+   "t": "ability",
+   "id": "stride"
+  },
+  "tags": {
+   "c": "Values",
+   "e": "Scope",
+   "s": "Sports Science"
+  },
+  "kq": "How far can one jump push the limit of what a body can be expected to do?",
+  "ans": [
+   "Bob Beamon jumped 8.90 metres at the 1968 Mexico City Olympics, beating the existing world record by over half a metre, so a single leap can redraw what judges and athletes consider the edge of possible.",
+   "Thin high altitude air in Mexico City likely helped the jump travel further than sea level conditions would allow, so even a record breaking body still depends on circumstances outside its own training."
+  ],
+  "rw": "The American athlete Bob Beamon jumped 8.90 metres in the long jump final at the 1968 Mexico City Olympics, beating the previous world record by 55 centimetres. The jump stood as the world record for almost 23 years, until Mike Powell broke it in 1991. Commentators at the time struggled to measure the jump, since it exceeded the range of the standard optical measuring device.",
+  "desc": "A pair of spiked leather shoes, still dusted with Mexico City clay. They once carried a body past what anyone thought possible.",
+  "mla": [
+   "\"Bob Beamon.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Bob_Beamon.",
+   "\"Long Jump.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Long_jump."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_043",
+  "name": "Weimar Germany Hundred Trillion Mark Banknote, 1923",
+  "icon": "🧾",
+  "region": "reliquary",
+  "pl": {
+   "mode": "npc",
+   "detail": "Pawnbroker Otto Bruck: He trades a bundle of old notes for anyone curious why the ink cost more than the paper."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Responsibility",
+   "v": 18
+  },
+  "tags": {
+   "c": "Responsibility",
+   "e": "Ethics",
+   "s": "Economics"
+  },
+  "kq": "Who bears the cost when a government prints its way out of debt?",
+  "ans": [
+   "Germany's Reichsbank printed ever larger banknotes through 1923 to cover war debts and reparations, so a state avoided one financial responsibility by quietly shifting the cost onto every saver's shrinking cash.",
+   "The introduction of the new Rentenmark in November 1923 stopped the collapse almost overnight, so responsible reform can undo years of damage once a government finally commits to it."
+  ],
+  "rw": "By late 1923, hyperinflation in the Weimar Republic pushed the Reichsbank to print banknotes in denominations as high as 100 trillion marks. Prices doubled every few days, and employees collected wages twice daily to spend them before they lost value. The government introduced the new Rentenmark in November 1923, backed differently, and the crisis ended within weeks.",
+  "desc": "A banknote crowded with zeros. By the time you counted them all, its value had already dropped.",
+  "mla": [
+   "\"Hyperinflation in the Weimar Republic.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Hyperinflation_in_the_Weimar_Republic.",
+   "\"Rentenmark.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Rentenmark."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_044",
+  "name": "Equitable Life Assurance Actuarial Tables, London, 1762",
+  "icon": "📑",
+  "region": "royal",
+  "pl": {
+   "mode": "cache",
+   "detail": "Locked inside the ledger safe behind the actuary's writing desk."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Justification",
+   "v": 15
+  },
+  "tags": {
+   "c": "Justification",
+   "e": "Ethics",
+   "s": "Business Management"
+  },
+  "kq": "How does a company justify charging different customers different prices for the same promise?",
+  "ans": [
+   "The Equitable Life Assurance Society used age based mortality tables to set premiums, so a customer's price could be justified by data instead of a manager's guess or personal favour.",
+   "Early tables assumed a fairly uniform population and did not account for occupation, health, or location, so a data justified price could still misjudge an individual it never truly measured."
+  ],
+  "rw": "The Society for Equitable Assurances on Lives and Survivorships, founded in London in 1762, became one of the first insurers to price life insurance using age based mortality tables and compound interest calculations. Mathematician James Dodson had proposed the method before his death, and actuaries including William Morgan later refined the tables. The society's approach became the model for the modern life insurance industry.",
+  "desc": "A ledger of ages, interest rates, and premiums. Every row turns a stranger's life expectancy into a price.",
+  "mla": [
+   "\"Equitable Life.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Equitable_Life."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_045",
+  "name": "Japanese Soroban Abacus, Edo Period, 17th Century",
+  "icon": "🧮",
+  "region": "ukiyo",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Culture",
+   "v": 11
+  },
+  "tags": {
+   "c": "Culture",
+   "e": "Perspectives",
+   "s": "Mathematics"
+  },
+  "kq": "Why do some cultures keep teaching an old counting tool after calculators arrive?",
+  "ans": [
+   "Japanese schools still teach soroban technique because moving beads by hand builds a mental image of numbers some educators think calculators skip past, so an old tool can train a skill a newer one does not replace.",
+   "Younger students increasingly reach for phone calculators for daily maths, so a centuries old practice now survives mostly through deliberate school policy rather than daily habit."
+  ],
+  "rw": "The soroban reached its familiar Japanese form during the Edo period, adapted from earlier Chinese counting devices. Merchants and officials used it for daily arithmetic for centuries, and many Japanese schools still teach soroban technique today alongside electronic calculators. Skilled users can add, subtract, multiply, and divide large numbers by moving beads faster than many people type them into a phone.",
+  "desc": "A wooden frame strung with rows of sliding beads. Quick fingers can out race a calculator's buttons.",
+  "mla": [
+   "\"Soroban.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Soroban."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_046",
+  "name": "Egyptian Royal Cubit Rod, Turin, c. 1500 BCE",
+  "icon": "📏",
+  "region": "library",
+  "pl": {
+   "mode": "npc",
+   "detail": "Keeper Nebet-Ka: She measures a visitor's forearm against the rod before lending any scroll."
+  },
+  "eff": {
+   "t": "stamina",
+   "v": 2
+  },
+  "tags": {
+   "c": "Objectivity",
+   "e": "Scope",
+   "s": "Physics"
+  },
+  "kq": "How does a king's own arm become a measurement everyone else must follow?",
+  "ans": [
+   "Egyptian builders based the royal cubit on a pharaoh's forearm length, then cast master copies in stone or wood so every building project used the identical length, turning one body into an objective public standard.",
+   "A new pharaoh could in theory reset the standard to his own arm, so a measurement presented as fixed and objective still traced back to one ruler's body at one moment in time."
+  ],
+  "rw": "Egyptian architects measured buildings and land using the royal cubit, based loosely on the length of a pharaoh's forearm plus the width of his hand, standardised at about 52.4 centimetres. Officials kept master cubit rods, like this granite example now in the Egyptian Museum of Turin, as reference copies for checking wooden measuring rods used on building sites.",
+  "desc": "A long stone rod marked with careful divisions. Somewhere behind every mark stands one ruler's forearm.",
+  "mla": [
+   "\"Cubit.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Cubit.",
+   "\"Ancient Egyptian Units of Measurement.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Ancient_Egyptian_units_of_measurement."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_047",
+  "name": "Cantor's Diagonal Argument Paper, 1891",
+  "icon": "🔁",
+  "region": "rod",
+  "pl": {
+   "mode": "minigame",
+   "detail": "Memory of the Hall"
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Truth",
+   "v": 17
+  },
+  "tags": {
+   "c": "Truth",
+   "e": "Scope",
+   "s": "Mathematics"
+  },
+  "kq": "How can a proof show one infinity is bigger than another infinity?",
+  "ans": [
+   "Cantor's diagonal argument builds a new number guaranteed to differ from every number on an assumed complete list, proving no listing can capture every point on the number line, so a clever construction can reveal an entire hidden scale of infinities.",
+   "Several mathematicians of Cantor's own era rejected the idea of different sizes of infinity as absurd or even dangerous, so a mathematical truth can still meet resistance from experts who find it hard to accept."
+  ],
+  "rw": "Georg Cantor published his diagonal argument in 1891, proving the numbers on the continuous number line cannot be placed in a complete one to one match with the counting numbers. The proof showed some infinities are strictly larger than others, a result many mathematicians of the time found deeply strange. Cantor faced fierce criticism from rivals such as Leopold Kronecker, and some historians link the stress to his later mental health struggles.",
+  "desc": "A short proof built from one diagonal line through a list of numbers. It quietly proves some infinities outgrow others.",
+  "mla": [
+   "\"Cantor's Diagonal Argument.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Cantor%27s_diagonal_argument.",
+   "\"Georg Cantor.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Georg_Cantor."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_048",
+  "name": "Cowrie Shell Currency, West Africa, Pre-Colonial Era",
+  "icon": "🐚",
+  "region": "griot",
+  "pl": {
+   "mode": "cache",
+   "detail": "Buried in a woven basket beneath the storyteller's low wooden stool."
+  },
+  "eff": {
+   "t": "perspective",
+   "c": "Culture"
+  },
+  "tags": {
+   "c": "Culture",
+   "e": "Perspectives",
+   "s": "Economics"
+  },
+  "kq": "Why did a small shell count as wealth in one place and nothing at all in another?",
+  "ans": [
+   "Cowrie shells arrived from the Indian Ocean and became trusted currency across large parts of West Africa because they were durable, hard to fake, and easy to count in fixed units, so scarcity and trust built value into a common shell.",
+   "European colonial administrations later replaced cowrie currency with coined money to fit their own tax and trade systems, so one culture's respected currency stopped counting as money the moment a new authority refused it."
+  ],
+  "rw": "Cowrie shells, mostly sourced from the Indian Ocean, circulated as currency across large parts of West Africa for centuries before European colonisation. Traders counted shells in fixed units for everyday purchases, and some kingdoms used larger quantities to measure bridewealth or tribute payments. Colonial governments in the late 1800s and early 1900s phased out cowrie currency in favour of coined money tied to European economies.",
+  "desc": "A handful of small white shells, worn smooth by centuries of counting hands. Ocean and market meet in one small object.",
+  "mla": [
+   "\"Cowry.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Cowry."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_049",
+  "name": "Ban Liang Bronze Coin, Qin Dynasty, 221 BCE",
+  "icon": "🪙",
+  "region": "historian",
+  "pl": {
+   "mode": "shop",
+   "detail": "",
+   "cost": 30
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Power",
+   "v": 14
+  },
+  "tags": {
+   "c": "Power",
+   "e": "Ethics",
+   "s": "History"
+  },
+  "kq": "Why did unifying a country's money matter as much as unifying its laws?",
+  "ans": [
+   "Qin Shi Huang standardised coinage, weights, writing, and even cart axle widths after unifying China in 221 BCE, so one round coin with a square hole became a small daily reminder of centralised imperial power.",
+   "Standardising currency also erased regional coin systems many local communities had used for generations, so unity for the empire meant an actual loss of independence for smaller kingdoms folded into it."
+  ],
+  "rw": "After unifying China in 221 BCE, the First Emperor Qin Shi Huang standardised currency across the new empire, replacing varied regional coins with the round bronze ban liang, marked with a square central hole. The same reforms standardised weights, measures, and written script, tying economic life directly to centralised imperial control. Later Chinese dynasties kept the round coin, square hole design for over two thousand years.",
+  "desc": "A round bronze coin with a small square hole at its centre. One shape replaced a patchwork of older regional currencies.",
+  "mla": [
+   "\"Ban Liang.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Ban_Liang.",
+   "\"Qin Shi Huang.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Qin_Shi_Huang."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_050",
+  "name": "A Million Random Digits, RAND Corporation, 1955",
+  "icon": "🔀",
+  "region": "hut8",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Objectivity",
+   "v": 13
+  },
+  "tags": {
+   "c": "Objectivity",
+   "e": "Methods and Tools",
+   "s": "Mathematics"
+  },
+  "kq": "Why would anyone publish a whole book with no meaning in any of its numbers?",
+  "ans": [
+   "RAND generated these digits from an electronic roulette wheel to give scientists a source of numbers free from human patterns or bias, so a book with no message became a tool for objective sampling and simulation.",
+   "True randomness is hard to verify even from a machine, so researchers still had to test the published digits statistically before trusting them as free of hidden pattern."
+  ],
+  "rw": "The RAND Corporation published 'A Million Random Digits with 100,000 Normal Deviates' in 1955, generated using an electronic roulette wheel connected to early computing equipment. Scientists, statisticians, and engineers used the tables for random sampling and simulation before reliable computer based random number generators became common. Reviewers at the time joked about the book's plot, since it consisted entirely of digits with no story at all.",
+  "desc": "A thick book packed with digits and nothing else. Every number in it was born from a spinning wheel, not a pattern.",
+  "mla": [
+   "\"A Million Random Digits with 100,000 Normal Deviates.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/A_Million_Random_Digits_with_100,000_Normal_Deviates.",
+   "\"RAND Corporation.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/RAND_Corporation."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_051",
+  "name": "Dow Jones Industrial Average First List, Wall Street, 1896",
+  "icon": "📈",
+  "region": "seoul",
+  "pl": {
+   "mode": "minigame",
+   "detail": "Socratic Serve"
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Interpretation",
+   "v": 15
+  },
+  "tags": {
+   "c": "Interpretation",
+   "e": "Perspectives",
+   "s": "Economics"
+  },
+  "kq": "How can twelve companies stand in for an entire economy?",
+  "ans": [
+   "Charles Dow averaged the stock prices of twelve industrial companies in 1896 to create a fast reading of market mood, so a small sample turned into a widely trusted symbol for the whole economy.",
+   "Critics have long argued the index leaves out entire sectors and weights companies by share price rather than company size, so a number treated as neutral still carries hidden choices about what counts."
+  ],
+  "rw": "The journalist Charles Dow published the first Dow Jones Industrial Average on 26 May 1896, averaging the stock prices of twelve American industrial companies. General Electric, one of the original twelve, stayed in the index longer than any other member, remaining until its removal in 2018. Analysts still debate how well a small, price weighted index represents a modern, far larger economy.",
+  "desc": "A short list of twelve company names and one average price. A whole economy learns to watch this single number.",
+  "mla": [
+   "\"Dow Jones Industrial Average.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Dow_Jones_Industrial_Average.",
+   "\"Charles Dow.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Charles_Dow."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_052",
+  "name": "Indus Valley Standardized Stone Weights, Mohenjo Daro, c. 2600 BCE",
+  "icon": "🧱",
+  "region": "library",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Interpretation",
+   "v": 13
+  },
+  "tags": {
+   "c": "Interpretation",
+   "e": "Scope",
+   "s": "History"
+  },
+  "kq": "How much can a set of weights say about a civilisation whose writing no one can read?",
+  "ans": [
+   "Chert cubical weights found across Indus Valley sites follow a consistent ratio system from Mohenjo-daro to Harappa, so archaeologists read strong central coordination into a script they still cannot translate.",
+   "Without readable texts to confirm intentions, every claim about Indus Valley trade or government stays an informed guess built from objects alone, so silence in the written record limits how far interpretation can safely go."
+  ],
+  "rw": "Archaeologists have found small cubical weights made of chert at Indus Valley sites including Mohenjo-daro and Harappa, dating to around 2600 BCE. The weights follow a consistent ratio system across settlements hundreds of kilometres apart, suggesting shared trade standards or central regulation. The Indus script remains undeciphered, so historians must infer social and economic organisation almost entirely from objects like these.",
+  "desc": "A small stack of grey cubes, each a fixed multiple of the smallest. A trade system speaks where writing stays silent.",
+  "mla": [
+   "\"Indus Valley Civilisation.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Indus_Valley_Civilisation.",
+   "\"Harappa.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Harappa."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_053",
+  "name": "Appel and Haken's Four Colour Theorem Printout, 1976",
+  "icon": "🖨️",
+  "region": "hut8",
+  "pl": {
+   "mode": "npc",
+   "detail": "Graduate Assistant Priya Osei: She shows the printout to anyone patient enough to check a few hundred cases by hand."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Justification",
+   "v": 16
+  },
+  "tags": {
+   "c": "Justification",
+   "e": "Methods and Tools",
+   "s": "Computer Science"
+  },
+  "kq": "Does a proof still count as justified if no human can check every step?",
+  "ans": [
+   "Appel and Haken reduced the four colour map problem to under two thousand cases and had a computer check each one, so a proof could be justified even though no person could verify every step by hand.",
+   "Some mathematicians refused to fully accept the result for years, since a proof no human being can read in full feels less like classical justification and more like trust in a machine's report."
+  ],
+  "rw": "Kenneth Appel and Wolfgang Haken proved the four colour theorem in 1976, showing any map can be coloured with only four colours so no two neighbouring regions share a colour. Their proof relied on a computer to check 1,936 special map arrangements individually, making it the first major theorem proved with essential computer assistance. The result sparked lasting debate about what counts as an acceptable mathematical proof.",
+  "desc": "A stack of dot matrix printouts covered in map fragments. A machine checked what no mathematician had time to finish by hand.",
+  "mla": [
+   "\"Four Color Theorem.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Four_color_theorem."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_054",
+  "name": "Inca Yupana Counting Board, Andes, c. 1450",
+  "icon": "🟫",
+  "region": "cusco",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Perspective",
+   "v": 12
+  },
+  "tags": {
+   "c": "Perspective",
+   "e": "Perspectives",
+   "s": "Mathematics"
+  },
+  "kq": "How should a researcher read a counting board when no instructions survived with it?",
+  "ans": [
+   "Some historians read the yupana's stepped stone compartments as a base forty counting system linked to Inca administration, so an unfamiliar object can still yield a usable number system through careful pattern matching.",
+   "Other researchers argue the compartments better fit a Fibonacci based counting scheme or a simple abacus, so the same board still supports more than one competing explanation with no surviving manual to settle the question."
+  ],
+  "rw": "Archaeologists have found stone yupanas, boards divided into compartments of different sizes, at Inca sites across the Andes dating to around 1450 and later. Researchers agree Inca officials used the boards for counting alongside the knotted cord khipu, but they disagree on the exact number system the compartments represent. No Spanish colonial account fully explains the device, leaving its precise method a live debate among historians of mathematics.",
+  "desc": "A stepped stone tray divided into unequal pockets. Historians still argue over how it once counted.",
+  "mla": [
+   "\"Yupana.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Yupana."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_055",
+  "name": "Luca Pacioli's Summa de Arithmetica, Venice, 1494",
+  "icon": "📒",
+  "region": "florence",
+  "pl": {
+   "mode": "cache",
+   "detail": "Shelved beside the counting house ledgers in the back room of the bottega."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Responsibility",
+   "v": 14
+  },
+  "tags": {
+   "c": "Responsibility",
+   "e": "Ethics",
+   "s": "Business Management"
+  },
+  "kq": "Why does a merchant owe a careful record to someone who will never read it?",
+  "ans": [
+   "Pacioli's book explained double entry bookkeeping, where every transaction gets recorded twice to keep debits and credits balanced, so a merchant took on a daily responsibility to their own ledger as much as to a customer across the counter.",
+   "Double entry bookkeeping catches simple arithmetic mistakes but cannot catch a merchant who enters a false number on purpose, so a responsible method still depends on the good faith of the person holding the pen."
+  ],
+  "rw": "The Franciscan friar and mathematician Luca Pacioli published 'Summa de Arithmetica, Geometria, Proportioni et Proportionalita' in Venice in 1494. A section of the book described double entry bookkeeping, a method Venetian merchants had already used in practice, organising it into a clear system for the first time in print. Historians often call Pacioli the father of accounting because his book spread the method across Europe.",
+  "desc": "A thick printed volume mixing algebra with ledger keeping. Numbers and money learn to check each other here.",
+  "mla": [
+   "\"Luca Pacioli.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Luca_Pacioli.",
+   "\"Double-Entry Bookkeeping.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Double-entry_bookkeeping."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_056",
+  "name": "Astragali Knucklebone Dice, Ancient Greece",
+  "icon": "🦴",
+  "region": "reliquary",
+  "pl": {
+   "mode": "npc",
+   "detail": "Oracle Keeper Thessaly: She casts the bones once for any visitor who asks about fate instead of facts."
+  },
+  "eff": {
+   "t": "battle",
+   "v": 1,
+   "kind": "reveal"
+  },
+  "tags": {
+   "c": "Truth",
+   "e": "Ethics",
+   "s": "World Religions"
+  },
+  "kq": "Can chance ever count as a fair way to learn the truth about the future?",
+  "ans": [
+   "Greek diviners cast astragali as a form of cleromancy, trusting the fall of bone to reveal a will beyond human choice, so pure chance could feel more trustworthy than a priest's own opinion.",
+   "The same bones also turned up in ordinary children's games and gambling with no religious weight at all, so identical objects moved freely between sacred truth telling and casual play."
+  ],
+  "rw": "Ancient Greeks and Romans used the knucklebones of sheep or goats, called astragali, for both games of chance and divination. Diviners read patterns in how the bones landed to answer questions or predict events, a practice called cleromancy. The same bones appear in children's graves and everyday game sets, showing their double life as toys and tools of fate.",
+  "desc": "A handful of small knucklebones, worn smooth by centuries of throws. Some fell for a game, others for a prophecy.",
+  "mla": [
+   "\"Knucklebones.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Knucklebones.",
+   "\"Astragalus (Bone).\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Astragalus_(bone)."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_057",
+  "name": "Spanish Silver Piece of Eight, Potosi Mint, 17th Century",
+  "icon": "🪙",
+  "region": "cusco",
+  "pl": {
+   "mode": "shop",
+   "detail": "",
+   "cost": 100
+  },
+  "eff": {
+   "t": "path",
+   "region": "reliquary"
+  },
+  "tags": {
+   "c": "Perspective",
+   "e": "Perspectives",
+   "s": "Economics"
+  },
+  "kq": "Why did one Spanish coin end up as legal money in a country which never minted it?",
+  "ans": [
+   "Merchants trusted the piece of eight's fixed silver content so widely the United States accepted it as legal currency until 1857, so a foreign coin could outcompete a young nation's own money on trust alone.",
+   "Colonial silver mined at Potosi, largely by forced indigenous and enslaved labour, gave the coin its value, so a symbol of global trust also carried an origin many later observers call unjust."
+  ],
+  "rw": "Spain minted silver 'pieces of eight,' known as reales de a ocho, at Potosi and other colonial mints from the 1500s onward, using silver mined largely through forced indigenous labour under the mita system. The coin's reliable weight and purity made it a global trade currency, accepted from the Americas to Asia. The United States recognised the Spanish dollar as legal tender within its own borders until 1857.",
+  "desc": "A worn silver coin, sometimes cut into pieces to make small change. Its silver travelled further than most kingdoms of its day.",
+  "mla": [
+   "\"Spanish Dollar.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Spanish_dollar.",
+   "\"Potosi.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Potos%C3%AD."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_058",
+  "name": "The Ashes Urn, Terracotta, England, 1882",
+  "icon": "🏺",
+  "region": "royal",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "stamina",
+   "v": 1
+  },
+  "tags": {
+   "c": "Values",
+   "e": "Perspectives",
+   "s": "Sports Science"
+  },
+  "kq": "How does a joke in a newspaper turn into a trophy two nations still compete for?",
+  "ans": [
+   "A satirical obituary joked English cricket had died in 1882 and its ashes shipped to Australia, so a small joke created a rivalry both nations still value well over a century later.",
+   "No one fully agrees on what the tiny urn's actual ashes contain, with some accounts naming a bail or a ball, so the entire prize both teams chase may rest on an unclear origin story."
+  ],
+  "rw": "The Sporting Times printed a mock obituary for English cricket after Australia won a match at the Oval in 1882, joking the body would be cremated and the ashes taken to Australia. English players received a small terracotta urn during a later tour, and the Ashes became the name for Test cricket series between England and Australia. The urn itself stays at the Marylebone Cricket Club museum rather than travelling with the trophy presented to winning teams today.",
+  "desc": "A small clay urn, barely taller than a hand. Two cricket nations built a century of rivalry around it.",
+  "mla": [
+   "\"The Ashes.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/The_Ashes."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_059",
+  "name": "Ifa Divination Chain, Yoruba Opele, West Africa",
+  "icon": "🔗",
+  "region": "griot",
+  "pl": {
+   "mode": "minigame",
+   "detail": "Fallacy Volley"
+  },
+  "eff": {
+   "t": "perspective",
+   "c": "Perspective"
+  },
+  "tags": {
+   "c": "Perspective",
+   "e": "Perspectives",
+   "s": "World Religions"
+  },
+  "kq": "Can a system built on chance still count as a way of knowing?",
+  "ans": [
+   "A babalawo reads the pattern an opele chain makes when dropped, matching it to one of 256 odu verses memorised over years of training, so chance selects the verse while deep memorised knowledge supplies the meaning.",
+   "Outsiders sometimes dismiss divination as random guessing dressed up in ritual, so two observers can watch the identical chain fall and reach entirely different conclusions about what just happened."
+  ],
+  "rw": "Ifa divination, practised among the Yoruba people of West Africa, uses a chain called an opele, strung with eight seed pod halves, or a set of palm nuts. A trained priest called a babalawo interprets the pattern the chain makes when cast, matching it to one of 256 odu, or verses, memorised through years of apprenticeship. UNESCO recognised Ifa divination as part of humanity's intangible cultural heritage in 2005.",
+  "desc": "A chain of eight seed halves, worn smooth by dropping and reading. Chance and long memorised verse decide together.",
+  "mla": [
+   "\"Ifa.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Ifa.",
+   "\"Yoruba Religion.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Yoruba_religion."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_060",
+  "name": "Omar Khayyam's Treatise on Algebra, Samarkand, c. 1070",
+  "icon": "📐",
+  "region": "ulugh",
+  "pl": {
+   "mode": "npc",
+   "detail": "Observatory Assistant Farrukh: He unrolls the treatise for anyone who can sketch a parabola from memory."
+  },
+  "eff": {
+   "t": "perspective",
+   "c": "Perspective"
+  },
+  "tags": {
+   "c": "Perspective",
+   "e": "Methods and Tools",
+   "s": "Mathematics"
+  },
+  "kq": "Why solve an algebra problem by drawing a picture instead of writing an equation?",
+  "ans": [
+   "Omar Khayyam solved cubic equations by finding where curves like parabolas and circles cross, since Islamic mathematics of his era had no symbolic algebra for higher powers, so a geometric perspective filled a gap symbols could not yet cover.",
+   "Later mathematicians in Renaissance Italy solved the same cubic equations using purely symbolic algebra, so a problem once viewed only through geometry gained an entirely different, faster perspective centuries later."
+  ],
+  "rw": "The Persian scholar Omar Khayyam wrote a treatise on algebra around 1070, based at courts in Samarkand and later Isfahan. The book classified cubic equations into types and solved them by intersecting conic sections such as parabolas and circles, since algebraic notation for higher powers did not yet exist. Khayyam is also remembered for reforming the Persian calendar and for poetry collected in the 'Rubaiyat.'",
+  "desc": "A scroll of careful geometric diagrams solving algebra with curves. No equation in sight, just crossing lines.",
+  "mla": [
+   "\"Omar Khayyam.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Omar_Khayyam."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_061",
+  "name": "Edo Period Koban Gold Coin, Japan, 1601",
+  "icon": "🪙",
+  "region": "ukiyo",
+  "pl": {
+   "mode": "cache",
+   "detail": "Hidden beneath a loose floorboard in the merchant quarter replica house."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Culture",
+   "v": 12
+  },
+  "tags": {
+   "c": "Culture",
+   "e": "Scope",
+   "s": "Economics"
+  },
+  "kq": "Why did an island nation's currency stay so different from its neighbours' coins?",
+  "ans": [
+   "The oval koban, stamped by hand with ink and a mint mark rather than cast round like Chinese or Western coins, reflected Japan's own metalworking traditions and closed trade policy during the Edo period.",
+   "Japan's isolation policy limited how far the koban ever needed to compete with foreign currencies, so a coin could stay unusual for centuries without ever facing pressure to standardise with the outside world."
+  ],
+  "rw": "The Tokugawa shogunate introduced the oval shaped koban gold coin starting in 1601, standardising currency across Japan under a new unified government. Mints stamped each coin by hand with ink markings certifying weight and purity. Japan's sakoku policy of limited foreign contact, in place for over two centuries, let the koban keep its distinct shape and system largely separate from coinage used elsewhere in the world.",
+  "desc": "A flat oval of gold stamped with careful ink marks. Its shape alone says it answers to no foreign mint.",
+  "mla": [
+   "\"Koban (Coin).\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Koban_(coin).",
+   "\"Edo Period.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Edo_period."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_062",
+  "name": "Monte Carlo Casino Roulette Wheel, Monaco, 1863",
+  "icon": "🎰",
+  "region": "vault_pol",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "battle",
+   "v": 1,
+   "kind": "time"
+  },
+  "tags": {
+   "c": "Responsibility",
+   "e": "Ethics",
+   "s": "Psychology"
+  },
+  "kq": "Who should carry responsibility when a game is built to make the house win over time?",
+  "ans": [
+   "Roulette's fixed house edge means the casino profits steadily over many spins even though any single player might win big, so responsibility for long term loss sits in the maths of the wheel, not any one unlucky night.",
+   "Casinos market roulette as pure entertainment while relying on players who misjudge the odds after a run of losses, so the house can claim a light responsibility while the design itself quietly guarantees its profit."
+  ],
+  "rw": "The Casino de Monte-Carlo opened in Monaco in 1863, building its early fortune partly on roulette. The wheel's design, including one or two zero pockets depending on the version, gives the house a small but steady mathematical edge over players. Stories about gamblers who broke the bank for a single night, most famously Charles Wells in 1891, became famous partly because the house always wins back its edge over time.",
+  "desc": "A spinning wheel of red and black pockets. Chance decides one spin, but the house wins the whole night.",
+  "mla": [
+   "\"Roulette.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Roulette.",
+   "\"Casino de Monte-Carlo.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Casino_de_Monte-Carlo."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_063",
+  "name": "Roger Bannister's Running Shoes, Oxford, 1954",
+  "icon": "👟",
+  "region": "reliquary",
+  "pl": {
+   "mode": "npc",
+   "detail": "Trainer Franz Stampfl: He hands over the spikes to runners who still believe four minutes cannot be broken."
+  },
+  "eff": {
+   "t": "stamina",
+   "v": 2
+  },
+  "tags": {
+   "c": "Values",
+   "e": "Scope",
+   "s": "Sports Science"
+  },
+  "kq": "How does a number everyone believes impossible become ordinary within a year?",
+  "ans": [
+   "Roger Bannister ran the mile in 3 minutes 59.4 seconds at Oxford in 1954, breaking a barrier doctors and coaches once called dangerous or impossible, so a single run reset what an entire sport believed a body could achieve.",
+   "Another runner broke Bannister's own new record within 46 days of the first sub four minute mile, so a limit once treated as fixed by biology often turns out to be fixed mainly by belief."
+  ],
+  "rw": "The British runner Roger Bannister ran a mile in 3 minutes 59.4 seconds at Iffley Road track in Oxford on 6 May 1954, becoming the first person recorded breaking the four minute barrier. Many in athletics had considered the barrier close to a biological limit. The Australian John Landy broke Bannister's record just over a month later, and dozens of runners have since gone under four minutes.",
+  "desc": "A pair of thin leather spikes, laced tight for one famous evening run. A number thought fixed came loose the same day.",
+  "mla": [
+   "\"Roger Bannister.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Roger_Bannister.",
+   "\"Four-Minute Mile.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Four-minute_mile."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_064",
+  "name": "Rhind Mathematical Papyrus, Egypt, c. 1650 BCE",
+  "icon": "📜",
+  "region": "library",
+  "pl": {
+   "mode": "minigame",
+   "detail": "Cipher of the Stacks"
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Evidence",
+   "v": 15
+  },
+  "tags": {
+   "c": "Evidence",
+   "e": "Methods and Tools",
+   "s": "Mathematics"
+  },
+  "kq": "How much can eighty four practice problems reveal about a whole society's mathematics?",
+  "ans": [
+   "The Rhind papyrus preserves eighty four solved problems covering fractions, geometry, and distribution of goods, giving historians direct evidence of methods Egyptian scribes actually used rather than guesses based on later summaries.",
+   "A single training document copied by one scribe cannot show how widely these methods spread beyond scribal schools, so rich evidence from one papyrus still leaves whole parts of Egyptian society undocumented."
+  ],
+  "rw": "The scribe Ahmes copied this papyrus around 1650 BCE, stating it drew on material roughly two centuries older. The document contains eighty four mathematical problems covering fractions, area, volume, and the distribution of bread and beer, along with complete solutions. Alexander Henry Rhind purchased the papyrus in Luxor in 1858, and the British Museum has held it since 1865.",
+  "desc": "A long papyrus scroll dense with hieratic script and completed sums. A scribe's homework survived four thousand years.",
+  "mla": [
+   "\"Rhind Mathematical Papyrus.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Rhind_Mathematical_Papyrus."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_065",
+  "name": "Plimpton 322 Clay Tablet, Babylon, c. 1800 BCE",
+  "icon": "🪨",
+  "region": "library",
+  "pl": {
+   "mode": "cache",
+   "detail": "Sealed in a labelled crate at the bottom of the tablet archive stack."
+  },
+  "eff": {
+   "t": "key",
+   "door": "secret_ma"
+  },
+  "tags": {
+   "c": "Interpretation",
+   "e": "Scope",
+   "s": "Mathematics"
+  },
+  "kq": "How can experts still disagree about what a four thousand year old tablet was actually for?",
+  "ans": [
+   "The numbers on Plimpton 322 form Pythagorean triples arranged in careful columns, leading some historians to read it as an early trigonometric table centuries before Greek trigonometry existed.",
+   "Other historians argue the tablet more likely served as a teacher's list of exercises for students practising a known method, so the identical rows of numbers still support two very different stories about their purpose."
+  ],
+  "rw": "Plimpton 322 is a Babylonian clay tablet, dated to around 1800 BCE, inscribed with a table of numbers in cuneiform script arranged in four columns and fifteen rows. The numbers form Pythagorean triples, and scholars have debated since the twentieth century whether the tablet functioned as an early trigonometric table, a teaching aid, or a record connected to land surveying. Columbia University holds the tablet today, as part of the George Arthur Plimpton collection.",
+  "desc": "A palm sized clay tablet covered in tidy cuneiform columns. Four thousand years later, no one fully agrees what it was for.",
+  "mla": [
+   "\"Plimpton 322.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Plimpton_322."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_066",
+  "name": "The Landlord's Game Patent, Lizzie Magie, 1904",
+  "icon": "🏠",
+  "region": "vault_pol",
+  "pl": {
+   "mode": "shop",
+   "detail": "",
+   "cost": 50
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Power",
+   "v": 17
+  },
+  "tags": {
+   "c": "Power",
+   "e": "Ethics",
+   "s": "Global Politics"
+  },
+  "kq": "Can a game teach players to dislike the very system which makes it fun to play?",
+  "ans": [
+   "Lizzie Magie patented The Landlord's Game in 1904 to show how rent under a single owner concentrates wealth and power at the expense of everyone else at the table, so a game could carry a political argument inside its rules.",
+   "Players and later publishers enjoyed the pure thrill of buying property and bankrupting rivals far more than the lesson about monopoly Magie intended, so a game built to criticise concentrated power ended up celebrating it as Monopoly instead."
+  ],
+  "rw": "Elizabeth 'Lizzie' Magie patented The Landlord's Game in 1904, designing it to illustrate economist Henry George's argument: concentrated land ownership drove inequality. The game included two rule sets, one rewarding monopoly and one rewarding shared wealth, meant to let players compare outcomes. Charles Darrow later adapted a version of the game and sold it to Parker Brothers as Monopoly in 1935, and Magie received a small one time payment with little public credit for decades.",
+  "desc": "A hand drawn board with named properties and rent rules. Its lesson about power got flipped into cheerful ruin.",
+  "mla": [
+   "\"The Landlord's Game.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/The_Landlord%27s_Game.",
+   "\"Elizabeth Magie.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Elizabeth_Magie."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_067",
+  "name": "Manilla Bronze Currency, Benin, 16th Century",
+  "icon": "🔗",
+  "region": "benin",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "perspective",
+   "c": "Responsibility"
+  },
+  "tags": {
+   "c": "Responsibility",
+   "e": "Ethics",
+   "s": "History"
+  },
+  "kq": "Can an object used for trade still carry responsibility for the trade it helped complete?",
+  "ans": [
+   "European traders exchanged manillas, horseshoe shaped bronze or copper rings, for goods and, at their worst, for enslaved people along the West African coast, so a simple metal currency sat directly inside one of history's gravest crimes.",
+   "Manillas also served ordinary local trade and bridewealth payments across West Africa long before and after European contact, so the same currency form carried both everyday community use and a role in the transatlantic slave trade."
+  ],
+  "rw": "Manillas, horseshoe shaped rings of bronze or copper, circulated as currency across parts of West Africa, including the Benin region, for local trade for centuries. European traders from the 15th century onward brought manufactured manillas in large quantities to exchange for goods, palm oil, and, tragically, for enslaved people during the transatlantic slave trade. Colonial administrations phased manillas out of official use in Nigeria only in 1949.",
+  "desc": "A heavy bronze ring shaped like a horseshoe. Trade and tragedy passed through the identical metal loop.",
+  "mla": [
+   "\"Manilla (Money).\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Manilla_(money)."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_068",
+  "name": "Kibble Balance, NIST Kilogram Redefinition, 2019",
+  "icon": "⚖️",
+  "region": "ring",
+  "pl": {
+   "mode": "minigame",
+   "detail": "Scales of Justification"
+  },
+  "eff": {
+   "t": "ability",
+   "id": "dowse"
+  },
+  "tags": {
+   "c": "Objectivity",
+   "e": "Methods and Tools",
+   "s": "Physics"
+  },
+  "kq": "Why replace a physical metal object with a constant of nature no one can touch?",
+  "ans": [
+   "The Kibble balance measures mass by balancing gravitational force against a precisely measurable electromagnetic force, tying the kilogram to the Planck constant instead of one fragile cylinder in France.",
+   "Only a handful of laboratories in the world can currently build a Kibble balance precise enough for this task, so a more objective definition still depends on a small circle of institutions with the right equipment."
+  ],
+  "rw": "Scientists at NIST and other national metrology institutes refined the Kibble balance, a device balancing electromagnetic force against gravity, to measure mass in terms of the Planck constant. In 2019 the General Conference on Weights and Measures used this method to redefine the kilogram, retiring the physical prototype cylinder kept near Paris since 1889. The new definition means any lab with a sufficiently precise Kibble balance can realise the kilogram without comparing to a single physical object.",
+  "desc": "A tall precision instrument of coils and magnets. It weighs an object against a constant woven into the universe itself.",
+  "mla": [
+   "\"Kibble Balance.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Kibble_balance.",
+   "\"Kilogram.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Kilogram."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_069",
+  "name": "NIST F1 Caesium Fountain Atomic Clock, 1999",
+  "icon": "⏱️",
+  "region": "ring",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Objectivity",
+   "v": 16
+  },
+  "tags": {
+   "c": "Objectivity",
+   "e": "Methods and Tools",
+   "s": "Physics"
+  },
+  "kq": "How does counting atomic vibrations replace a king's word as the definition of a second?",
+  "ans": [
+   "NIST-F1 defines a second by counting a fixed number of radiation cycles from caesium atoms, so a unit once tied to Earth's rotation now rests on an atomic process nobody can bend for convenience.",
+   "Even an atomic clock needs regular comparison against sister clocks worldwide to catch tiny drift, so an objective standard still runs on continuous human checking, not a single perfect machine left alone."
+  ],
+  "rw": "The National Institute of Standards and Technology unveiled the NIST-F1 caesium fountain atomic clock in 1999, accurate to within about one second every 20 million years at the time of its introduction. The clock defines the second by counting a fixed number of transitions between energy states in caesium 133 atoms, tossed in a fountain like path through a microwave chamber. Laboratories worldwide compare atomic clocks to keep global timekeeping synchronised.",
+  "desc": "A chamber of caesium atoms tossed gently upward like water from a fountain. Time itself gets measured mid air.",
+  "mla": [
+   "\"NIST-F1.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/NIST-F1.",
+   "\"Atomic Clock.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Atomic_clock."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_070",
+  "name": "Perelman's Poincare Conjecture Preprint, arXiv, 2002",
+  "icon": "🌀",
+  "region": "reliquary",
+  "pl": {
+   "mode": "npc",
+   "detail": "Archivist Yelena Rakova: She prints a copy for anyone who promises not to offer Perelman any prize money."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Certainty",
+   "v": 22
+  },
+  "tags": {
+   "c": "Certainty",
+   "e": "Methods and Tools",
+   "s": "Mathematics"
+  },
+  "kq": "Why would a mathematician refuse a prize for reaching total certainty?",
+  "ans": [
+   "Grigori Perelman posted his proof of the Poincare conjecture on arXiv in 2002 instead of a journal, letting other mathematicians verify the argument openly before any formal certainty was declared, so open sharing became part of establishing trust in the result.",
+   "Perelman turned down both the Fields Medal and a one million dollar Millennium Prize after his proof was confirmed, so total certainty about a theorem did not require any reward to feel complete to the person who found it."
+  ],
+  "rw": "Grigori Perelman posted a series of preprints on arXiv between 2002 and 2003, proving the Poincare conjecture, a problem about the shape of three dimensional spaces left unsolved since 1904. Independent teams of mathematicians spent years checking the dense argument before the mathematical community accepted it as correct. Perelman declined the Fields Medal in 2006 and the Clay Mathematics Institute's Millennium Prize of one million dollars in 2010.",
+  "desc": "A plain preprint with no journal seal or fanfare. It quietly settled a century old question about the shape of space.",
+  "mla": [
+   "\"Grigori Perelman.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Grigori_Perelman.",
+   "\"Poincare Conjecture.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Poincar%C3%A9_conjecture."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_071",
+  "name": "Yap Rai Stone, Micronesia",
+  "icon": "⭕",
+  "region": "shore",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "path",
+   "region": "reliquary"
+  },
+  "tags": {
+   "c": "Culture",
+   "e": "Perspectives",
+   "s": "Economics"
+  },
+  "kq": "Can money still count as money if the owner never moves it?",
+  "ans": [
+   "Yapese communities tracked ownership of giant stone discs through shared memory and oral history rather than moving the stones themselves, so a currency functioned through community agreement, not through anyone carrying coins in a pocket.",
+   "Outsiders often called rai stones a strange or primitive form of money, yet the system tracked ownership about as reliably as a bank ledger, so an unfamiliar system judged odd from outside can still function exactly as intended inside its own community."
+  ],
+  "rw": "The people of Yap, an island group in Micronesia, carved large stone discs called rai from limestone quarried on Palau, then transported them by canoe and raft across open ocean. Communities tracked ownership of each stone through shared memory rather than moving the stones after they arrived, since some weighed several tonnes. Economists have cited rai stones as an early example of money whose value rests entirely on shared belief and record keeping, similar in principle to modern ledger systems.",
+  "desc": "A huge stone ring with a hole cut through its centre. It never moves, yet everyone agrees who owns it.",
+  "mla": [
+   "\"Rai Stones.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Rai_stones."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_072",
+  "name": "Fijian Tabua Whale Tooth Currency, Fiji",
+  "icon": "🦷",
+  "region": "shore",
+  "pl": {
+   "mode": "cache",
+   "detail": "Wrapped in tapa cloth inside the chief's replica meeting house."
+  },
+  "eff": {
+   "t": "perspective",
+   "c": "Culture"
+  },
+  "tags": {
+   "c": "Culture",
+   "e": "Perspectives",
+   "s": "World Religions"
+  },
+  "kq": "Why does a gift outrank a coin in some ceremonies?",
+  "ans": [
+   "Fijian communities present a polished sperm whale tooth, or tabua, to mark serious requests, apologies, or agreements, so an object exchanged between people can carry social and spiritual weight no coin could match.",
+   "A tabua only carries its full meaning inside a proper ceremony with the right words and standing between giver and receiver, so identical objects can mean very little once removed from the relationship which gave them value."
+  ],
+  "rw": "Fijian communities have used tabua, polished and cured sperm whale teeth, in ceremonial exchange for serious requests, apologies, marriage negotiations, and peace agreements for centuries. Presenting a tabua signals respect and seriousness in a way money cannot substitute for within Fijian custom. Sperm whales are now internationally protected, so most tabua in circulation today are older teeth passed through generations rather than newly sourced.",
+  "desc": "A smooth, aged whale tooth strung on plaited cord. Offering it says more than any amount of cash could.",
+  "mla": [
+   "\"Tabua.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Tabua."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_073",
+  "name": "Monopoly, Parker Brothers Atlantic City Edition, 1935",
+  "icon": "🎩",
+  "region": "reliquary",
+  "pl": {
+   "mode": "npc",
+   "detail": "Toy Seller Gordon Pike: He unboxes a set for anyone who agrees to be a fair banker."
+  },
+  "eff": {
+   "t": "battle",
+   "v": 1,
+   "kind": "life"
+  },
+  "tags": {
+   "c": "Values",
+   "e": "Ethics",
+   "s": "Business Management"
+  },
+  "kq": "Why does a game about ruining your friends stay a favourite family night in?",
+  "ans": [
+   "Monopoly rewards buying up property and charging rent until other players run out of money, so a family game quietly teaches and celebrates values driving property competition outside the box.",
+   "Parker Brothers marketed Monopoly as good clean fun during the Great Depression, so a game mirroring economic ruin became especially popular exactly when actual ruin worried millions of families."
+  ],
+  "rw": "Parker Brothers published its Atlantic City themed edition of Monopoly in 1935, licensing a design based on Charles Darrow's version, itself adapted from Lizzie Magie's earlier Landlord's Game. The game uses street names from Atlantic City, New Jersey, and became one of the best selling board games in history. Parker Brothers marketed the game heavily during the Great Depression, when its theme of sudden wealth and ruin resonated with players facing economic hardship.",
+  "desc": "A folding board lined with coloured properties and paper money. Friendships enter cheerful and rarely leave unscathed.",
+  "mla": [
+   "\"Monopoly (Game).\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Monopoly_(game)."
+  ],
+  "img": "commons.wikimedia.org/wiki/Category:Monopoly_(game)"
+ },
+ {
+  "id": "r64_074",
+  "name": "Usain Bolt's Puma Spikes, Berlin World Championships, 2009",
+  "icon": "⚡",
+  "region": "seoul",
+  "pl": {
+   "mode": "shop",
+   "detail": "",
+   "cost": 110
+  },
+  "eff": {
+   "t": "stamina",
+   "v": 3
+  },
+  "tags": {
+   "c": "Explanation",
+   "e": "Scope",
+   "s": "Sports Science"
+  },
+  "kq": "How much of a record breaking run can science actually explain?",
+  "ans": [
+   "Biomechanists studied Usain Bolt's 9.58 second 100 metre run in Berlin in 2009 frame by frame, explaining his speed through stride length, reaction time, and a rare top end acceleration most sprinters lose earlier in a race.",
+   "No biomechanical model fully explains why one body produces a talent this rare, so science can describe a record in fine detail while still falling short of predicting the next athlete who might break it."
+  ],
+  "rw": "The Jamaican sprinter Usain Bolt ran the 100 metres in 9.58 seconds at the 2009 World Championships in Berlin, wearing spikes made by Puma, still the fastest time recorded. Sports scientists have since analysed the race extensively, pointing to Bolt's unusually long stride and his ability to keep accelerating later in the race than most competitors. The record has stood since 2009, outlasting predictions of a fall within a decade.",
+  "desc": "A pair of lightweight spikes built for one explosive sprint. Nine and a half seconds still stands unmatched.",
+  "mla": [
+   "\"Usain Bolt.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Usain_Bolt.",
+   "\"100 Metres.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/100_metres."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_075",
+  "name": "Chinese Da Ming Li Calendar Text, Nanjing, 1384",
+  "icon": "📅",
+  "region": "historian",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "perspective",
+   "c": "Interpretation"
+  },
+  "tags": {
+   "c": "Interpretation",
+   "e": "Perspectives",
+   "s": "History"
+  },
+  "kq": "Why did a new emperor need his own calendar instead of keeping the old one?",
+  "ans": [
+   "The early Ming court issued the Da Ming Li calendar to replace Yuan dynasty astronomical systems, so a new ruling house rewrote the count of days partly to interpret the sky as evidence of its own legitimate mandate.",
+   "Astronomers still had to reconcile the new calendar with the actual motion of the sun and moon, so political interpretation of the calendar still had to answer to observation eventually."
+  ],
+  "rw": "The Ming dynasty adopted the Da Ming Li calendar system in the 1380s, early in the reign of the Hongwu Emperor, adapting earlier Yuan dynasty astronomical methods developed by astronomers including Guo Shoujing. Chinese emperors traditionally issued their own calendars as a sign of legitimate rule under the Mandate of Heaven, tying timekeeping directly to political authority. The system remained the basis for the official Chinese calendar for over two hundred years.",
+  "desc": "A bound text of astronomical tables and calendar rules. A new dynasty rewrote the sky's official schedule.",
+  "mla": [
+   "\"Ming Dynasty.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Ming_dynasty.",
+   "\"Chinese Calendar.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Chinese_calendar."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_076",
+  "name": "First UK National Lottery Ticket, 1994",
+  "icon": "🎟️",
+  "region": "seoul",
+  "pl": {
+   "mode": "minigame",
+   "detail": "Claim Forge"
+  },
+  "eff": {
+   "t": "battle",
+   "v": 1,
+   "kind": "reveal"
+  },
+  "tags": {
+   "c": "Evidence",
+   "e": "Ethics",
+   "s": "Psychology"
+  },
+  "kq": "Why do millions keep playing a game the maths says will almost certainly lose them money?",
+  "ans": [
+   "The odds of matching all six UK National Lottery numbers sit at about one in fourteen million, so the evidence overwhelmingly favours the operator, yet a small guaranteed chance still pulls in millions of weekly players.",
+   "Lottery revenue funds public projects including sports, arts, and heritage grants, so a game with terrible individual odds can still fund an actual public benefit across an entire population."
+  ],
+  "rw": "The UK National Lottery launched its first draw on 19 November 1994, with Camelot Group running the game under a government licence. Early tickets cost one pound, and players chose six numbers from a pool of forty nine, facing odds of roughly one in fourteen million for the jackpot. The lottery has since funded thousands of public projects in sport, the arts, heritage, and community causes through a share of ticket sales.",
+  "desc": "A slim paper ticket with six chosen numbers. Almost everyone who buys one loses, and almost everyone buys one anyway.",
+  "mla": [
+   "\"National Lottery (United Kingdom).\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/National_Lottery_(United_Kingdom)."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_077",
+  "name": "Coligny Bronze Calendar Tablet, Gaul, c. 200 CE",
+  "icon": "🌙",
+  "region": "library",
+  "pl": {
+   "mode": "npc",
+   "detail": "Restorer Aveline Roux: She fits another bronze fragment into place for visitors who can read Gaulish numerals."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Interpretation",
+   "v": 14
+  },
+  "tags": {
+   "c": "Interpretation",
+   "e": "Scope",
+   "s": "History"
+  },
+  "kq": "How do scholars rebuild a calendar from a shattered bronze puzzle?",
+  "ans": [
+   "Restorers pieced together the Coligny calendar from over one hundred fragments of a bronze tablet, so an interpretation of an entire Gaulish lunisolar calendar had to grow out of careful reassembly before any reading was possible.",
+   "Gaps in the missing fragments still leave some month names and rules uncertain, so any full interpretation offered today rests partly on scholarly reconstruction rather than complete surviving evidence."
+  ],
+  "rw": "Farmers discovered fragments of a bronze calendar near Coligny, France, in 1897, dating to around the 2nd century CE, from the late Gaulish period under Roman rule. The tablet, reconstructed from over one hundred fragments, tracks a five year cycle using a lunisolar calendar with Gaulish month names written in Latin letters. The calendar shows Gaulish timekeeping continued alongside Roman administration rather than disappearing under it.",
+  "desc": "A shattered bronze plate pieced back into a five year calendar. Latin letters spell out a language Rome never fully replaced.",
+  "mla": [
+   "\"Coligny Calendar.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Coligny_calendar."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_078",
+  "name": "Euler's Introductio in Analysin Infinitorum, Lausanne, 1748",
+  "icon": "📕",
+  "region": "rod",
+  "pl": {
+   "mode": "cache",
+   "detail": "Stacked beneath a pile of unmarked geometry proofs in the guild's back room."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Explanation",
+   "v": 16
+  },
+  "tags": {
+   "c": "Explanation",
+   "e": "Methods and Tools",
+   "s": "Mathematics"
+  },
+  "kq": "How does one book's notation change how an entire subject gets explained afterward?",
+  "ans": [
+   "Euler's 'Introductio' explained functions as the central object of analysis and introduced notation, including f(x) and e for the constant now named after him, so later textbooks could explain calculus through symbols readers still recognise today.",
+   "Euler wrote for readers who already knew significant mathematics, so a book which reshaped how experts explain analysis still left beginners needing simpler texts written well after Euler's own lifetime."
+  ],
+  "rw": "Leonhard Euler published 'Introductio in Analysin Infinitorum' in 1748, while based at the court in Berlin, though the book appeared in print in Lausanne. The two volume text treated functions, rather than curves alone, as the central idea of mathematical analysis, and introduced notation including e for the base of natural logarithms. Historians consider it one of the most influential mathematics textbooks ever published, shaping how calculus was taught for generations.",
+  "desc": "A two volume mathematics text dense with functions and series. Half the symbols you learn in class first appeared here.",
+  "mla": [
+   "\"Introductio in Analysin Infinitorum.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Introductio_in_analysin_infinitorum.",
+   "\"Leonhard Euler.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Leonhard_Euler."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_079",
+  "name": "South Sea Company Share Certificate, London, 1720",
+  "icon": "🫧",
+  "region": "royal",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Truth",
+   "v": 15
+  },
+  "tags": {
+   "c": "Truth",
+   "e": "Ethics",
+   "s": "Economics"
+  },
+  "kq": "How does a share price separate from any believable truth about a company's actual business?",
+  "ans": [
+   "South Sea Company shares rose nearly tenfold in 1720 on vague promises of trade profits in South America which never came close to matching the hype, so a price can drift far from any believable truth about underlying value.",
+   "Parliament members and even Isaac Newton bought in near the peak and lost heavily when the price collapsed, so expertise in one field, like physics, offers little protection from a truth hidden inside a popular financial story."
+  ],
+  "rw": "The South Sea Company, granted a monopoly on British trade with South America in 1711, saw its share price rise nearly tenfold between January and August 1720, fuelled by speculation rather than actual trade profits. The price collapsed by the end of the year, ruining many investors, including Isaac Newton, who reportedly lost a large sum. The crash, later called the South Sea Bubble, prompted early British laws regulating the sale of company shares.",
+  "desc": "A printed certificate promising a share of profits which mostly existed on paper. Its price forgot to ask what the company actually sold.",
+  "mla": [
+   "\"South Sea Company.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/South_Sea_Company.",
+   "\"South Sea Bubble.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/South_Sea_Bubble."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_080",
+  "name": "FIFA World Cup Trophy, Solid Gold, since 1974",
+  "icon": "🏆",
+  "region": "reliquary",
+  "pl": {
+   "mode": "npc",
+   "detail": "Tournament Steward Marco Fenn: He lets a visitor lift a replica after they name the only nation to keep an earlier trophy forever."
+  },
+  "eff": {
+   "t": "stamina",
+   "v": 3
+  },
+  "tags": {
+   "c": "Values",
+   "e": "Perspectives",
+   "s": "Visual Arts"
+  },
+  "kq": "Why do so many nations pour so much value into eleven players chasing one ball?",
+  "ans": [
+   "FIFA commissioned this solid gold trophy in 1974 after Brazil permanently kept the earlier Jules Rimet Trophy for winning three tournaments, so a sport built a new symbol once the old one showed how much value nations placed on keeping it forever.",
+   "Critics point out FIFA itself has faced corruption scandals over hosting rights and finances, so the same golden trophy can represent both a value people widely share around football and an organisation people trust far less."
+  ],
+  "rw": "The Italian sculptor Silvio Gazzaniga designed the current FIFA World Cup Trophy, made of solid gold with a malachite base, first awarded in 1974 after Brazil kept the earlier Jules Rimet Trophy permanently in 1970. Unlike the previous trophy, winning nations do not keep the original, receiving a gold plated replica instead. The tournament remains the most watched sporting event in the world, drawing viewership in the billions every four years.",
+  "desc": "A gleaming gold trophy shaped like two figures holding up the world. Winners hold it for photographs, then hand it back.",
+  "mla": [
+   "\"FIFA World Cup Trophy.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/FIFA_World_Cup_Trophy."
+  ],
+  "img": "commons.wikimedia.org/wiki/Category:FIFA_World_Cup_Trophy"
+ },
+ {
+  "id": "r64_081",
+  "name": "Diamond Carat Weight Standard, International Agreement, 1907",
+  "icon": "💎",
+  "region": "vault_tech",
+  "pl": {
+   "mode": "minigame",
+   "detail": "Assumption Sweep"
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Certainty",
+   "v": 12
+  },
+  "tags": {
+   "c": "Certainty",
+   "e": "Methods and Tools",
+   "s": "Design Technology"
+  },
+  "kq": "Why did jewellers need a seed's weight replaced with an exact number?",
+  "ans": [
+   "Traders once weighed gems against dried carob seeds, assumed to be fairly uniform, until an international agreement in 1907 fixed the carat at exactly 200 milligrams, so a natural approximation gave way to a certain, checkable number.",
+   "Weight alone still says nothing about a diamond's cut, clarity, or colour, so a certain, standard measure for one property can quietly stand in for a full judgement of value it never actually covers."
+  ],
+  "rw": "Jewellers historically weighed gemstones against carob seeds, valued for their assumed consistency, giving the carat its name from the Greek word for the carob tree. An international agreement in 1907 fixed the metric carat at exactly 200 milligrams, adopted gradually by different countries over the following decades. Gemologists still judge diamonds by the four Cs, carat, cut, clarity, and colour, with carat covering weight alone.",
+  "desc": "A tiny brass weight stamped with a precise number. It replaced a seed's rough guess with an exact figure.",
+  "mla": [
+   "\"Carat (Mass).\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Carat_(mass)."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_082",
+  "name": "Don Bradman's Cricket Bat, Australia, 1930s",
+  "icon": "🏏",
+  "region": "royal",
+  "pl": {
+   "mode": "cache",
+   "detail": "Propped behind the pavilion honours boards in the members only stairwell."
+  },
+  "eff": {
+   "t": "stamina",
+   "v": 1
+  },
+  "tags": {
+   "c": "Evidence",
+   "e": "Scope",
+   "s": "Sports Science"
+  },
+  "kq": "How does one statistic outlive every player who ever tried to match it?",
+  "ans": [
+   "Don Bradman finished his Test cricket career with a batting average of 99.94, far above every other great player's figures, so statisticians still treat it as evidence of the largest individual gap between one athlete and an entire sport.",
+   "A single unlucky duck in his final innings, needing just four runs to finish exactly on 100, shows how much of even this record still came down to one afternoon's chance, not pure skill alone."
+  ],
+  "rw": "The Australian batsman Don Bradman played Test cricket from 1928 to 1948, finishing with a career batting average of 99.94, a statistic still considered one of the greatest gaps between a single athlete and their sport's next best performer. Bradman was famously bowled for a duck in his final Test innings in 1948, needing only four more runs to finish with an average of exactly 100. Statisticians studying outliers across many sports still cite Bradman's average as a rare case with no close modern equal.",
+  "desc": "A worn willow bat, its face scuffed by thousands of practice deliveries. One statistic tied to it still stands unmatched.",
+  "mla": [
+   "\"Don Bradman.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Don_Bradman."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_083",
+  "name": "Wilt Chamberlain's Game Ball, Hershey, 1962",
+  "icon": "🏀",
+  "region": "seoul",
+  "pl": {
+   "mode": "shop",
+   "detail": "",
+   "cost": 140
+  },
+  "eff": {
+   "t": "stamina",
+   "v": 2
+  },
+  "tags": {
+   "c": "Truth",
+   "e": "Scope",
+   "s": "Sports Science"
+  },
+  "kq": "Why does a famous scoreboard number still face doubt decades later?",
+  "ans": [
+   "Wilt Chamberlain scored 100 points in a single NBA game in Hershey, Pennsylvania, in 1962, a figure confirmed by the official scoresheet and box score kept the same night, so a written record can settle a claim which might otherwise sound invented.",
+   "No television broadcast or complete film survives of the game, and only a partial radio recording remains, so an accepted historical fact still rests on paper records and memory rather than video anyone can review today."
+  ],
+  "rw": "Wilt Chamberlain scored 100 points for the Philadelphia Warriors against the New York Knicks on 2 March 1962, in Hershey, Pennsylvania, still the highest individual scoring total in a single NBA game. No television cameras recorded the game, and only fragments of a radio broadcast survive, so the record rests on newspaper reports, box scores, and photographs taken the same night. A ball from the game, along with the scoresheet, is preserved as part of basketball history.",
+  "desc": "A worn leather basketball from one unfilmed night in Hershey. A paper scoresheet is the closest thing to video proof.",
+  "mla": [
+   "\"Wilt Chamberlain's 100-Point Game.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Wilt_Chamberlain%27s_100-point_game."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_084",
+  "name": "Thabit ibn Qurra's Amicable Numbers Theorem, Baghdad, c. 850",
+  "icon": "🔢",
+  "region": "baghdad",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "perspective",
+   "c": "Culture"
+  },
+  "tags": {
+   "c": "Perspective",
+   "e": "Scope",
+   "s": "Mathematics"
+  },
+  "kq": "Why would mathematicians call a pair of numbers friendly?",
+  "ans": [
+   "Thabit ibn Qurra proved a general rule for generating amicable numbers, pairs where each number equals the sum of the other's proper divisors, so a purely abstract number relationship earned a warm, almost emotional name from mathematicians who studied it.",
+   "Earlier Greek mathematicians already knew one amicable pair, 220 and 284, centuries before Thabit's general rule, so a formula presented as a fresh advance still grew out of a much older, narrower observation."
+  ],
+  "rw": "The mathematician and astronomer Thabit ibn Qurra, based in Baghdad in the 9th century, proved a general formula for generating pairs of amicable numbers, extending a concept the ancient Greeks had linked to friendship and harmony. Each number in an amicable pair equals the sum of the other number's proper divisors. Thabit's formula, though it does not generate every amicable pair known today, remained the primary method for finding new pairs for centuries.",
+  "desc": "A short formula linking two numbers in permanent mathematical balance. Ancient thinkers read it as a kind of friendship.",
+  "mla": [
+   "\"Amicable Numbers.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Amicable_numbers.",
+   "\"Thabit ibn Qurra.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Thabit_ibn_Qurra."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r64_085",
+  "name": "Big Ben's Great Clock, Palace of Westminster, 1859",
+  "icon": "🕰️",
+  "region": "royal",
+  "pl": {
+   "mode": "minigame",
+   "detail": "Rung Climb"
+  },
+  "eff": {
+   "t": "ability",
+   "id": "beacon"
+  },
+  "tags": {
+   "c": "Power",
+   "e": "Perspectives",
+   "s": "Design Technology"
+  },
+  "kq": "Why does one clock tower's chime still stand for an entire country?",
+  "ans": [
+   "Engineers built the Great Clock with a gravity escapement precise enough to keep near perfect time, and its chimes grew so recognisable Big Ben now stands for Britain itself in film, radio, and news broadcasts.",
+   "Visitors from outside Britain often call the whole tower Big Ben, though the name first belonged only to the great bell inside, so a nickname can quietly take over a landmark's actual identity for millions who never learn the difference."
+  ],
+  "rw": "Engineers completed the Great Clock at the Palace of Westminster in 1859, designed by Edmund Beckett Denison with astronomer George Airy, using a gravity escapement which kept unusually precise time for its era. The name Big Ben technically refers only to the largest bell, though public usage now applies it to the whole clock tower, renamed Elizabeth Tower in 2012. The clock's chimes have opened British radio and television broadcasts for decades.",
+  "desc": "A vast clock face lit above the Thames. Its chime alone can announce a whole country to the world.",
+  "mla": [
+   "\"Big Ben.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Big_Ben.",
+   "\"Elizabeth Tower.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Elizabeth_Tower."
+  ],
+  "img": "commons.wikimedia.org/wiki/Category:Big_Ben"
+ }
+]

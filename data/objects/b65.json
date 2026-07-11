@@ -1,0 +1,2631 @@
+[
+ {
+  "id": "r65_001",
+  "name": "Codex Sinaiticus Folio, Saint Catherine's Monastery, c. 350 CE",
+  "icon": "📜",
+  "region": "vault_rel",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "key",
+   "door": "door_themes"
+  },
+  "tags": {
+   "c": "Evidence",
+   "e": "Scope",
+   "s": "World Religions"
+  },
+  "kq": "How far can handwriting alone date an ancient manuscript?",
+  "ans": [
+   "Letter shapes place a text within a narrow span of decades. Trained scholars compare strokes across dated documents, so style becomes a form of evidence.",
+   "Handwriting alone can mislead. A careful copyist can imitate an older hand, so historians pair the strokes with ink tests and the parchment itself before they trust a date."
+  ],
+  "rw": "Constantin von Tischendorf found parts of this Greek Bible at Saint Catherine's Monastery in the Sinai desert in 1844 and 1859. Scholars now date the parchment to the middle of the fourth century, making it one of the oldest complete Christian Bibles known. The British Library, Leipzig University, Saint Catherine's, and the National Library of Russia hold different pieces, and a joint project reunited the pages online in 2009.",
+  "desc": "Thin parchment, dark at the edges. Greek capitals run in tight, even lines across the page.",
+  "mla": [
+   "\"Codex Sinaiticus.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Codex_Sinaiticus."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_002",
+  "name": "Garima Gospels Binding, Abba Garima Monastery, Ethiopia, c. 500 CE",
+  "icon": "📖",
+  "region": "vault_rel",
+  "pl": {
+   "mode": "npc",
+   "detail": "Deacon Tesfaye: hands it over if you name the monastery on the hill."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Certainty",
+   "v": 15
+  },
+  "tags": {
+   "c": "Certainty",
+   "e": "Perspectives",
+   "s": "World Religions"
+  },
+  "kq": "How sure can historians be about a book's age without a written date?",
+  "ans": [
+   "Radiocarbon tests on the parchment gave a date range in the third to sixth century, so scientists narrowed the guess with physical evidence, not tradition alone.",
+   "Local tradition already named a date. Monks at Garima kept an oral record for centuries, and the lab result mostly confirmed what the community had always claimed."
+  ],
+  "rw": "Monks at the Abba Garima Monastery in northern Ethiopia have kept these illuminated gospel books for over a thousand years. A 2013 radiocarbon study suggested a date between 330 and 650 CE, which would make them among the earliest illustrated Christian manuscripts still in daily use. The monastery keeps the books on site rather than in a museum.",
+  "desc": "Goat skin pages, stitched tight. Gold and red paint still glow under the candlelight.",
+  "mla": [
+   "\"Garima Gospels.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Garima_Gospels."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_003",
+  "name": "Fantasy Coffin Shaped as a Cocoa Pod, Paa Joe Studio, Ghana",
+  "icon": "⚰️",
+  "region": "benin",
+  "pl": {
+   "mode": "cache",
+   "detail": "Behind the carved stool stack, wrapped in cloth."
+  },
+  "eff": {
+   "t": "perspective",
+   "c": "Truth"
+  },
+  "tags": {
+   "c": "Truth",
+   "e": "Methods and Tools",
+   "s": "Visual Arts"
+  },
+  "kq": "How far does a coffin's shape tell the truth about the life inside it?",
+  "ans": [
+   "The shape names an actual detail. Carvers in Teshie build coffins as a cocoa pod, a fish, or a Bible, each one chosen to match the trade or passion of the person who died.",
+   "A shape can flatter more than it reports. Families sometimes choose a proud symbol instead of a plain truth about a hard life, so the coffin tells a story more than a fact."
+  ],
+  "rw": "Carpenters in Teshie, near Accra, Ghana, began building figurative coffins in the mid twentieth century. Seth Kane Kwei started the practice, and his apprentice Paa Joe carried it forward. Families commission shapes that match a trade, a hobby, or a status symbol, and the coffins now sell to collectors and museums as well as mourners.",
+  "desc": "Varnished wood gleams like an actual cocoa pod. Pick it up carefully, it still smells of fresh paint.",
+  "mla": [
+   "\"Fantasy coffin.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Fantasy_coffin."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_004",
+  "name": "Rök Runestone Rubbing, Östergötland, Sweden, c. 800 CE",
+  "icon": "🪨",
+  "region": "reliquary",
+  "pl": {
+   "mode": "minigame",
+   "detail": "Cipher of the Stacks"
+  },
+  "eff": {
+   "t": "battle",
+   "v": 1,
+   "kind": "reveal"
+  },
+  "tags": {
+   "c": "Interpretation",
+   "e": "Ethics",
+   "s": "History"
+  },
+  "kq": "Under what circumstances should experts publish a new reading of an old inscription?",
+  "ans": [
+   "New readings can correct old mistakes. In 2020, researchers proposed the runes describe a cold decade and famine, not a king's war, updating a century of guesses with climate data.",
+   "A new reading can also displace a community memory. Local stories had linked the stone to a lost son for generations, and each fresh translation risks pushing that memory aside."
+  ],
+  "rw": "Carvers raised the Rök Runestone in Östergötland, Sweden, around 800 CE, covering it with the longest known runic inscription. Scholars debated its meaning for over a century, often reading it as a heroic saga about a Gothic king. A 2020 study proposed the text instead describes fear tied to a documented cold period after 536 CE.",
+  "desc": "Deep grooves cover every side of the stone. Some rows run backward, made to be read from the ground up.",
+  "mla": [
+   "\"Rok runestone.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/R%C3%B6k_runestone."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_005",
+  "name": "Mani Prayer Wheel, Hand Held, Lhasa Metalsmiths, 19th Century",
+  "icon": "🔄",
+  "region": "vault_rel",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Power",
+   "v": 18
+  },
+  "tags": {
+   "c": "Power",
+   "e": "Scope",
+   "s": "World Religions"
+  },
+  "kq": "Who decides how many prayers a single spin of a wheel counts as?",
+  "ans": [
+   "Textual tradition sets the count. Practitioners believe each turn releases every mantra rolled inside the cylinder, so a wheel packed with more paper sends more prayers per turn.",
+   "The person spinning still matters. Teachers say the intention behind the motion changes the value of the act, so a careless spin and a focused one are not treated as equal."
+  ],
+  "rw": "Tibetan Buddhist practitioners spin these cylinders clockwise, each one packed with printed mantras, most often the phrase Om Mani Padme Hum. Metalsmiths in Lhasa and other centers produced hand held versions for personal and pilgrim use through the nineteenth and twentieth centuries. Larger fixed wheels line pilgrimage routes and monastery walls across the Himalayas.",
+  "desc": "A copper cylinder on a short wooden handle. Give it a flick and it hums as it spins.",
+  "mla": [
+   "\"Prayer wheel.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Prayer_wheel."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_006",
+  "name": "Quechua-Spanish Dictionary, Domingo de Santo Tomás, 1560",
+  "icon": "📕",
+  "region": "qero",
+  "pl": {
+   "mode": "npc",
+   "detail": "Yachaq Elena: hands it over once you repeat one Quechua greeting."
+  },
+  "eff": {
+   "t": "stamina",
+   "v": 2
+  },
+  "tags": {
+   "c": "Justification",
+   "e": "Perspectives",
+   "s": "Language B"
+  },
+  "kq": "What justifies calling one grammar book the first of its kind?",
+  "ans": [
+   "A first date in print can justify the label. Santo Tomás published his grammar and dictionary in Valladolid in 1560, ahead of any other printed Quechua reference, so the record itself supports the claim.",
+   "Print is not the whole story. Andean people had already organized and taught the language for centuries without paper, so 'first' only describes the first European book, not the first knowledge of Quechua."
+  ],
+  "rw": "The Dominican friar Domingo de Santo Tomás learned Quechua while stationed in Peru and published a grammar and dictionary in Valladolid, Spain, in 1560. His book became a model for colonial language study across the Andes and shaped how Spanish administrators wrote Quechua sounds down. Modern linguists still consult it to trace how the language has changed.",
+  "desc": "A small leather bound book, its pages soft from centuries of handling.",
+  "mla": [
+   "\"Domingo de Santo Tomás.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Domingo_de_Santo_Tom%C3%A1s."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_007",
+  "name": "Kizaemon Ido Chawan, Korean Tea Bowl, Japanese National Treasure",
+  "icon": "🍵",
+  "region": "reliquary",
+  "pl": {
+   "mode": "shop",
+   "detail": "",
+   "cost": 140
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Explanation",
+   "v": 20
+  },
+  "tags": {
+   "c": "Explanation",
+   "e": "Methods and Tools",
+   "s": "Visual Arts"
+  },
+  "kq": "What makes a plain bowl count as a good explanation of beauty?",
+  "ans": [
+   "Tea masters point to its flaws. The uneven glaze and rough foot show the potter's hand, and that visible process explains wabi sabi beauty better than a polished surface could.",
+   "A label can carry the explanation instead of the object. Once collectors named it a National Treasure, its value rests partly on that status, beyond what the eye alone can see."
+  ],
+  "rw": "Korean potters made this everyday rice bowl during the Joseon dynasty, likely in the sixteenth century, with no plan for it to become art. Japanese tea masters later prized its rough texture and uneven glaze under the aesthetic of wabi sabi, and Japan named it a National Treasure. The bowl now belongs to the Kohoan sub temple of Daitokuji in Kyoto.",
+  "desc": "A rough clay bowl, warm brown with a crawling glaze. Small in the hand, heavy with reputation.",
+  "mla": [
+   "\"Ido chawan.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Ido_chawan."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_008",
+  "name": "Barngarla Wordlist Cards, Eyre Peninsula Revival Project",
+  "icon": "🗂️",
+  "region": "songlines",
+  "pl": {
+   "mode": "cache",
+   "detail": "Tucked inside the didgeridoo case at the back wall."
+  },
+  "eff": {
+   "t": "path",
+   "region": "vault_lang"
+  },
+  "tags": {
+   "c": "Objectivity",
+   "e": "Ethics",
+   "s": "Language B"
+  },
+  "kq": "Can a linguist stay neutral while helping revive a language they were not born into?",
+  "ans": [
+   "Method can support neutrality. Linguist Ghil'ad Zuckermann built from an 1844 wordlist and community input, so the reconstruction rests on shared records, not personal taste.",
+   "Full neutrality is not possible here. The revival choices, which words to prioritize, which sounds to standardize, still reflect one team's judgment calls, made on behalf of a community."
+  ],
+  "rw": "The Barngarla language of South Australia's Eyre Peninsula had no fluent speakers by the early 2000s. Linguist Ghil'ad Zuckermann partnered with Barngarla descendants from 2011 onward, rebuilding vocabulary and grammar from a wordlist recorded by the missionary Clamor Schürmann in 1844. Community classes and a published dictionary have since trained new speakers.",
+  "desc": "A rubber banded stack of index cards. Someone has written pronunciation notes in pencil.",
+  "mla": [
+   "\"Barngarla language.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Barngarla_language."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_009",
+  "name": "Turkish Coffee Cezve, Hand Hammered Copper, Istanbul, 19th Century",
+  "icon": "☕",
+  "region": "baghdad",
+  "pl": {
+   "mode": "minigame",
+   "detail": "Assumption Sweep"
+  },
+  "eff": {
+   "t": "battle",
+   "v": 1,
+   "kind": "time"
+  },
+  "tags": {
+   "c": "Perspective",
+   "e": "Scope",
+   "s": "Chemistry"
+  },
+  "kq": "Whose standard decides what counts as properly made coffee?",
+  "ans": [
+   "Method sets a clear standard here. Turkish coffee uses grounds fine as powder, boiled unfiltered in a cezve, so the grind size alone can rule a cup in or out of the category.",
+   "Taste still comes from the drinker's own tradition. Someone raised on filtered coffee may call the same cup too thick or too bitter, so the standard shifts with the person judging it."
+  ],
+  "rw": "Cooks across the former Ottoman Empire brew coffee in a small long handled pot called a cezve or ibrik, using grounds finer than espresso and no filter. UNESCO added Turkish coffee culture and tradition to its Intangible Cultural Heritage list in 2013. The method spread from Ottoman Istanbul into the Balkans, the Middle East, and North Africa.",
+  "desc": "A dented copper pot with a long wooden handle. Grounds still cling to the inside.",
+  "mla": [
+   "\"Turkish coffee.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Turkish_coffee."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_010",
+  "name": "Passover Seder Plate, Painted Ceramic, Jerusalem, 20th Century",
+  "icon": "🍽️",
+  "region": "vault_rel",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Culture",
+   "v": 15
+  },
+  "tags": {
+   "c": "Culture",
+   "e": "Perspectives",
+   "s": "World Religions"
+  },
+  "kq": "How does arranging food on a plate teach a story without words?",
+  "ans": [
+   "Position carries meaning by design. Each dish sits in a fixed spot on the Seder plate, so the layout itself guides a family through the Exodus story step by step.",
+   "Without a guide, the plate stays silent. A person unfamiliar with Passover sees only small foods on a dish, so the story depends on someone speaking the explanation aloud."
+  ],
+  "rw": "Jewish families use a Seder plate during Passover to hold six symbolic foods, including a roasted bone, bitter herbs, and a sweet paste called charoset. The plate structures the retelling of the Exodus from Egypt through a ritual text called the Haggadah. Ceramic and silver versions are made worldwide, and studios in Jerusalem produce many of the ceremonial designs sold today.",
+  "desc": "Six small wells circle the rim of the plate. Each one waits for its own bite of meaning.",
+  "mla": [
+   "\"Seder plate.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Seder_plate."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_011",
+  "name": "Cherokee Phoenix First Edition, New Echota, 1828",
+  "icon": "📰",
+  "region": "vault_lang",
+  "pl": {
+   "mode": "npc",
+   "detail": "Editor Boudinot: hands it over if you can name the syllabary's inventor."
+  },
+  "eff": {
+   "t": "ability",
+   "id": "lens"
+  },
+  "tags": {
+   "c": "Values",
+   "e": "Methods and Tools",
+   "s": "Language B"
+  },
+  "kq": "What values pushed a nation to print news in its own script?",
+  "ans": [
+   "Independence mattered most. The Cherokee Nation ran its own press using Sequoyah's syllabary, printing news in Cherokee and English side by side to assert self government.",
+   "Survival under pressure mattered too. The paper appeared as the United States pushed removal policies, so printing in Cherokee also defended a culture under direct threat."
+  ],
+  "rw": "The Cherokee Nation launched the Cherokee Phoenix in New Echota, Georgia, in February 1828, printing text in both English and the Cherokee syllabary that Sequoyah had completed around 1821. Editor Elias Boudinot ran the paper until 1832. Georgia state agents seized the press in 1835, shortly before the forced removal of the Cherokee people known as the Trail of Tears.",
+  "desc": "Newsprint gone brittle and brown. Two alphabets share the same column, side by side.",
+  "mla": [
+   "\"Cherokee Phoenix.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Cherokee_Phoenix."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_012",
+  "name": "Onggi Kimchi Fermentation Jar, Korean Earthenware",
+  "icon": "🏺",
+  "region": "seoul",
+  "pl": {
+   "mode": "cache",
+   "detail": "Buried to the neck behind the market stalls."
+  },
+  "eff": {
+   "t": "perspective",
+   "c": "Responsibility"
+  },
+  "tags": {
+   "c": "Responsibility",
+   "e": "Ethics",
+   "s": "Biology"
+  },
+  "kq": "Who carries responsibility for keeping a fermenting jar at the right temperature?",
+  "ans": [
+   "The maker takes responsibility first. A cook who seals the jar controls salt levels and timing, so early choices decide whether the microbes that ferment kimchi thrive or spoil it.",
+   "Nature shares the responsibility too. Wild bacteria already living on the cabbage and in the clay itself drive the ferment, so no cook fully controls the outcome alone."
+  ],
+  "rw": "Korean households have stored kimchi in onggi, porous clay jars, for centuries, often burying them so soil insulates the contents through winter. The clay walls let the jar breathe, which affects the fermentation carried out by lactic acid bacteria. UNESCO listed the communal kimchi making tradition, kimjang, as Intangible Cultural Heritage in 2013.",
+  "desc": "A round bellied jar, glazed dark brown. Something inside still bubbles, faint and slow.",
+  "mla": [
+   "\"Onggi.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Onggi.",
+   "\"Kimjang.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Kimjang."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_013",
+  "name": "Ketubah of Amsterdam, Illuminated Marriage Contract, 1648",
+  "icon": "💍",
+  "region": "vault_rel",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Evidence",
+   "v": 12
+  },
+  "tags": {
+   "c": "Evidence",
+   "e": "Scope",
+   "s": "World Religions"
+  },
+  "kq": "How far can a signed contract count as evidence of a marriage's terms?",
+  "ans": [
+   "A ketubah spells out clear obligations. The groom's financial duties to his wife appear in writing, witnessed and dated, so the document stands as solid legal evidence.",
+   "A contract shows intent more than daily practice. Couples may not follow every written term across a whole marriage, so the paper proves a promise, not what actually happened after."
+  ],
+  "rw": "A ketubah is a Jewish marriage contract that sets out a husband's financial obligations to his wife, a tradition dating back over two thousand years. Amsterdam's Sephardic community produced especially decorated examples in the seventeenth century, often illustrated by professional artists. Many surviving copies now sit in museum and synagogue collections across Europe.",
+  "desc": "Gold leaf borders frame careful Hebrew script. Two witnesses signed the bottom corner.",
+  "mla": [
+   "\"Ketubah.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Ketubah."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_014",
+  "name": "Manx Gaelic Dictionary, Archibald Cregeen, Isle of Man, 1835",
+  "icon": "📗",
+  "region": "vault_lang",
+  "pl": {
+   "mode": "npc",
+   "detail": "Cultural Officer Kinley: hands it over if you ask about the last native speaker."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Certainty",
+   "v": 10
+  },
+  "tags": {
+   "c": "Certainty",
+   "e": "Perspectives",
+   "s": "Language B"
+  },
+  "kq": "Can a language be certainly dead if children still learn it in school?",
+  "ans": [
+   "Ned Maddrell's death in 1974 marked the last native speaker, which linguists once treated as a certain endpoint for the language.",
+   "Revival efforts complicate this certainty. The Manx Language Unit now teaches children from birth in immersion classes, so a once settled fact about extinction no longer holds so firmly."
+  ],
+  "rw": "Archibald Cregeen published his Manx Gaelic dictionary in 1835, recording the Celtic language spoken on the Isle of Man. The last speaker who learned Manx as a first language, Ned Maddrell, died in 1974. A revival movement built on recordings and Cregeen's dictionary has since trained new speakers through immersion schooling, and UNESCO reclassified the language from extinct to critically endangered.",
+  "desc": "A worn green cover, spine cracked from use. Someone has underlined dozens of entries in ink.",
+  "mla": [
+   "\"Manx language.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Manx_language."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_015",
+  "name": "Ofrenda Sugar Skull, Painted for Día de los Muertos, Oaxaca",
+  "icon": "💀",
+  "region": "reliquary",
+  "pl": {
+   "mode": "shop",
+   "detail": "",
+   "cost": 45
+  },
+  "eff": {
+   "t": "stamina",
+   "v": 1
+  },
+  "tags": {
+   "c": "Truth",
+   "e": "Methods and Tools",
+   "s": "World Religions"
+  },
+  "kq": "How does decorating a symbol of death change what feels true about it?",
+  "ans": [
+   "Bright color reframes the fact. Sugar skulls turn a hard truth about mortality into something festive, so families face loss through play and craft rather than only through grief.",
+   "The decoration can hide as much as it reveals. A cheerful skull may soften a truth a child is not ready to face directly, so the sugar becomes a gentle filter."
+  ],
+  "rw": "Mexican artisans in Oaxaca and elsewhere mold sugar skulls, calaveras de azúcar, for the Día de los Muertos holiday in late October and early November. Families place them on home altars, ofrendas, alongside marigolds and photographs to welcome the spirits of the dead. UNESCO recognized the wider Day of the Dead tradition as Intangible Cultural Heritage in 2008.",
+  "desc": "Hard white sugar under swirls of pink and gold icing. A name is piped across the forehead in frosting.",
+  "mla": [
+   "\"Day of the Dead.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Day_of_the_Dead."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_016",
+  "name": "Message Stick, Carved Wood, Central Desert Communities",
+  "icon": "🪵",
+  "region": "songlines",
+  "pl": {
+   "mode": "minigame",
+   "detail": "Boundary Maze"
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Interpretation",
+   "v": 14
+  },
+  "tags": {
+   "c": "Interpretation",
+   "e": "Ethics",
+   "s": "History"
+  },
+  "kq": "Who has the right to interpret a message stick carved for someone else?",
+  "ans": [
+   "The carrier explains it on arrival. A message stick pairs with a spoken account from the messenger, so the carved marks alone were never meant to stand without that voice.",
+   "Distance changes who gets to read it. Museums that display message sticks without their spoken context let outside viewers guess at meanings the object was never designed to carry alone."
+  ],
+  "rw": "Aboriginal Australian communities carved message sticks with lines, dots, and shapes to help a messenger recall the details of an announcement, an invitation, or a request for a meeting. The carrier delivered the spoken message in person, using the stick as a memory aid rather than a full written text. Museums across Australia and Europe hold examples collected from the nineteenth century onward.",
+  "desc": "A smooth stick, notched along one edge. The marks mean little without the runner who carried it.",
+  "mla": [
+   "\"Message stick.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Message_stick."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_017",
+  "name": "Nazar Boncuğu Evil Eye Bead, Blown Glass, Anatolia",
+  "icon": "🧿",
+  "region": "reliquary",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Power",
+   "v": 10
+  },
+  "tags": {
+   "c": "Power",
+   "e": "Scope",
+   "s": "Psychology"
+  },
+  "kq": "How far can a small glass bead hold power over another person's gaze?",
+  "ans": [
+   "Belief gives the bead its force. Many households across Turkey, Greece, and the wider region hang a nazar to catch envy before it reaches the person it targets, so trust in the tradition drives the effect.",
+   "The power may sit in the wearer's mind alone. Psychologists studying superstition note the bead can lower anxiety through a placebo like effect, whether or not any outside force exists."
+  ],
+  "rw": "Glassmakers in Anatolia have shaped blue and white nazar beads for centuries to guard against the evil eye, a harmful gaze believed to come from envy or ill will. People pin or hang the beads on babies, doorways, cars, and new buildings across Turkey, Greece, and much of the Middle East. The symbol predates Islam and Christianity in the region and appears in both traditions today.",
+  "desc": "Layers of blue, white, and dark glass form a watching eye. It feels cool, almost alive, in the palm.",
+  "mla": [
+   "\"Nazar (amulet).\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Nazar_(amulet)."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_018",
+  "name": "Apicius, De Re Coquinaria Manuscript, Roman Empire, 4th Century",
+  "icon": "📃",
+  "region": "reliquary",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Justification",
+   "v": 15
+  },
+  "tags": {
+   "c": "Justification",
+   "e": "Perspectives",
+   "s": "History"
+  },
+  "kq": "What justifies trusting a recipe copied centuries after it was written?",
+  "ans": [
+   "Cross checking helps. Historians compare the Apicius manuscript against other Roman references to spices and cooking gear, so outside sources back up the copied text.",
+   "Copying itself invites doubt. Scribes across centuries could simplify or swap ingredients, so a recipe surviving in a ninth century copy may already differ from the original meal."
+  ],
+  "rw": "Apicius is the name attached to De Re Coquinaria, a collection of Roman recipes gathered from earlier sources in the fourth or fifth century CE. No manuscript survives from Rome itself, only two ninth century copies made by monks. The book records dishes using fish sauce, honey, and exotic spices, and remains the fullest record of ancient Roman cooking.",
+  "desc": "Water stained vellum, packed with tiny Latin script. Somewhere in the smudges hides a recipe for stuffed dormouse.",
+  "mla": [
+   "\"Apicius.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Apicius."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_019",
+  "name": "Yixing Zisha Teapot, Unglazed Purple Clay, Jiangsu, Qing Dynasty",
+  "icon": "🫖",
+  "region": "reliquary",
+  "pl": {
+   "mode": "npc",
+   "detail": "Merchant Wen: hands it over if you explain why the clay stays unglazed."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Explanation",
+   "v": 16
+  },
+  "tags": {
+   "c": "Explanation",
+   "e": "Methods and Tools",
+   "s": "Design Technology"
+  },
+  "kq": "What makes unglazed clay a good explanation for a teapot's taste?",
+  "ans": [
+   "Porous walls absorb oil from tea over years of use, so the clay itself keeps a record of flavor, and collectors treat that record as part of the pot's value.",
+   "The story can overstate the effect. Blind taste tests rarely find a clear difference from the clay alone, so some of the claimed benefit may sit in expectation, not chemistry."
+  ],
+  "rw": "Potters in Yixing, in China's Jiangsu province, have shaped teapots from local purple clay, zisha, since the Ming dynasty. The unglazed clay is porous and, over repeated use, absorbs oils from tea, which owners believe deepens flavor in later brews. Collectors prize old pots and pass them between generations as functional heirlooms.",
+  "desc": "Small, round, and the color of dark rust. The lid fits so closely that it barely rattles.",
+  "mla": [
+   "\"Yixing clay teapot.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Yixing_clay_teapot."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_020",
+  "name": "Ghost Dance Shirt, Lakota, Wounded Knee Era, 1890",
+  "icon": "👕",
+  "region": "reliquary",
+  "pl": {
+   "mode": "cache",
+   "detail": "Folded at the bottom of a locked trunk, never displayed."
+  },
+  "eff": {
+   "t": "perspective",
+   "c": "Objectivity"
+  },
+  "tags": {
+   "c": "Objectivity",
+   "e": "Ethics",
+   "s": "History"
+  },
+  "kq": "Can a museum display this shirt and still stay neutral about what happened at Wounded Knee?",
+  "ans": [
+   "Labels can aim for neutral facts. A museum can state dates, names, and the number killed without adding a verdict, leaving visitors to judge the massacre for themselves.",
+   "Neutral display is not fully possible here. Choosing to show the shirt at all, and where, already frames a stance, since the object was taken from a mass grave in the first place."
+  ],
+  "rw": "Lakota Ghost Dance followers wore painted shirts they believed could stop bullets during a spiritual movement in 1890. United States troops killed between 150 and 300 Lakota people at Wounded Knee, South Dakota, in December 1890, ending the movement. Glasgow Museums in Scotland returned a Ghost Dance shirt to the Lakota in 1999 after years of request.",
+  "desc": "Pale cotton, painted with faded stars. Every stitch seems to hold its breath.",
+  "mla": [
+   "\"Wounded Knee Massacre.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Wounded_Knee_Massacre.",
+   "\"Ghost Dance.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Ghost_Dance."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_021",
+  "name": "Barong Mask, Balinese Ritual Dance, Ubud Village",
+  "icon": "🎭",
+  "region": "reliquary",
+  "pl": {
+   "mode": "minigame",
+   "detail": "Perspective Prism"
+  },
+  "eff": {
+   "t": "battle",
+   "v": 1,
+   "kind": "life"
+  },
+  "tags": {
+   "c": "Perspective",
+   "e": "Scope",
+   "s": "Theatre"
+  },
+  "kq": "How far does a mask change whose perspective a dancer performs?",
+  "ans": [
+   "The mask assigns a role completely. Once a dancer puts on the Barong face, audiences read every motion as the spirit's viewpoint, not the performer's own personality.",
+   "The performer's skill still shapes the perspective shown. Two dancers under the same mask can present the Barong as playful or fierce, so personal choice still filters through the disguise."
+  ],
+  "rw": "Balinese performers use the Barong, a lion like protective spirit, in ritual dances that reenact a struggle between good and evil forces. Village troupes in places like Ubud maintain their own Barong masks, treating them as sacred objects cared for outside performance times. The dance remains tied to temple ceremonies as well as tourist shows.",
+  "desc": "A fanged wooden face, fringed with white fur. Bells sewn along the mane wait for the first drumbeat.",
+  "mla": [
+   "\"Barong (mythology).\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Barong_(mythology)."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_022",
+  "name": "Kente Cloth of the Asantehene, Ashanti Kingdom, Ghana",
+  "icon": "🧵",
+  "region": "benin",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Culture",
+   "v": 17
+  },
+  "tags": {
+   "c": "Culture",
+   "e": "Perspectives",
+   "s": "Visual Arts"
+  },
+  "kq": "How does a woven pattern carry a specific ruler's identity?",
+  "ans": [
+   "Certain patterns stay reserved by rule. Some Kente designs are woven only for the Asantehene, the Ashanti king, so the cloth marks rank the moment anyone sees it.",
+   "Meaning can travel beyond the original rule. Kente now appears on graduation gowns and fashion runways far from Ghana, so the same pattern carries pride for many wearers who are not Ashanti royalty."
+  ],
+  "rw": "Ashanti weavers in Ghana produce Kente cloth on narrow looms, stitching strips together into wide patterned sheets. Certain colors and geometric patterns were historically reserved for the Asantehene, the Ashanti king, and other title holders. Since the twentieth century, Kente has spread across the African diaspora as a symbol of heritage, worn at graduations and celebrations far from Ghana.",
+  "desc": "Bold stripes of gold, green, and red cross the cloth. Each strip was woven narrow, then sewn to its neighbor by hand.",
+  "mla": [
+   "\"Kente cloth.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Kente_cloth."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_023",
+  "name": "Roquefort Cheese AOC Seal, Aveyron, France, 1925",
+  "icon": "🧀",
+  "region": "reliquary",
+  "pl": {
+   "mode": "npc",
+   "detail": "Cave Keeper Louis: hands it over if you guess the mold's Latin name."
+  },
+  "eff": {
+   "t": "stamina",
+   "v": 2
+  },
+  "tags": {
+   "c": "Values",
+   "e": "Methods and Tools",
+   "s": "Business Management"
+  },
+  "kq": "What values decide which cheese deserves a protected name?",
+  "ans": [
+   "Place and process both count. French law ties the Roquefort name to caves near the village of Roquefort sur Soulzon and a specific mold, so tradition and geography together earn the seal.",
+   "Protection also guards a market. The label blocks cheaper copies from using the name, so the value defended is partly economic, protecting local producers' income as much as any taste."
+  ],
+  "rw": "France granted Roquefort cheese one of its earliest Appellation d'Origine Controlee protections in 1925, tying the name to blue veined sheep's milk cheese aged in the natural caves of Roquefort sur Soulzon. The mold Penicillium roqueforti, once cultured from cave bread, gives the cheese its flavor and veining. The European Union now recognizes the designation across member states.",
+  "desc": "A red wax wrapped wheel, streaked blue inside. The smell reaches you before the cut does.",
+  "mla": [
+   "\"Roquefort.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Roquefort."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_024",
+  "name": "Halal Certification Stamp, MUIS, Singapore",
+  "icon": "🏷️",
+  "region": "vault_rel",
+  "pl": {
+   "mode": "shop",
+   "detail": "",
+   "cost": 60
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Responsibility",
+   "v": 11
+  },
+  "tags": {
+   "c": "Responsibility",
+   "e": "Ethics",
+   "s": "Global Politics"
+  },
+  "kq": "Who takes responsibility when a halal label turns out to be wrong?",
+  "ans": [
+   "The certifying body answers for it. MUIS inspects supply chains and can withdraw a license, so responsibility sits mainly with the authority that issued the stamp.",
+   "Responsibility spreads along the chain. Farmers, processors, and shop owners all handle the product before sale, so a single stamp cannot fully cover every link where a mistake could happen."
+  ],
+  "rw": "The Majlis Ugama Islam Singapura, Singapore's Islamic religious council, issues halal certification to food businesses that meet Islamic dietary law. Inspectors check ingredients, storage, and preparation methods before granting the stamp, and can suspend it after a violation. The certification helps Muslim consumers trust products without checking every ingredient themselves.",
+  "desc": "A small laminated card, stamped in green ink. Its serial number links back to a full inspection file.",
+  "mla": [
+   "\"Halal certification.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Halal_certification."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_025",
+  "name": "Garum Amphora, Pompeii, 1st Century CE",
+  "icon": "🏺",
+  "region": "reliquary",
+  "pl": {
+   "mode": "cache",
+   "detail": "Half buried in ash at the edge of the ruined market."
+  },
+  "eff": {
+   "t": "path",
+   "region": "florence"
+  },
+  "tags": {
+   "c": "Evidence",
+   "e": "Scope",
+   "s": "Chemistry"
+  },
+  "kq": "How far can a stain inside a jar count as evidence of an ancient recipe?",
+  "ans": [
+   "Chemical residue narrows the guess well. Archaeologists test amphora linings for fish protein markers, so lab evidence can confirm garum sat inside long after the label faded.",
+   "A stain alone cannot fix the exact recipe. Garum ranged from cheap to costly depending on the fish and salt used, so residue confirms the sauce existed without proving which version it was."
+  ],
+  "rw": "Roman cooks fermented fish with salt for weeks to make garum, a strong sauce used across the empire much like modern fish sauce. Producers in Pompeii shipped it in ceramic amphorae marked with the maker's name and grade. Excavations at Pompeii, buried by the eruption of Mount Vesuvius in 79 CE, preserved production sites and jars with residue scientists can still analyze.",
+  "desc": "A tall clay jar, sealed with old pitch. A salty, pungent smell lingers even now.",
+  "mla": [
+   "\"Garum.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Garum."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_026",
+  "name": "Coca Leaf Reading Cloth, Q'ero Paqo Ritual, Andes",
+  "icon": "🍃",
+  "region": "qero",
+  "pl": {
+   "mode": "minigame",
+   "detail": "Fallacy Volley"
+  },
+  "eff": {
+   "t": "battle",
+   "v": 1,
+   "kind": "life"
+  },
+  "tags": {
+   "c": "Certainty",
+   "e": "Perspectives",
+   "s": "Psychology"
+  },
+  "kq": "How certain can a reader be about a pattern of scattered leaves?",
+  "ans": [
+   "Training gives the paqo confidence. Years of apprenticeship teach specific leaf positions and shapes, so the reading follows a learned system, not a random guess.",
+   "Outside observers can doubt the same certainty. Psychologists point out scattered patterns allow many possible readings, so confidence may come from practice at storytelling more than from any fixed rule."
+  ],
+  "rw": "Q'ero ritual specialists, called paqos, in the Peruvian Andes read patterns formed by tossed coca leaves on a cloth, offering guidance on health, travel, or farming decisions. The practice sits within a wider Andean cosmology that treats the earth, Pachamama, as a living being owed regular offerings. Anthropologists have documented Q'ero coca reading since the mid twentieth century.",
+  "desc": "A woven cloth scattered with dried green leaves. The pattern looks random until someone explains it.",
+  "mla": [
+   "\"Q'ero people.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Q%27ero_people."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_027",
+  "name": "Popol Vuh Manuscript, Ximénez Transcription, Guatemala, 1701",
+  "icon": "📜",
+  "region": "maya",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Truth",
+   "v": 16
+  },
+  "tags": {
+   "c": "Truth",
+   "e": "Methods and Tools",
+   "s": "Literature A"
+  },
+  "kq": "How does translation change what counts as the truth of a sacred story?",
+  "ans": [
+   "A translator's word choices shape the felt truth. Friar Francisco Ximénez copied the Kʼicheʼ text alongside his own Spanish version, and later readers often meet the story through his phrasing first.",
+   "The Kʼicheʼ original still anchors the truth. Modern Maya scholars retranslate directly from the source language, checking Ximénez against it, so his copy stays a witness rather than the final word."
+  ],
+  "rw": "The Popol Vuh records the creation stories and history of the Kʼicheʼ Maya people of highland Guatemala. Friar Francisco Ximénez transcribed and translated the only surviving early copy around 1701, using a text that has since been lost. The Newberry Library in Chicago now holds Ximénez's manuscript, and it remains the main source for Kʼicheʼ Maya cosmology.",
+  "desc": "Two columns run down each page, one in Kʼicheʼ, one in Spanish. The paper has yellowed to the color of straw.",
+  "mla": [
+   "\"Popol Vuh.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Popol_Vuh."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_028",
+  "name": "Coral Rosary Gifted by Pope Pius V, Vatican, 1571",
+  "icon": "📿",
+  "region": "vault_rel",
+  "pl": {
+   "mode": "npc",
+   "detail": "Cardinal Alessi: hands it over if you explain why the beads are red."
+  },
+  "eff": {
+   "t": "ability",
+   "id": "stride"
+  },
+  "tags": {
+   "c": "Interpretation",
+   "e": "Ethics",
+   "s": "World Religions"
+  },
+  "kq": "Should a gift meant for prayer be read as a political message instead?",
+  "ans": [
+   "Context supports a political reading. Pope Pius V distributed rosaries to naval commanders before the Battle of Lepanto in 1571, tying the prayer directly to a military campaign against the Ottoman fleet.",
+   "The devotional purpose still deserves weight. Many soldiers likely prayed the rosary from sincere belief, so reducing the object to politics alone ignores the personal faith it also served."
+  ],
+  "rw": "Pope Pius V encouraged the recitation of the rosary before the Battle of Lepanto in October 1571, when a Holy League fleet defeated an Ottoman force in the Mediterranean. He later credited the victory to the prayer and established the Feast of Our Lady of the Rosary. Coral and silver rosaries from this period survive in church treasuries across Italy and Spain.",
+  "desc": "Red coral beads strung on tarnished silver wire. A small cross swings loose at the end.",
+  "mla": [
+   "\"Battle of Lepanto.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Battle_of_Lepanto.",
+   "\"Rosary.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Rosary."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_029",
+  "name": "Ainu Language Dictionary, Kanazawa Shozaburo, Japan, 1898",
+  "icon": "📘",
+  "region": "vault_lang",
+  "pl": {
+   "mode": "cache",
+   "detail": "Wedged between shelf boards in the Tower's lower archive."
+  },
+  "eff": {
+   "t": "perspective",
+   "c": "Power"
+  },
+  "tags": {
+   "c": "Power",
+   "e": "Scope",
+   "s": "Language B"
+  },
+  "kq": "How far did state schooling erase the power of the Ainu language?",
+  "ans": [
+   "State policy carried lasting force. Japan's Meiji government banned Ainu language teaching in schools from the 1870s, so state power reduced the number of new speakers within two generations.",
+   "Power did not erase everything. Elders kept oral storytelling, yukar, alive at home, so some knowledge survived outside the classrooms the state controlled."
+  ],
+  "rw": "Linguist Kanazawa Shozaburo published an early Ainu language dictionary in 1898, recording vocabulary from the indigenous people of northern Japan. Meiji era assimilation policy discouraged Ainu language use in favor of Japanese from the 1870s onward. Japan recognized the Ainu as an indigenous people only in 2008, and revival classes now draw on dictionaries like this one.",
+  "desc": "A slim hardcover, corners softened by handling. Pencil notes fill the margins in two scripts.",
+  "mla": [
+   "\"Ainu language.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Ainu_language."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_030",
+  "name": "Fair Trade Cocoa Seal, Kuapa Kokoo Cooperative, Ghana",
+  "icon": "🍫",
+  "region": "benin",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Justification",
+   "v": 14
+  },
+  "tags": {
+   "c": "Justification",
+   "e": "Perspectives",
+   "s": "Economics"
+  },
+  "kq": "What justifies paying a farmer a fixed minimum price for cocoa?",
+  "ans": [
+   "Price stability protects farmers from market swings. Fair trade rules guarantee a floor price above production cost, so cooperatives like Kuapa Kokoo can plan a season with less risk.",
+   "Buyers see a different justification. Companies pay the premium partly to earn a label that customers trust, so ethical sourcing serves as a marketing argument as much as a farmer support scheme."
+  ],
+  "rw": "Kuapa Kokoo, a cocoa farmers' cooperative founded in Ghana in 1993, became one of the first organizations in Africa to receive Fairtrade certification. Members receive a guaranteed minimum price and a share of extra premiums paid by buyers. The cooperative also part owns Divine Chocolate, a company selling chocolate made from its beans.",
+  "desc": "A small paper seal, stamped in green and blue. It hides a season of negotiated prices behind one simple symbol.",
+  "mla": [
+   "\"Kuapa Kokoo.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Kuapa_Kokoo.",
+   "\"Fairtrade certification.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Fairtrade_certification."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_031",
+  "name": "Unicode Proposal for the Osage Script, Oklahoma, 2014",
+  "icon": "💻",
+  "region": "vault_lang",
+  "pl": {
+   "mode": "npc",
+   "detail": "Archivist Redcorn: hands it over if you explain why fonts need a standard."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Explanation",
+   "v": 18
+  },
+  "tags": {
+   "c": "Explanation",
+   "e": "Methods and Tools",
+   "s": "Computer Science"
+  },
+  "kq": "What makes a coding standard a good explanation of a writing system?",
+  "ans": [
+   "A Unicode block fixes every letter to one number, so any computer worldwide can display Osage script the same way, which explains the system clearly across different devices.",
+   "A code point cannot explain pronunciation or meaning on its own. Learners still need spoken teaching and example words, so the standard supports the writing system without truly explaining the language."
+  ],
+  "rw": "The Osage Nation partnered with linguist Herman Mongrain Lookout to design a modern Osage script, adapted from Sequoyah's Cherokee approach. The Unicode Consortium approved the Osage block in 2014, letting the script appear consistently in digital text and on phones. The nation now teaches the script in language immersion classes in Oklahoma.",
+  "desc": "A printed chart of angular letters, each paired with a strange four digit code.",
+  "mla": [
+   "\"Osage script.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Osage_script."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_032",
+  "name": "Milagro Ex-Voto Charm, Tin Heart, Mexico",
+  "icon": "❤️",
+  "region": "reliquary",
+  "pl": {
+   "mode": "shop",
+   "detail": "",
+   "cost": 25
+  },
+  "eff": {
+   "t": "stamina",
+   "v": 1
+  },
+  "tags": {
+   "c": "Objectivity",
+   "e": "Ethics",
+   "s": "Psychology"
+  },
+  "kq": "Can a small charm ever be judged by an objective standard of success?",
+  "ans": [
+   "Believers use a plain outcome test. If the prayer linked to the charm seems answered, the milagro is pinned to a shrine as thanks, treating recovery or luck as an observable result.",
+   "Outcomes here resist a neutral count. Illness can improve on its own, so attributing the result to a tin heart depends on personal belief more than any test a skeptic would accept."
+  ],
+  "rw": "Catholic worshippers across Mexico and the wider Latin world pin small metal charms called milagros, shaped as hearts, limbs, or animals, to statues or shrines as thanks for an answered prayer. The tradition blends Indigenous and Spanish Catholic practice, dating back centuries. Markets near pilgrimage churches still sell milagros cheaply for this purpose.",
+  "desc": "A flat tin heart, no bigger than a thumbnail. A tiny hole waits for a pin or a ribbon.",
+  "mla": [
+   "\"Milagro (votive).\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Milagro_(votive)."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_033",
+  "name": "Griot's Kora, Twenty One String Harp, Mali",
+  "icon": "🎵",
+  "region": "griot",
+  "pl": {
+   "mode": "minigame",
+   "detail": "Memory of the Hall"
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Perspective",
+   "v": 13
+  },
+  "tags": {
+   "c": "Perspective",
+   "e": "Scope",
+   "s": "Music"
+  },
+  "kq": "Whose history does a griot's song preserve?",
+  "ans": [
+   "The performer speaks for a patron family. Griots train for years to memorize a specific clan's genealogy and deeds, so the song centers the perspective of whoever commissioned it.",
+   "Audiences add their own layer too. Listeners outside the patron family often hear the same praise song as a window onto Mali's broader history, beyond a single family's record."
+  ],
+  "rw": "Griots, called jeliw in Mande languages, serve as hereditary musicians and oral historians across West Africa, particularly in Mali, Senegal, and Guinea. A griot plays the kora, a twenty one string harp built from a halved gourd, while reciting genealogies, historical events, and praise songs. Families have passed both the musical training and the remembered histories down for many generations.",
+  "desc": "A large gourd body, strings fanned across a tall wooden neck. Each string holds a different name in memory.",
+  "mla": [
+   "\"Griot.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Griot.",
+   "\"Kora (instrument).\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Kora_(instrument)."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_034",
+  "name": "Wedding Hanbok of Queen Sunjeong, Joseon Court, Korea",
+  "icon": "👘",
+  "region": "seoul",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Culture",
+   "v": 16
+  },
+  "tags": {
+   "c": "Culture",
+   "e": "Perspectives",
+   "s": "Design Technology"
+  },
+  "kq": "How does a royal garment's cut carry rank in a way plain clothes cannot?",
+  "ans": [
+   "Specific colors and shapes marked status by law. Deep red skirts and phoenix embroidery were reserved for queens, so anyone at court could read rank at a glance from cloth alone.",
+   "Modern viewers may miss that coded rank entirely. A museum visitor unfamiliar with Joseon rules just sees an elegant dress, so the garment's original social message needs a caption to survive."
+  ],
+  "rw": "The hanbok is Korea's traditional dress, with the jeogori jacket and chima skirt as core pieces for women. Joseon dynasty royal women wore an elaborate ceremonial version, using colors, embroidery, and headpieces that palace regulations tied strictly to rank. Queen Sunjeong, the last crown princess consort of Korea, wore such formal hanbok during the early twentieth century as the dynasty neared its end.",
+  "desc": "Layers of silk in deep red and gold. Phoenixes stitched across the chest still catch the light.",
+  "mla": [
+   "\"Hanbok.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Hanbok.",
+   "\"Sunjeonghyo.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Sunjeonghyo."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_035",
+  "name": "Blue Qur'an Folio, Kairouan, Tunisia, 9th Century",
+  "icon": "📘",
+  "region": "vault_rel",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "key",
+   "door": "door_themes"
+  },
+  "tags": {
+   "c": "Values",
+   "e": "Methods and Tools",
+   "s": "World Religions"
+  },
+  "kq": "What values guided the choice to write sacred text in gold on indigo?",
+  "ans": [
+   "Luxury signaled devotion. Gold ink on rare indigo dyed vellum showed patrons valued the Qur'an enough to spend on the costliest materials available in the ninth century.",
+   "Legibility mattered less here than status. Kufic gold script on dark blue is hard to read at a distance, so the folio likely served display and prestige more than daily recitation."
+  ],
+  "rw": "Craftsmen produced the Blue Qur'an, written in gold Kufic script on indigo dyed parchment, somewhere in the Islamic world during the ninth or tenth century, possibly in Tunisia under the Aghlabid dynasty. Scholars still debate its exact origin and the center that produced it. Surviving folios are scattered across museums in Tunisia, France, the United States, and elsewhere.",
+  "desc": "Deep blue parchment, gold letters catching candlelight. Each line looks too precious to touch.",
+  "mla": [
+   "\"Blue Qur'an.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Blue_Quran."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_036",
+  "name": "Sudreh and Kushti, Zoroastrian Sacred Thread Set, Mumbai",
+  "icon": "🪢",
+  "region": "vault_rel",
+  "pl": {
+   "mode": "npc",
+   "detail": "Mobed Rustom: hands it over after the Navjote initiation vow."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Responsibility",
+   "v": 14
+  },
+  "tags": {
+   "c": "Responsibility",
+   "e": "Ethics",
+   "s": "World Religions"
+  },
+  "kq": "Does putting on a sacred thread create a duty, or only mark one already there?",
+  "ans": [
+   "The ceremony itself creates new standing. After the Navjote, a Zoroastrian child counts as morally accountable for the first time, so the thread marks an actual change in status.",
+   "The duty likely exists before the ceremony too. Many Zoroastrians would say good thoughts, words, and deeds matter regardless of thread, so the object marks a duty rather than creating it."
+  ],
+  "rw": "Zoroastrian children receive a white cotton undershirt, the sudreh, and a knotted wool cord, the kushti, during the Navjote initiation, typically between ages seven and fifteen. Wearers retie the kushti several times daily during prayer, wrapping it around the waist over the sudreh. Parsi communities in Mumbai and across India maintain the practice as a marker of moral responsibility in the faith.",
+  "desc": "Plain white cotton, paired with a long woven cord. Knots at each end wait for careful fingers.",
+  "mla": [
+   "\"Sudreh.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Sudreh.",
+   "\"Navjote.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Navjote."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_037",
+  "name": "Chuño Freeze-Dried Potato Sack, Q'ero Andes",
+  "icon": "🥔",
+  "region": "qero",
+  "pl": {
+   "mode": "cache",
+   "detail": "Stacked beneath the llama blankets in the highland storeroom."
+  },
+  "eff": {
+   "t": "perspective",
+   "c": "Evidence"
+  },
+  "tags": {
+   "c": "Evidence",
+   "e": "Scope",
+   "s": "Geography"
+  },
+  "kq": "How far can a shriveled potato serve as evidence of a farming strategy?",
+  "ans": [
+   "The texture itself proves a method. Repeated freezing and trampling squeeze out water, so the wrinkled surface is physical evidence of a multi day process, more than a sign of old food.",
+   "The object alone cannot show the reasoning behind it. Farmers developed chuño to survive high altitude storage without written records, so the potato proves the result, not the centuries of trial that led to it."
+  ],
+  "rw": "Andean farmers in the Q'ero region and across the high Peruvian and Bolivian altiplano freeze dry potatoes into chuño, exposing them to freezing nights and sun by day, then trampling out the moisture. The process can preserve a harvest for years without refrigeration, at altitudes above 4,000 meters. Archaeologists trace the technique back to Inca and pre Inca farming communities.",
+  "desc": "A cloth sack of dark, wrinkled potatoes. Light as stone, hard as pebbles, and years old.",
+  "mla": [
+   "\"Ch'uno.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Ch%27uno."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_038",
+  "name": "Dohyo Purification Salt, Sumo Ring Ritual, Japan",
+  "icon": "🧂",
+  "region": "ukiyo",
+  "pl": {
+   "mode": "minigame",
+   "detail": "Rung Climb"
+  },
+  "eff": {
+   "t": "battle",
+   "v": 1,
+   "kind": "time"
+  },
+  "tags": {
+   "c": "Certainty",
+   "e": "Perspectives",
+   "s": "Sports Science"
+  },
+  "kq": "How certain can a wrestler be that a ritual throw of salt affects the match?",
+  "ans": [
+   "Tradition offers a fixed answer. Sumo teaches that salt purifies the dohyo of harmful spirits before a bout, so wrestlers follow the throw with confidence passed down through the sport's Shinto roots.",
+   "Sport science offers a different measure of certainty. Physiologists point to warm up value and focus rituals as the measurable effect on performance, regardless of any spiritual claim about the salt itself."
+  ],
+  "rw": "Sumo wrestlers throw handfuls of salt onto the dohyo, the ring, before each match, a practice rooted in Shinto purification rituals. The Japan Sumo Association maintains this and other ceremonial elements as part of the sport's official structure. Wrestlers also perform the shiko leg stomp, said to drive evil spirits from the ring.",
+  "desc": "A fistful of coarse white salt. It scatters across the clay ring like sudden snow.",
+  "mla": [
+   "\"Sumo.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Sumo."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_039",
+  "name": "Ise Shrine Cypress Timber, Shikinen Sengu Rebuild, Japan",
+  "icon": "🪵",
+  "region": "vault_rel",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Truth",
+   "v": 15
+  },
+  "tags": {
+   "c": "Truth",
+   "e": "Methods and Tools",
+   "s": "Philosophy"
+  },
+  "kq": "Is a shrine rebuilt every twenty years still the true original?",
+  "ans": [
+   "Continuity of method supports a yes. Priests use the same joinery and design each cycle, so identity rests on the unbroken process, not on any single set of boards.",
+   "Material continuity says no. Every beam gets replaced at Ise every twenty years, so nothing physical from the founding shrine remains, and the truth of 'original' shifts to symbol rather than substance."
+  ],
+  "rw": "Shinto priests at the Ise Grand Shrine in Japan rebuild the main structures every twenty years in a ceremony called Shikinen Sengu, using fresh cypress timber and identical ancient methods. The practice has continued, with some interruptions, since at least the seventh century, and the most recent rebuilding took place in 2013. The ritual trains new generations of carpenters in techniques that would otherwise fade.",
+  "desc": "A pale, fresh cut beam, still fragrant with cypress resin.",
+  "mla": [
+   "\"Ise Grand Shrine.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Ise_Grand_Shrine."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_040",
+  "name": "Pointie Talkie Phrasebook, US Military, World War II",
+  "icon": "🗣️",
+  "region": "vault_lang",
+  "pl": {
+   "mode": "npc",
+   "detail": "Sergeant Alvarez: hands it over if you point at the right picture first."
+  },
+  "eff": {
+   "t": "stamina",
+   "v": 2
+  },
+  "tags": {
+   "c": "Interpretation",
+   "e": "Ethics",
+   "s": "Global Politics"
+  },
+  "kq": "Should soldiers rely on pointing at pictures to interpret a stranger's needs?",
+  "ans": [
+   "A shared picture limits confusion in urgent moments. Pointing at drawn images let soldiers and locals agree on food, water, or danger fast, without either side speaking the other's language.",
+   "Pictures flatten intent. A pointing system misses tone and hesitation, so soldiers could easily misread what a civilian meant."
+  ],
+  "rw": "The United States military issued phrasebooks nicknamed 'pointie talkies' during World War II, printing rows of simple images so soldiers and local civilians could communicate by pointing rather than speaking. Versions covered Pacific islands, Europe, and other theaters, with pictures for food, medical needs, and directions. The method offered a fast fix where no shared language existed.",
+  "desc": "A slim booklet of numbered drawings. A worn thumbprint marks the picture for water.",
+  "mla": [
+   "\"Phrase book.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Phrase_book."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_041",
+  "name": "Nkisi Nkondi Power Figure, Kongo Kingdom, 19th Century",
+  "icon": "🗿",
+  "region": "benin",
+  "pl": {
+   "mode": "shop",
+   "detail": "",
+   "cost": 150
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Power",
+   "v": 20
+  },
+  "tags": {
+   "c": "Power",
+   "e": "Scope",
+   "s": "World Religions"
+  },
+  "kq": "How far does driving a nail into a figure transfer power to a promise?",
+  "ans": [
+   "Ritual gives the nail its function. Kongo communities drove nails into nkisi nkondi figures to seal an oath or call the spirit to act, so the physical act carried legal and spiritual force at once.",
+   "Outside the belief system, the power looks symbolic only. A collector who buys the figure gains a striking sculpture, not the authority a Kongo community once recognized in it."
+  ],
+  "rw": "Kongo carvers in Central Africa made nkisi nkondi figures to hold spiritual force, called nkisi, activated by a ritual specialist. Communities drove nails, blades, or other metal pieces into the wood to seal agreements, treaties, or requests for the spirit's help. European traders and missionaries collected many figures during the colonial period, and museums today hold most surviving examples.",
+  "desc": "A carved wooden figure, bristling with rusted nails and blades. Each one marks a promise once made aloud.",
+  "mla": [
+   "\"Nkisi.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Nkisi."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_042",
+  "name": "Hei-Tiki Pendant, Pounamu Greenstone, New Zealand",
+  "icon": "💚",
+  "region": "shore",
+  "pl": {
+   "mode": "cache",
+   "detail": "Wrapped in flax fiber inside the carved waka hull."
+  },
+  "eff": {
+   "t": "path",
+   "region": "songlines"
+  },
+  "tags": {
+   "c": "Justification",
+   "e": "Perspectives",
+   "s": "Visual Arts"
+  },
+  "kq": "What justifies passing one pendant down through a single family line?",
+  "ans": [
+   "Genealogy itself is the justification. A hei-tiki carries the mana, or standing, of every ancestor who wore it, so descent alone justifies who holds it next.",
+   "Use and care can justify a claim too. Iwi sometimes recognize a caretaker outside direct descent if that person maintained the pendant's stories and rituals, so justification can rest on practice as much as on blood."
+  ],
+  "rw": "Maori carvers in New Zealand shape hei-tiki pendants from pounamu, a greenstone found mainly on the South Island. Families pass these pendants down for generations, and each one is believed to absorb the mana, or spiritual standing, of every wearer. Museums in New Zealand and abroad hold historic examples, some returned to iwi under repatriation agreements.",
+  "desc": "A carved green figure, smooth from generations of touch. A cord of woven flax holds it steady.",
+  "mla": [
+   "\"Hei-tiki.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Hei-tiki."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_043",
+  "name": "Jebena Coffee Pot, Ethiopian Ceremony, Clay",
+  "icon": "☕",
+  "region": "reliquary",
+  "pl": {
+   "mode": "minigame",
+   "detail": "Socratic Serve"
+  },
+  "eff": {
+   "t": "battle",
+   "v": 1,
+   "kind": "reveal"
+  },
+  "tags": {
+   "c": "Explanation",
+   "e": "Methods and Tools",
+   "s": "Chemistry"
+  },
+  "kq": "What makes roasting beans in front of guests a good explanation of hospitality?",
+  "ans": [
+   "Visible process builds trust. Roasting, grinding, and brewing in front of guests lets them see every step, so the ceremony explains care and effort better than a cup served ready made.",
+   "The explanation depends on shared expectation. A guest unfamiliar with the three round ceremony might read the long process as delay rather than hospitality, so context decides whether it explains anything at all."
+  ],
+  "rw": "Ethiopian and Eritrean households hold a coffee ceremony that can last over an hour, roasting green beans, grinding them by hand, and brewing the coffee in a clay pot called a jebena. Hosts serve guests three rounds, named abol, tona, and baraka, each weaker than the last. The ceremony remains central to daily social and neighborly life across the region.",
+  "desc": "A round bellied clay pot with a long spout. Smoke and the smell of fresh roasted beans still cling to it.",
+  "mla": [
+   "\"Ethiopian coffee ceremony.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Ethiopian_coffee_ceremony."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_044",
+  "name": "Michelin Star Plaque, Jay Fai Street Stall, Bangkok",
+  "icon": "⭐",
+  "region": "reliquary",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Objectivity",
+   "v": 11
+  },
+  "tags": {
+   "c": "Objectivity",
+   "e": "Ethics",
+   "s": "Business Management"
+  },
+  "kq": "Can one nation's rating system judge another culture's food without bias?",
+  "ans": [
+   "A single method applied everywhere aims at fairness. Michelin inspectors use the same anonymous visit and fixed criteria worldwide, so Jay Fai earns her star under the identical rules applied to French fine dining.",
+   "The criteria still carry a starting point. Michelin's standards grew from French restaurant culture, so judging a wok cooked street stall by those categories may miss what locals already valued about the food."
+  ],
+  "rw": "Supaporn Jaisingha, known as Jay Fai, cooks at a street stall in Bangkok's old town, famous for crab omelettes cooked over hot coals. The Michelin Guide awarded her one star in 2018, making her one of the first street food vendors in Asia to receive the honor. She still cooks daily over charcoal, wearing her signature ski goggles to guard against smoke.",
+  "desc": "A battered wok over glowing coals. Steam rises past a pair of scratched ski goggles.",
+  "mla": [
+   "\"Jay Fai.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Jay_Fai."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_045",
+  "name": "Masnavi Manuscript Page, Rumi, Konya, 13th Century",
+  "icon": "📖",
+  "region": "vault_rel",
+  "pl": {
+   "mode": "npc",
+   "detail": "Dervish Şems: hands it over if you turn once in silence."
+  },
+  "eff": {
+   "t": "ability",
+   "id": "echo"
+  },
+  "tags": {
+   "c": "Perspective",
+   "e": "Scope",
+   "s": "Literature A"
+  },
+  "kq": "How far can a poem written for one disciple speak for a universal perspective?",
+  "ans": [
+   "Rumi addressed a single companion, Husam al-Din, when composing the Masnavi, yet its parables use ordinary figures like merchants and parrots, built to carry meaning past that first audience.",
+   "A perspective this personal cannot fully universalize. Centuries of translation and Sufi commentary have reshaped the poem's meaning so often that today's reading may reflect interpreters more than Rumi's own outlook."
+  ],
+  "rw": "The Persian poet Jalal ad-Din Rumi composed the Masnavi over the final decades of his life in Konya, in present day Turkey, completing roughly 25,000 couplets by his death in 1273. He dictated the poem to his student Husam al-Din Chelebi, weaving parables and stories to teach Sufi ideas about love and the self. The poem remains one of the most read pieces in the Persian speaking world today.",
+  "desc": "Elegant Persian script flows across cream paper. Faded gold marks the start of each new tale.",
+  "mla": [
+   "\"Rumi.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Rumi.",
+   "\"Masnavi.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Masnavi."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_046",
+  "name": "Aso Oke Cloth, Yoruba Wedding Attire, Nigeria",
+  "icon": "🪡",
+  "region": "benin",
+  "pl": {
+   "mode": "cache",
+   "detail": "Folded inside the bride's carved wooden chest."
+  },
+  "eff": {
+   "t": "perspective",
+   "c": "Culture"
+  },
+  "tags": {
+   "c": "Culture",
+   "e": "Perspectives",
+   "s": "Visual Arts"
+  },
+  "kq": "How does a cloth's pattern signal which side of the family wove it?",
+  "ans": [
+   "Specific patterns name a lineage or occasion. Yoruba weavers create aso oke designs tied to particular families or celebrations, so guests can read whose side of a wedding a person represents.",
+   "Modern buyers can wear the cloth without that inside knowledge. Aso oke now sells commercially for any wedding guest, so the same pattern can signal fashion and status rather than a specific family story."
+  ],
+  "rw": "Yoruba weavers in southwestern Nigeria produce aso oke, a hand woven cloth used for ceremonial clothing, especially at weddings and chieftaincy events. Families sometimes commission matching aso oke for the couple's guests, called aso ebi, marking group belonging within the celebration. Weaving techniques and specific patterns often pass down within particular families or towns.",
+  "desc": "Stiff, richly patterned cloth in bold color blocks. It holds its shape even folded tight.",
+  "mla": [
+   "\"Aso oke.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Aso_oke."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_047",
+  "name": "The Forme of Cury Manuscript, English Royal Kitchen, 1390",
+  "icon": "📃",
+  "region": "reliquary",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Values",
+   "v": 12
+  },
+  "tags": {
+   "c": "Values",
+   "e": "Methods and Tools",
+   "s": "English A: Language and Literature"
+  },
+  "kq": "What values shaped a royal kitchen's decision to write its recipes down?",
+  "ans": [
+   "Status and memory both mattered. King Richard II's cooks compiled the Forme of Cury partly to preserve prestige dishes and techniques that had lived only in a cook's memory before.",
+   "Control over standards mattered too. Written recipes let a head cook enforce one exact method across a large kitchen staff, valuing consistency over each cook's personal habit."
+  ],
+  "rw": "Cooks in the court of King Richard II of England compiled the Forme of Cury around 1390, a manuscript listing about 196 recipes on a long parchment roll. The text used Middle English mixed with French cooking terms and called for spices like saffron, ginger, and cloves. It stands among the earliest known English cookery manuscripts.",
+  "desc": "A long parchment roll, curling at both ends. Faded ink lists spices few cooks today would reach for.",
+  "mla": [
+   "\"The Forme of Cury.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/The_Forme_of_Cury."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_048",
+  "name": "Mourning Ring with Woven Hair, England, 1861",
+  "icon": "💍",
+  "region": "reliquary",
+  "pl": {
+   "mode": "npc",
+   "detail": "Jeweler Hartley: hands it over if you name whose hair rests inside."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Responsibility",
+   "v": 10
+  },
+  "tags": {
+   "c": "Responsibility",
+   "e": "Ethics",
+   "s": "History"
+  },
+  "kq": "Does wearing a dead relative's hair create an obligation to keep grieving a certain way?",
+  "ans": [
+   "Victorian etiquette treated mourning as a duty with clear stages and dress rules, so wearing such a ring did carry a social obligation to grieve visibly for a set period.",
+   "Private feeling need not match public rule. A wearer might have finished grieving quietly while the ring's presence still signaled ongoing mourning to neighbors, so obligation and emotion could pull apart."
+  ],
+  "rw": "Victorian mourners in Britain commissioned rings and brooches that wove a deceased relative's hair into the setting, a tradition strengthened after Queen Victoria's long public mourning for Prince Albert, who died in 1861. Jewelers in London and other cities specialized in this craft, often pairing hair with black enamel and pearls for tears. The practice declined fast after the First World War changed public attitudes toward mourning display.",
+  "desc": "A thin gold band, a plait of dark hair sealed under glass. It still holds a chill.",
+  "mla": [
+   "\"Mourning jewellery.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Mourning_jewellery."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_049",
+  "name": "Handwritten Kimchi Recipe Ledger, Korean Family, 1972",
+  "icon": "📓",
+  "region": "seoul",
+  "pl": {
+   "mode": "shop",
+   "detail": "",
+   "cost": 30
+  },
+  "eff": {
+   "t": "stamina",
+   "v": 1
+  },
+  "tags": {
+   "c": "Evidence",
+   "e": "Scope",
+   "s": "Biology"
+  },
+  "kq": "How far can a handwritten ledger count as evidence of a family's true taste?",
+  "ans": [
+   "Specific measurements support strong evidence. This ledger lists exact spoon counts of chili powder and fish sauce by season, so it stands as a precise record, not a vague memory.",
+   "A recipe still leaves out the cook's touch. Fermentation depends on room temperature and the exact bacteria present that day, so the ledger records intention, not the living process itself."
+  ],
+  "rw": "Korean families have long passed kimchi recipes between generations through handwritten notebooks, adjusting salt, chili, and fermentation time by season and household taste. A ledger like this one might record recipes collected across decades, noting changes for weddings, holidays, or a family member's preference. Food historians treat such ledgers as valuable evidence of regional and generational variation, since kimchi differs widely across Korea.",
+  "desc": "A cloth bound notebook, pages soft and stained red at the corners. Numbers crowd the margins.",
+  "mla": [
+   "\"Kimchi.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Kimchi."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_050",
+  "name": "Subtitled Release Print of Rashomon, Japan, 1950",
+  "icon": "🎞️",
+  "region": "ukiyo",
+  "pl": {
+   "mode": "minigame",
+   "detail": "Scales of Justification"
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Certainty",
+   "v": 17
+  },
+  "tags": {
+   "c": "Certainty",
+   "e": "Perspectives",
+   "s": "Film"
+  },
+  "kq": "Can four witnesses ever add up to one certain version of events?",
+  "ans": [
+   "Kurosawa's film argues no. Each retelling of the same crime contradicts the others, and the film refuses to confirm any single account, so certainty dissolves the more perspectives it gathers.",
+   "A pattern still emerges across the versions. Viewers can compare the four stories and reasonably guess which details every account shares, so some shared certainty survives even without one final answer."
+  ],
+  "rw": "Director Akira Kurosawa released Rashomon in Japan in 1950, telling one crime through four contradictory eyewitness accounts. The film won the Golden Lion at the Venice Film Festival in 1951 and introduced many Western audiences to Japanese cinema. Subtitled prints spread the term 'Rashomon effect' into English, describing conflicting eyewitness versions of one event.",
+  "desc": "A reel of scratched film, frames flickering with four different memories of one crime.",
+  "mla": [
+   "\"Rashomon.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Rashomon."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_051",
+  "name": "Woven Ketupat Casing, Hari Raya Tradition, Malay Archipelago",
+  "icon": "🌿",
+  "region": "reliquary",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Truth",
+   "v": 14
+  },
+  "tags": {
+   "c": "Truth",
+   "e": "Methods and Tools",
+   "s": "Mathematics"
+  },
+  "kq": "Does a correctly woven casing guarantee a true, evenly cooked rice cake?",
+  "ans": [
+   "Geometry supports a fairly firm yes. A tight, symmetrical weave leaves rice grains room to expand evenly, so the pattern's structure predicts a well cooked result almost every time.",
+   "Cooking still adds a variable the weave cannot fix. Boiling time, water level, and rice type also decide the outcome, so a mathematically perfect casing does not guarantee a good cake on its own."
+  ],
+  "rw": "Communities across the Malay Archipelago, including Malaysia, Indonesia, and Singapore, weave ketupat casings from young coconut or palm leaves, then fill them with rice and boil them for hours. The tight diamond weave lets the rice grains expand and compress into a dense cake as they cook. Families prepare ketupat especially for the Hari Raya holidays that mark the end of Ramadan.",
+  "desc": "A woven leaf pouch, diamond shaped and tightly sealed. Steam still escapes at one corner.",
+  "mla": [
+   "\"Ketupat.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Ketupat."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_052",
+  "name": "Guru Granth Sahib Palanquin Cloth, Golden Temple, Amritsar",
+  "icon": "📖",
+  "region": "vault_rel",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Interpretation",
+   "v": 13
+  },
+  "tags": {
+   "c": "Interpretation",
+   "e": "Ethics",
+   "s": "World Religions"
+  },
+  "kq": "Should a holy book be carried like a living king?",
+  "ans": [
+   "Sikh tradition treats the Guru Granth Sahib as the eternal living Guru, so ceremonial carrying under a canopy expresses reverence consistent with the text's own teaching.",
+   "A book cannot act like a ruler in practice. Critics outside the faith may see the palanquin and royal treatment as tradition performing authority the text itself never claims for its physical pages."
+  ],
+  "rw": "Sikhs treat the Guru Granth Sahib, their central scripture compiled in its final form by Guru Gobind Singh in 1708, as the living and final Guru of the faith. At the Golden Temple in Amritsar, attendants carry the book each morning in a decorated palanquin, the palki, to its place for the day's readings. The same respect, including a canopy and a fan waved above the text, continues in Sikh temples worldwide.",
+  "desc": "Gold embroidered cloth drapes over a wooden frame. It smells faintly of sandalwood incense.",
+  "mla": [
+   "\"Guru Granth Sahib.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Guru_Granth_Sahib.",
+   "\"Golden Temple.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Golden_Temple."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_053",
+  "name": "Tripitaka Koreana Woodblock, Haeinsa Temple, 13th Century",
+  "icon": "🪵",
+  "region": "seoul",
+  "pl": {
+   "mode": "npc",
+   "detail": "Monk Ji-ho: hands it over if you count the carved characters aloud."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Power",
+   "v": 16
+  },
+  "tags": {
+   "c": "Power",
+   "e": "Scope",
+   "s": "World Religions"
+  },
+  "kq": "How far did carving a whole canon in wood serve as a display of royal power?",
+  "ans": [
+   "Scale itself projected strength. The Goryeo court ordered over 81,000 carved blocks to seek Buddhist protection against Mongol invasion, so the sheer size of the project showed the state's resources and resolve.",
+   "Spiritual purpose mattered beyond politics. Monks and scribes treated the carving as a sincere act of devotion meant to earn merit, so power alone does not explain why so many people gave years to the task."
+  ],
+  "rw": "The Goryeo dynasty of Korea commissioned the Tripitaka Koreana, a full carving of the Buddhist canon onto over 81,000 wooden printing blocks, largely between 1237 and 1248, seeking spiritual protection during Mongol invasions. Haeinsa Temple in South Korea has preserved the blocks in a purpose built storage hall since the fifteenth century. UNESCO listed both the blocks and the storage buildings as World Heritage in 1995 and 2007.",
+  "desc": "A dark wooden block, characters carved deep and reversed. Ink still stains its worn edges.",
+  "mla": [
+   "\"Tripitaka Koreana.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Tripitaka_Koreana."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_054",
+  "name": "Songket Pattern Card, Malay Royal Weaving, Terengganu",
+  "icon": "🧶",
+  "region": "reliquary",
+  "pl": {
+   "mode": "cache",
+   "detail": "Rolled beneath the loom's wooden beam, tied with thread."
+  },
+  "eff": {
+   "t": "perspective",
+   "c": "Justification"
+  },
+  "tags": {
+   "c": "Justification",
+   "e": "Perspectives",
+   "s": "Design Technology"
+  },
+  "kq": "What justifies limiting gold thread patterns to a royal court's weavers?",
+  "ans": [
+   "Resource control offers one justification. Gold and silver thread cost far more than cotton, so royal courts historically funded songket production and reserved the finest patterns for their own ceremonies.",
+   "Skill offers a separate justification. Songket weaving demands years of training few outside dedicated weaving houses in Terengganu and Palembang ever completed, so mastery itself limited who could produce the finest cloth, regardless of court funding."
+  ],
+  "rw": "Weavers in Terengganu, Malaysia, and Palembang, Indonesia, produce songket, a hand woven cloth with gold or silver metallic threads set into a silk or cotton base. Malay royal courts historically commissioned the most elaborate patterns for weddings and state ceremonies. Master weavers plan each pattern card carefully, since even one dropped thread can throw off the design across an entire length of cloth.",
+  "desc": "A stiff card, pierced with a repeating pattern of tiny holes. Gold thread waits nearby on a spool.",
+  "mla": [
+   "\"Songket.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Songket."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_055",
+  "name": "Cremation Tower Model, Ngaben Ceremony, Bali",
+  "icon": "🔥",
+  "region": "reliquary",
+  "pl": {
+   "mode": "minigame",
+   "detail": "Assumption Sweep"
+  },
+  "eff": {
+   "t": "battle",
+   "v": 1,
+   "kind": "reveal"
+  },
+  "tags": {
+   "c": "Explanation",
+   "e": "Methods and Tools",
+   "s": "Theatre"
+  },
+  "kq": "What makes an elaborate tower a good explanation of a soul's journey?",
+  "ans": [
+   "Height and layers carry clear symbolism. Multi tiered towers represent Balinese Hindu cosmology, with levels standing for different realms the soul must pass through, so the structure itself explains the journey's stages.",
+   "An outsider still needs a guide to read it. Without a local voice explaining the symbolism, a visitor sees only an elaborate float, so the explanation depends on shared cultural knowledge, not the tower's shape alone."
+  ],
+  "rw": "Balinese Hindu families build elaborate cremation towers, wadah, to carry a body to the cremation ground during the Ngaben ceremony. Layers and animal shaped sarcophagi represent stages of the soul's journey back to its origins. Families sometimes save for years to afford a grand ceremony, and communities often combine resources to share the cost across several deceased at once.",
+  "desc": "A tall paper and bamboo tower, bright with foil and paint. It will not survive the day's end.",
+  "mla": [
+   "\"Ngaben.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Ngaben."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_056",
+  "name": "Rorschach Inkblot Card I, Hermann Rorschach, 1921",
+  "icon": "🦋",
+  "region": "reliquary",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Objectivity",
+   "v": 10
+  },
+  "tags": {
+   "c": "Objectivity",
+   "e": "Ethics",
+   "s": "Psychology"
+  },
+  "kq": "Can a single ink shape produce an objective reading of someone's mind?",
+  "ans": [
+   "Standardized scoring pushes toward objectivity. Trained psychologists use fixed coding systems for shape, color, and movement responses, so two examiners can reach similar conclusions from the same answer.",
+   "Interpretation still leans on the examiner's judgment. Critics note the same response can fit several coding categories, so personal bias can shape a supposedly neutral test more than practitioners like to admit."
+  ],
+  "rw": "Swiss psychiatrist Hermann Rorschach published his ten standardized inkblot cards in 1921, designing a test intended to reveal personality traits and thought patterns through free association. Psychologists still use the test today, though its scientific reliability remains debated within the field. Publishers keep the exact cards restricted to licensed professionals to protect their diagnostic value.",
+  "desc": "A symmetrical black shape on thick cardstock. Every viewer seems to see something different in it.",
+  "mla": [
+   "\"Rorschach test.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Rorschach_test."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_057",
+  "name": "Shofar Ram's Horn, Rosh Hashanah Ritual, Jerusalem",
+  "icon": "📯",
+  "region": "vault_rel",
+  "pl": {
+   "mode": "npc",
+   "detail": "Cantor Miriam: hands it over if you try one long blast first."
+  },
+  "eff": {
+   "t": "stamina",
+   "v": 2
+  },
+  "tags": {
+   "c": "Perspective",
+   "e": "Scope",
+   "s": "Music"
+  },
+  "kq": "Whose attention is the shofar's blast meant to reach?",
+  "ans": [
+   "Tradition points upward first. Rabbinic teaching says the sound calls on divine mercy and judgment during the High Holy Days, aiming the blast at a listener beyond the congregation.",
+   "The blast also acts on the people in the room. Rabbis describe the harsh sound as a wake up call meant to stir listeners toward self examination, so the human perspective matters just as much as the heavenly one."
+  ],
+  "rw": "Jewish communities sound the shofar, a horn traditionally made from a ram, during the Rosh Hashanah new year service and at the close of Yom Kippur. A trained blower produces several distinct call patterns, including a long blast called tekiah gedolah. The instrument's use dates back to biblical descriptions and continues in synagogues worldwide today.",
+  "desc": "A curved, hollow horn, polished smooth by handling. One breath fills the room with sound.",
+  "mla": [
+   "\"Shofar.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Shofar."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_058",
+  "name": "Maasai Shuka Blanket, Red Check Wrap, Kenya",
+  "icon": "🧣",
+  "region": "reliquary",
+  "pl": {
+   "mode": "shop",
+   "detail": "",
+   "cost": 55
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Culture",
+   "v": 15
+  },
+  "tags": {
+   "c": "Culture",
+   "e": "Perspectives",
+   "s": "Visual Arts"
+  },
+  "kq": "Why does one color of cloth read as belonging to one community?",
+  "ans": [
+   "Consistent choice builds a strong association over time. Maasai herders across Kenya and Tanzania have worn red checked shuka for generations, so the pattern now reads instantly as Maasai to outside viewers.",
+   "The link is learned, not fixed by nature. Visitors unfamiliar with East Africa might see only a bright blanket, so the cultural reading depends on a viewer already knowing the community behind the cloth."
+  ],
+  "rw": "Maasai herders in Kenya and Tanzania traditionally wear the shuka, a checked or striped cotton wrap, often in red, though blue and other colors also appear. Some historians trace red's popularity partly to trade cloth introduced during the colonial period, layered onto older wearing customs. The garment remains practical for herding in open grassland while marking Maasai identity to outsiders.",
+  "desc": "A bright red and black checked cloth, folded into a simple wrap. It shows dust from the grazing fields.",
+  "mla": [
+   "\"Maasai people.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Maasai_people."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_059",
+  "name": "Le Viandier Manuscript, Taillevent, France, 14th Century",
+  "icon": "📃",
+  "region": "reliquary",
+  "pl": {
+   "mode": "cache",
+   "detail": "Slipped between two larger cookbooks on the kitchen shelf."
+  },
+  "eff": {
+   "t": "path",
+   "region": "royal"
+  },
+  "tags": {
+   "c": "Values",
+   "e": "Methods and Tools",
+   "s": "Chemistry"
+  },
+  "kq": "What values guided a royal cook to guard his recipes closely?",
+  "ans": [
+   "Professional standing mattered. Guillaume Tirel, called Taillevent, served as chief cook to French kings, so his written techniques protected a reputation built on skills rivals could otherwise copy freely.",
+   "Passing knowledge forward mattered too. Copies of Le Viandier spread to other kitchens across France for centuries, so despite guarding his position, Taillevent's methods still became a shared reference point for the field."
+  ],
+  "rw": "Guillaume Tirel, known as Taillevent, served as a cook to the French royal court in the fourteenth century and is credited with Le Viandier, one of the earliest French cookbooks. The manuscript describes techniques for sauces, roasts, and elaborate presentation dishes for banquets. Historians have traced several manuscript copies, showing the text was recopied and adapted for over a century after Taillevent's death.",
+  "desc": "A thin manuscript booklet, ink faded to pale brown. Sauces once impossible to plate now sit in simple sentences.",
+  "mla": [
+   "\"Guillaume Tirel.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Guillaume_Tirel.",
+   "\"Le Viandier.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Le_Viandier."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_060",
+  "name": "Second Line Umbrella, New Orleans Jazz Funeral, Louisiana",
+  "icon": "☂️",
+  "region": "reliquary",
+  "pl": {
+   "mode": "minigame",
+   "detail": "Boundary Maze"
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Responsibility",
+   "v": 12
+  },
+  "tags": {
+   "c": "Responsibility",
+   "e": "Ethics",
+   "s": "Music"
+  },
+  "kq": "Who takes responsibility for turning a funeral procession into a celebration?",
+  "ans": [
+   "Brass bands and second line dancers carry that duty. Musicians choose the shift from slow hymns to upbeat tunes after leaving the cemetery, guiding mourners from grief toward a shared celebration of a life.",
+   "The whole community shares the responsibility too. Neighbors who join the second line with umbrellas and dancing keep the tradition alive, so the celebration depends on public participation as much as on the hired band."
+  ],
+  "rw": "New Orleans jazz funerals traditionally move from a mourner's home or church to the cemetery behind a brass band playing slow hymns. After the burial, the band shifts to upbeat music, and a second line of family, friends, and neighbors follows with decorated umbrellas and dancing. The tradition blends African, Caribbean, and European influences developed within the city's Black community.",
+  "desc": "A parasol trimmed with bright fringe and sequins. It has already danced through more than one funeral.",
+  "mla": [
+   "\"Jazz funeral.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Jazz_funeral."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_061",
+  "name": "Aleppo Codex Fragment, Masoretic Hebrew Bible, Syria, 930 CE",
+  "icon": "📜",
+  "region": "vault_rel",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Evidence",
+   "v": 13
+  },
+  "tags": {
+   "c": "Evidence",
+   "e": "Scope",
+   "s": "World Religions"
+  },
+  "kq": "How far can a damaged manuscript still count as evidence of a lost whole?",
+  "ans": [
+   "Surviving pages still anchor strong evidence. Scholars treat the remaining roughly three quarters of the Aleppo Codex as the most reliable base text for the Hebrew Bible, since a scribe named Aaron ben Asher fixed its vowels and notes around 930 CE.",
+   "Missing sections limit what the evidence can prove. About a third of the codex disappeared after riots in Aleppo in 1947, so any claim about those lost pages rests on later copies, not the codex itself."
+  ],
+  "rw": "Scribe Shlomo ben Buya'a wrote the Aleppo Codex around 930 CE, and scholar Aaron ben Asher added its vowels, accents, and marginal notes, creating what many consider the most accurate Hebrew Bible text. The codex survived centuries in Tiberias, Jerusalem, and Aleppo, Syria, but rioters damaged the synagogue housing it in 1947, and roughly a third of the pages went missing. The Israel Museum in Jerusalem now holds the surviving portion.",
+  "desc": "Cream parchment, dense with tiny vowel marks. Burn marks crawl along one damaged edge.",
+  "mla": [
+   "\"Aleppo Codex.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Aleppo_Codex."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_062",
+  "name": "Livonian Language Dictionary, Lauri Kettunen, 1938",
+  "icon": "📙",
+  "region": "vault_lang",
+  "pl": {
+   "mode": "npc",
+   "detail": "Keeper Zane: hands it over if you name the sea the Livonians once fished."
+  },
+  "eff": {
+   "t": "ability",
+   "id": "dowse"
+  },
+  "tags": {
+   "c": "Certainty",
+   "e": "Perspectives",
+   "s": "Language B"
+  },
+  "kq": "Can linguists be certain they recorded a dying language before it changed?",
+  "ans": [
+   "Fieldwork with living speakers gave solid confidence. Kettunen partnered directly with Livonian fishing families on Latvia's coast in the early twentieth century, so his dictionary rests on speech heard firsthand, not guesswork.",
+   "Language never holds fully still. Livonian speech had already absorbed Latvian and Estonian influence by the time Kettunen recorded it, so even careful fieldwork captures one moving point, not a fixed original."
+  ],
+  "rw": "Finnish linguist Lauri Kettunen published a major Livonian dictionary in 1938, documenting a Uralic language once spoken by fishing communities on Latvia's Courland coast. The last fully fluent native speaker, Grizelda Kristina, died in 2013, though a small revival movement continues today. Kettunen's fieldwork remains one of the fullest records of the language's vocabulary and sounds.",
+  "desc": "A dense reference volume, its cover salt stained. Fishing terms fill entire columns.",
+  "mla": [
+   "\"Livonian language.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Livonian_language."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_063",
+  "name": "Changmingsuo Baby Lock Amulet, Qing Dynasty, China",
+  "icon": "🔒",
+  "region": "reliquary",
+  "pl": {
+   "mode": "cache",
+   "detail": "Hung on a red thread inside the family shrine drawer."
+  },
+  "eff": {
+   "t": "perspective",
+   "c": "Truth"
+  },
+  "tags": {
+   "c": "Truth",
+   "e": "Methods and Tools",
+   "s": "World Religions"
+  },
+  "kq": "Does wearing a lock shaped charm make a claim that can be tested as true?",
+  "ans": [
+   "The claim resists any direct test. Families wore the changmingsuo to lock a child's fate to a long life, a promise about the future no method can confirm or deny at the moment of its making.",
+   "A narrower claim can be tested. If the charm claims specific protection from a named illness, doctors can compare rates of that illness between wearers and non wearers, at least in principle."
+  ],
+  "rw": "Chinese families, especially during the Qing dynasty, gave children silver or gold locket charms called changmingsuo, meaning long life lock, believing the lock symbolically secured a child's spirit to their body and to a long life. Craftsmen often engraved auspicious characters or animal designs onto the metal. Grandparents or temples traditionally presented the charm at a child's first month or first birthday celebration.",
+  "desc": "A small silver lock on a red cord. Tiny engraved characters wish long life to whoever wears it.",
+  "mla": [
+   "\"Longevity lock.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Longevity_lock."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_064",
+  "name": "Unua Libro Esperanto Phrasebook, Zamenhof, Warsaw, 1887",
+  "icon": "📗",
+  "region": "vault_lang",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Interpretation",
+   "v": 14
+  },
+  "tags": {
+   "c": "Interpretation",
+   "e": "Ethics",
+   "s": "Language B"
+  },
+  "kq": "Should one invented language claim to remove all misinterpretation between peoples?",
+  "ans": [
+   "A shared neutral tongue can reduce certain mistakes. Zamenhof designed Esperanto with simple, regular grammar specifically so no single nation's language would hold an advantage, cutting down one common source of friction.",
+   "Grammar alone cannot erase the ethical stakes. Culture, tone, and history still shape how any language is understood, so even a neutral vocabulary cannot fully guarantee two speakers interpret each other the same way."
+  ],
+  "rw": "L. L. Zamenhof, an eye doctor in Warsaw, published the Unua Libro in 1887 under the pen name Doktoro Esperanto, introducing his constructed international language. He hoped a shared, politically neutral language could ease conflict between groups divided by nationality and religion in the Russian Empire. Esperanto gained a global following and is still spoken by an estimated hundreds of thousands of people today.",
+  "desc": "A slim gray pamphlet, its grammar rules fitting on a single page. A made up language waits inside.",
+  "mla": [
+   "\"Esperanto.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Esperanto.",
+   "\"L. L. Zamenhof.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/L._L._Zamenhof."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_065",
+  "name": "Banarasi Silk Wedding Saree, Varanasi Handloom",
+  "icon": "🥻",
+  "region": "reliquary",
+  "pl": {
+   "mode": "npc",
+   "detail": "Weaver Imtiaz: hands it over if you count the gold zari threads."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Power",
+   "v": 18
+  },
+  "tags": {
+   "c": "Power",
+   "e": "Scope",
+   "s": "Business Management"
+  },
+  "kq": "How far does owning a costly saree signal a family's standing at a wedding?",
+  "ans": [
+   "Cost and visible craft together broadcast standing clearly. A Banarasi saree can take weeks of handloom craft using gold zari thread, so the finished cloth advertises a family's resources to every wedding guest.",
+   "Rented and secondhand sarees complicate that signal. Many families now rent a Banarasi saree for one event, so the same display of standing may reflect a single day's budget rather than lasting wealth."
+  ],
+  "rw": "Weavers in Varanasi, India, produce Banarasi silk sarees on handlooms, often setting gold or silver zari thread into elaborate floral and paisley patterns. Brides across North India traditionally receive a Banarasi saree as part of wedding preparations, and a fine piece can take weeks or months to complete. The Indian government granted Banarasi sarees a Geographical Indication tag in 2009 to protect the craft's name.",
+  "desc": "Heavy red silk, gold thread woven into dense floral borders. It holds its shape even folded flat.",
+  "mla": [
+   "\"Banarasi sari.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Banarasi_sari."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_066",
+  "name": "Darjeeling Tea Geographical Indication Tag, India, 2004",
+  "icon": "🍃",
+  "region": "reliquary",
+  "pl": {
+   "mode": "shop",
+   "detail": "",
+   "cost": 40
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Justification",
+   "v": 10
+  },
+  "tags": {
+   "c": "Justification",
+   "e": "Perspectives",
+   "s": "Economics"
+  },
+  "kq": "What justifies letting only one region put its name on a tea label?",
+  "ans": [
+   "Distinct growing conditions support the claim. Darjeeling's altitude, soil, and climate shape a flavor buyers can taste, so tying the name to that one place rewards an actual geographic difference.",
+   "Legal protection also serves a market strategy. The tag blocks cheaper tea grown elsewhere from using the name, so part of the justification defends price and reputation as much as any taste difference."
+  ],
+  "rw": "India registered Darjeeling tea as its first Geographical Indication product in 2004, restricting the name to tea grown in specific gardens in the Darjeeling district of West Bengal. The region's high altitude, cool climate, and particular soil give the tea a flavor producers and buyers describe as distinct from tea grown elsewhere. The Tea Board of India monitors gardens and can revoke certification from producers who violate the rules.",
+  "desc": "A small woven paper tag, stitched to a tea chest. A registration number sits below the region's name.",
+  "mla": [
+   "\"Darjeeling tea.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Darjeeling_tea."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_067",
+  "name": "Braille Alphabet Card, Louis Braille, France, 1824",
+  "icon": "🔤",
+  "region": "vault_lang",
+  "pl": {
+   "mode": "minigame",
+   "detail": "Cipher of the Stacks"
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Explanation",
+   "v": 15
+  },
+  "tags": {
+   "c": "Explanation",
+   "e": "Methods and Tools",
+   "s": "Design Technology"
+  },
+  "kq": "What makes raised dots a good explanation of a whole alphabet?",
+  "ans": [
+   "A small fixed set of dots explains a large system efficiently. Six raised points in different patterns cover every letter, number, and punctuation mark, so a simple tactile code can explain an entire alphabet through touch alone.",
+   "The explanation only holds once a reader learns the code. A sighted person glancing at raised dots understands nothing without training, so the system explains letters well only to those already taught its logic."
+  ],
+  "rw": "Louis Braille, blind since early childhood, developed his raised dot reading system in France by 1824, refining an earlier military code meant for reading in the dark. Each braille cell uses up to six raised dots to represent a letter, number, or punctuation mark. Schools for blind students across the world adopted braille through the nineteenth and twentieth centuries, and it remains a standard tactile reading system today.",
+  "desc": "A stiff card, dotted in raised bumps. Fingertips read what eyes cannot.",
+  "mla": [
+   "\"Braille.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Braille.",
+   "\"Louis Braille.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Louis_Braille."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_068",
+  "name": "Hardanger Bunad, Norwegian Regional Folk Dress, Norway",
+  "icon": "👗",
+  "region": "reliquary",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Objectivity",
+   "v": 12
+  },
+  "tags": {
+   "c": "Objectivity",
+   "e": "Ethics",
+   "s": "Visual Arts"
+  },
+  "kq": "Can a strict regional pattern be judged as more objectively correct than a personal change to it?",
+  "ans": [
+   "Local associations keep a strict standard. Bunad councils in Norway document each region's historic pattern and can rule a version wrong if it drifts from local records, treating history itself as the objective check.",
+   "Living tradition resists a fixed rule. Wearers have adapted colors and embroidery over generations, so calling only the oldest version correct ignores how folk dress has always changed a little with each generation."
+  ],
+  "rw": "Norwegians wear the bunad, a regional folk costume, at weddings, confirmations, and national celebrations such as Constitution Day on May 17th. Each district has its own recognized pattern, color scheme, and embroidery, often documented by local bunad councils formed in the twentieth century to standardize historic designs. Families frequently pass a bunad down for decades, given its high cost and ceremonial value.",
+  "desc": "Dark wool skirt, embroidered apron, and a silver brooch at the collar. Every stitch names a home district.",
+  "mla": [
+   "\"Bunad.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Bunad."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_069",
+  "name": "Axum Tabot, Guarded Ark Replica, Ethiopia",
+  "icon": "📦",
+  "region": "vault_rel",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "key",
+   "door": "secret_th"
+  },
+  "tags": {
+   "c": "Perspective",
+   "e": "Scope",
+   "s": "World Religions"
+  },
+  "kq": "Whose perspective decides that an object too sacred to see still holds power?",
+  "ans": [
+   "The guardian's perspective decides completely. Only one monk at the Church of Our Lady Mary of Zion in Axum may view the tabot he guards for life, so the community trusts a single witness none of them can check.",
+   "Believers beyond the guardian also shape that power. Millions of Ethiopian Orthodox Christians treat the tabot as central without ever seeing it, so shared faith sustains the object's importance more than any one person's private view."
+  ],
+  "rw": "The Ethiopian Orthodox Church holds that the true Ark of the Covenant rests in the Church of Our Lady Mary of Zion in Axum, Ethiopia, guarded by a single monk for life who never leaves the chapel grounds. Every Ethiopian Orthodox church keeps its own tabot, a replica slab representing the Ark, kept hidden from public view except during the Timkat festival procession. Scholars have never been permitted to examine the Axum original directly.",
+  "desc": "A cloth wrapped box, carried but never opened. Even its keeper speaks of it only in a whisper.",
+  "mla": [
+   "\"Ark of the Covenant.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Ark_of_the_Covenant.",
+   "\"Tabot.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Tabot."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_070",
+  "name": "Zimbabwe Bird Soapstone Carving, Great Zimbabwe, 13th Century",
+  "icon": "🐦",
+  "region": "zimbabwe",
+  "pl": {
+   "mode": "npc",
+   "detail": "Curator Chiwenga: hands it over if you explain why it left and came back."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Culture",
+   "v": 14
+  },
+  "tags": {
+   "c": "Culture",
+   "e": "Perspectives",
+   "s": "History"
+  },
+  "kq": "Whose culture does a returned carving represent after decades abroad?",
+  "ans": [
+   "The origin community's claim stands strongest. Great Zimbabwe's builders carved the bird as a symbol of authority, and Zimbabwe placed it on the national flag, so returning carvings restore a culture's own symbol to its own soil.",
+   "Time abroad can add a layer too. One bird spent nearly a century in Cecil Rhodes's estate in South Africa before its return in 2003, so its story now carries colonial history alongside its original meaning."
+  ],
+  "rw": "Builders at Great Zimbabwe carved eight soapstone birds, likely representing authority or ancestral messengers, probably between the thirteenth and fifteenth centuries. Colonial era collectors and settlers removed several birds from the site, scattering them as far as South Africa and Germany. Zimbabwe has recovered most of the birds since independence in 1980, and the emblem now appears on the national flag.",
+  "desc": "A tall soapstone bird on a carved pillar. Its blank eyes have watched several countries claim it.",
+  "mla": [
+   "\"Zimbabwe Bird.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Zimbabwe_Bird."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_071",
+  "name": "Ni'matnama Cookbook, Sultan of Mandu, India, c. 1500",
+  "icon": "📃",
+  "region": "kerala",
+  "pl": {
+   "mode": "cache",
+   "detail": "Tucked behind loose bricks in the old palace kitchen wall."
+  },
+  "eff": {
+   "t": "perspective",
+   "c": "Values"
+  },
+  "tags": {
+   "c": "Values",
+   "e": "Methods and Tools",
+   "s": "Chemistry"
+  },
+  "kq": "What values does an illustrated cookbook reveal about a sultan's court?",
+  "ans": [
+   "Pleasure and display both mattered openly. The Ni'matnama illustrates recipes for perfumes, aphrodisiacs, and elaborate dishes alongside paintings of the sultan himself, valuing sensory enjoyment enough to record it in detail.",
+   "Control over knowledge mattered too. Keeping such an elaborate manuscript within the palace limited these recipes to the ruling household, valuing exclusivity as much as any single ingredient or method."
+  ],
+  "rw": "Sultans of Mandu in central India commissioned the Ni'matnama, the Sultan's Book of Delights, around 1500, recording recipes, perfumes, and remedies alongside miniature paintings. Ghiyath Shah and his son Nasir Shah both contributed to the manuscript's growth. The British Library now holds the surviving copy, valued for its blend of Persian, Indian, and Rajasthani painting styles alongside its recipes.",
+  "desc": "A painted manuscript page, spices sketched beside a seated ruler. Persian script curls along the border.",
+  "mla": [
+   "\"Ni'matnama.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Ni%27matnama."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_072",
+  "name": "Black Watch Tartan Kilt, Scottish Regiment, 1739",
+  "icon": "🏴",
+  "region": "royal",
+  "pl": {
+   "mode": "minigame",
+   "detail": "Boundary Maze"
+  },
+  "eff": {
+   "t": "battle",
+   "v": 1,
+   "kind": "time"
+  },
+  "tags": {
+   "c": "Responsibility",
+   "e": "Ethics",
+   "s": "History"
+  },
+  "kq": "Does wearing a regiment's tartan carry a duty to uphold its history?",
+  "ans": [
+   "Regimental tradition says yes clearly. Soldiers who wear the Black Watch tartan inherit responsibility for the regiment's conduct and reputation, tying a modern wearer to actions taken long before they enlisted.",
+   "A wearer can separate cloth from conduct. Someone can value the pattern's craft and history without accepting responsibility for every historical action linked to the regiment, treating the tartan as heritage rather than a binding oath."
+  ],
+  "rw": "The British Army raised the Black Watch regiment in Scotland in 1739, issuing soldiers a dark green, blue, and black tartan that gave the unit its name. The regiment served across the British Empire and later in both World Wars, and Scottish clans and civilians also adopted versions of the pattern over time. The tartan remains one of the most recognized in Scottish military history.",
+  "desc": "Dark green and navy checked wool, pleated tight. It has marched further than most maps show.",
+  "mla": [
+   "\"Black Watch.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Black_Watch."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_073",
+  "name": "Hyakumanto Darani Scroll, Empress Shotoku, Japan, 770 CE",
+  "icon": "📜",
+  "region": "library",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Evidence",
+   "v": 11
+  },
+  "tags": {
+   "c": "Evidence",
+   "e": "Scope",
+   "s": "History"
+  },
+  "kq": "How does a fixed number of printed copies count as evidence of a historical claim?",
+  "ans": [
+   "The huge print run supports strong evidence. Empress Shotoku ordered one million copies of this Buddhist charm between 764 and 770 CE, and enough surviving scrolls and miniature pagodas exist to confirm the project happened at the scale historical records describe.",
+   "A huge number does not confirm every detail. Historians still debate the exact printing method used, woodblock or metal plate, so the scrolls prove mass production occurred without settling every technical question."
+  ],
+  "rw": "Empress Shotoku of Japan commissioned one million small wooden pagodas, each holding a printed Buddhist charm, the Hyakumanto Darani, completed around 770 CE. Temples across Japan received the pagodas as offerings meant to generate religious merit and mark the end of a rebellion. Surviving examples make the charms possibly the oldest reliably dated printed texts in the world.",
+  "desc": "A tiny wooden pagoda, hollow at the base. A tightly rolled paper scroll waits inside.",
+  "mla": [
+   "\"Hyakumanto Darani.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Hyakumant%C5%8D_Darani."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_074",
+  "name": "Hawaiian Language Dictionary, Pukui and Elbert, 1957",
+  "icon": "📙",
+  "region": "shore",
+  "pl": {
+   "mode": "npc",
+   "detail": "Kumu Leilani: hands it over if you greet her in Hawaiian first."
+  },
+  "eff": {
+   "t": "stamina",
+   "v": 1
+  },
+  "tags": {
+   "c": "Certainty",
+   "e": "Perspectives",
+   "s": "Language B"
+  },
+  "kq": "How certain can a dictionary be when its authors blend two different kinds of expertise?",
+  "ans": [
+   "Combining expertise builds firmer certainty. Mary Kawena Pukui brought native fluency and cultural memory, while Samuel Elbert brought academic linguistic training, so the dictionary rests on two independent kinds of confirmation.",
+   "Blended authorship can also blur a clean answer. Readers cannot always tell which entries rely on Pukui's lived knowledge and which rely on Elbert's comparative method, so the certainty of any single entry stays a little mixed."
+  ],
+  "rw": "Mary Kawena Pukui, a native Hawaiian speaker and scholar, and linguist Samuel Elbert published their Hawaiian dictionary in 1957, later expanded in further editions. The book became a central tool during the Hawaiian language revival that grew from the 1970s onward, after decades of decline following an 1896 law restricting Hawaiian in schools. The University of Hawaii Press still publishes updated editions today.",
+  "desc": "A thick dictionary, its spine cracked from daily use. Vowel marks stack carefully over island place names.",
+  "mla": [
+   "\"Mary Kawena Pukui.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Mary_Kawena_Pukui.",
+   "\"Hawaiian language.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Hawaiian_language."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_075",
+  "name": "Berrad Tea Set, Moroccan Mint Tea Service, Fez",
+  "icon": "🍵",
+  "region": "baghdad",
+  "pl": {
+   "mode": "shop",
+   "detail": "",
+   "cost": 65
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Truth",
+   "v": 9
+  },
+  "tags": {
+   "c": "Truth",
+   "e": "Methods and Tools",
+   "s": "Chemistry"
+  },
+  "kq": "Does a high pour of tea change a true measure of hospitality?",
+  "ans": [
+   "Technique can carry actual meaning here. Pouring mint tea from height aerates the leaves and creates foam, a visible sign hosts use to show care and skill, so the method itself communicates a truth about welcome.",
+   "Skill and warmth do not always match perfectly. A practiced pour can look impressive while a host feels indifferent inside, so the visible technique does not guarantee the truth of the welcome behind it."
+  ],
+  "rw": "Moroccan households prepare mint tea in a metal teapot called a berrad, brewing green tea with fresh mint and sugar. Hosts traditionally pour the tea from a height above small glasses, creating a thin foam on top considered a mark of a well made pot. Serving three rounds of tea to a guest follows customary hospitality across Morocco and wider North Africa.",
+  "desc": "A tall silver pot, dented from years of pouring. Small painted glasses wait in a neat row.",
+  "mla": [
+   "\"Maghrebi mint tea.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Maghrebi_mint_tea."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_076",
+  "name": "Hamsa Hand Amulet, Silver, North Africa",
+  "icon": "🪬",
+  "region": "reliquary",
+  "pl": {
+   "mode": "cache",
+   "detail": "Hung inside a doorway, half hidden behind a curtain."
+  },
+  "eff": {
+   "t": "path",
+   "region": "baghdad"
+  },
+  "tags": {
+   "c": "Interpretation",
+   "e": "Ethics",
+   "s": "World Religions"
+  },
+  "kq": "Should one symbol's meaning belong to a single religion when many groups use it?",
+  "ans": [
+   "Shared use across faiths argues against a single owner. Jewish communities call it the Hand of Miriam and Muslim communities call it the Hand of Fatima, so centuries of parallel use make an exclusive claim hard to defend fairly.",
+   "Naming still carries lasting stakes for identity. A community may feel a shared symbol loses specific meaning when sold as generic jewelry, so shared use does not erase a group's wish to protect its own interpretation."
+  ],
+  "rw": "Communities across North Africa and the Middle East have used the hamsa, a hand shaped amulet, for centuries to guard against the evil eye. Jewish tradition often calls it the Hand of Miriam, while Muslim tradition often calls it the Hand of Fatima, and both predate either religious label in the region's older folk practice. Silversmiths in Morocco, Tunisia, and elsewhere continue to produce hamsa jewelry for both religious and decorative use.",
+  "desc": "A flat silver hand, palm out, with a small blue eye at its center. Two thumbs mirror each other at the base.",
+  "mla": [
+   "\"Hamsa.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Hamsa."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_077",
+  "name": "Drapo Vodou Sequined Flag, Haiti, 20th Century",
+  "icon": "🚩",
+  "region": "reliquary",
+  "pl": {
+   "mode": "minigame",
+   "detail": "Fallacy Volley"
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Power",
+   "v": 13
+  },
+  "tags": {
+   "c": "Power",
+   "e": "Scope",
+   "s": "Visual Arts"
+  },
+  "kq": "How far does a sequined flag hold ritual authority in a ceremony?",
+  "ans": [
+   "Vodou practice treats the flag as functional, not decorative. A houngan or mambo waves the drapo to call a specific spirit, or lwa, into the ceremony, so its authority operates through the ritual action itself.",
+   "Outside the ceremony the same object shifts categories entirely. Galleries now display drapo Vodou as fine art, so the identical flag holds artistic status in one setting and ritual authority in another, without the sequins changing at all."
+  ],
+  "rw": "Haitian Vodou practitioners create drapo, sequined and beaded flags, each dedicated to a specific spirit, or lwa. A houngan or mambo, a priest or priestess, waves the flag near the start of a ceremony to call that spirit's presence. Artists such as those in the Saint Soleil movement have also brought drapo Vodou into gallery and museum collections as recognized art.",
+  "desc": "Thousands of tiny sequins catch the light across dark cloth. A stitched symbol names the spirit it calls.",
+  "mla": [
+   "\"Vodou flag.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Vodou_flag."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_078",
+  "name": "Mate Gourd and Bombilla, Shared Yerba Mate Set, Argentina",
+  "icon": "🧉",
+  "region": "cusco",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Justification",
+   "v": 12
+  },
+  "tags": {
+   "c": "Justification",
+   "e": "Perspectives",
+   "s": "Geography"
+  },
+  "kq": "What justifies passing one drinking straw between many different mouths?",
+  "ans": [
+   "Shared custom justifies it within the group. Friends and family who share mate treat the single gourd and straw as a sign of trust and equal standing, so the practice justifies itself through its own social meaning.",
+   "Health guidance can challenge that justification from outside. Doctors note shared straws can pass infections, so a health based standard would reject the same practice that the social custom fully accepts."
+  ],
+  "rw": "Communities across Argentina, Uruguay, Paraguay, and southern Brazil drink yerba mate, a caffeinated tea, from a hollowed gourd through a metal straw called a bombilla. Groups traditionally pass a single gourd around a circle, refilling and drinking in turn rather than each person using a separate cup. The custom predates European contact, developed by Guarani peoples before Spanish colonization.",
+  "desc": "A small dried gourd, packed with green tea leaves. A metal straw juts out at an angle.",
+  "mla": [
+   "\"Mate (drink).\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Mate_(drink)."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_079",
+  "name": "Cornish Language Revival Dictionary, Cornwall, 2011",
+  "icon": "📕",
+  "region": "vault_lang",
+  "pl": {
+   "mode": "npc",
+   "detail": "Registrar Pasco: hands it over if you spell one Cornish place name."
+  },
+  "eff": {
+   "t": "ability",
+   "id": "beacon"
+  },
+  "tags": {
+   "c": "Explanation",
+   "e": "Methods and Tools",
+   "s": "Language B"
+  },
+  "kq": "What makes a single standard spelling a good explanation for a revived language?",
+  "ans": [
+   "One agreed system reduces confusion fast. The Standard Written Form adopted in 2008 gave schools and signs a single spelling to teach, so learners get one clear explanation instead of competing older systems.",
+   "A single standard cannot explain every historical version. Cornish had several spelling systems reconstructed by different revivalists across the twentieth century, so picking one standard settles practical teaching without resolving every scholarly disagreement."
+  ],
+  "rw": "Revivalists have rebuilt the Cornish language since the early twentieth century, drawing on historical texts after the last traditional native speakers died out around 1800. Competing spelling systems caused confusion for decades until a Cornish Language Partnership agreed on a Standard Written Form in 2008. UNESCO reclassified Cornish from extinct to critically endangered, and modern dictionaries now support a small but growing number of speakers.",
+  "desc": "A slim paperback, dog eared at the grammar section. Place names line up beside their older spellings.",
+  "mla": [
+   "\"Cornish language.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Cornish_language."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_080",
+  "name": "Phra Somdej Amulet, Wat Rakhang, Thailand, 19th Century",
+  "icon": "🙏",
+  "region": "reliquary",
+  "pl": {
+   "mode": "cache",
+   "detail": "Pressed flat inside an old prayer book on the lower shelf."
+  },
+  "eff": {
+   "t": "perspective",
+   "c": "Objectivity"
+  },
+  "tags": {
+   "c": "Objectivity",
+   "e": "Ethics",
+   "s": "World Religions"
+  },
+  "kq": "Can experts objectively separate an authentic amulet from a clever copy?",
+  "ans": [
+   "Material testing supports a fairly objective check. Experts examine the exact clay mixture, mould wear, and age markers that Somdej Toh's original amulets show, so testing gives a repeatable standard collectors can trust.",
+   "Belief in an amulet's power resists any objective test entirely. Two identical looking pieces can carry very different value to believers based on a temple's blessing history, a factor no lab test can measure."
+  ],
+  "rw": "Monks at Wat Rakhang in Bangkok, under the guidance of the respected monk Somdej Toh in the nineteenth century, produced small clay Buddha amulets known as Phra Somdej. Collectors today consider certain original amulets among the most valuable in Thailand, and a market for authentication and grading has grown around them. Fakes are common enough that specialist authentication services examine surface texture and material composition.",
+  "desc": "A small rectangular clay tablet, a seated Buddha pressed into its face. Decades of handling have smoothed its edges.",
+  "mla": [
+   "\"Phra Somdej.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Phra_Somdej."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_081",
+  "name": "Three Sisters Seed Basket, Haudenosaunee, New York",
+  "icon": "🌽",
+  "region": "historian",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Perspective",
+   "v": 15
+  },
+  "tags": {
+   "c": "Perspective",
+   "e": "Scope",
+   "s": "Biology"
+  },
+  "kq": "How far does calling corn, beans, and squash 'sisters' change how farmers see them?",
+  "ans": [
+   "The name reframes the plants as partners immediately. Haudenosaunee farmers plant corn, beans, and squash together because each helps the others grow, so calling them sisters treats a farming system as a relationship, more than three separate crops.",
+   "An outside agronomist can describe the same fields differently. A scientist might explain the same result through nitrogen fixation and shade coverage, so the identical planting method supports both a relational perspective and a chemical one."
+  ],
+  "rw": "Haudenosaunee and other Indigenous nations in the northeastern woodlands of North America have long planted corn, beans, and squash together, a method known as the Three Sisters. Corn stalks support climbing beans, beans add nitrogen to the soil, and squash leaves shade out weeds and hold moisture. Families historically stored the harvested seeds in woven baskets, passing planting knowledge to the next season's growers.",
+  "desc": "A tightly woven basket, holding dried kernels, beans, and squash seeds. Dirt still clings to a few roots.",
+  "mla": [
+   "\"Three Sisters (agriculture).\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Three_Sisters_(agriculture)."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_082",
+  "name": "Steel Pan Drum, Trinidad Carnival, Late 1940s",
+  "icon": "🥁",
+  "region": "reliquary",
+  "pl": {
+   "mode": "npc",
+   "detail": "Panman Selwyn: hands it over if you tap out one clear note."
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Culture",
+   "v": 14
+  },
+  "tags": {
+   "c": "Culture",
+   "e": "Perspectives",
+   "s": "Music"
+  },
+  "kq": "How does a discarded oil drum become a symbol of a nation's culture?",
+  "ans": [
+   "Necessity and invention together built that meaning. Trinidadian musicians hammered tuned notes into surplus oil drums after colonial authorities banned other drums, so the instrument itself carries a history of resourceful resistance.",
+   "International recognition later added another layer. Steel pan bands now perform worldwide and represent Trinidad and Tobago at global events, so an instrument built from scrap now carries official national pride as well as its street origins."
+  ],
+  "rw": "Musicians in Trinidad developed the steel pan in the 1930s and 1940s, tuning sections of oil drums to produce distinct musical notes after British colonial authorities restricted traditional drumming. The instrument became central to Trinidad and Tobago's Carnival celebrations and the annual Panorama competition. Trinidad and Tobago named the steel pan its national instrument in 1992.",
+  "desc": "A dented metal drum, its surface hammered into shallow note shaped sections. A pair of rubber tipped sticks rest inside.",
+  "mla": [
+   "\"Steelpan.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Steelpan."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_083",
+  "name": "Wooden Mooncake Mold, Mid-Autumn Festival, Qing Dynasty",
+  "icon": "🥮",
+  "region": "reliquary",
+  "pl": {
+   "mode": "shop",
+   "detail": "",
+   "cost": 35
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Values",
+   "v": 11
+  },
+  "tags": {
+   "c": "Values",
+   "e": "Methods and Tools",
+   "s": "Design Technology"
+  },
+  "kq": "What values decide which symbol gets pressed into a family's mooncakes?",
+  "ans": [
+   "Family identity often wins first. Carved characters or floral patterns unique to a mold can mark a specific bakery or family recipe, so choosing a design values recognition and continuity above simple decoration.",
+   "Shared meaning can outweigh individual identity too. Many molds carve the same rabbit or moon goddess Chang'e across different regions, so the value placed on a shared festival story can matter more than any single maker's signature."
+  ],
+  "rw": "Bakers across China and wider East Asia press sweet fillings into carved wooden or plastic molds to shape mooncakes for the Mid-Autumn Festival, a harvest celebration tied to the full moon. Traditional molds carve designs such as rabbits, flowers, or the moon goddess Chang'e into the cake's surface. Families and bakeries share mooncakes with relatives and colleagues as a gesture of reunion and goodwill during the festival.",
+  "desc": "A carved wooden block, a rabbit pattern pressed deep into its face. Flour dust still fills the grooves.",
+  "mla": [
+   "\"Mooncake.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Mooncake."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_084",
+  "name": "Compostela Pilgrim Certificate, Santiago de Compostela, Spain",
+  "icon": "🥾",
+  "region": "vault_rel",
+  "pl": {
+   "mode": "minigame",
+   "detail": "Rung Climb"
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Responsibility",
+   "v": 13
+  },
+  "tags": {
+   "c": "Responsibility",
+   "e": "Ethics",
+   "s": "World Religions"
+  },
+  "kq": "Does accepting a pilgrim certificate create an obligation to have walked the full route in good faith?",
+  "ans": [
+   "The certificate's rule creates a clear duty. Officials only grant the Compostela to walkers who complete at least the last 100 kilometers on foot, so accepting the paper means accepting that specific standard was met.",
+   "Enforcement relies on the walker's own word. Stamps in a pilgrim passport are easy to collect without walking every stretch, so the weight of the obligation rests on personal conscience more than any checkpoint."
+  ],
+  "rw": "The Cathedral of Santiago de Compostela in Spain issues the Compostela, a certificate for pilgrims who complete at least the final 100 kilometers of the Camino de Santiago on foot, or 200 kilometers by bicycle. Pilgrims collect stamps in a credential, or pilgrim passport, at hostels and churches along the route to prove their journey. The modern pilgrimage has grown enormously since the 1980s, drawing walkers for religious, personal, and recreational reasons alike.",
+  "desc": "A stiff paper certificate, Latin text filling its center. A worn passport of ink stamps rests beside it.",
+  "mla": [
+   "\"Camino de Santiago.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Camino_de_Santiago.",
+   "\"Compostela.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Compostela."
+  ],
+  "img": ""
+ },
+ {
+  "id": "r65_085",
+  "name": "Uhi Chisel, Traditional Ta Moko Tattoo Tool, New Zealand",
+  "icon": "🪶",
+  "region": "songlines",
+  "pl": {
+   "mode": "floor",
+   "detail": ""
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Culture",
+   "v": 16
+  },
+  "tags": {
+   "c": "Culture",
+   "e": "Perspectives",
+   "s": "Visual Arts"
+  },
+  "kq": "How does a permanent mark on skin carry a specific ancestor's story?",
+  "ans": [
+   "Design elements encode genealogy directly. Maori ta moko patterns traditionally reference a wearer's family lines, achievements, and status, so specific curls and spirals on the skin function like a readable record for those trained to see it.",
+   "Meaning still depends on a knowledgeable viewer. Someone outside Maori culture sees decorative curves alone, so the pattern's full cultural weight only appears to a reader who already holds the required background."
+  ],
+  "rw": "Maori tattoo artists in New Zealand traditionally carved ta moko designs into the skin using a bone or shell chisel called an uhi, striking it with a small mallet to cut grooves rather than puncture with a needle. Patterns traditionally recorded a person's genealogy, rank, and life achievements, especially on the face. Contemporary artists now often use tattoo needles, though some practitioners still choose the traditional chisel method for its cultural weight.",
+  "desc": "A narrow bone blade, notched at the cutting edge. Old stains mark years of careful, patient craft.",
+  "mla": [
+   "\"Ta moko.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/T%C4%81_moko."
+  ],
+  "img": ""
+ }
+]

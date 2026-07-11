@@ -1,0 +1,367 @@
+[
+ {
+  "id": "v37_ch_door_math",
+  "name": "Ishango Bone, Congo Basin, c. 20,000 BCE",
+  "icon": "🦴",
+  "region": "ch_door_math",
+  "pl": {
+   "mode": "chamber",
+   "detail": ""
+  },
+  "eff": {
+   "t": "ability",
+   "id": "dowse"
+  },
+  "tags": {
+   "c": "Certainty",
+   "e": "Scope",
+   "s": "Mathematics"
+  },
+  "kq": "How can anyone know what a mark on a bone meant to the hand which carved it?",
+  "ans": [
+   "Patterned groupings invite a mathematical reading. The notches cluster in ways some scholars read as tallies or a lunar count, so the pattern itself serves as evidence of intent.",
+   "Intent may stay out of reach. Other scholars read the notches as grip aids, so the same marks support rival explanations and certainty stays low."
+  ],
+  "rw": "Fishers by Lake Edward, in today's Democratic Republic of the Congo, carved rows of notches into a baboon fibula over 20,000 years ago. Belgian geologist Jean de Heinzelin found it at Ishango in 1950. Many historians of mathematics treat it as one of humanity's oldest counting artifacts, while others urge caution about reading modern arithmetic into ancient marks.",
+  "desc": "A small bone, notched in rows. The oldest argument about counting fits in one hand.",
+  "mla": [
+   "\"Ishango Bone.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Ishango_bone."
+  ],
+  "img": "commons.wikimedia.org/wiki/Category:Ishango_bone"
+ },
+ {
+  "id": "v37_ch_door_ns",
+  "name": "Rømer's Meridian Circle, Copenhagen, 1704",
+  "icon": "🔭",
+  "region": "ch_door_ns",
+  "pl": {
+   "mode": "chamber",
+   "detail": ""
+  },
+  "eff": {
+   "t": "ability",
+   "id": "lens"
+  },
+  "tags": {
+   "c": "Evidence",
+   "e": "Methods and Tools",
+   "s": "Physics"
+  },
+  "kq": "How far do instruments decide which facts become visible at all?",
+  "ans": [
+   "An instrument opens a channel and narrows it at once. Rømer's circle tracked star crossings with new precision, so time itself became a measurable object rather than a felt flow.",
+   "The observer never fully leaves. Rømer still judged each crossing by eye and ear, so the device sharpened human judgment without replacing it."
+  ],
+  "rw": "Danish astronomer Ole Rømer, famous for first measuring the speed of light in 1676, built a meridian circle in Copenhagen to time stars crossing the north-south line. The design became a standard tool of positional astronomy for two centuries. Observatories set national clocks by such crossings, tying everyday time to the sky.",
+  "desc": "A telescope locked to one line of sky. It refuses every direction but the meridian, on principle.",
+  "mla": [
+   "\"Ole Rømer.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Ole_R%C3%B8mer."
+  ],
+  "img": ""
+ },
+ {
+  "id": "v37_ch_door_arts",
+  "name": "Hokusai's Woodblocks for the Great Wave, Edo, 1831",
+  "icon": "🌊",
+  "region": "ch_door_arts",
+  "pl": {
+   "mode": "chamber",
+   "detail": ""
+  },
+  "eff": {
+   "t": "perspective",
+   "c": "Interpretation"
+  },
+  "tags": {
+   "c": "Interpretation",
+   "e": "Methods and Tools",
+   "s": "Visual Arts"
+  },
+  "kq": "When thousands of prints leave one set of blocks, where does the original live?",
+  "ans": [
+   "The blocks hold the design, so a case exists for calling them the original. Every print is an impression of their carved surface, and the carver's hand set every line.",
+   "Originality can live in the design rather than the object. Hokusai drew the image, carvers cut it, printers inked it, so the print is a team's answer and no single object owns it."
+  ],
+  "rw": "Katsushika Hokusai designed Under the Wave off Kanagawa around 1831 as part of his Thirty-six Views of Mount Fuji. Carvers cut his design into cherry woodblocks, and printers pulled thousands of impressions, which sold cheaply in Edo. The image now hangs in museums worldwide as separate prints of the same blocks, complicating every simple idea of an original.",
+  "desc": "Carved cherry blocks, ink still in the grain. The wave waits to happen again.",
+  "mla": [
+   "\"The Great Wave off Kanagawa.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/The_Great_Wave_off_Kanagawa."
+  ],
+  "img": "commons.wikimedia.org/wiki/Category:The_Great_Wave_off_Kanagawa"
+ },
+ {
+  "id": "v37_ch_door_hist",
+  "name": "Champollion's Decipherment Notebook, Paris, 1822",
+  "icon": "📓",
+  "region": "ch_door_hist",
+  "pl": {
+   "mode": "chamber",
+   "detail": ""
+  },
+  "eff": {
+   "t": "ability",
+   "id": "echo"
+  },
+  "tags": {
+   "c": "Justification",
+   "e": "Methods and Tools",
+   "s": "History"
+  },
+  "kq": "What separates a decipherment from a guess which happened to hold?",
+  "ans": [
+   "Convergence separates them. Champollion's readings predicted names in cartouches he had never seen, and the predictions kept landing, so the system justified itself beyond any single lucky match.",
+   "Method separates them. He cross-checked Coptic, Greek, and demotic versions letter by letter, so each claim carried a public chain of reasons a rival could attack and test."
+  ],
+  "rw": "Jean-François Champollion announced the decipherment of Egyptian hieroglyphs in 1822, after years of notebook pages comparing the Rosetta Stone's three scripts with Coptic. His pages show crossed-out attempts, letter grids, and cartouche sketches. The notebooks turned a dead script into a readable archive of three thousand years.",
+  "desc": "Ink grids, crossed-out alphabets, one cartouche circled twice. A locked civilization, mid-click.",
+  "mla": [
+   "\"Jean-François Champollion.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Jean-Fran%C3%A7ois_Champollion."
+  ],
+  "img": ""
+ },
+ {
+  "id": "v37_ch_door_hs",
+  "name": "Milgram's Shock Generator Panel, Yale, 1961",
+  "icon": "⚡",
+  "region": "ch_door_hs",
+  "pl": {
+   "mode": "chamber",
+   "detail": ""
+  },
+  "eff": {
+   "t": "perspective",
+   "c": "Responsibility"
+  },
+  "tags": {
+   "c": "Responsibility",
+   "e": "Ethics",
+   "s": "Psychology"
+  },
+  "kq": "Can knowledge gained through deception ever justify the method which produced it?",
+  "ans": [
+   "The findings changed how institutions guard against blind obedience, so some argue the insight repaid its cost, since no transparent design could have revealed the same behavior.",
+   "Participants left believing they might have harmed a stranger, so others argue the study purchased knowledge with borrowed consciences, and modern ethics boards now refuse the price."
+  ],
+  "rw": "Stanley Milgram's obedience experiments at Yale used a fake shock generator with switches labeled up to 450 volts. Volunteers, urged on by a calm experimenter, believed they were shocking a learner in the next room. The results reshaped social psychology and helped create the consent rules and review boards which now govern research on people.",
+  "desc": "Thirty switches, climbing labels, one word at the end: XXX. The machine never shocked anyone. The setup shocked everyone.",
+  "mla": [
+   "\"Milgram Experiment.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Milgram_experiment."
+  ],
+  "img": ""
+ },
+ {
+  "id": "v37_ch_door_themes",
+  "name": "Voyager Golden Record, Master Copy, 1977",
+  "icon": "🥇",
+  "region": "ch_door_themes",
+  "pl": {
+   "mode": "chamber",
+   "detail": ""
+  },
+  "eff": {
+   "t": "ability",
+   "id": "beacon"
+  },
+  "tags": {
+   "c": "Culture",
+   "e": "Scope",
+   "s": "Philosophy"
+  },
+  "kq": "Who gets to summarize humanity, and by what right?",
+  "ans": [
+   "A small committee chose the sounds and images, so the record shows one team's 1977 answer, complete with its omissions, and naming the authors keeps the summary useful.",
+   "Any summary beats silence across interstellar distance. The committee chose greetings in 55 languages and music from many continents, so breadth served as its own defense."
+  ],
+  "rw": "NASA launched two gold-plated copper records aboard the Voyager probes in 1977, carrying greetings, music, and encoded images chosen by a committee led by Carl Sagan. The records now travel beyond the solar system, the farthest human-made objects. Every debate about the playlist doubles as a debate about who speaks for the species.",
+  "desc": "A golden disc with instructions for beings who share none of your assumptions. Optimism, pressed in copper.",
+  "mla": [
+   "\"Voyager Golden Record.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Voyager_Golden_Record."
+  ],
+  "img": "commons.wikimedia.org/wiki/Category:Voyager_Golden_Record"
+ },
+ {
+  "id": "v37_ch_secret_ma",
+  "name": "Ramanujan's Lost Notebook, Rediscovered 1976",
+  "icon": "📔",
+  "region": "ch_secret_ma",
+  "pl": {
+   "mode": "chamber",
+   "detail": ""
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Justification",
+   "v": 25
+  },
+  "tags": {
+   "c": "Justification",
+   "e": "Methods and Tools",
+   "s": "Mathematics"
+  },
+  "kq": "Do results discovered without proof count as knowledge before the proofs arrive?",
+  "ans": [
+   "Mathematicians spent decades proving the entries true one by one, so the notebook acted as knowledge on credit, trusted because its author's record justified the loan.",
+   "A claim without a proof stays a conjecture, whoever wrote it. On this stricter view the notebook held brilliant guesses which became knowledge only as each proof landed."
+  ],
+  "rw": "Srinivasa Ramanujan filled loose pages with formulas in his final year, 1919 to 1920, mostly without proofs. George Andrews found the sheets in a Cambridge library box in 1976, and mathematicians have mined them since, proving entry after entry. The pages keep raising the question of how one mind reached results the field needed a century to justify.",
+  "desc": "Loose pages of formulas, no proofs attached. The margin dares you to catch up.",
+  "mla": [
+   "\"Ramanujan's Lost Notebook.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Ramanujan%27s_lost_notebook."
+  ],
+  "img": ""
+ },
+ {
+  "id": "v37_ch_secret_ns",
+  "name": "Le Grand K, International Prototype Kilogram, Sèvres, 1889",
+  "icon": "⚖️",
+  "region": "ch_secret_ns",
+  "pl": {
+   "mode": "chamber",
+   "detail": ""
+  },
+  "eff": {
+   "t": "stamina",
+   "v": 3
+  },
+  "tags": {
+   "c": "Objectivity",
+   "e": "Methods and Tools",
+   "s": "Physics"
+  },
+  "kq": "What does it mean for a measurement to be objective when its standard is one object in one vault?",
+  "ans": [
+   "For 130 years a kilogram meant equality with one platinum cylinder near Paris, so objectivity rested on shared access to a single thing, guarded under three glass bells.",
+   "The cylinder itself drifted by micrograms against its own copies, so in 2019 metrologists redefined the kilogram through Planck's constant, trading a guarded object for a law of nature anyone can measure."
+  ],
+  "rw": "From 1889 to 2019, the International Prototype Kilogram, a platinum-iridium cylinder kept at Sèvres near Paris, defined the kilogram for the world. Copies traveled to national labs, and periodic comparisons showed tiny drifts nobody could explain away. The 2019 redefinition tied mass to a fixed constant of physics, ending the reign of the last artifact-based SI unit.",
+  "desc": "A polished cylinder under three bell jars. For a century, the heaviest responsibility per gram on Earth.",
+  "mla": [
+   "\"International Prototype of the Kilogram.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/International_Prototype_of_the_Kilogram."
+  ],
+  "img": "commons.wikimedia.org/wiki/Category:International_prototype_of_the_kilogram"
+ },
+ {
+  "id": "v37_ch_secret_ar",
+  "name": "The Flémalle Panels, Unsigned, c. 1430",
+  "icon": "🖼️",
+  "region": "ch_secret_ar",
+  "pl": {
+   "mode": "chamber",
+   "detail": ""
+  },
+  "eff": {
+   "t": "perspective",
+   "c": "Values"
+  },
+  "tags": {
+   "c": "Values",
+   "e": "Perspectives",
+   "s": "Visual Arts"
+  },
+  "kq": "How does not knowing the maker change what a piece is allowed to mean?",
+  "ans": [
+   "Attribution steers value. Scholars built a whole painter, the Master of Flémalle, from style alone, and prices and prestige moved with each new guess about who he was.",
+   "Anonymity can free the viewing. Without a biography to lean on, the panels get read through their own choices of light and gesture, so attention returns to the object."
+  ],
+  "rw": "Three panels in Frankfurt, painted around 1430 in the early Netherlandish style, carry no signature. Art historians invented the name Master of Flémalle for their maker, later argued over whether he was Robert Campin or a pupil, and the debate continues. The panels show how much of an object's meaning arrives packaged with a name.",
+  "desc": "Three painted panels, no signature. The label on the wall is a hypothesis wearing a frame.",
+  "mla": [
+   "\"Robert Campin.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Robert_Campin."
+  ],
+  "img": ""
+ },
+ {
+  "id": "v37_ch_secret_hi",
+  "name": "Hawaiian Mele Wax Cylinders, Honolulu, 1904",
+  "icon": "📀",
+  "region": "ch_secret_hi",
+  "pl": {
+   "mode": "chamber",
+   "detail": ""
+  },
+  "eff": {
+   "t": "ability",
+   "id": "stride"
+  },
+  "tags": {
+   "c": "Truth",
+   "e": "Perspectives",
+   "s": "Music"
+  },
+  "kq": "Can a recording preserve a tradition, or only one performance of it?",
+  "ans": [
+   "A cylinder freezes a single voice on a single afternoon, so archives hold moments rather than traditions, and living practice keeps the tradition or nothing does.",
+   "A frozen moment can still seed a revival. Hawaiian musicians and scholars return to early recordings to recover styles the missionary era suppressed, so the moment serves the living chain."
+  ],
+  "rw": "In the early 1900s, collectors recorded Hawaiian chants and songs, mele, onto wax cylinders, some now held by the Bishop Museum in Honolulu. The recordings captured voices from a generation born before annexation. Fragile and playable only a few times, the cylinders raise the archivist's dilemma: each playback both shares and wears away the record.",
+  "desc": "Wax cylinders in numbered tins. Voices wait inside, spending themselves a little with every listen.",
+  "mla": [
+   "\"Phonograph Cylinder.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Phonograph_cylinder.",
+   "\"Bernice Pauahi Bishop Museum.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Bishop_Museum."
+  ],
+  "img": ""
+ },
+ {
+  "id": "v37_ch_secret_hu",
+  "name": "HOLC Redlining Map of Detroit, 1939",
+  "icon": "🗺️",
+  "region": "ch_secret_hu",
+  "pl": {
+   "mode": "chamber",
+   "detail": ""
+  },
+  "eff": {
+   "t": "insight",
+   "c": "Power",
+   "v": 25
+  },
+  "tags": {
+   "c": "Power",
+   "e": "Ethics",
+   "s": "Geography"
+  },
+  "kq": "How can a map create the facts it claims merely to describe?",
+  "ans": [
+   "The map graded neighborhoods for loan risk, lenders followed the grades, investment fled the red zones, and decline followed, so the description manufactured its own evidence.",
+   "A map also leaves a trail. Researchers now overlay the 1939 grades on present-day income, health, and heat maps, so the same object which caused harm supplies the proof of it."
+  ],
+  "rw": "The Home Owners' Loan Corporation drew color-graded security maps of American cities in the 1930s, marking mostly Black neighborhoods in red as hazardous for lending. Banks and federal agencies steered money accordingly for decades. Historians and economists use the surviving maps to trace how a bureaucratic drawing shaped generations of wealth and segregation.",
+  "desc": "A city quartered by color. Someone called it risk assessment. The red ink outlived everyone who mixed it.",
+  "mla": [
+   "\"Redlining.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Redlining.",
+   "Nelson, Robert K., et al. \"Mapping Inequality.\" American Panorama, University of Richmond, n.d., dsl.richmond.edu/panorama/redlining."
+  ],
+  "img": ""
+ },
+ {
+  "id": "v37_ch_secret_th",
+  "name": "Bonshō of Myōshin-ji, Cast 698 CE, Kyoto",
+  "icon": "🔔",
+  "region": "ch_secret_th",
+  "pl": {
+   "mode": "chamber",
+   "detail": ""
+  },
+  "eff": {
+   "t": "perspective",
+   "c": "Culture"
+  },
+  "tags": {
+   "c": "Culture",
+   "e": "Scope",
+   "s": "World Religions"
+  },
+  "kq": "What kinds of knowledge live in a sound rather than a sentence?",
+  "ans": [
+   "A temple bell teaches timing, attention, and shared pause without stating anything, so communities can hold procedural and felt knowledge in objects language never fully translates.",
+   "The inscription on the bell still speaks in words, dating it to 698, so even the least verbal artifact tends to travel with text, and the two kinds of knowing arrive together."
+  ],
+  "rw": "The bronze temple bell at Myōshin-ji in Kyoto carries a cast date of 698 CE, making it Japan's oldest dated bonshō. Struck from outside with a wooden beam, such bells mark time, gather monks, and close the year with 108 tolls. Acousticians have studied its long, layered decay, and monks have simply listened to it for thirteen centuries.",
+  "desc": "A bronze bell older than the city around it. Its knowledge arrives once struck, and leaves slowly.",
+  "mla": [
+   "\"Bonshō.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/Bonsh%C5%8D.",
+   "\"Myōshin-ji.\" Wikipedia, Wikimedia Foundation, n.d., en.wikipedia.org/wiki/My%C5%8Dshin-ji."
+  ],
+  "img": ""
+ }
+]
