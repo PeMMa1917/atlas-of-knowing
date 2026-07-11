@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Atlas v37 · Pixel Reliquary Contact Sheet</title>
+<style>
+body { background:#14121C; color:#E8E3F0; font:14px/1.4 "Segoe UI", system-ui, sans-serif; margin:0; padding:18px; }
+h1 { font-size:1.1rem; } .sub { color:#9A93AC; margin-bottom:12px; }
+#grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(150px, 1fr)); gap:8px; }
+.cell { background:#1E1A2A; border:1px solid #3A3450; border-radius:8px; padding:8px; text-align:center; }
+.cell img { image-rendering:pixelated; width:64px; height:64px; }
+.nm { font-size:.72rem; margin-top:4px; min-height:2.4em; }
+.tg { font-size:.66rem; color:#9A93AC; }
+input, select { background:#141020; color:#E8E3F0; border:1px solid #3A3450; border-radius:6px; padding:5px 8px; margin-right:6px; }
+</style>
+</head>
+<body>
+<h1>The Pixel Reliquary · every object, one sheet</h1>
+<div class="sub">522 sprites, generated from each object's id. Template from its type, hue from its concept, accent from its rarity, jitter from its hash. Reload changes nothing: the same object always wears the same face.</div>
+<div style="margin-bottom:12px">
+  <input id="q" placeholder="search names">
+  <select id="c"><option value="">every concept</option></select>
+  <select id="r"><option value="">every rarity</option><option>legendary</option><option>epic</option><option>rare</option><option>common</option></select>
+  <span class="sub" id="count"></span>
+</div>
+<div id="grid"></div>
+
+<script>
+/* minimal engine stub so the data pack and pixel pack load standalone */
+window.TOKEngine = (function () {
+  var R = { list: [], byId: {}, byMode: {}, byRegion: {}, doors: {}, sets: [],
+    RARITY: { legendary: { n: "Legendary", col: "#E8B54A" }, epic: { n: "Epic", col: "#B07FE8" }, rare: { n: "Rare", col: "#6FA8DC" }, common: { n: "Common", col: "#9AA49A" } } };
+  function rarityOf(o) {
+    var t = o.eff && o.eff.t;
+    if (t === "key" || t === "ability") return "legendary";
+    if (t === "path" || t === "perspective" || (t === "stamina" && o.eff.v >= 3)) return "epic";
+    if (t === "battle" || t === "stamina" || (t === "insight" && (o.eff.v | 0) >= 15)) return "rare";
+    return "common";
+  }
+  return {
+    RELIQUARY: R,
+    relicsLoad: function (arr) { arr.forEach(function (o) { o.rarity = rarityOf(o); R.list.push(o); R.byId[o.id] = o; }); },
+    esc: function (s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); },
+    on: function () {},
+    CANON: { CONCEPTS: ["Evidence","Certainty","Truth","Interpretation","Power","Justification","Explanation","Objectivity","Perspective","Culture","Values","Responsibility"] },
+    getState: function () { return { data: { flags: {} }, player: {} }; }
+  };
+})();
+</script>
+<script src="src/content-61-relics-data.js"></script>
+<script src="src/content-62-pixelart.js"></script>
+<script>
+(function () {
+  var E = window.TOKEngine, R = E.RELIQUARY, PX = E.V37_PX;
+  var grid = document.getElementById("grid"), q = document.getElementById("q"), cSel = document.getElementById("c"), rSel = document.getElementById("r"), count = document.getElementById("count");
+  E.CANON.CONCEPTS.forEach(function (c) { var o = document.createElement("option"); o.textContent = c; cSel.appendChild(o); });
+  function draw() {
+    grid.innerHTML = "";
+    var n = 0, term = q.value.toLowerCase();
+    R.list.forEach(function (o) {
+      if (term && o.name.toLowerCase().indexOf(term) < 0) return;
+      if (cSel.value && o.tags.c !== cSel.value) return;
+      if (rSel.value && o.rarity !== rSel.value) return;
+      n++;
+      var d = document.createElement("div");
+      d.className = "cell";
+      d.innerHTML = PX.imgHtml(o.id, 4) +
+        '<div class="nm">' + E.esc(o.name) + '</div>' +
+        '<div class="tg" style="color:' + R.RARITY[o.rarity].col + '">' + R.RARITY[o.rarity].n + '</div>' +
+        '<div class="tg">' + E.esc(o.tags.c) + ' · ' + E.esc(PX.templateOf(o.id)) + '</div>';
+      grid.appendChild(d);
+    });
+    count.textContent = n + " shown";
+  }
+  q.oninput = draw; cSel.onchange = draw; rSel.onchange = draw;
+  draw();
+})();
+</script>
+</body>
+</html>

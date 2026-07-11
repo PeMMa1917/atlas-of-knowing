@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Warden's Chartroom · Atlas of Knowing v37 · Teacher Dashboard</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<style>
+:root { --bg:#14121C; --panel:#1E1A2A; --line:#3A3450; --ink:#E8E3F0; --dim:#9A93AC; --gold:#E8B54A; --green:#7fbf7f; --red:#c96f6f; --blue:#6FA8DC; --purple:#B07FE8; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--ink); font:15px/1.5 "Segoe UI", system-ui, sans-serif; }
+header { padding:14px 20px; border-bottom:1px solid var(--line); display:flex; gap:14px; align-items:center; flex-wrap:wrap; }
+header h1 { font-size:1.15rem; margin:0; }
+header .conn { margin-left:auto; display:flex; gap:6px; flex-wrap:wrap; }
+input, select, textarea, button { background:#141020; color:var(--ink); border:1px solid var(--line); border-radius:6px; padding:6px 9px; font:inherit; }
+button { cursor:pointer; }
+button.gold { border-color:var(--gold); color:var(--gold); }
+button:hover { border-color:var(--gold); }
+nav { display:flex; gap:6px; padding:10px 20px; flex-wrap:wrap; border-bottom:1px solid var(--line); }
+nav button.on { background:var(--gold); color:#141020; border-color:var(--gold); }
+main { padding:16px 20px 60px; max-width:1200px; margin:0 auto; }
+table { width:100%; border-collapse:collapse; margin:10px 0; }
+th, td { text-align:left; padding:6px 8px; border-bottom:1px solid var(--line); font-size:.9rem; }
+th { color:var(--dim); cursor:pointer; user-select:none; white-space:nowrap; }
+tr:hover td { background:rgba(232,181,74,.05); }
+.card { background:var(--panel); border:1px solid var(--line); border-radius:10px; padding:14px; margin:10px 0; }
+.grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(260px,1fr)); gap:10px; }
+.bar { height:8px; border-radius:4px; background:#141020; overflow:hidden; }
+.bar > div { height:100%; background:linear-gradient(90deg,var(--blue),var(--purple)); }
+.chip { display:inline-block; border:1px solid var(--line); border-radius:20px; padding:2px 10px; margin:2px; font-size:.82rem; }
+.dim { color:var(--dim); } .gold { color:var(--gold); } .green { color:var(--green); } .red { color:var(--red); }
+.kpis { display:flex; gap:10px; flex-wrap:wrap; }
+.kpi { background:var(--panel); border:1px solid var(--line); border-radius:10px; padding:10px 16px; min-width:120px; }
+.kpi b { display:block; font-size:1.3rem; }
+.exports { display:flex; gap:8px; flex-wrap:wrap; margin:8px 0; }
+h2 { font-size:1.05rem; margin:18px 0 6px; }
+h3 { font-size:.95rem; margin:12px 0 4px; color:var(--dim); }
+.warn { color:var(--red); }
+a { color:var(--blue); }
+@media print {
+  body { background:#fff; color:#111; }
+  header, nav, .exports, button, .noprint { display:none !important; }
+  .card, .kpi { border-color:#999; background:#fff; }
+  th, td { border-color:#ccc; }
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>The Warden's Chartroom <span class="dim">· Atlas of Knowing v37</span></h1>
+  <div class="conn">
+    <input id="url" placeholder="Class address (script.google.com web app URL)" size="42">
+    <input id="pin" placeholder="PIN" size="8" type="password">
+    <button class="gold" id="connect">Connect</button>
+    <span id="connState" class="dim"></span>
+  </div>
+</header>
+<nav id="tabs"></nav>
+<main id="main"><div class="card">Paste the class address and PIN above, then Connect. The address comes from deploying <code>apps-script/Code.gs</code> inside your class Google Sheet (README has the click-by-click steps).</div></main>
+
+<script>
+"use strict";
+/* ────────────────────────────────────────────────────────────────────
+   The Chartroom reads four endpoints from the Apps Script backend:
+   roster, journal, awardlog, sessions. It never writes student data;
+   the one thing it writes is Awards (points with a message), which the
+   game delivers at the student's next login through the xp_award seam.
+   ──────────────────────────────────────────────────────────────────── */
+var S = { url:"", pin:"", rows:[], sessions:[], awards:[], objects:{}, tab:"roster", sortK:"first", sortD:1, student:null, meta:null };
+var CONCEPTS = ["Evidence","Certainty","Truth","Interpretation","Power","Justification","Explanation","Objectivity","Perspective","Culture","Values","Responsibility"];
+var ELEMENTS = ["Scope","Perspectives","Methods and Tools","Ethics"];
+var FAMILIES = ["Dialogue","Battle","Puzzle","Craft","Quest","Exploration","Journal","Challenge"];
+var RUNGS = ["","Notice","Name","Connect","Question","Justify"];
+
+function $(q){ return document.querySelector(q); }
+function esc(s){ return String(s==null?"":s).replace(/[&<>"']/g, function(c){ return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]; }); }
+function get(params){
+  var q = Object.keys(params).map(function(k){ return k+"="+encodeURIComponent(params[k]); }).join("&");
+  return fetch(S.url+(S.url.indexOf("?")>0?"&":"?")+q).then(function(r){ return r.json(); });
+}
+function post(payload){
+  return fetch(S.url, { method:"POST", headers:{"Content-Type":"text/plain;charset=utf-8"}, body:JSON.stringify(payload) }).then(function(r){ return r.json(); });
+}
+
+/* ── connection ── */
+$("#connect").onclick = function(){
+  S.url = $("#url").value.trim(); S.pin = $("#pin").value.trim();
+  if (S.url.indexOf("https://script.google.com/")!==0){ $("#connState").textContent="The address should start with https://script.google.com/"; return; }
+  localStorage.setItem("chartroom_url", S.url);
+  $("#connState").textContent = "connecting…";
+  Promise.all([ get({action:"meta", pin:S.pin}), get({action:"roster", pin:S.pin}), get({action:"sessions", pin:S.pin}), get({action:"awardlog", pin:S.pin}) ])
+  .then(function(res){
+    if (!res[0].ok){ $("#connState").innerHTML = '<span class="warn">'+esc(res[0].error||"connection refused")+'</span>'; return; }
+    S.meta = res[0]; S.rows = (res[1].rows||[]); S.sessions = (res[2].rows||[]); S.awards = (res[3].rows||[]);
+    $("#connState").innerHTML = '<span class="green">connected · '+S.rows.length+' students</span>';
+    render();
+  })
+  .catch(function(e){ $("#connState").innerHTML = '<span class="warn">no reply: '+esc(e)+'</span>'; });
+};
+(function boot(){
+  var u = localStorage.getItem("chartroom_url"); if (u) $("#url").value = u;
+  fetch("./data/objects-master.json").then(function(r){ return r.json(); }).then(function(list){
+    list.forEach(function(o){ S.objects[o.id] = o; });
+  }).catch(function(){});
+})();
+
+/* ── tabs ── */
+var TABS = [["roster","Roster"],["student","Student"],["boards","Leaderboards"],["coverage","Class Coverage"],["awards","Points & Messages"],["exports","Exports"]];
+function render(){
+  $("#tabs").innerHTML = TABS.map(function(t){ return '<button data-t="'+t[0]+'" class="'+(S.tab===t[0]?"on":"")+'">'+t[1]+'</button>'; }).join("");
+  document.querySelectorAll("#tabs button").forEach(function(b){ b.onclick = function(){ S.tab = b.getAttribute("data-t"); render(); }; });
+  var fn = { roster:vRoster, student:vStudent, boards:vBoards, coverage:vCoverage, awards:vAwards, exports:vExports }[S.tab];
+  $("#main").innerHTML = "";
+  fn($("#main"));
+}
+
+/* helpers over rows */
+function st(r){ return r.standings || {}; }
+function metric(r, id){
+  var s = st(r);
+  var M = {
+    total: s.xp||0, persp: s.persp||0, crafted:(s.crafts||{}).made||0, found:(s.relics||{}).got||0,
+    talks: s.talksUnique||0, explore:(s.explore||{}).visited||0, time:(s.time||{}).min||0,
+    daily:(s.days||{}).best||0, weekly:Object.keys((s.days||{}).weeks||{}).length,
+    journal:(s.journal||{}).total||0, trials:(s.trials||{}).stars||0, badges:s.badges||0
+  };
+  if (id in M) return M[id];
+  if (id.indexOf("cxp_")===0) return (s.cxp||{})[id.slice(4)]||0;
+  if (id.indexOf("el_")===0) return (s.element||{})[id.slice(3)]||0;
+  return 0;
+}
+function lastActive(r){ return r.updated ? new Date(r.updated) : null; }
+function fmtDate(d){ return d ? d.toLocaleString(undefined,{month:"short",day:"numeric",hour:"2-digit",minute:"2-digit"}) : "never"; }
+function stuckSignals(r){
+  var s = st(r), out = [];
+  var ap = s.appraisal||{};
+  if ((ap.wrong||0) > (ap.right||0) && (ap.wrong||0) >= 3) out.push("Appraisals: more wrong than right ("+ap.wrong+" vs "+(ap.right||0)+"). Verification tools may need a re-teach.");
+  if ((s.quick||0) > (s.mirages||0)*2 && (s.quick||0) >= 4) out.push("Speed bias: takes the quick route "+s.quick+" times vs "+(s.mirages||0)+" vantage checks. Prompt slow looking.");
+  if ((s.journal||{}).auto > ((s.journal||{}).manual||0)*3 && (s.journal||{}).total > 10) out.push("Journal runs mostly on auto-entries. Independent writing is thin.");
+  var rung = s.rung||{}; var high = (Number(rung[4])||0)+(Number(rung[5])||0);
+  if (((s.journal||{}).total||0) > 8 && high === 0) out.push("No rung 4-5 entries yet: not yet forming knowledge questions or defending answers.");
+  var cx = s.cxp||{}; var low = CONCEPTS.slice().sort(function(a,b){ return (cx[a]||0)-(cx[b]||0); });
+  if ((cx[low[11]]||0) > 0 && (cx[low[0]]||0) < (cx[low[11]]||0)/8) out.push("Concept gap: strong on "+low[11]+", cold on "+low[0]+" and "+low[1]+".");
+  if ((ap.honestDeclines||0) === 0 && ((ap.right||0)+(ap.wrong||0)) > 8) out.push("Never declines: answers every appraisal, even unknowable ones. 'I cannot know this' is unpracticed.");
+  var tb = (s.trials||{}).byType||{}; var tried = Object.keys(tb).length;
+  if (tried>0 && tried<4) out.push("Trials: sticks to "+tried+" mechanic type"+(tried>1?"s":"")+". Nudge toward variety.");
+  if ((s.days||{}).streak === 0 && (s.days||{}).n > 0) out.push("Streak broken: no play today or yesterday.");
+  return out;
+}
+
+/* ── ROSTER ── */
+function vRoster(m){
+  var cols = [["first","First"],["lastInit","L."],["callsign","Call sign"],["email","Email"],["level","Lv"],["xp","XP"],["minutes","Min"],["daysPlayed","Days"],["streak","Streak"],["journalTotal","Journal"],["relicsGot","Objects"],["trialStars","Stars"],["badges","Badges"],["regionsVisited","Regions"],["roadChapter","Road"],["updated","Last active"]];
+  var rows = S.rows.slice().sort(function(a,b){
+    var x=a[S.sortK], y=b[S.sortK];
+    if (S.sortK==="updated"){ x=+new Date(x||0); y=+new Date(y||0); }
+    return (x>y?1:x<y?-1:0)*S.sortD;
+  });
+  var kp = '<div class="kpis">' +
+    '<div class="kpi"><b>'+S.rows.length+'</b>students</div>' +
+    '<div class="kpi"><b>'+S.rows.reduce(function(a,r){return a+(r.minutes||0);},0)+'</b>total minutes</div>' +
+    '<div class="kpi"><b>'+S.rows.reduce(function(a,r){return a+(r.journalTotal||0);},0)+'</b>journal entries</div>' +
+    '<div class="kpi"><b>'+S.rows.reduce(function(a,r){return a+(r.relicsGot||0);},0)+'</b>objects found</div>' +
+    '<div class="kpi"><b>'+S.rows.filter(function(r){ return (Date.now()-new Date(r.updated||0)) < 86400000; }).length+'</b>active today</div></div>';
+  var h = kp + '<table id="rosterT"><tr>'+cols.map(function(c){ return '<th data-k="'+c[0]+'">'+c[1]+(S.sortK===c[0]?(S.sortD>0?" ▲":" ▼"):"")+'</th>'; }).join("")+'</tr>';
+  rows.forEach(function(r){
+    h += '<tr data-em="'+esc(r.email)+'">'+cols.map(function(c){
+      var v = r[c[0]];
+      if (c[0]==="updated") v = fmtDate(lastActive(r));
+      return '<td>'+esc(v==null?"":v)+'</td>';
+    }).join("")+'</tr>';
+  });
+  h += '</table><div class="dim">Tap a row for the full student chart. Tap headers to sort.</div>';
+  m.innerHTML = h;
+  m.querySelectorAll("th").forEach(function(th){ th.onclick = function(){ var k = th.getAttribute("data-k"); S.sortD = (S.sortK===k)? -S.sortD : 1; S.sortK = k; render(); }; });
+  m.querySelectorAll("tr[data-em]").forEach(function(tr){ tr.onclick = function(){ S.student = tr.getAttribute("data-em"); S.tab="student"; render(); }; });
+}
+
+/* ── STUDENT DETAIL ── */
+function barRow(label, v, max, extra){
+  return '<div style="margin:4px 0"><div style="display:flex;justify-content:space-between"><span>'+esc(label)+'</span><span class="dim">'+v+(extra||"")+'</span></div><div class="bar"><div style="width:'+Math.min(100, max? Math.round(v/max*100):0)+'%"></div></div></div>';
+}
+function vStudent(m){
+  if (!S.rows.length){ m.innerHTML = '<div class="card">Connect first.</div>'; return; }
+  var sel = '<select id="pick">'+S.rows.map(function(r){ return '<option value="'+esc(r.email)+'"'+(S.student===r.email?" selected":"")+'>'+esc(r.first+" "+r.lastInit+". · "+r.callsign)+'</option>'; }).join("")+'</select>';
+  var r = S.rows.filter(function(x){ return x.email===S.student; })[0] || S.rows[0];
+  S.student = r.email;
+  var s = st(r);
+  var h = '<div class="noprint">'+sel+' <button id="loadJ">Load journal</button> <button onclick="window.print()">Print / PDF</button></div>';
+  h += '<h2>'+esc(r.first+" "+r.lastInit+".")+' <span class="dim">· '+esc(r.callsign)+' · '+esc(r.email)+' · last active '+fmtDate(lastActive(r))+'</span></h2>';
+  h += '<div class="kpis">'+
+    '<div class="kpi"><b>'+ (r.level||0) +'</b>level</div><div class="kpi"><b>'+(r.xp||0)+'</b>XP</div>'+
+    '<div class="kpi"><b>'+(r.minutes||0)+'</b>minutes</div><div class="kpi"><b>'+(r.daysPlayed||0)+'</b>days played</div>'+
+    '<div class="kpi"><b>'+((s.days||{}).streak||0)+' / '+((s.days||{}).best||0)+'</b>streak / best</div>'+
+    '<div class="kpi"><b>'+(r.relicsGot||0)+'</b>objects</div><div class="kpi"><b>'+(r.trialStars||0)+'</b>trial ★</div>'+
+    '<div class="kpi"><b>'+(r.badges||0)+'</b>badges</div><div class="kpi"><b>'+(r.roadChapter||0)+'/12</b>Road</div></div>';
+
+  var sig = stuckSignals(r);
+  h += '<div class="card"><h3>Signals: where they may be stuck or unsure</h3>'+(sig.length? sig.map(function(x){ return '<div class="warn">• '+esc(x)+'</div>'; }).join("") : '<div class="green">No flags right now. The pattern reads healthy.</div>')+'</div>';
+
+  var avgSes = (function(){ var ses = S.sessions.filter(function(x){ return x.email===r.email; }); if (!ses.length) return null;
+    var tot = ses.reduce(function(a,x){ return a+(x.minutes||0); },0);
+    var days = {}; ses.forEach(function(x){ days[x.day]=(days[x.day]||0)+(x.minutes||0); });
+    var dvals = Object.keys(days).map(function(k){ return days[k]; });
+    return { n:ses.length, avg:Math.round(tot/ses.length), perDay:Math.round(dvals.reduce(function(a,b){return a+b;},0)/dvals.length), days:Object.keys(days).length };
+  })();
+  h += '<div class="grid">';
+  h += '<div class="card"><h3>1 · Concept distribution (ledger tags)</h3>'+(function(){
+    var c = s.concept||{}; var max = Math.max.apply(null, CONCEPTS.map(function(k){ return c[k]||0; }).concat([1]));
+    return CONCEPTS.map(function(k){ return barRow(k, c[k]||0, max); }).join("");
+  })()+'</div>';
+  h += '<div class="card"><h3>Concept insight (per-concept XP)</h3>'+(function(){
+    var c = s.cxp||{}; var max = Math.max.apply(null, CONCEPTS.map(function(k){ return c[k]||0; }).concat([1]));
+    return CONCEPTS.map(function(k){ return barRow(k, c[k]||0, max); }).join("");
+  })()+'</div>';
+  h += '<div class="card"><h3>Element balance (framework)</h3>'+(function(){
+    var e = s.element||{}; var max = Math.max.apply(null, ELEMENTS.map(function(k){ return e[k]||0; }).concat([1]));
+    return ELEMENTS.map(function(k){ return barRow(k, e[k]||0, max); }).join("");
+  })()+'</div>';
+  h += '<div class="card"><h3>Syllabus family footprint</h3>'+(function(){
+    var f = s.fam||{}; var max = Math.max.apply(null, FAMILIES.map(function(k){ return f[k]||0; }).concat([1]));
+    return FAMILIES.map(function(k){ return barRow(k, f[k]||0, max); }).join("");
+  })()+'</div>';
+  h += '<div class="card"><h3>Subjects touched</h3>'+(function(){
+    var sb = s.subject||{}; var keys = Object.keys(sb).sort(function(a,b){ return sb[b]-sb[a]; });
+    return keys.length? keys.map(function(k){ return '<span class="chip">'+esc(k)+' · '+sb[k]+'</span>'; }).join("") : '<span class="dim">none yet</span>';
+  })()+'</div>';
+  h += '<div class="card"><h3>2 · Ladder of Knowing (rungs)</h3>'+(function(){
+    var rg = s.rung||{}; var max = Math.max.apply(null, [1,2,3,4,5].map(function(k){ return rg[k]||0; }).concat([1]));
+    return [1,2,3,4,5].map(function(k){ return barRow(k+" · "+RUNGS[k], rg[k]||0, max); }).join("");
+  })()+
+  '<div class="dim" style="margin-top:6px">Journal: '+((s.journal||{}).manual||0)+' manual · '+((s.journal||{}).auto||0)+' auto · '+((s.journal||{}).edits||0)+' revisions · voice: '+esc(s.voice||"?")+'</div></div>';
+  h += '<div class="card"><h3>3 · Epistemic stances</h3>'+
+    barRow("Vantage walks (slow looking)", s.mirages||0, Math.max(1,(s.mirages||0)+(s.quick||0)))+
+    barRow("Quick routes (speed bias)", s.quick||0, Math.max(1,(s.mirages||0)+(s.quick||0)))+
+    '<div class="dim">Appraisals: '+((s.appraisal||{}).right||0)+' right · '+((s.appraisal||{}).wrong||0)+' wrong · '+((s.appraisal||{}).honestDeclines||0)+' honest declines · '+((s.appraisal||{}).toolsUsed||0)+' tool uses · '+((s.appraisal||{}).blindCorrect||0)+' blind guesses right</div>'+
+    '<div class="dim">Argument moves: '+(function(){ var mv=s.moves||{}; return Object.keys(mv).length? Object.keys(mv).map(function(k){ return k+" "+mv[k]; }).join(" · ") : "none logged"; })()+'</div>'+
+    '<div class="dim">Oaths: '+((s.oaths||[]).join(", ")||"none")+'</div></div>';
+  h += '<div class="card"><h3>4 · Assessment pipelines</h3>'+
+    '<div class="dim">Exhibition: '+(s.exhibits||0)+' triptych attempts · IA prompts practiced: '+((s.halls||{}).exPrompts||0)+'/35</div>'+
+    '<div class="dim">Essay: thesis '+(((s.halls||{}).essay||{}).thesis?"✓":"✗")+' · AoKs mapped '+(((s.halls||{}).essay||{}).aoks||0)+' · conclusion '+(((s.halls||{}).essay||{}).conclusion?"✓":"✗")+' · outlines '+((s.essays||{}).outlines||0)+'</div>'+
+    '<div class="dim">Citations: '+((s.cites||{}).forged||0)+' forged · '+((s.cites||{}).drillsRight||0)+' drills right · '+((s.cites||{}).searches||0)+' searches · KQs formed: '+(s.kqs||0)+'</div></div>';
+  h += '<div class="card"><h3>5 · Pace</h3>'+
+    '<div class="dim">Sessions: '+(avgSes? avgSes.n+" logged · avg "+avgSes.avg+" min/session · avg "+avgSes.perDay+" min/active day over "+avgSes.days+" days" : "no session log yet")+'</div>'+
+    '<div class="dim">Weeks active: '+Object.keys((s.days||{}).weeks||{}).length+' · exports/backups: '+(s.exportsTotal||0)+' · trials by type: '+(function(){ var tb=(s.trials||{}).byType||{}; return Object.keys(tb).length? Object.keys(tb).map(function(k){ return k+" "+tb[k]; }).join(" · ") : "none"; })()+'</div></div>';
+  h += '<div class="card"><h3>Objects found ('+(r.relicIds||[]).length+')</h3>'+(function(){
+    var ids = r.relicIds||[];
+    if (!ids.length) return '<span class="dim">none yet</span>';
+    return ids.slice(0,200).map(function(id){ var o=S.objects[id]; return '<span class="chip">'+esc(o? o.icon+" "+o.name : id)+'</span>'; }).join("");
+  })()+'</div>';
+  h += '<div class="card"><h3>Badges ('+(r.badgeIds||[]).length+')</h3>'+((r.badgeIds||[]).slice(0,150).map(function(b){ return '<span class="chip">'+esc(b)+'</span>'; }).join("")||'<span class="dim">none yet</span>')+'</div>';
+  h += '</div>';
+  h += '<div class="card" id="jwrap"><h3>The Living Journal</h3><div class="dim">Tap "Load journal" above to pull entries.</div></div>';
+  m.innerHTML = h;
+  $("#pick").onchange = function(){ S.student = $("#pick").value; render(); };
+  $("#loadJ").onclick = function(){
+    $("#jwrap").innerHTML = '<h3>The Living Journal</h3><div class="dim">loading…</div>';
+    get({action:"journal", pin:S.pin, email:r.email}).then(function(j){
+      if (!j.ok){ $("#jwrap").innerHTML += '<div class="warn">'+esc(j.error)+'</div>'; return; }
+      var rows = j.rows||[];
+      $("#jwrap").innerHTML = '<h3>The Living Journal · '+rows.length+' entries</h3>'+
+        rows.slice().reverse().map(function(en){
+          return '<div style="border-left:3px solid var(--purple);padding:4px 10px;margin:8px 0">'+
+            '<div class="dim">'+fmtDate(new Date(Number(en.t)))+' · rung '+en.rung+' ('+esc(RUNGS[en.rung]||"?")+') · '+esc(en.ctx)+'</div>'+
+            '<div>'+esc(en.text)+'</div></div>';
+        }).join("");
+    });
+  };
+}
+
+/* ── LEADERBOARDS ── */
+var BOARD_DEFS = [["total","Total Points"],["persp","Perspectives in Use"],["crafted","Objects Crafted"],["found","Objects Found"],["talks","Distinct Conversations"],["explore","Regions Explored"],["time","Active Minutes"],["daily","Best Daily Streak"],["weekly","Weeks Active"],["journal","Journal Entries"],["trials","Trial Stars"],["badges","Badges"]];
+CONCEPTS.forEach(function(c){ BOARD_DEFS.push(["cxp_"+c, c+" Insight"]); });
+ELEMENTS.forEach(function(e){ BOARD_DEFS.push(["el_"+e, e+" Coverage"]); });
+var boardPick = "total";
+function vBoards(m){
+  if (!S.rows.length){ m.innerHTML = '<div class="card">Connect first.</div>'; return; }
+  var h = '<select id="bpick">'+BOARD_DEFS.map(function(b){ return '<option value="'+b[0]+'"'+(boardPick===b[0]?" selected":"")+'>'+esc(b[1])+'</option>'; }).join("")+'</select>';
+  var rows = S.rows.map(function(r){ return { r:r, v:metric(r, boardPick) }; }).sort(function(a,b){ return b.v-a.v; });
+  h += '<table><tr><th>#</th><th>Call sign</th><th>Student</th><th>Email</th><th style="text-align:right">Value</th></tr>';
+  rows.forEach(function(x,ix){
+    h += '<tr><td>'+(ix+1)+'</td><td>'+esc(x.r.callsign)+'</td><td>'+esc(x.r.first+" "+x.r.lastInit+".")+'</td><td class="dim">'+esc(x.r.email)+'</td><td style="text-align:right"><b>'+x.v+'</b></td></tr>';
+  });
+  h += '</table><div class="dim">Students see the same boards in their Hall of Records, with call signs only. Names and emails stay on this side of the desk.</div>';
+  m.innerHTML = h;
+  $("#bpick").onchange = function(){ boardPick = $("#bpick").value; render(); };
+}
+
+/* ── CLASS COVERAGE ── */
+function vCoverage(m){
+  if (!S.rows.length){ m.innerHTML = '<div class="card">Connect first.</div>'; return; }
+  function sum(path){
+    var tot = {};
+    S.rows.forEach(function(r){ var o = (st(r)[path])||{}; Object.keys(o).forEach(function(k){ tot[k]=(tot[k]||0)+(Number(o[k])||0); }); });
+    return tot;
+  }
+  var c = sum("concept"), e = sum("element"), sb = sum("subject"), f = sum("fam"), rg = sum("rung");
+  var h = '<div class="grid">';
+  h += '<div class="card"><h3>Concepts, whole class</h3>'+(function(){ var max=Math.max.apply(null,CONCEPTS.map(function(k){return c[k]||0;}).concat([1])); return CONCEPTS.map(function(k){ return barRow(k,c[k]||0,max); }).join(""); })()+'</div>';
+  h += '<div class="card"><h3>Framework elements</h3>'+(function(){ var max=Math.max.apply(null,ELEMENTS.map(function(k){return e[k]||0;}).concat([1])); return ELEMENTS.map(function(k){ return barRow(k,e[k]||0,max); }).join(""); })()+'</div>';
+  h += '<div class="card"><h3>Families</h3>'+(function(){ var max=Math.max.apply(null,FAMILIES.map(function(k){return f[k]||0;}).concat([1])); return FAMILIES.map(function(k){ return barRow(k,f[k]||0,max); }).join(""); })()+'</div>';
+  h += '<div class="card"><h3>Rungs</h3>'+(function(){ var max=Math.max.apply(null,[1,2,3,4,5].map(function(k){return rg[k]||0;}).concat([1])); return [1,2,3,4,5].map(function(k){ return barRow(k+" · "+RUNGS[k],rg[k]||0,max); }).join(""); })()+'</div>';
+  h += '<div class="card"><h3>Subjects</h3>'+Object.keys(sb).sort(function(a,b){return sb[b]-sb[a];}).map(function(k){ return '<span class="chip">'+esc(k)+' · '+sb[k]+'</span>'; }).join("")+'</div>';
+  h += '</div><div class="dim">Class-level curriculum coverage: where the group leans, and which concepts or elements the next lesson could feed.</div>';
+  m.innerHTML = h;
+}
+
+/* ── AWARDS ── */
+function vAwards(m){
+  if (!S.rows.length){ m.innerHTML = '<div class="card">Connect first.</div>'; return; }
+  var h = '<div class="card"><h3>Give or take points (arrives at the student\'s next login, with your message)</h3>'+
+    '<div style="display:flex;gap:8px;flex-wrap:wrap;align-items:end">'+
+    '<label>Student<br><select id="awEm"><option value="*">Whole class</option>'+S.rows.map(function(r){ return '<option value="'+esc(r.email)+'">'+esc(r.first+" "+r.lastInit+". · "+r.callsign)+'</option>'; }).join("")+'</select></label>'+
+    '<label>Points (−100 to 100)<br><input id="awAmt" type="number" min="-100" max="100" value="10" style="width:90px"></label>'+
+    '<label>Reason (shows in their log)<br><input id="awWhy" size="28" placeholder="participation, extra credit, behaviour…"></label></div>'+
+    '<label style="display:block;margin-top:8px">Message to the student<br><textarea id="awMsg" style="width:100%;min-height:60px" placeholder="Optional note: what they earned and why."></textarea></label>'+
+    '<button class="gold" id="awGo" style="margin-top:8px">Send</button> <span id="awState" class="dim"></span></div>';
+  h += '<div class="card"><h3>Award log</h3><table><tr><th>When</th><th>Student</th><th>Points</th><th>Reason</th><th>Message</th></tr>'+
+    S.awards.map(function(a){ return '<tr><td class="dim">'+fmtDate(new Date(a.when))+'</td><td>'+esc(a.email)+'</td><td class="'+(a.amount>0?"green":"red")+'">'+(a.amount>0?"+":"")+a.amount+'</td><td>'+esc(a.reason)+'</td><td class="dim">'+esc(a.msg)+'</td></tr>'; }).join("")+'</table></div>';
+  m.innerHTML = h;
+  $("#awGo").onclick = function(){
+    $("#awState").textContent = "sending…";
+    post({ kind:"award", pin:S.pin, email:$("#awEm").value, amount:Number($("#awAmt").value), reason:$("#awWhy").value, msg:$("#awMsg").value, from:"teacher" })
+    .then(function(j){
+      $("#awState").textContent = j.ok? "sent to "+j.count+" student"+(j.count>1?"s":"")+". It lands at their next login." : ("refused: "+j.error);
+      if (j.ok) get({action:"awardlog", pin:S.pin}).then(function(l){ S.awards = l.rows||[]; render(); });
+    });
+  };
+}
+
+/* ── EXPORTS ── */
+function tableData(kind){
+  if (kind==="roster"){
+    var cols = ["email","first","lastInit","callsign","level","xp","lumens","minutes","daysPlayed","streak","bestStreak","journalTotal","journalManual","relicsGot","relicsSold","trialStars","badges","regionsVisited","roadChapter","updated"];
+    return [cols].concat(S.rows.map(function(r){ return cols.map(function(c){ return r[c]==null?"":r[c]; }); }));
+  }
+  if (kind==="concepts"){
+    var head = ["email","first","lastInit","callsign"].concat(CONCEPTS.map(function(c){return "insight_"+c;})).concat(CONCEPTS.map(function(c){return "tags_"+c;}));
+    return [head].concat(S.rows.map(function(r){ var s=st(r);
+      return [r.email,r.first,r.lastInit,r.callsign]
+        .concat(CONCEPTS.map(function(c){ return (s.cxp||{})[c]||0; }))
+        .concat(CONCEPTS.map(function(c){ return (s.concept||{})[c]||0; })); }));
+  }
+  if (kind==="elements"){
+    var head2 = ["email","first","lastInit","callsign"].concat(ELEMENTS).concat(FAMILIES).concat(["rung1","rung2","rung3","rung4","rung5"]);
+    return [head2].concat(S.rows.map(function(r){ var s=st(r);
+      return [r.email,r.first,r.lastInit,r.callsign]
+        .concat(ELEMENTS.map(function(e){ return (s.element||{})[e]||0; }))
+        .concat(FAMILIES.map(function(f){ return (s.fam||{})[f]||0; }))
+        .concat([1,2,3,4,5].map(function(k){ return (s.rung||{})[k]||0; })); }));
+  }
+  if (kind==="stances"){
+    var head3 = ["email","first","lastInit","callsign","vantage","quick","apprRight","apprWrong","declines","honestDeclines","blindCorrect","toolsUsed","kqs","exhibits","iaPrompts","citesForged","citeDrillsRight","searches","essayOutlines"];
+    return [head3].concat(S.rows.map(function(r){ var s=st(r); var ap=s.appraisal||{};
+      return [r.email,r.first,r.lastInit,r.callsign, s.mirages||0, s.quick||0, ap.right||0, ap.wrong||0, ap.declines||0, ap.honestDeclines||0, ap.blindCorrect||0, ap.toolsUsed||0, s.kqs||0, s.exhibits||0, (s.halls||{}).exPrompts||0, (s.cites||{}).forged||0, (s.cites||{}).drillsRight||0, (s.cites||{}).searches||0, (s.essays||{}).outlines||0]; }));
+  }
+  if (kind==="sessions"){
+    return [["email","day","start","minutes"]].concat(S.sessions.map(function(x){ return [x.email,x.day,new Date(Number(x.start)).toISOString(),x.minutes]; }));
+  }
+  if (kind==="awards"){
+    return [["when","email","amount","reason","message"]].concat(S.awards.map(function(a){ return [new Date(a.when).toISOString(),a.email,a.amount,a.reason,a.msg]; }));
+  }
+  return [[]];
+}
+function toCsv(rows){
+  return rows.map(function(r){ return r.map(function(c){ var s=String(c==null?"":c); if(/^[=+\-@]/.test(s)) s="'"+s; return '"'+s.replace(/"/g,'""')+'"'; }).join(","); }).join("\r\n");
+}
+function dl(name, text, mime){
+  var a = document.createElement("a");
+  a.href = URL.createObjectURL(new Blob([text], {type:mime||"text/csv"}));
+  a.download = name; a.click();
+}
+function vExports(m){
+  var kinds = [["roster","Roster + headline stats"],["concepts","Concept insight + tag counts"],["elements","Elements, families, rungs"],["stances","Epistemic stances + assessment pipelines"],["sessions","Sessions (time analytics)"],["awards","Award log"]];
+  var h = '<div class="card"><h3>Google Sheets / Drive</h3><div>The backend already lives in your Google Sheet, one tab per table, always current: '+
+    (S.meta && S.meta.sheetUrl ? '<a href="'+esc(S.meta.sheetUrl)+'" target="_blank">open the class Sheet</a>.' : 'connect to get the direct link.')+
+    ' File > Make a copy gives a dated snapshot; File > Download covers Excel and PDF from there too.</div></div>';
+  h += '<div class="card"><h3>Direct downloads</h3>';
+  kinds.forEach(function(k){
+    h += '<div class="exports"><span style="min-width:280px">'+esc(k[1])+'</span>'+
+      '<button data-csv="'+k[0]+'">CSV</button>'+
+      '<button data-xlsx="'+k[0]+'">Excel (.xlsx)</button></div>';
+  });
+  h += '<div class="exports"><span style="min-width:280px">Everything, one workbook</span><button id="xlAll" class="gold">Excel workbook, all sheets</button></div>';
+  h += '<div class="exports"><span style="min-width:280px">Printable report of the open Student tab</span><button onclick="window.print()">Print / Save as PDF / to Doc</button></div>';
+  h += '<div class="dim">CSV imports straight into Google Sheets (File > Import). The print route covers PDF and, pasted from the print view, a Google Doc.</div></div>';
+  m.innerHTML = h;
+  m.querySelectorAll("[data-csv]").forEach(function(b){ b.onclick = function(){ var k=b.getAttribute("data-csv"); dl("atlas-"+k+"-"+new Date().toISOString().slice(0,10)+".csv", toCsv(tableData(k))); }; });
+  m.querySelectorAll("[data-xlsx]").forEach(function(b){ b.onclick = function(){
+    var k=b.getAttribute("data-xlsx"); var wb=XLSX.utils.book_new();
+    XLSX.utils.book_append_sheet(wb, XLSX.utils.aoa_to_sheet(tableData(k)), k.slice(0,28));
+    XLSX.writeFile(wb, "atlas-"+k+"-"+new Date().toISOString().slice(0,10)+".xlsx");
+  }; });
+  $("#xlAll").onclick = function(){
+    var wb = XLSX.utils.book_new();
+    kinds.forEach(function(k){ XLSX.utils.book_append_sheet(wb, XLSX.utils.aoa_to_sheet(tableData(k[0])), k[0].slice(0,28)); });
+    XLSX.writeFile(wb, "atlas-class-"+new Date().toISOString().slice(0,10)+".xlsx");
+  };
+}
+</script>
+</body>
+</html>
