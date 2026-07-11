@@ -101,7 +101,7 @@ fs.writeFileSync(path.join(SRC, "content-61-relics-data.js"), dataPack);
 const packs = ["content-60-reliquary.js","content-61-relics-data.js","content-62-pixelart.js","content-63-bench.js","content-67-trials.js","content-67b-arcade.js","content-68-forge-records.js","content-70-sync.js","content-71-reliquary-road.js"];
 let html = fs.readFileSync(path.join(ROOT, "index.html"), "utf8");
 /* strip any previously injected v37 block for idempotent rebuilds */
-html = html.replace(/\n<!-- V37 PACKS START -->[\s\S]*<!-- V37 PACKS END -->\n/, "\n");
+html = html.replace(/\n<!-- V37 PACKS START -->[\s\S]*<!-- V37 PACKS END -->\n/, "");
 let inject = "\n<!-- V37 PACKS START -->\n";
 packs.forEach(p => {
   const code = fs.readFileSync(path.join(SRC, p), "utf8");
@@ -110,8 +110,10 @@ packs.forEach(p => {
   inject += "<script>\n" + code + "\n</scr" + "ipt>\n";
 });
 inject += "<!-- V37 PACKS END -->\n";
-if (!html.includes("</body>")) problems.push("index.html lacks </body>");
-html = html.replace("</body>", inject + "</body>");
+/* inject at the LAST </body>: earlier ones live inside JS string literals */
+const closeAt = html.lastIndexOf("</body>");
+if (closeAt < 0) problems.push("index.html lacks </body>");
+else html = html.slice(0, closeAt) + inject + html.slice(closeAt);
 /* stamp the build */
 html = html.replace(/<title>[^<]*<\/title>/, "<title>The Atlas of Knowing · v37 · An Open-World Journey Through Theory of Knowledge</title>");
 fs.writeFileSync(path.join(ROOT, "index.html"), html);
