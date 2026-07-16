@@ -1,0 +1,13 @@
+{
+  "name": "atlas-of-knowing",
+  "version": "37.1.0",
+  "private": true,
+  "description": "The Atlas of Knowing: an open-world Theory of Knowledge game in one offline HTML file, with a classroom backend and a teacher dashboard.",
+  "scripts": {
+    "build": "node build.js",
+    "test": "node test/smoke.js && node test/harness.js"
+  },
+  "devDependencies": {
+    "jsdom": "^24.0.0"
+  }
+}

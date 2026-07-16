@@ -2,6 +2,8 @@
 
 Build 37 of the open-world Theory of Knowledge game, plus a classroom backend and a teacher dashboard. Everything in this folder ships together.
 
+An independent classroom project: no affiliation with, and no endorsement by, the International Baccalaureate. Reviewed build v37.1; see `REVIEW.md` for the expert panel review and `CHANGELOG.md` for the fix record.
+
 ## Folder map
 
 | File | Purpose |

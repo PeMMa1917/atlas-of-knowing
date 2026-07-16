@@ -2644,6 +2644,11 @@ function renderSettingsPanel(){
         '</select>';
     html += '</div>';
   });
+  html += '<div class="setRow" style="flex-direction:column;align-items:flex-start;gap:4px">' +
+    '<span class="setLabel">Keys</span>' +
+    '<span class="setPlain">Walk: W A S D, or the arrow keys. Act, talk, collect: Space or E. ' +
+    'Answer a conversation: the number on each choice. Satchel: I. Compass: C. ' +
+    'Step out of anything: Escape. Every other letter opens one room; each room closes with Escape or its own letter, and chips without a letter open by click alone.</span></div>';
   elPanelBody.innerHTML = html;
   Array.prototype.forEach.call(elPanelBody.querySelectorAll("[data-set]"), b => {
     b.addEventListener("click", () => {
@@ -15135,6 +15140,7 @@ function rgStart(daily, seedOverride){
 }
 function rgAnswer(pick){
   /* pick: "" for hold fire, or a category key rel/pre/amb/cau/sta/aut */
+  if (!rgRun || !rgRun.queue[rgRun.i]) return;   /* a spent volley takes no more shots */
   var item = rgRun.queue[rgRun.i];
   var foulKey = item.f;
   var actualCat = foulKey ? AR_FOE_INDEX[foulKey].cat : "";
@@ -15147,7 +15153,10 @@ function rgAnswer(pick){
   else paintGrounds();
 }
 function rgFinish(){
-  var s = st(), total = rgRun.queue.length, hits = rgRun.hits;
+  /* the run ends here: clear the live pointer first, so a stray click or
+     an Escape from the summary card lands on a clean Range, never a throw */
+  var run = rgRun; rgRun = null;
+  var s = st(), total = run.queue.length, hits = run.hits;
   var pct = Math.round(100 * hits / total);
   s.rangeRuns = (s.rangeRuns || 0) + 1;
   tkS().range.runs = (tkS().range.runs || 0) + 1;
@@ -15156,16 +15165,16 @@ function rgFinish(){
   axisNudge({ rig: pct >= 75 ? +2 : (pct >= 50 ? +1 : -1) });
   var xp = Math.round(hits * 2.5 * (evActive("tail") ? 1.5 : 1));
   gainXP(xp, "range volley: " + hits + " of " + total);
-  if (rgRun.daily) state.data.flags["dailyvolley_" + dayKey()] = true;
+  if (run.daily) state.data.flags["dailyvolley_" + dayKey()] = true;
   gainLumens(evActive("gale") ? hits * 2 : hits);
   if (pct === 100) state.data.flags["volleyperf_" + dayKey()] = true;
-  if (rgRun.rival) rvRecord(rgRun.rival, pct);
+  if (run.rival) rvRecord(run.rival, pct);
   /* coverage: one tag for the volley on the concept of the most common family hit */
   tagCoverage({ c:"Justification", e:"Methods and Tools", f:"Challenge", s:"Philosophy", m:"range" });
-  if (rgRun.daily && pct === 100){ s.rangePerfect = (s.rangePerfect || 0) + 1; }
+  if (run.daily && pct === 100){ s.rangePerfect = (s.rangePerfect || 0) + 1; }
   if (pct >= 75) rollLoot("range");
   nvSecondSun(); scSweep(); checkBadges(); scheduleSave();
-  var review = rgRun.picks.map(function(p, i){
+  var review = run.picks.map(function(p, i){
     return (p.correct ? "✓ " : "✗ ") + (i + 1) + ". " + (p.item.f ? AR_FOE_INDEX[p.item.f].fal : "sound") + " · " + p.item.why;
   }).join("\n");
   openMsgOpts("The Range", "Volley done: " + hits + " of " + total + " (" + pct + "%). Best: " + tkS().range.best + "%.\n\n" + review,
@@ -21596,7 +21605,8 @@ var _arvThresh = renderThresholdPanel;
 renderThresholdPanel = function(){
   _arvThresh();
   if (!state.data.flags.arrival_letter) return;
-  elPanelSub.textContent = "Above the door, cut in stone: THE GUILD OF KNOWERS. " + elPanelSub.textContent;
+  elPanelSub.textContent = "Above the door, cut in stone: THE GUILD OF KNOWERS. " + elPanelSub.textContent +
+    " Before you step in: the Lantern chip (or the O key) sets text size, plain language, a reading-support font, contrast, and motion.";
 };
 
 var _arvMaybe = thresholdMaybe;

@@ -1,4 +1,10 @@
-# Change Log · 16 July 2026
+# Change Log
+
+## v37.1 · 16 July 2026, evening
+
+Critique-driven polish on top of the QA pass below, guided by `REVIEW.md` (an expert panel review in forty-three voices). A Keys reference now sits in the Lantern Room; the threshold signposts text size, plain language, the reading font, contrast, and motion before play begins; the README states independence from the IB; `package.json` and a GitHub Actions gate run the build, the smoke test, and the playthrough harness on every push. The harness grew a device sweep (phone, tablet, laptop viewports), a travel sweep across every region, and a Range volley run. The volley run caught one more latent wedge: the Range accepted shots after the eighth and kept a spent run live, so an Escape from the summary froze the panel; the run now clears at the finish line and stray shots land nowhere.
+
+## QA pass · 16 July 2026
 
 Two test suites guard this build. `test/smoke.js` boots a mocked engine and ends green. `test/harness.js`, new in this commit, boots the whole game headlessly and drives keys, panels, dialogues, pickups, duels, trials, and saves: 88 assertions, all green, zero uncaught errors.
 
