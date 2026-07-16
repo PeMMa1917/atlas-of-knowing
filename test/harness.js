@@ -56,6 +56,11 @@ async function boot(storageSeed, size) {
       if (!w.matchMedia) w.matchMedia = () => ({ matches: false, addListener() {}, removeListener() {}, addEventListener() {}, removeEventListener() {} });
       w.Element.prototype.scrollIntoView = w.Element.prototype.scrollIntoView || function () {};
       w.fetch = () => Promise.resolve({ ok: false, json: () => Promise.resolve({}), text: () => Promise.resolve("") });
+      w.prompt = () => { w.__prompted = (w.__prompted || 0) + 1; return null; };
+      w.confirm = () => false; w.alert = () => {};
+      w.Image = class {
+        set src(v) { w.setTimeout(() => { if (this.onerror) this.onerror(); }, 3); }
+      };
       if (!w.CSS) w.CSS = {};
       if (!w.CSS.escape) w.CSS.escape = (s) => String(s).replace(/[^a-zA-Z0-9_-]/g, (c) => "\\" + c);
       w.addEventListener("error", (e) => errors.push("[" + cur + "] " + String(e.message).slice(0, 220)));
@@ -95,6 +100,31 @@ function btnLabels(W, rootSel) {
   if (!A) { console.log("cannot continue"); process.exit(2); }
 
   const st = () => A.state;
+
+  /* -- the arrival: ledger, letter, doors, keepsake card, naming -- */
+  section("arrival");
+  await sleep(300);
+  const bootSpeaker = (W.document.getElementById("dlgSpeaker") || {}).textContent || "";
+  ok("a fresh boot opens the Ledger of Names", !!A.dlgCurrent && bootSpeaker.indexOf("Ledger of Names") >= 0, bootSpeaker);
+  press(W, "3");
+  await sleep(450);
+  const letterSpeaker = (W.document.getElementById("dlgSpeaker") || {}).textContent || "";
+  ok("the letter follows the ledger, never fights it", !!A.dlgCurrent && letterSpeaker.indexOf("Letter") >= 0, letterSpeaker);
+  press(W, "1");
+  await sleep(10);
+  press(W, "1");
+  await sleep(60);
+  const findHost = W.document.getElementById("mxFind");
+  ok("the letter keepsake shows its find card", !!findHost && !findHost.hidden);
+  if (findHost) {
+    const kw = Array.from(findHost.querySelectorAll("button")).find((b) => /keep walking/i.test(b.textContent || ""));
+    ok("the card offers Keep walking", !!kw);
+    if (kw) kw.click();
+    ok("Keep walking truly clears the card", findHost.hidden && findHost.style.display === "none", "hidden=" + findHost.hidden + " display=" + findHost.style.display);
+  }
+  ok("the naming step follows the doors", A.panelOpen === "threshold" || A.panelOpen === "names", "panel=" + A.panelOpen);
+  press(W, "Escape");
+
   st().data.avatar.name = "Harness";
   st().data.flags.arrival_letter = 1;
   st().data.flags.threshold_done = 1;
@@ -381,6 +411,8 @@ function btnLabels(W, rootSel) {
         await sleep(10);
         ok("object collected after the claim", !!st().data.flags["v37_got_" + floorObj.id]);
         ok("search panel painted again", A.panelOpen !== null);
+        const countChip = W.document.getElementById("v37CountChip");
+        ok("the collected count updates at once", !!countChip && /[1-9]\d* ?\/ ?522/.test((countChip.textContent || "").replace("\u25c8", "")), countChip && countChip.textContent);
       }
     }
     press(W, "Escape");
@@ -411,6 +443,236 @@ function btnLabels(W, rootSel) {
       await sleep(8);
     }
     ok(booted + " of " + ids.length + " trial instances boot without a throw", failedTrials.length === 0, failedTrials.slice(0, 4).join(" | "));
+  }
+
+  /* -- every HUD chip opens something; Escape returns to neutral -- */
+  section("chip-sweep");
+  {
+    A.travel("hall", undefined);
+    await sleep(60);
+    const chips = Array.from(W.document.querySelectorAll("button.chip")).filter((c) => c.offsetParent !== undefined);
+    let openedCount = 0; const inert = [];
+    for (const chip of chips) {
+      A.closePanel(); A.closeDialogue(); A.toggleSatchel(false);
+      const beforeRegion = st().player.region;
+      const beforeToasts = W.document.querySelectorAll("#toasts .toastCard").length;
+      const labelBefore = chip.textContent;
+      const promptedBefore = W.__prompted || 0;
+      const before = errors.length;
+      chip.click();
+      await sleep(30);
+      const opened = !!A.panelOpen || !!A.dlgCurrent || A.satchelOpen ||
+        st().player.region !== beforeRegion ||
+        !!W.document.getElementById("v37idwrap") ||
+        W.document.querySelectorAll("#toasts .toastCard").length > beforeToasts ||
+        (W.__prompted || 0) > promptedBefore ||
+        chip.textContent !== labelBefore;
+      if (errors.length > before) inert.push((chip.id || chip.textContent.trim()) + " threw: " + errors[errors.length - 1]);
+      else if (!opened) inert.push(chip.id || chip.textContent.trim());
+      else openedCount++;
+      press(W, "Escape");
+      A.closeDialogue(); A.closePanel(); A.toggleSatchel(false);
+      if (chip.textContent !== labelBefore && !A.panelOpen && !A.dlgCurrent) chip.click();
+      const wrapEl = W.document.getElementById("v37idwrap");
+      if (wrapEl) wrapEl.remove();
+      if (st().player.region !== beforeRegion) { A.travel(beforeRegion, undefined); await sleep(30); }
+    }
+    ok(openedCount + " of " + chips.length + " HUD chips respond with a visible surface", inert.length === 0, "inert/throwing: " + inert.slice(0, 5).join(" | "));
+  }
+
+  /* -- every core panel renders content, not an empty shell -- */
+  section("panel-content");
+  {
+    const empty = [];
+    for (const kind of ["map", "ledger", "journal", "settings", "skills", "badges", "record", "atelier", "market", "puzzles", "roads", "envoys", "codex", "human", "fair", "guide", "chart", "loom", "halls", "grounds", "warden"]) {
+      A.closePanel(); A.closeDialogue();
+      try { A.openPanel(kind); } catch (e) { empty.push(kind + " throws"); continue; }
+      await sleep(10);
+      const title = (W.document.getElementById("panelTitle") || {}).textContent || "";
+      const body = (W.document.getElementById("panelBody") || {}).innerHTML || "";
+      if (!title.trim() || body.length < 40) empty.push(kind + " (title=" + !!title.trim() + ", body=" + body.length + ")");
+    }
+    A.closePanel();
+    ok("all 21 core panels render a title and body", empty.length === 0, empty.slice(0, 5).join(" | "));
+  }
+
+  /* -- every dialogue node, every choice, clicked -- */
+  section("dialogue-walk");
+  {
+    const ids = Object.keys(A.DIALOGUES);
+    let clicks = 0; const walkProblems = [];
+    for (const id of ids) {
+      const seen = new Set();
+      let frontier = [[]];
+      let guard = 0;
+      while (frontier.length && guard < 300) {
+        const path = frontier.shift();
+        A.closeDialogue(); A.closePanel();
+        A.openDialogue(id);
+        let alive = true;
+        for (const step of path) {
+          const btns = W.document.querySelectorAll("#dlgChoices .choice");
+          if (!btns[step]) { alive = false; break; }
+          btns[step].click(); guard++;
+          await sleep(2);
+          if (!A.dlgCurrent) { alive = false; break; }
+        }
+        if (!alive) continue;
+        const key = (A.dlgCurrent && A.dlgCurrent.nodeKey) + "|" + path.length;
+        if (seen.has(key)) continue;
+        seen.add(key);
+        const btns = W.document.querySelectorAll("#dlgChoices .choice");
+        if (!btns.length) { walkProblems.push(id + " path[" + path.join(",") + "]: zero buttons"); continue; }
+        const coreChoices = Math.min(btns.length, 4);
+        for (let i = 0; i < coreChoices; i++) {
+          const before = errors.length;
+          const replay = path.concat([i]);
+          A.closeDialogue(); A.openDialogue(id);
+          let okPath = true;
+          for (const stp of replay.slice(0, -1)) {
+            const bs = W.document.querySelectorAll("#dlgChoices .choice");
+            if (!bs[stp]) { okPath = false; break; }
+            bs[stp].click(); guard++;
+            await sleep(2);
+            if (!A.dlgCurrent) { okPath = false; break; }
+          }
+          if (!okPath) continue;
+          const bs2 = W.document.querySelectorAll("#dlgChoices .choice");
+          if (!bs2[i]) continue;
+          bs2[i].click(); clicks++; guard++;
+          await sleep(2);
+          if (errors.length > before) walkProblems.push(id + " path[" + replay.join(",") + "] threw: " + errors[errors.length - 1]);
+          else if (A.dlgCurrent && path.length < 5) frontier.push(replay);
+        }
+      }
+      A.closeDialogue();
+    }
+    ok(clicks + " dialogue choices clicked across " + ids.length + " trees, none threw or dead-ended", walkProblems.length === 0, walkProblems.slice(0, 4).join(" | "));
+  }
+
+  /* -- hostile names render as text, never as markup -- */
+  section("xss");
+  {
+    const hostile = '<img src=x onerror="window.__xss=1">';
+    st().data.avatar.name = hostile;
+    W.__xss = 0;
+    A.openPanel("record"); await sleep(10);
+    A.closePanel(); A.openPanel("halls"); await sleep(10);
+    A.closePanel(); A.openPanel("fair"); await sleep(10);
+    A.closePanel();
+    A.toggleSatchel(true); await sleep(10); A.toggleSatchel(false);
+    const injected = W.document.querySelector('img[src="x"]');
+    ok("a hostile avatar name never becomes markup", !injected && W.__xss === 0, "img=" + !!injected + " xss=" + W.__xss);
+    st().data.avatar.name = "Harness";
+  }
+
+  /* -- rapid open and close cycles leak nothing -- */
+  section("races");
+  {
+    const before = errors.length;
+    for (let i = 0; i < 25; i++) {
+      A.openDialogue(i % 2 ? "kip" : "sefa");
+      press(W, "Escape");
+      A.openPanel(i % 2 ? "map" : "grounds");
+      press(W, "Escape");
+    }
+    st().data.settings.twSpeed = 12;
+    A.openDialogue("sefa"); A.closeDialogue();
+    A.openDialogue("kip");
+    await sleep(500);
+    const settled = (W.document.getElementById("dlgText").textContent || "").length > 10;
+    st().data.settings.twSpeed = 99;
+    A.closeDialogue();
+    ok("50 rapid open/close cycles, zero errors", errors.length === before, errors.slice(before).slice(0, 3).join(" | "));
+    ok("typewriter settles on the last speaker after interruption", settled);
+  }
+
+  /* -- the three consumables act as their labels promise -- */
+  section("consumables");
+  {
+    const tk = st().data.tk;
+    ok("bench subtree present in the save", !!(tk && tk.bench && tk.bench.stock), typeof tk);
+    if (tk && tk.bench) {
+      tk.bench.stock.duelRetry = 1;
+      A.setArenaTab(); A.openPanel("grounds");
+      A.arStart("mud");
+      await sleep(5);
+      const wrongIdx = (A.AR_FOE_INDEX["mud"].rounds[0].k + 1) % 3;
+      const btn = W.document.querySelector('[data-ldopt="' + wrongIdx + '"]');
+      btn.click();
+      await sleep(5);
+      const stillRoundOne = ((W.document.getElementById("panelBody") || {}).textContent || "").indexOf("Round 1 / 3") >= 0;
+      ok("Steady Hand: a wrong strike comes back to round one", stillRoundOne && tk.bench.stock.duelRetry === 0, "stock=" + tk.bench.stock.duelRetry);
+      for (let r = 0; r < 3; r++) {
+        const k2 = A.AR_FOE_INDEX["mud"].rounds[r].k;
+        const b2 = W.document.querySelector('[data-ldopt="' + k2 + '"]');
+        if (b2) { b2.click(); await sleep(5); }
+      }
+      press(W, "2");
+      await sleep(5);
+      A.closeDialogue(); A.closePanel();
+
+      tk.bench.stock.circuitReroll = 2;
+      A.setArenaTab(); A.openPanel("grounds");
+      const rrA = W.document.getElementById("ldRerollA");
+      ok("Second Wind offered on the Arena roster", !!rrA);
+      if (rrA) {
+        rrA.click(); await sleep(5);
+        ok("Second Wind redraws the challenger", !!A.dlgCurrent === false && tk.bench.stock.circuitReroll === 1 && st().data.flags.dailyNonce === 1, "stock=" + tk.bench.stock.circuitReroll + " nonce=" + st().data.flags.dailyNonce);
+      }
+      A.closeDialogue(); A.closePanel();
+
+      tk.bench.stock.gardenLeap = 1;
+      A.openPanel("grounds");
+      const gt = W.document.querySelector('[data-ldtab="garden"]');
+      if (gt) { gt.click(); await sleep(10); }
+      const sow = W.document.querySelector('[data-ldsow="inquiry_sun"]');
+      if (sow) { sow.click(); await sleep(10); }
+      st().data.stats.secondQs = (st().data.stats.secondQs || 0) + 4;
+      const gt2 = W.document.querySelector('[data-ldtab="garden"]');
+      if (gt2) { gt2.click(); await sleep(10); }
+      const horn = W.document.getElementById("ldHorn");
+      ok("Harvest Horn offered while stocked", !!horn);
+      if (horn) {
+        horn.click(); await sleep(10);
+        const harvest = W.document.querySelector('[data-ldharvest="inquiry_sun"]');
+        ok("the Horn leaps a ripe-adjacent plot to harvest", !!harvest && tk.bench.stock.gardenLeap === 0, "stock=" + tk.bench.stock.gardenLeap);
+      }
+      A.closePanel();
+    }
+  }
+
+  /* -- creatures look like creatures -- */
+  section("creatures");
+  A.travel("shore", undefined);
+  await sleep(80);
+  {
+    const spriteNpcs = A.liveNPCs.filter((n) => n.def && String(n.def.dlg || "").indexOf("sprite:") === 0);
+    ok("knowledge sprites wander their home shore", spriteNpcs.length > 0, "count=" + spriteNpcs.length);
+    ok("every wandering sprite wears a creature face, not a robe", spriteNpcs.every((n) => n.def.creature && n.def.icon), spriteNpcs.map((n) => n.def.name).slice(0, 2).join("; "));
+  }
+
+  /* -- hostile saves and dead storage never stop the boot -- */
+  section("storage-fuzz");
+  {
+    const key = A.SAVE_KEY;
+    for (const [label, seed] of [["garbage JSON", "{not json!!"], ["wrong shape", '{"player":7,"data":"x"}'], ["null literal", "null"]]) {
+      const d3 = await boot({ [key]: seed });
+      const alive = !!d3.window.__ATLAS_TEST__ && !!d3.window.__ATLAS_TEST__.state.player.region;
+      ok("boots through a " + label + " save", alive);
+      d3.window.close();
+    }
+  }
+
+  /* -- document hygiene: unique ids, named buttons -- */
+  section("dom-hygiene");
+  {
+    const seenIds = new Map();
+    W.document.querySelectorAll("[id]").forEach((el) => seenIds.set(el.id, (seenIds.get(el.id) || 0) + 1));
+    const dupIds = [...seenIds.entries()].filter(([, c]) => c > 1).map(([i, c]) => i + "x" + c);
+    ok("no duplicate element ids after a full session", dupIds.length === 0, dupIds.slice(0, 6).join(","));
+    const nameless = Array.from(W.document.querySelectorAll("button")).filter((b) => !(b.textContent || "").trim() && !b.getAttribute("aria-label"));
+    ok("every button carries a name or label", nameless.length === 0, nameless.slice(0, 4).map((b) => b.id || b.className).join(","));
   }
 
   /* -- every region travels and renders clean -- */
@@ -491,6 +753,26 @@ function btnLabels(W, rootSel) {
   A.saveNow();
   const savedRaw = W.localStorage.getItem(A.SAVE_KEY);
   ok("save lands in storage", !!savedRaw, "key=" + A.SAVE_KEY);
+  if (savedRaw) {
+    const wandered = JSON.parse(savedRaw);
+    wandered.player.region = "florence";
+    wandered.data.avatar.name = "";
+    delete wandered.data.flags.arrival_letter;
+    delete wandered.data.flags.threshold_done;
+    const dW = await boot({ [A.SAVE_KEY]: JSON.stringify(wandered) });
+    const AW = dW.window.__ATLAS_TEST__;
+    const speakerW = (dW.window.document.getElementById("dlgSpeaker") || {}).textContent || "";
+    ok("a nameless save waking in Bottega meets no arrival letter", AW && AW.state.player.region === "florence" && speakerW.indexOf("Letter") < 0, "region=" + (AW && AW.state.player.region) + " speaker=" + speakerW);
+    if (AW) {
+      AW.state.data.flags.named_ceremony = true;
+      AW.closeDialogue(); AW.closePanel();
+      AW.travel("hall", undefined);
+      await sleep(600);
+      const speakerH = (dW.window.document.getElementById("dlgSpeaker") || {}).textContent || "";
+      ok("the letter meets the wanderer on the walk into the hall", speakerH.indexOf("Letter") >= 0, speakerH);
+    }
+    dW.window.close();
+  }
   if (savedRaw) {
     const dom2 = await boot({ [A.SAVE_KEY]: savedRaw });
     const A2 = dom2.window.__ATLAS_TEST__;
