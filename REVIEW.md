@@ -189,3 +189,52 @@ Shipped and verified by the harness and build gate: every key now carries one me
 ## Method note
 
 Voices are authored personas grounded in the reviewed artifact, written for research scaffolding rather than as substitutes for human participants; where a voice cites a feature, the feature was verified in source or exercised by the harness during this review. Claims about learning outcomes appear only as questions or study designs, never as findings.
+
+---
+
+# Round Two · The Adversarial Pass (v37.2)
+
+Same evidence discipline, harder questions. This pass replayed the whole game headlessly with a grown harness (98 assertions to 126), swept the source with scope-aware static analysis, and chased five fresh reports from live play. Every finding below is fixed in v37.2 and guarded by a named assertion.
+
+## Field reports from live play, root-caused
+
+**A collected item trapped the player.** The keepsake find card ("Keep walking") set its overlay to hidden, but an inline `display:flex` outranked the hidden attribute, so the invisible-looking card kept swallowing every click. The button now clears the display as well, Escape closes the card, and the arrival test clicks it under automation.
+
+**The collected count froze.** The ◈ counter refreshed only when the Bandolier changed, so a full Bandolier or an insight relic left the chip stale. Every acquisition now updates it, and the field-search test reads the chip after a claim.
+
+**A person turned out to be a frog.** Knowledge sprites (the catchable companions) spawned as wandering NPCs wearing a humanoid palette, so Brook the frog walked the shore as a gold-robed person. Creature NPCs now draw as their own creature face with a ground shadow, and a test walks the shore to confirm no sprite wears a robe.
+
+**The Guild letter arrived in the Bottega.** Three boot flows fought for one surface: the arrival letter opened at load, the naming ceremony stomped it 700 ms later, and an account sign-in wall (shipped unconfigured, yet still active) stalled the chain behind an email form. The sequence now runs as one chain: naming first, letter after, and only in the hall; the sign-in wall wakes only for schools configuring the ledger seam; a wanderer who missed the letter meets it on the next walk into the hall. Four assertions pin the order.
+
+**Instructions pointing at absent scenery.** The chart wall, Osa's copy, and the Waygate now stand visible (round one); remaining mentions of desks and drawers live in conversational flavor rather than instructions. A content audit rubric for imperative sentences ("examine the X") sits on the roadmap for the object batches.
+
+## The technical audit, category by category
+
+| Category | Verdict |
+|---|---|
+| Markup and accessibility | No duplicate ids after a full session; every button carries a name or label; toasts announce politely; panels focus their first control. Verified by the dom-hygiene section. |
+| CSS | No true duplicate selectors: the apparent repeats live inside print-template strings or split shared-versus-specific rules on purpose. Reading settings (font scale, spacing, contrast) consume their variables. |
+| JavaScript syntax and reach | All ten scripts parse clean at ES2018; the nine apparent optional-chaining sites are ternaries against `.6` literals; three lookbehind regexes were replaced in round one. No same-scope duplicate function declarations; per-pack helper repeats follow the seam convention. |
+| Logic and game mechanics | Three promised consumables (Steady Hand Draught, Second Wind Tonic, Harvest Horn) had no spend path even while level-up gifts granted them; all three now act as their labels promise, under test. The Range no longer accepts a ninth shot. |
+| Runtime and races | Fifty rapid open/close cycles across dialogues and panels leak nothing; the typewriter settles on the last speaker after interruption; window blur clears held keys. |
+| Save and load | A round trip restores region and progress; garbage JSON, wrong-shaped saves, and null literals all boot clean through the migrators; legacy fixtures keep passing. |
+| Security | A hostile avatar name (`<img onerror>`) renders as text everywhere probed; class data stays four fields behind an explicit card; standings escape names; storage access sits in try/catch. |
+| Performance | The renderer culls to the viewport; panels render on demand, never per frame; saves debounce at 400 ms; toast stack caps at three. No per-frame DOM reads found. |
+| Dead code | Six never-referenced functions removed (a superseded journal renderer among them); the two consumable helpers earned their keep instead of deletion. |
+| Documentation accuracy | The README's no-account promise now matches the code: the sign-in wall waits for configuration. |
+
+## Happy and unhappy, dimension by dimension
+
+| Dimension | Who cheers | Who still frowns |
+|---|---|---|
+| Gameplay | Designers and students cheer duels, gardens, and collections finally free of input traps; the keepsake card releases its hostages. | Pacing voices (AAA, ADHD, the unmotivated student) still want the first duel earlier than the first ten minutes. |
+| Educational value | Pedagogy panels cheer criterion badges, rung-one dignity, and debriefs with why-lines; examiners cheer the rival-defense rung. | Transfer evidence remains a study, not a claim; the own-object bridge stays the missing assessment link. |
+| Speed | One 3 MB file, no dependencies, boots offline in seconds on school hardware; the culled renderer holds frame budgets. | First-load weight matters on metered phones; a split loading screen sits on the roadmap. |
+| Specificity | TOK teachers cheer concept-by-element tagging on every act; the curriculum designer cheers concepts-as-lenses. | KQ second-orderness across 522 objects still wants its audit rubric. |
+| Collections | Collectors cheer 522 seeded sprites, cabinets, and the live count chip; the Bandolier's choose-five discipline teaches curation. | Completionism can swallow weeks; hyperfocus safeguards remain a roadmap item. |
+| TOK application | Exhibition and essay rehearsal shapes match the assessments; the coverage grid maps the syllabus. | Scaffold fading and the personal-object leap still separate rehearsal from the assessed thing. |
+| Other subjects | Envoys bridge twenty-three courses with concrete objects; trials borrow well (fallacies for English, provenance for History). | Subject specialists still owe the object batches an accuracy pass; the export workbook makes it a lunch-break task. |
+
+## The verified record
+
+126 assertions green, zero uncaught errors, across: arrival sequencing, keymap purity, Escape everywhere, panel content, the full dialogue graph plus a clicked walk of every reachable choice, chorus uniqueness, number keys on five surfaces, pickups, landmarks, every duel, every trial boot, field search with a live count chip, every region, a full Range volley with a stray-shot guard, creatures on the shore, hostile names, hostile saves, dead storage, rapid-cycle races, three consumables, three device profiles, and a save round trip with a Bottega wanderer meeting her letter in the hall. The build gate reports zero problems and zero warnings; the smoke test stays ALL GREEN; CI reruns everything on each push.

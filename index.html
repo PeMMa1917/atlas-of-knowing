@@ -2546,34 +2546,6 @@ function consultCompass(){
 }
 
 /* ── The Journal panel ── */
-function renderJournalPanel(){
-  const plain = state.data.settings.plain;
-  elPanelTitle.textContent = "The Journal";
-  elPanelSub.textContent = plain
-    ? "Your own pages. New entries climb the Ladder: Notice, Name, Connect, Question, Justify. Hints are free."
-    : "Every page you have kept, and the pages the Atlas kept for you. New entries climb the Ladder of Knowing; the frames are free, and a rung-1 entry is a full, valid entry.";
-  const d = state.data;
-  let html = '<div class="row"><button class="btn gold" id="jNew">New entry · climb the Ladder</button>' +
-    '<span class="sub">' + d.journal.length + ' page' + (d.journal.length === 1 ? "" : "s") +
-    ' · ' + d.ledger.length + ' ledger trace' + (d.ledger.length === 1 ? "" : "s") + '</span></div>';
-  if (!d.journal.length)
-    html += '<div class="sub" style="margin-top:10px">' + (plain
-      ? "No pages yet. Press the button above to write your first."
-      : "Blank so far. The first page is the hardest and the shortest; the button above holds the door open.") + '</div>';
-  d.journal.slice().reverse().forEach(e => {
-    const when = e.t ? new Date(e.t).toLocaleDateString() : "";
-    html += '<div class="jentry' + (e.rung === 0 ? " auto" : "") + '">' +
-      '<div class="jmeta">' + (e.rung === 0 ? "THE ATLAS WROTE" : "RUNG " + e.rung + " · " + RUNG_NAMES[e.rung].toUpperCase()) +
-      (e.ctx ? " · " + esc(e.ctx) : "") + (when ? " · " + esc(when) : "") + '</div>' +
-      '<div class="jtext">' + esc(e.text) + '</div></div>';
-  });
-  elPanelBody.innerHTML = html;
-  document.getElementById("jNew").addEventListener("click", () => {
-    closePanel();
-    openLadder(plain ? "Write about any moment from your travels." :
-      "Any moment from your travels can hold a page. Pick a rung and begin anywhere.", []);
-  });
-}
 
 /* ── The Lantern Room (settings, canonical blob) ── */
 function applySettings(){
@@ -2882,7 +2854,20 @@ function render(t){
   }
 
   // NPCs then player
-  liveNPCs.forEach(n => drawSprite(n.rx - camX, n.ry - camY, n.def.pal, n.dir, 0, t, false));
+  liveNPCs.forEach(n => {
+    if (n.def && n.def.creature){
+      const ccx = n.rx - camX + TILE/2, ccy = n.ry - camY + TILE/2;
+      const bob = Math.sin(t/320 + (n.homeX || 0)) * 1.5;
+      ctx.fillStyle = "rgba(8,10,14,0.35)";
+      ctx.beginPath(); ctx.ellipse(ccx, ccy + 9, 7, 3, 0, 0, Math.PI*2); ctx.fill();
+      ctx.font = '16px "Segoe UI Emoji", "Noto Color Emoji", serif';
+      ctx.textAlign = "center"; ctx.textBaseline = "middle";
+      ctx.fillText(n.def.icon || "\u{1F43E}", ccx, ccy + bob);
+      ctx.textAlign = "left"; ctx.textBaseline = "alphabetic";
+    } else {
+      drawSprite(n.rx - camX, n.ry - camY, n.def.pal, n.dir, 0, t, false);
+    }
+  });
   drawSprite(prx - camX, pry - camY, avPal(),
     state.player.dir, pFrame, t, pMoving);
 
@@ -3752,7 +3737,6 @@ craftTree("curator","Curator","#d4a548","🏺",
 var TOTAL_SKILLS = Object.keys(SKILL_INDEX).length;
 
 function hasSkill(id){ return !!state.data.skills[id]; }
-function pointsForLevelUp(lv){ return lv>20 ? 2 : 1; }
 function nodeState(tree, nd){
   if (hasSkill(nd.id)) return "owned";
   // oath exclusivity for element trees
@@ -3820,7 +3804,6 @@ function grantRites(newLv){
   });
 }
 
-function pname(){ return state.data.avatar.name || "this knower"; }
 function pick(arr, seed){
   var h=0, s=String(seed||Math.random());
   for (var i=0;i<s.length;i++) h=(h*31+s.charCodeAt(i))>>>0;
@@ -9178,7 +9161,6 @@ var CM_LEET = { "0":"o", "1":"i", "3":"e", "4":"a", "5":"s", "7":"t", "8":"b", "
    Guide Post. Everything rides the shell's seams: gainXP, gainLumens,
    tagCoverage, voice, checkBadges, scheduleSave, the one save key. */
 
-function cmS(){ return state.data; }
 function cmFnv(str){
   var h = 0x811c9dc5;
   for (var i = 0; i < str.length; i++){ h ^= str.charCodeAt(i); h = (h * 0x01000193) >>> 0; }
@@ -9245,6 +9227,7 @@ function cmSetCallsign(s){
   state.data.flags.named_ceremony = true;
   scheduleSave(); updateHud(); checkBadges();
   flashToast("The ledger records " + s.trim());
+  setTimeout(function(){ try { thresholdMaybe(); } catch(e){} }, 250);
   return true;
 }
 function cmNamingCeremony(){
@@ -9258,7 +9241,8 @@ function cmNamingCeremony(){
       { t:"Forge one for me", fn:function(){ closeDialogue(); cmForgeOffer(); } },
       { t:"Walk in nameless, for now", fn:function(){
           state.data.flags.named_ceremony = true; scheduleSave(); closeDialogue();
-          flashToast("The ledger keeps a blank line for you"); } } ]);
+          flashToast("The ledger keeps a blank line for you");
+          setTimeout(function(){ try { thresholdMaybe(); } catch(e){} }, 250); } } ]);
 }
 function cmForgeOffer(){
   var name = forgeCallsign();
@@ -14898,7 +14882,7 @@ var TINKER = [
  { id:"steady_draught", n:"Steady Hand Draught", icon:"🧪", kind:"consumable", cost:{ "Proof Berry":2, lumens:10 },
    effect:"duelRetry", flavor:"One duel round, drunk before it: a wrong strike may be taken back, once." },
  { id:"second_wind", n:"Second Wind Tonic", icon:"🍵", kind:"consumable", cost:{ "Question Seed":2, lumens:10 },
-   effect:"circuitReroll", flavor:"Reroll a daily Circuit or Garden day once, when the draw does not suit you." },
+   effect:"circuitReroll", flavor:"Drink it to redraw today\u2019s Arena challenger or today\u2019s Range volley, when the day does not suit you." },
  { id:"whetstone", n:"Reason's Whetstone", icon:"🪨", kind:"tool", cost:{ "Warrant Bloom":2, "Heartwood":1, lumens:40 },
    effect:"xpEdge", flavor:"Kept in the pocket: every landed rung-5 journal pays three extra XP. An edge on the mind." },
  { id:"amulet_doubt", n:"Amulet of Honest Doubt", icon:"🔮", kind:"charm", cost:{ "Clear Seed":2, "Measured Grain":2, lumens:35 },
@@ -15030,15 +15014,15 @@ function ppRegionsVisited(){
    No round lets all five axes rise: wins move Rigor and Knowledge and hold
    the rest; only honest concession of a sound argument moves Trust. */
 
-var arFoe = null, arRound = 0, arScore = 0, arLog = [];
+var arFoe = null, arRound = 0, arScore = 0, arLog = [], arRetryUsed = false;
 
 function arStart(foeId){
   var f = AR_FOE_INDEX[foeId]; if (!f) return;
-  arFoe = f; arRound = 0; arScore = 0; arLog = [];
+  arFoe = f; arRound = 0; arScore = 0; arLog = []; arRetryUsed = false;
   paintGrounds();
 }
 function arDailyFoe(){
-  var r = atRng(atSeedFrom("arena|" + dayKey()));
+  var r = atRng(atSeedFrom("arena|" + dayKey() + "|" + (state.data.flags.dailyNonce || 0)));
   return FALLACY_FOES[Math.floor(r() * FALLACY_FOES.length)].id;
 }
 
@@ -15046,6 +15030,14 @@ function arResolve(choiceIdx){
   var f = arFoe, rd = f.rounds[arRound];
   var right = choiceIdx === rd.k;
   var wasSound = !!rd.sound;
+  /* the Steady Hand Draught: one wrong strike per duel taken back */
+  if (!right && !arRetryUsed && tkConsumable("duelRetry") > 0){
+    arRetryUsed = true;
+    tkSpendConsumable("duelRetry");
+    flashToast("🧪 The Steady Hand takes the strike back. Choose again.");
+    paintGrounds();
+    return;
+  }
   var s = st();
   s.duelsFought = (s.duelsFought || 0) + 1;
 
@@ -15129,7 +15121,7 @@ function arFinish(){
 var rgRun = null;
 
 function rgStart(daily, seedOverride){
-  var seedKey = seedOverride || (daily ? ("range|" + dayKey()) : ("range|free|" + Date.now()));
+  var seedKey = seedOverride || (daily ? ("range|" + dayKey() + "|" + (state.data.flags.dailyNonce || 0)) : ("range|free|" + Date.now()));
   var r = atRng(atSeedFrom(seedKey));
   var pool = RANGE_CLAY.slice();
   /* Fisher-Yates with the seeded rng */
@@ -15796,6 +15788,7 @@ function ldArenaHtml(){
       ? "Fight a foe by naming the trick in its arguments. Careful: some foes make good arguments to test you. Agreeing with a good argument is the right move."
       : "Each foe fights with one family of fallacy, three rounds each. Name the move to land the blow. But some rounds carry sound arguments: the Closed Door law rules here too, and conceding a good point beats striking it down.") + '</div>' +
     '<div class="row" style="margin:6px 0"><button class="btn small gold" id="ldDaily">Today\u2019s challenger</button>' +
+    (tkConsumable("circuitReroll") > 0 ? '<button class="btn small" id="ldRerollA">🍵 Second Wind: new challenger (' + tkConsumable("circuitReroll") + ')</button>' : '') + '' +
     '<span class="chip">🗡 Duels won: ' + (tkS().duel.won || 0) + '</span>' +
     '<span class="chip">🃏 Cards: ' + Object.keys(tkS().duel.cards).length + ' / ' + FALLACY_FOES.length + '</span></div>';
   Object.keys(AR_CATS).forEach(function(cat){
@@ -15833,6 +15826,7 @@ function ldRangeHtml(){
       ? "Eight quick claims. For each, say what is wrong with it, or hold your fire if nothing is. Fast practice at spotting bad arguments."
       : "Eight clay claims fly past. Call the foul or hold fire. The honest fire-nothing on a sound claim scores as a hit; reflex is the enemy of judgment here.") + '</div>' +
     '<div class="row" style="margin:8px 0"><button class="btn gold" id="ldRangeDaily">Today\u2019s volley</button>' +
+    (tkConsumable("circuitReroll") > 0 ? '<button class="btn small" id="ldRerollR">🍵 Second Wind: new volley (' + tkConsumable("circuitReroll") + ')</button>' : '') + '' +
     '<button class="btn" id="ldRangeFree">Practice volley</button></div>' +
     '<div class="row"><span class="chip">🎯 Best: ' + (tkS().range.best || 0) + '%</span><span class="chip">Volleys: ' + (tkS().range.runs || 0) + '</span></div>';
 }
@@ -15876,7 +15870,8 @@ function ldGardenHtml(){
     '<div class="sub">' + (plain
       ? "Plant a seed, then grow it by doing TOK. The Evidence Vine grows when you get things right; the Values Rose grows when you turn down a bad offer. Harvest crops to build things at the Bench."
       : "Sixteen seeds, each a habit of mind. Sow one, then feed it by doing the matching deed in the world: the Garden keeps honest time and advances only when you have earned the stage. Harvest at full bloom for crops to spend at the Bench.") + '</div>' +
-    '<div class="row"><span class="chip">🌱 Sown: ' + Object.keys(g.plots).length + '</span><span class="chip">🧺 Harvests: ' + (st().harvests || 0) + '</span></div>' +
+    '<div class="row"><span class="chip">🌱 Sown: ' + Object.keys(g.plots).length + '</span><span class="chip">🧺 Harvests: ' + (st().harvests || 0) + '</span>' +
+    (tkConsumable("gardenLeap") > 0 ? '<button class="btn small gold" id="ldHorn">📯 Blow the Harvest Horn (' + tkConsumable("gardenLeap") + ')</button>' : '') + '</div>' +
     '<div class="cmH2" style="font-size:0.95em">The Basket</div><div class="row" style="flex-wrap:wrap;gap:6px">';
   var anyCrop = false;
   GARDEN_SEEDS.forEach(function(s){ var n = gdCropCount(s.crop); if (n > 0){ anyCrop = true; html += '<span class="chip">' + s.cropIcon + " " + esc(s.crop) + ": " + n + '</span>'; } });
@@ -15906,6 +15901,19 @@ function ldGardenHtml(){
     html += '</div>';
   });
   return html;
+}
+function gdBlowHorn(){
+  if (tkConsumable("gardenLeap") < 1) return;
+  var g = tkS().garden, leapt = 0, id;
+  for (id in g.plots){
+    var p = g.plots[id], seed = GARDEN_INDEX[id];
+    if (!p || p.withered || !seed) continue;
+    if (gdStageOf(id) === 2){ p.base -= seed.per; leapt++; gdStageOf(id); }
+  }
+  if (!leapt){ flashToast("No plot stands ripe-adjacent; the Horn waits."); return; }
+  tkSpendConsumable("gardenLeap");
+  flashToast("📯 The Horn sounds: " + leapt + " plot" + (leapt === 1 ? "" : "s") + " leap to ripeness");
+  scheduleSave(); paintGrounds();
 }
 function gdDeedLabel(deed){
   var map = { right:"correct answers", charts:"fog charts committed", vantages:"vantage walks", kqs:"knowledge questions",
@@ -15993,8 +16001,23 @@ function paintGrounds(){
   Q("[data-ldfoe]").forEach(function(b){ b.onclick = function(){ arStart(b.getAttribute("data-ldfoe")); }; });
   Q("[data-ldopt]").forEach(function(b){ b.onclick = function(){ arResolve(+b.getAttribute("data-ldopt")); }; });
   var dly = elPanelBody.querySelector("#ldDaily"); if (dly) dly.onclick = function(){ arStart(arDailyFoe()); };
+  var rrA = elPanelBody.querySelector("#ldRerollA");
+  if (rrA) rrA.onclick = function(){
+    if (!tkSpendConsumable("circuitReroll")) return;
+    state.data.flags.dailyNonce = (state.data.flags.dailyNonce || 0) + 1;
+    flashToast("🍵 Second Wind: the day deals again");
+    arStart(arDailyFoe());
+  };
+  var horn = elPanelBody.querySelector("#ldHorn"); if (horn) horn.onclick = function(){ gdBlowHorn(); };
   /* Range */
   var rd = elPanelBody.querySelector("#ldRangeDaily"); if (rd) rd.onclick = function(){ rgStart(true); };
+  var rrR = elPanelBody.querySelector("#ldRerollR");
+  if (rrR) rrR.onclick = function(){
+    if (!tkSpendConsumable("circuitReroll")) return;
+    state.data.flags.dailyNonce = (state.data.flags.dailyNonce || 0) + 1;
+    flashToast("🍵 Second Wind: the day deals again");
+    rgStart(true);
+  };
   var rf = elPanelBody.querySelector("#ldRangeFree"); if (rf) rf.onclick = function(){ rgStart(false); };
   Q("[data-ldshot]").forEach(function(b){ b.onclick = function(){ rgAnswer(b.getAttribute("data-ldshot")); }; });
   /* Wardrobe */
@@ -16184,7 +16207,6 @@ function ldStandingsExt(){
     le:s.lumensEarned || 0, sl:s.skillsLearned || 0, ce:ppCellsTouched(), da:(function(){ var t = d.tele.da; return t && t.n ? Math.round(100 * t.r / t.n) : 0; })() };
 }
 /* a true footstep counter; the shell's stepPlayer feeds stats.steps */
-function ldStepCount(){ return st().steps || 0; }
 
 /* the multi-board renderer, appended to the Fair's Standings and the Warden
    roster. It reads the same fair.board the standings code already fills. */
@@ -21177,6 +21199,9 @@ function mxFindShow(entry){
       host.style.cssText = "position:fixed;inset:0;display:flex;align-items:center;" +
         "justify-content:center;background:rgba(8,10,15,0.72);z-index:8900";
       document.body.appendChild(host);
+      document.addEventListener("keydown", function(e){
+        if (e.key === "Escape" && !host.hidden){ host.hidden = true; host.style.display = "none"; }
+      });
     }
     host.innerHTML = "";
     var card = document.createElement("div");
@@ -21197,10 +21222,11 @@ function mxFindShow(entry){
     var b = document.createElement("button");
     b.className = "btn gold"; b.textContent = "Keep walking";
     b.style.marginTop = "12px";
-    b.addEventListener("click", function(){ host.hidden = true; });
+    b.addEventListener("click", function(){ host.hidden = true; host.style.display = "none"; });
     card.appendChild(b);
     host.appendChild(card);
     host.hidden = false;
+    host.style.display = "flex";
     mxRemind(entry.n);
   });
 }
@@ -21609,9 +21635,22 @@ renderThresholdPanel = function(){
     " Before you step in: the Lantern chip (or the O key) sets text size, plain language, a reading-support font, contrast, and motion.";
 };
 
+/* a wanderer who missed the letter meets it on the next walk into the hall */
+on("worldChange", function(ev){
+  if (!ev || ev.region !== "hall") return;
+  if (state.data.flags.arrival_letter || state.data.flags.threshold_done) return;
+  if (!state.data.flags.named_ceremony && !state.data.avatar.name) return;
+  if (dlgCurrent || panelOpen) return;
+  setTimeout(function(){ try { thresholdMaybe(); } catch(e){} }, 350);
+});
+
 var _arvMaybe = thresholdMaybe;
 thresholdMaybe = function(){
-  if (!state.data.flags.arrival_letter && !state.data.flags.threshold_done && !state.data.avatar.name){
+  /* the letter narrates a first arrival; it waits for the naming
+     ceremony to finish, and for the player to stand in the hall */
+  if (!state.data.flags.named_ceremony && !state.data.avatar.name) return;
+  if (state.player.region === "hall" &&
+      !state.data.flags.arrival_letter && !state.data.flags.threshold_done){
     arvLetterStep(false, false);
     return;
   }
@@ -22461,6 +22500,7 @@ spawnNPCs = function(){
     var seat = free[Math.floor(r() * free.length)];
     liveNPCs.push({
       def:{ pal:{ skin:"#C9A54E", hair:"#E8DFD2", robe:"#2E5F63", trim:"#F1DDBE", hairLen:0 },
+        creature:true, icon:sp.icon,
         dlg:"sprite:" + sp.id, name:sp.epithet },
       x:seat.x, y:seat.y, rx:seat.x * TILE, ry:seat.y * TILE,
       dir:"down", timer:400 + Math.random() * 900, homeX:seat.x, homeY:seat.y
@@ -24222,11 +24262,6 @@ function acctEmailOk(s){
   }
   return { ok:true, email:s };
 }
-function acctTeacherEmail(s){
-  s = String(s || "").trim().toLowerCase();
-  return AUTH_CONFIG.teachers.some(function(t2){ return String(t2).toLowerCase() === s; });
-}
-
 /* ── Supabase OTP seam (used only when configured) ── */
 function acctOtpSend(email, cb){
   try {
@@ -24376,10 +24411,15 @@ function acctProceed(host, whyEl, email, role){
   }
 }
 
-/* sign-in rides in front of the arrival */
+/* sign-in rides in front of the arrival, and only when a school has
+   configured the ledger seam; the default build stays account-free */
+function acctConfigured(){
+  return !!(AUTH_CONFIG.domains.length || AUTH_CONFIG.teachers.length ||
+    (AUTH_CONFIG.supabase && AUTH_CONFIG.supabase.url));
+}
 var _acctMaybe = thresholdMaybe;
 thresholdMaybe = function(){
-  if (!acctEmail()){
+  if (acctConfigured() && !acctEmail()){
     acctNextFn = _acctMaybe;
     acctLoginScreen();
     return;
@@ -24526,6 +24566,7 @@ if (/atlastest/.test(location.hash + location.search)){
     get uiOpen(){ return uiOpen; },
     get satchelOpen(){ return satchelOpen; },
     get keys(){ return keys; },
+    get liveNPCs(){ return liveNPCs; },
     get SAVE_KEY(){ return SAVE_KEY; },
     DIALOGUES: DIALOGUES, REGIONS: REGIONS, ITEMS: ITEMS,
     PANEL_KEYS: PANEL_KEYS, TILE: TILE, FALLACY_FOES: FALLACY_FOES,
@@ -32347,6 +32388,7 @@ if (/atlastest/.test(location.hash + location.search)){
     checkSets(o);
     try { E.emit("v37_relic", { id: id, how: how, rarity: o.rarity }); } catch (e) {}
     save();
+    updateCountChip();
     return true;
   }
 

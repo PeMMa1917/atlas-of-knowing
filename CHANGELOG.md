@@ -1,5 +1,11 @@
 # Change Log
 
+## v37.2 · 16 July 2026, night
+
+The adversarial pass. Five reports from live play, root-caused and fixed: the keepsake find card now releases the player (its Keep walking button fought an inline display and lost; Escape closes it too); the collected-object counter updates on every acquisition, full Bandolier or not; knowledge sprites draw as creatures instead of gold-robed strangers; the arrival letter waits for the naming ceremony, opens only in Atlas Hall, and meets returning wanderers on their next walk in; the account sign-in wall wakes only for schools configuring the ledger seam, keeping the default build account-free.
+
+Round-two audit fixes: three promised consumables (Steady Hand Draught, Second Wind Tonic, Harvest Horn) gained their missing spend paths and now act as written, with the Second Wind redrawing either daily; six never-referenced functions left the file; the harness grew from 98 to 126 assertions (arrival chain, chip sweep, panel content, a clicked walk of the dialogue graph, hostile-name probes, hostile-save fuzzing, rapid-cycle races, creature rendering, consumable behavior, and the count chip). Full detail: `REVIEW.md`, Round Two.
+
 ## v37.1 · 16 July 2026, evening
 
 Critique-driven polish on top of the QA pass below, guided by `REVIEW.md` (an expert panel review in forty-three voices). A Keys reference now sits in the Lantern Room; the threshold signposts text size, plain language, the reading font, contrast, and motion before play begins; the README states independence from the IB; `package.json` and a GitHub Actions gate run the build, the smoke test, and the playthrough harness on every push. The harness grew a device sweep (phone, tablet, laptop viewports), a travel sweep across every region, and a Range volley run. The volley run caught one more latent wedge: the Range accepted shots after the eighth and kept a spent run live, so an Escape from the summary froze the panel; the run now clears at the finish line and stray shots land nowhere.
