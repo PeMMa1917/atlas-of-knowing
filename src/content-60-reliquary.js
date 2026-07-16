@@ -280,6 +280,7 @@
     checkSets(o);
     try { E.emit("v37_relic", { id: id, how: how, rarity: o.rarity }); } catch (e) {}
     save();
+    updateCountChip();
     return true;
   }
 
