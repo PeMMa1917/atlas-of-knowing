@@ -746,22 +746,16 @@
 
   /* Slide, Volley, Maze, Climb, Shadow, Tactica arrive in content-67b. */
 
-  /* ── HUD chip and shortcut ── */
+  /* ── HUD chip; the satchel keeps the I key to itself ── */
   function addChip() {
     var anchor = document.getElementById("btnV37Relics") || document.getElementById("btnGuide");
     if (!anchor || !anchor.parentNode || document.getElementById("btnV37Trials")) return;
     var b = document.createElement("button");
-    b.className = "chip"; b.id = "btnV37Trials"; b.textContent = "Trials+ · I";
-    b.setAttribute("aria-label", "Open the fourteen trial families for this region. Shortcut I");
+    b.className = "chip"; b.id = "btnV37Trials"; b.textContent = "Trials+";
+    b.setAttribute("aria-label", "Open the fourteen trial families for this region");
     b.addEventListener("click", openTrials);
     anchor.parentNode.insertBefore(b, anchor.nextSibling);
   }
-  document.addEventListener("keydown", function (e) {
-    if (e.altKey || e.ctrlKey || e.metaKey) return;
-    var t = e.target && e.target.tagName;
-    if (t === "INPUT" || t === "TEXTAREA" || t === "SELECT") return;
-    if ((e.key || "").toLowerCase() === "i") openTrials();
-  });
 
   function boot() { generateInstances(); addChip(); }
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", boot);

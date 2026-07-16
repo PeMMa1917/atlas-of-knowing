@@ -228,7 +228,8 @@
         tags: [o.tags.c, o.tags.e],
         desc: (function (obj) {
           return function () {
-            var whatWhy = String(obj.rw || "").split(/(?<=[.!?])\s+/).slice(0, 2).join(" ");
+            /* no lookbehind: older Safari parses this file too */
+            var whatWhy = (String(obj.rw || "").match(/[^.!?]+[.!?]*/g) || [String(obj.rw || "")]).slice(0, 2).join("").trim();
             var broken = (Number(FL()["v37_diss_" + obj.id]) || 0) > (Number(FL()["v37_reborn_" + obj.id]) || 0);
             return obj.desc +
               "\n\nWhat and why: " + whatWhy +
@@ -272,7 +273,7 @@
       }
     }
     try {
-      var firstRw = String(o.rw || "").split(/(?<=[.!?])\s+/)[0] || "";
+      var firstRw = ((String(o.rw || "").match(/[^.!?]+[.!?]*/g) || [])[0] || String(o.rw || "")).trim();
       E.autoJournal("Found " + o.name + " in " + (REGION_LABELS[o.region] || o.region) + ". " + firstRw + " Its question follows me: " + o.kq);
     } catch (e) {}
     try { if (E.checkBadges) E.checkBadges(); } catch (e) {}
@@ -457,7 +458,7 @@
             '<button class="btn small" data-v37study="' + esc(o.id) + '">Study it</button>') +
         '</div>');
     });
-    if (!shown) h += '<div class="sub" style="opacity:.7">Nothing here yet. The world holds ' + (ct.total - ct.got) + ' more objects. Open Search (X) wherever you stand.</div>';
+    if (!shown) h += '<div class="sub" style="opacity:.7">Nothing here yet. The world holds ' + (ct.total - ct.got) + ' more objects. Open the Search chip wherever you stand.</div>';
     els.body.innerHTML = h;
     wireRelicsPanel(els);
   }
@@ -881,8 +882,8 @@
     mk("btnV37Court", "Reliquary", "Courier to the Grand Reliquary, the hall of five hundred objects", function () {
       try { E.travel("reliquary", "default"); } catch (e) {}
     });
-    mk("btnV37Search", "Search · X", "Open Field Search: the objects hidden where you stand. Shortcut X", function () { openV37Panel("v37search"); });
-    mk("btnV37Relics", "Relics · O", "Open the Reliquary Record: your objects, Bandolier, and cabinets. Shortcut O", function () { openV37Panel("v37relics"); });
+    mk("btnV37Search", "Search", "Open Field Search: the objects hidden where you stand", function () { openV37Panel("v37search"); });
+    mk("btnV37Relics", "Relics", "Open the Reliquary Record: your objects, Bandolier, and cabinets", function () { openV37Panel("v37relics"); });
     countChip = document.createElement("span");
     countChip.className = "chip"; countChip.id = "v37CountChip";
     anchor.parentNode.insertBefore(countChip, anchor.nextSibling);
@@ -894,14 +895,8 @@
     countChip.textContent = "◈ " + ct.got + "/" + ct.total;
     countChip.title = "Objects found. Bandolier: " + band().length + "/5.";
   }
-  document.addEventListener("keydown", function (e) {
-    if (e.altKey || e.ctrlKey || e.metaKey) return;
-    var t = e.target && e.target.tagName;
-    if (t === "INPUT" || t === "TEXTAREA" || t === "SELECT") return;
-    var k = (e.key || "").toLowerCase();
-    if (k === "o") { openV37Panel("v37relics"); }
-    else if (k === "x") { openV37Panel("v37search"); }
-  });
+  /* Keyboard shortcuts stay with the engine's own keymap; these panels
+     open from their chips, so no key carries two meanings. */
 
   /* Beacon: one free jump per day to any visited region */
   V37.beacon = function (rid) {

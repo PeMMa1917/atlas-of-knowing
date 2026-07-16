@@ -74,7 +74,14 @@
       '<button class="btn gold" id="v37idgo" style="padding:8px 14px">Sign</button>' +
       '<button class="btn" id="v37idlater" style="padding:8px 14px">Later</button></div></div>';
     document.body.appendChild(wrap);
-    document.getElementById("v37idlater").onclick = function () { wrap.remove(); };
+    /* Escape steps away here too, the one exit every surface honors */
+    var idEsc = function (e) { if (e.key === "Escape") idClose(); };
+    var idClose = function () {
+      try { wrap.remove(); } catch (e0) {}
+      document.removeEventListener("keydown", idEsc, true);
+    };
+    document.addEventListener("keydown", idEsc, true);
+    document.getElementById("v37idlater").onclick = idClose;
     document.getElementById("v37idgo").onclick = function () {
       var first = document.getElementById("v37idf").value.trim();
       var lastI = document.getElementById("v37idl").value.trim().toUpperCase();
@@ -105,7 +112,7 @@
         }
       } catch (e5) {}
       save();
-      wrap.remove();
+      idClose();
       toast("Signed. The Chartroom knows " + call + " now.");
       pushSoon(400);
     };

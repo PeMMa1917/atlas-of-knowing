@@ -61,7 +61,8 @@
 
   /* ── anatomy of an object ── */
   function firstSentence(s, cap) {
-    var t = String(s || "").split(/(?<=[.!?])\s+/)[0] || String(s || "");
+    /* no lookbehind: older Safari parses this file too */
+    var t = ((String(s || "").match(/[^.!?]+[.!?]*/g) || [])[0] || String(s || "")).trim();
     if (t.length > (cap || 150)) t = t.slice(0, (cap || 150) - 1).replace(/\s+\S*$/, "") + "…";
     return t;
   }

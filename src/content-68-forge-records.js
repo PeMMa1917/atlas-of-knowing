@@ -290,14 +290,9 @@
       anchor.parentNode.insertBefore(b, anchor.nextSibling);
     }
     mk("btnV37Forge", "Concepts", "Open the Concept Forge: twelve concept ladders fed by your actions", openForge);
-    mk("btnV37Records", "Records · Z", "Open the Hall of Records, the leaderboards. Shortcut Z", openRecords);
+    mk("btnV37Records", "Records", "Open the Hall of Records, the leaderboards", openRecords);
   }
-  document.addEventListener("keydown", function (e) {
-    if (e.altKey || e.ctrlKey || e.metaKey) return;
-    var t = e.target && e.target.tagName;
-    if (t === "INPUT" || t === "TEXTAREA" || t === "SELECT") return;
-    if ((e.key || "").toLowerCase() === "z") openRecords();
-  });
+  /* No document-level shortcut: the engine keymap owns the letters. */
   E.V37_RECORDS.openForge = openForge;
   E.V37_RECORDS.openRecords = openRecords;
 
