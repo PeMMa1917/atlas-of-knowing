@@ -37,7 +37,7 @@ function fake2d(canvas) {
   });
 }
 
-async function boot(storageSeed) {
+async function boot(storageSeed, size) {
   const vc = new VirtualConsole();
   vc.on("jsdomError", (e) => errors.push("[" + cur + "] " + String(e.message || e).slice(0, 220)));
   const dom = new JSDOM(HTML, {
@@ -45,6 +45,10 @@ async function boot(storageSeed) {
     runScripts: "dangerously",
     virtualConsole: vc,
     beforeParse(w) {
+      if (size) {
+        Object.defineProperty(w, "innerWidth", { configurable: true, value: size.w });
+        Object.defineProperty(w, "innerHeight", { configurable: true, value: size.h });
+      }
       w.requestAnimationFrame = (fn) => w.setTimeout(() => fn(Date.now()), 40);
       w.cancelAnimationFrame = (id) => w.clearTimeout(id);
       w.HTMLCanvasElement.prototype.getContext = function () { return fake2d(this); };
@@ -407,6 +411,77 @@ function btnLabels(W, rootSel) {
       await sleep(8);
     }
     ok(booted + " of " + ids.length + " trial instances boot without a throw", failedTrials.length === 0, failedTrials.slice(0, 4).join(" | "));
+  }
+
+  /* -- every region travels and renders clean -- */
+  section("world-sweep");
+  {
+    const regionIds = Object.keys(A.REGIONS);
+    const broken = [];
+    for (const rid of regionIds) {
+      const before = errors.length;
+      try { A.travel(rid, undefined); } catch (e) { broken.push(rid + ": " + e.message); continue; }
+      await sleep(90);
+      if (errors.length > before) broken.push(rid + ": " + errors[errors.length - 1]);
+    }
+    ok("all " + regionIds.length + " regions travel and render clean", broken.length === 0, broken.slice(0, 4).join(" | "));
+  }
+
+  /* -- the Range: one full volley, clicked shot by shot -- */
+  section("range");
+  A.closePanel(); A.closeDialogue();
+  A.openPanel("grounds");
+  const rangeTab = W.document.querySelector('[data-ldtab="range"]');
+  ok("range tab present", !!rangeTab);
+  if (rangeTab) {
+    rangeTab.click();
+    await sleep(10);
+    const free = W.document.querySelector("#ldRangeFree");
+    ok("practice volley offered", !!free);
+    if (free) {
+      free.click();
+      await sleep(10);
+      let shots = 0;
+      const before = errors.length;
+      while (shots < 12) {
+        if (A.dlgCurrent) break;
+        const hold = W.document.querySelector('[data-ldshot=""]');
+        if (!hold) break;
+        hold.click();
+        shots++;
+        await sleep(10);
+      }
+      ok("volley of eight resolves shot by shot", shots === 8 && errors.length === before, "shots=" + shots);
+      ok("summary card follows the eighth shot", !!A.dlgCurrent);
+      const stray = W.document.querySelector('[data-ldshot=""]');
+      if (stray) stray.click();
+      ok("a stray ninth shot lands nowhere", errors.length === before);
+      press(W, "2");
+      await sleep(10);
+      ok("leave-by-number returns the Range landing view", !!W.document.querySelector("#ldRangeFree"), "dlg=" + !!A.dlgCurrent);
+    }
+  }
+  press(W, "Escape");
+
+  /* -- device profiles: phone, tablet, laptop -- */
+  section("device-sweep");
+  for (const [label, wpx, hpx] of [["phone", 390, 844], ["tablet", 820, 1180], ["laptop", 1366, 768]]) {
+    const d2 = await boot(null, { w: wpx, h: hpx });
+    const AA = d2.window.__ATLAS_TEST__;
+    if (!AA) { ok(label + ": boots", false); continue; }
+    AA.state.data.avatar.name = "D";
+    AA.state.data.flags.arrival_letter = 1;
+    AA.state.data.flags.threshold_done = 1;
+    AA.state.data.flags.arrival_done = 1;
+    AA.closePanel(); AA.closeDialogue();
+    AA.openDialogue("kip");
+    const dlgOk = !!AA.dlgCurrent;
+    d2.window.document.body.dispatchEvent(new d2.window.KeyboardEvent("keydown", { key: "Escape", bubbles: true, cancelable: true }));
+    const escOk = !AA.dlgCurrent;
+    AA.openPanel("map");
+    const panOk = AA.panelOpen === "map";
+    d2.window.close();
+    ok(label + " " + wpx + "x" + hpx + ": boots, talks, escapes, opens panels", dlgOk && escOk && panOk);
   }
 
   /* -- save, reload, resume -- */
