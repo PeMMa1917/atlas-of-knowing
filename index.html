@@ -21635,13 +21635,23 @@ renderThresholdPanel = function(){
     " Before you step in: the Lantern chip (or the O key) sets text size, plain language, a reading-support font, contrast, and motion.";
 };
 
-/* a wanderer who missed the letter meets it on the next walk into the hall */
-on("worldChange", function(ev){
-  if (!ev || ev.region !== "hall") return;
+/* a wanderer who missed the letter meets it on the next walk into the
+   hall; a busy surface (a greeter, an open panel) earns a patient retry */
+var arvHallTries = 0;
+function arvHallTry(){
   if (state.data.flags.arrival_letter || state.data.flags.threshold_done) return;
   if (!state.data.flags.named_ceremony && !state.data.avatar.name) return;
-  if (dlgCurrent || panelOpen) return;
-  setTimeout(function(){ try { thresholdMaybe(); } catch(e){} }, 350);
+  if (state.player.region !== "hall") return;
+  if (dlgCurrent || panelOpen){
+    if (arvHallTries++ < 8) setTimeout(arvHallTry, 900);
+    return;
+  }
+  try { thresholdMaybe(); } catch(e){}
+}
+on("worldChange", function(ev){
+  if (!ev || ev.region !== "hall") return;
+  arvHallTries = 0;
+  setTimeout(arvHallTry, 350);
 });
 
 var _arvMaybe = thresholdMaybe;
