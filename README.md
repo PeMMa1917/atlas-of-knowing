@@ -16,6 +16,7 @@ Build 37 of the open-world Theory of Knowledge game, plus a classroom backend an
 | `src/*.js` | The seven v37 content packs, already baked into `index.html`. |
 | `build.js` | Rebuilds `index.html` from `src/` + `data/` after edits. Run: `node build.js` |
 | `test/smoke.js` | Boot test against a mocked engine. Run: `node test/smoke.js` |
+| `test/harness.js` | Headless playthrough of keys, panels, dialogues, pickups, duels, trials, and saves. Run: `npm i jsdom && node test/harness.js` |
 
 ## Quick start, no hosting
 
@@ -63,7 +64,7 @@ Privacy note: student-facing boards show call signs only. Names and emails appea
 
 ## What v37 adds inside the game
 
-- **522 objects** with knowledge questions, suggested answers, effects, and rarity tiers, placed across every region: in the open, hidden in caches, held by characters, sold at the Exchange, won from trials, and sealed in chambers. Search (X) turns any region into a scavenging ground; claims ask the student to name the concept first.
+- **522 objects** with knowledge questions, suggested answers, effects, and rarity tiers, placed across every region: in the open, hidden in caches, held by characters, sold at the Exchange, won from trials, and sealed in chambers. The Search chip turns any region into a scavenging ground; claims ask the student to name the concept first.
 - **A unique pixel sprite for every object**, generated inside the game from the object's id: template from its type, hue from its concept, accent from its rarity, jitter from its hash. Sprites appear on collection (a splash card), in the Reliquary Record, Field Search, the Exchange, the Bandolier, and the Bench. `sprites-preview.html` shows the whole set on one page. Each item's card carries what it is, where it was found, why it matters for knowledge, and MLA research links.
 - **The Assembly Bench** (Bench chip): dissect an owned object into two knowledge claim cards, one dated historical fact card, and raw materials read from its pixel form. Broken objects lose their gift, keys included, until reassembled for a fee (epic and legendary want a refined material). Assemble parts into new things: a Braided Exhibit (two claims from different concepts pinned to a fact, the exhibition move in miniature), a Grounded Claim (claim + fact, same concept), a Dispute Card (two rival claims of one concept; Cipher trials draw extra reveals from carried disputes), and Refined Materials (three of a kind become one finer). Everything feeds concept insight, coverage rows, and the crafting leaderboard.
 - **The Bandolier**: carry five objects at most; only carried objects grant gifts (Vigor, trial bonuses, abilities, routes, Perspective Tokens). Deck choice becomes strategy, mirroring the Exhibition's choose-three discipline.
@@ -71,7 +72,7 @@ Privacy note: student-facing boards show call signs only. Names and emails appea
 - **Doors and chambers**: key objects open twelve locked chambers, metroidvania style. Wrong entry bounces you back with the shopping list.
 - **Fourteen trial families** (Trials+ · I): hidden-object sweeps, argument forging, perspective matching, justification scales, cipher cracking, Socratic returns, sequence memory, lever logic, slide restoration, fallacy volleys, shifting mazes, a coyote-time platformer, sightline stealth, and turn-based matchup tactics. Every instance carries a concept, a framework element, and a knowledge question, pays concept insight, and debriefs with a takeaway. Tutorials live in the Proving Grounds before the world offers stern versions.
 - **The Concept Forge**: twelve concept ladders. Every tagged action anywhere in the Atlas feeds the concept the action exercises; tiers run Apprentice to Luminary.
-- **Hall of Records (Z)**: leaderboards for total points, each concept, each element, perspectives, crafting, finding, conversations, exploration by region and overall, minutes, daily and weekly flames, journal entries, and trial stars. Offline, labeled pace-setter ghosts hold the bar; connected, real classmates replace them, call signs only.
+- **Hall of Records** (the Records chip): leaderboards for total points, each concept, each element, perspectives, crafting, finding, conversations, exploration by region and overall, minutes, daily and weekly flames, journal entries, and trial stars. Offline, labeled pace-setter ghosts hold the bar; connected, real classmates replace them, call signs only.
 - **The Reliquary Road**: a twelve-chapter arc, one per concept, each braiding a trial, an object set, and a journal rung, ending in a rehearsal triptych: three objects, one question, one defense.
 - **Seven new regions**: the Grand Reliquary hub, five themed vaults, and the Proving Grounds, each with lore plaques and one silent room told through furniture alone.
 

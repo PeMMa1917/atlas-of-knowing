@@ -568,7 +568,7 @@ canvas#screen{image-rendering:pixelated;image-rendering:crisp-edges}
       <button class="chip" id="btnFog" aria-label="Open the Fog Chart: the daily chart, the class Challenge Board, and your pattern. Shortcut Q">Fog · Q</button>
       <button class="chip" id="btnLoom" aria-label="Open the Loom: weaves across realms, mini quests, and storylines with memory. Shortcut X">Loom · X</button>
       <button class="chip" id="btnHalls" aria-label="Open the Halls: exhibition practice for all 35 prompts, essay planning, and the research stacks. Shortcut Z">Halls · Z</button>
-      <button class="chip" id="btnGrounds" aria-label="Open the Grounds: the Arena of fallacies, the Range, the Wardrobe of lenses, the Garden of habits, the Bench, the Rivals, and your Passport. Shortcut A">Grounds · A</button>
+      <button class="chip" id="btnGrounds" aria-label="Open the Grounds: the Arena of fallacies, the Range, the Wardrobe of lenses, the Garden of habits, the Bench, the Rivals, and your Passport">Grounds</button>
       <button class="chip" id="btnWarden" aria-label="Open the Warden's Desk, the teacher console">Warden</button>
       <button class="chip" id="btnCompass" aria-label="Consult the Compass for a free hint. Shortcut C">Compass · C</button>
       <button class="chip" id="btnSettings" aria-label="Open the Lantern Room, the settings panel. Shortcut O">Lantern · O</button>
@@ -2289,8 +2289,11 @@ function interact(){
     give(it.item);
     state.data.stats.pickups++;
     const item = ITEMS[it.item];
-    gainXP(15); gainTags(item.tags);
     emit("pickup", { item: it.item });
+    /* ids without a Codex entry (relic pickups) finish through the
+       pickup seam above; the card here reads from the Codex alone */
+    if (!item){ scheduleSave(); return; }
+    gainXP(15); gainTags(item.tags);
     openVignette(item.name, itemDesc(it.item) + "\n\n(Added to your Codex.)");
   }
 }
@@ -2327,6 +2330,7 @@ function renderDialogue(){
      in every dialogue and vignette are tap-a-term links from the merge on. */
   twInto(elText, nodeText(node));   /* Stage 11: typewriter, then the linked HTML lands */
   elChoices.innerHTML = "";
+  rrClearInfo();
   dlgButtons = [];
   let list = node.choices;
   if (!list || !list.length) list = [{ t:"Continue", next:node.next }];
@@ -2342,6 +2346,9 @@ function renderDialogue(){
   elDlg.hidden = false;
 }
 function choose(c){
+  /* options born with their own callback (openMsgOpts, the rail) act
+     through it; number keys and clicks then share one path */
+  if (typeof c.fn === "function"){ c.fn(); return; }
   if (c.set) Object.assign(state.data.flags, c.set);
   if (c.quest) setQuest(c.quest[0], c.quest[1]);
   if (c.give) give(c.give);
@@ -2355,6 +2362,7 @@ function choose(c){
 }
 function closeDialogue(){
   clearInterval(twTimer);
+  rrClearInfo();
   elDlg.hidden = true; dlgCurrent = null;
   uiOpen = satchelOpen || !!panelOpen;
 }
@@ -2844,6 +2852,27 @@ function render(t){
       ctx.save(); ctx.translate(cx, cy); ctx.rotate(Math.PI/4);
       ctx.fillStyle = "#C9A54E"; ctx.fillRect(-5, -5, 10, 10);
       ctx.restore();
+    } else if (it.type === "waygate"){
+      const wr = 11 + Math.sin(t/420) * 1.8;
+      ctx.strokeStyle = "#8CC3D6"; ctx.lineWidth = 2.2;
+      ctx.beginPath(); ctx.arc(cx, cy, wr, 0, Math.PI*2); ctx.stroke();
+      ctx.lineWidth = 1;
+      ctx.beginPath(); ctx.arc(cx, cy, wr*0.5, 0, Math.PI*2); ctx.stroke();
+      const wgl = it.label || "Waygate";
+      ctx.fillStyle = "rgba(14,20,36,0.75)";
+      const wlw = ctx.measureText(wgl).width;
+      ctx.fillRect(cx - wlw/2 - 4, cy + 14, wlw + 8, 13);
+      ctx.fillStyle = "#8CC3D6"; ctx.textAlign = "center";
+      ctx.fillText(wgl, cx, cy + 24); ctx.textAlign = "left";
+    } else {
+      /* every remaining kind (the inscription, Osa's copy, dig nodes,
+         perspective stones) glows as an open gold diamond */
+      const gp = 0.55 + 0.45 * Math.abs(Math.sin(t/340 + ix + iy));
+      ctx.save(); ctx.translate(cx, cy); ctx.rotate(Math.PI/4);
+      ctx.strokeStyle = "rgba(201,165,78," + gp.toFixed(2) + ")";
+      ctx.lineWidth = 2; ctx.strokeRect(-6, -6, 12, 12);
+      ctx.fillStyle = "#C9A54E"; ctx.fillRect(-2, -2, 4, 4);
+      ctx.restore();
     }
   }
 
@@ -3005,14 +3034,30 @@ const GAME_KEYS = { "ArrowUp":1,"ArrowDown":1,"ArrowLeft":1,"ArrowRight":1,
   "k":1,"K":1,"b":1,"B":1,"t":1,"T":1,"f":1,"F":1,"g":1,"G":1,"p":1,"P":1,"r":1,"R":1,"v":1,"V":1,"n":1,"N":1,"h":1,"H":1,"y":1,"Y":1,"u":1,"U":1,"q":1,"Q":1,"x":1,"X":1,"z":1,"Z":1,"`":1 };
 const PANEL_KEYS = { m:"map", M:"map", l:"ledger", L:"ledger",
   j:"journal", J:"journal", o:"settings", O:"settings",
-  k:"skills", K:"skills", b:"badges", B:"badges", t:"record", T:"record", f:"atelier", F:"atelier", g:"market", G:"market", p:"puzzles", P:"puzzles", r:"roads", R:"roads", v:"envoys", V:"envoys", n:"codex", N:"codex", h:"human", H:"human", y:"fair", Y:"fair", u:"guide", U:"guide", q:"chart", Q:"chart", x:"loom", X:"loom", z:"halls", Z:"halls", a:"grounds", A:"grounds", "`":"dev" };
+  k:"skills", K:"skills", b:"badges", B:"badges", t:"record", T:"record", f:"atelier", F:"atelier", g:"market", G:"market", p:"puzzles", P:"puzzles", r:"roads", R:"roads", v:"envoys", V:"envoys", n:"codex", N:"codex", h:"human", H:"human", y:"fair", Y:"fair", u:"guide", U:"guide", q:"chart", Q:"chart", x:"loom", X:"loom", z:"halls", Z:"halls", "`":"dev" };
+/* "a" belongs to walking alone; The Grounds opens from its chip. */
 window.addEventListener("keydown", e => {
   if (!elLexPop.hidden){
     if (e.key === "Escape" || e.key === "Enter"){ e.preventDefault(); elLexPop.hidden = true; }
     return;
   }
   if (dlgCurrent){
-    if (dlgCurrent.ladder) return;   /* the Ladder owns its own buttons; typing stays free */
+    if (dlgCurrent.ladder){
+      /* typing stays free; outside the textarea, 1..5 pick a rung and
+         Escape steps away, the same exit every surface honors */
+      if (e.target && e.target.tagName === "TEXTAREA") return;
+      if (e.key >= "1" && e.key <= "5"){
+        const rb = elDlg.querySelector('[data-r="' + e.key + '"]');
+        if (rb){ e.preventDefault(); rb.click(); }
+        return;
+      }
+      if (e.key === "Escape"){
+        e.preventDefault();
+        const sk = document.getElementById("ladSkip");
+        if (sk) sk.click(); else closeDialogue();
+      }
+      return;
+    }
     if (e.key >= "1" && e.key <= "9"){
       const i = +e.key - 1;
       if (dlgButtons[i]){ e.preventDefault(); choose(dlgButtons[i].c); }
@@ -3046,6 +3091,7 @@ window.addEventListener("keydown", e => {
   keys[e.key] = true;
 });
 window.addEventListener("keyup", e => { keys[e.key] = false; });
+window.addEventListener("blur", () => { for (const k in keys) keys[k] = false; });
 canvas.addEventListener("click", () => canvas.focus());
 document.getElementById("btnMap").addEventListener("click", () => openPanel("map"));
 document.getElementById("btnLedger").addEventListener("click", () => openPanel("ledger"));
@@ -7244,6 +7290,7 @@ function openMsgOpts(title, text, opts){
   elSpeaker.textContent = title ? String(title) : "";
   twInto(elText, text);
   elChoices.innerHTML = "";
+  rrClearInfo();
   dlgButtons = [];
   opts.forEach(function(o, i){
     var b = document.createElement("button");
@@ -16213,8 +16260,8 @@ function driveLoadRoster(){
 
 /* ═══ SEAMS: panel dispatch, toolbar, shortcut, save subtree ═══ */
 
-/* shortcut A/a opens the Grounds; the key map is a plain object we extend */
-PANEL_KEYS.a = "grounds"; PANEL_KEYS.A = "grounds";
+/* The A key walks west and nothing else; the Grounds opens from its chip.
+   A second meaning on a movement key froze WASD whenever a hand slipped. */
 
 /* a toolbar button, inserted beside the Halls chip if the toolbar exists */
 (function addGroundsButton(){
@@ -16225,8 +16272,8 @@ PANEL_KEYS.a = "grounds"; PANEL_KEYS.A = "grounds";
       if (!(halls && halls.parentNode)) return;
       b = document.createElement("button");
       b.className = "chip"; b.id = "btnGrounds";
-      b.setAttribute("aria-label", "Open the Grounds: the Arena of fallacies, the Range, the Wardrobe of lenses, the Garden of habits, the Bench, and your Passport. Shortcut A");
-      b.textContent = "Grounds \u00b7 A";
+      b.setAttribute("aria-label", "Open the Grounds: the Arena of fallacies, the Range, the Wardrobe of lenses, the Garden of habits, the Bench, and your Passport");
+      b.textContent = "Grounds";
       halls.parentNode.insertBefore(b, halls.nextSibling);
     }
     b.addEventListener("click", function(){ openPanel("grounds"); });
@@ -21741,11 +21788,33 @@ openDialogue = function(id){
   _rrOpen(id);
 };
 
+/* vignettes and option cards carry no rail: a stale speaker id would
+   pin the last NPC's buttons onto item cards and plaques */
+var _rrVig = openVignette;
+openVignette = function(title, text){
+  rrPendingId = null; rrGlossOn = false;
+  return _rrVig(title, text);
+};
+var _rrMsg = openMsgOpts;
+openMsgOpts = function(title, text, opts){
+  rrPendingId = null; rrGlossOn = false;
+  return _rrMsg(title, text, opts);
+};
+
 function rrRegionKey(){ return "rr_xp_" + state.player.region; }
 
+function rrClearInfo(){
+  var host = elChoices.parentNode;
+  if (!host) return;
+  Array.prototype.slice.call(host.querySelectorAll(".rrInfo")).forEach(function(n){
+    n.parentNode.removeChild(n);
+  });
+}
 function rrInfoBox(text){
+  /* one box, replaced in place: asking twice never doubles the line */
+  rrClearInfo();
   var box = document.createElement("div");
-  box.className = "sub";
+  box.className = "sub rrInfo";
   box.style.cssText = "margin:6px 0;padding:8px;border:1px dashed var(--stone);border-radius:6px";
   box.textContent = text;
   elText.parentNode.insertBefore(box, elChoices);
@@ -21769,9 +21838,11 @@ renderDialogue = function(){
     var b = document.createElement("button");
     b.className = "choice";
     b.style.opacity = "0.88";
-    b.innerHTML = '<span class="num">☝</span>' + esc(label);
+    b.innerHTML = '<span class="num">' + (dlgButtons.length + 1) + '</span>' + esc(label);
     b.addEventListener("click", fn);
     elChoices.appendChild(b);
+    /* rail options join dlgButtons, so their number keys land too */
+    dlgButtons.push({ btn: b, c: { t: label, fn: fn } });
   };
   if (!rrGlossOn){
     mk("What do you mean? (say it plainly)", function(){
@@ -21886,7 +21957,7 @@ function rrChorusOpts(rid, idx, v, ch, say, tookA, tookB, plained){
       (RR_ROLE_WHO[v.k] || "A voice of this region.") + " Their words again: " + v.say,
       tookA, tookB, true);
   } });
-  opts.push({ t:"Say the whole argument plainly", fn:function(){ chPlain(rid); } });
+  opts.push({ t:"Sum up the whole debate", fn:function(){ chPlain(rid); } });
   if (chHeardCount(rid) >= ch.v.length && !state.data.flags["chs_" + rid]){
     opts.push({ t:"Nobody won? Truly?", fn:function(){ chShift(rid); } });
   }
@@ -21903,6 +21974,14 @@ openDialogue = function(id){
   }
   _dlgRr2(id);
 };
+
+/* the seam exported these before the wrappers landed; refresh them so
+   packs calling through TOKEngine get the same behavior players get */
+if (window.TOKEngine){
+  window.TOKEngine.openDialogue = function(id){ return openDialogue(id); };
+  window.TOKEngine.openVignette = function(t, x){ return openVignette(t, x); };
+  window.TOKEngine.openMsg = function(t, x, o){ return openMsgOpts(t, x, o); };
+}
 
 thresholdSet("People", "☝", "rr_rail",
   ["First Handhold", "Rail Rider", "No Cryptic Lines Left"],
@@ -24424,6 +24503,38 @@ try { thresholdMaybe(); } catch(e){}
 canvas.focus();
 requestAnimationFrame(frame);
 if (typeof location !== "undefined" && location.hash === "#dev") openPanel("dev");
+
+/* -- guarded test seam: alive only when the address carries "atlastest" --
+   The playthrough harness (test/harness.js) reaches engine internals
+   through here; a normal student address never activates it. */
+if (/atlastest/.test(location.hash + location.search)){
+  window.__ATLAS_TEST__ = {
+    get state(){ return state; },
+    get panelOpen(){ return panelOpen; },
+    get dlgCurrent(){ return dlgCurrent; },
+    get dlgButtons(){ return dlgButtons; },
+    get uiOpen(){ return uiOpen; },
+    get satchelOpen(){ return satchelOpen; },
+    get keys(){ return keys; },
+    get SAVE_KEY(){ return SAVE_KEY; },
+    DIALOGUES: DIALOGUES, REGIONS: REGIONS, ITEMS: ITEMS,
+    PANEL_KEYS: PANEL_KEYS, TILE: TILE, FALLACY_FOES: FALLACY_FOES,
+    AR_FOE_INDEX: AR_FOE_INDEX, CHORUS: CHORUS,
+    openDialogue: function(id){ return openDialogue(id); },
+    openVignette: function(t, x){ return openVignette(t, x); },
+    openMsgOpts: function(t, x, o){ return openMsgOpts(t, x, o); },
+    openPanel: function(k){ return openPanel(k); },
+    closePanel: function(){ return closePanel(); },
+    closeDialogue: function(){ return closeDialogue(); },
+    toggleSatchel: function(v){ return toggleSatchel(v); },
+    interact: function(){ return interact(); },
+    travel: function(r, s){ return travel(r, s); },
+    arStart: function(id){ return arStart(id); },
+    setArenaTab: function(){ ldTab = "arena"; },
+    rrChorusOpen: function(r, i){ return rrChorusOpen(r, i); },
+    saveNow: function(){ return saveNow(); }
+  };
+}
 })();
 
 
@@ -32174,7 +32285,8 @@ if (typeof location !== "undefined" && location.hash === "#dev") openPanel("dev"
         tags: [o.tags.c, o.tags.e],
         desc: (function (obj) {
           return function () {
-            var whatWhy = String(obj.rw || "").split(/(?<=[.!?])\s+/).slice(0, 2).join(" ");
+            /* no lookbehind: older Safari parses this file too */
+            var whatWhy = (String(obj.rw || "").match(/[^.!?]+[.!?]*/g) || [String(obj.rw || "")]).slice(0, 2).join("").trim();
             var broken = (Number(FL()["v37_diss_" + obj.id]) || 0) > (Number(FL()["v37_reborn_" + obj.id]) || 0);
             return obj.desc +
               "\n\nWhat and why: " + whatWhy +
@@ -32218,7 +32330,7 @@ if (typeof location !== "undefined" && location.hash === "#dev") openPanel("dev"
       }
     }
     try {
-      var firstRw = String(o.rw || "").split(/(?<=[.!?])\s+/)[0] || "";
+      var firstRw = ((String(o.rw || "").match(/[^.!?]+[.!?]*/g) || [])[0] || String(o.rw || "")).trim();
       E.autoJournal("Found " + o.name + " in " + (REGION_LABELS[o.region] || o.region) + ". " + firstRw + " Its question follows me: " + o.kq);
     } catch (e) {}
     try { if (E.checkBadges) E.checkBadges(); } catch (e) {}
@@ -32403,7 +32515,7 @@ if (typeof location !== "undefined" && location.hash === "#dev") openPanel("dev"
             '<button class="btn small" data-v37study="' + esc(o.id) + '">Study it</button>') +
         '</div>');
     });
-    if (!shown) h += '<div class="sub" style="opacity:.7">Nothing here yet. The world holds ' + (ct.total - ct.got) + ' more objects. Open Search (X) wherever you stand.</div>';
+    if (!shown) h += '<div class="sub" style="opacity:.7">Nothing here yet. The world holds ' + (ct.total - ct.got) + ' more objects. Open the Search chip wherever you stand.</div>';
     els.body.innerHTML = h;
     wireRelicsPanel(els);
   }
@@ -32827,8 +32939,8 @@ if (typeof location !== "undefined" && location.hash === "#dev") openPanel("dev"
     mk("btnV37Court", "Reliquary", "Courier to the Grand Reliquary, the hall of five hundred objects", function () {
       try { E.travel("reliquary", "default"); } catch (e) {}
     });
-    mk("btnV37Search", "Search · X", "Open Field Search: the objects hidden where you stand. Shortcut X", function () { openV37Panel("v37search"); });
-    mk("btnV37Relics", "Relics · O", "Open the Reliquary Record: your objects, Bandolier, and cabinets. Shortcut O", function () { openV37Panel("v37relics"); });
+    mk("btnV37Search", "Search", "Open Field Search: the objects hidden where you stand", function () { openV37Panel("v37search"); });
+    mk("btnV37Relics", "Relics", "Open the Reliquary Record: your objects, Bandolier, and cabinets", function () { openV37Panel("v37relics"); });
     countChip = document.createElement("span");
     countChip.className = "chip"; countChip.id = "v37CountChip";
     anchor.parentNode.insertBefore(countChip, anchor.nextSibling);
@@ -32840,14 +32952,8 @@ if (typeof location !== "undefined" && location.hash === "#dev") openPanel("dev"
     countChip.textContent = "◈ " + ct.got + "/" + ct.total;
     countChip.title = "Objects found. Bandolier: " + band().length + "/5.";
   }
-  document.addEventListener("keydown", function (e) {
-    if (e.altKey || e.ctrlKey || e.metaKey) return;
-    var t = e.target && e.target.tagName;
-    if (t === "INPUT" || t === "TEXTAREA" || t === "SELECT") return;
-    var k = (e.key || "").toLowerCase();
-    if (k === "o") { openV37Panel("v37relics"); }
-    else if (k === "x") { openV37Panel("v37search"); }
-  });
+  /* Keyboard shortcuts stay with the engine's own keymap; these panels
+     open from their chips, so no key carries two meanings. */
 
   /* Beacon: one free jump per day to any visited region */
   V37.beacon = function (rid) {
@@ -33824,7 +33930,8 @@ E.relicsLoad([{"id":"v37_ch_door_math","name":"Ishango Bone, Congo Basin, c. 20,
 
   /* ── anatomy of an object ── */
   function firstSentence(s, cap) {
-    var t = String(s || "").split(/(?<=[.!?])\s+/)[0] || String(s || "");
+    /* no lookbehind: older Safari parses this file too */
+    var t = ((String(s || "").match(/[^.!?]+[.!?]*/g) || [])[0] || String(s || "")).trim();
     if (t.length > (cap || 150)) t = t.slice(0, (cap || 150) - 1).replace(/\s+\S*$/, "") + "…";
     return t;
   }
@@ -34953,22 +35060,16 @@ E.relicsLoad([{"id":"v37_ch_door_math","name":"Ishango Bone, Congo Basin, c. 20,
 
   /* Slide, Volley, Maze, Climb, Shadow, Tactica arrive in content-67b. */
 
-  /* ── HUD chip and shortcut ── */
+  /* ── HUD chip; the satchel keeps the I key to itself ── */
   function addChip() {
     var anchor = document.getElementById("btnV37Relics") || document.getElementById("btnGuide");
     if (!anchor || !anchor.parentNode || document.getElementById("btnV37Trials")) return;
     var b = document.createElement("button");
-    b.className = "chip"; b.id = "btnV37Trials"; b.textContent = "Trials+ · I";
-    b.setAttribute("aria-label", "Open the fourteen trial families for this region. Shortcut I");
+    b.className = "chip"; b.id = "btnV37Trials"; b.textContent = "Trials+";
+    b.setAttribute("aria-label", "Open the fourteen trial families for this region");
     b.addEventListener("click", openTrials);
     anchor.parentNode.insertBefore(b, anchor.nextSibling);
   }
-  document.addEventListener("keydown", function (e) {
-    if (e.altKey || e.ctrlKey || e.metaKey) return;
-    var t = e.target && e.target.tagName;
-    if (t === "INPUT" || t === "TEXTAREA" || t === "SELECT") return;
-    if ((e.key || "").toLowerCase() === "i") openTrials();
-  });
 
   function boot() { generateInstances(); addChip(); }
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", boot);
@@ -35821,14 +35922,9 @@ E.relicsLoad([{"id":"v37_ch_door_math","name":"Ishango Bone, Congo Basin, c. 20,
       anchor.parentNode.insertBefore(b, anchor.nextSibling);
     }
     mk("btnV37Forge", "Concepts", "Open the Concept Forge: twelve concept ladders fed by your actions", openForge);
-    mk("btnV37Records", "Records · Z", "Open the Hall of Records, the leaderboards. Shortcut Z", openRecords);
+    mk("btnV37Records", "Records", "Open the Hall of Records, the leaderboards", openRecords);
   }
-  document.addEventListener("keydown", function (e) {
-    if (e.altKey || e.ctrlKey || e.metaKey) return;
-    var t = e.target && e.target.tagName;
-    if (t === "INPUT" || t === "TEXTAREA" || t === "SELECT") return;
-    if ((e.key || "").toLowerCase() === "z") openRecords();
-  });
+  /* No document-level shortcut: the engine keymap owns the letters. */
   E.V37_RECORDS.openForge = openForge;
   E.V37_RECORDS.openRecords = openRecords;
 
@@ -35915,7 +36011,14 @@ E.relicsLoad([{"id":"v37_ch_door_math","name":"Ishango Bone, Congo Basin, c. 20,
       '<button class="btn gold" id="v37idgo" style="padding:8px 14px">Sign</button>' +
       '<button class="btn" id="v37idlater" style="padding:8px 14px">Later</button></div></div>';
     document.body.appendChild(wrap);
-    document.getElementById("v37idlater").onclick = function () { wrap.remove(); };
+    /* Escape steps away here too, the one exit every surface honors */
+    var idEsc = function (e) { if (e.key === "Escape") idClose(); };
+    var idClose = function () {
+      try { wrap.remove(); } catch (e0) {}
+      document.removeEventListener("keydown", idEsc, true);
+    };
+    document.addEventListener("keydown", idEsc, true);
+    document.getElementById("v37idlater").onclick = idClose;
     document.getElementById("v37idgo").onclick = function () {
       var first = document.getElementById("v37idf").value.trim();
       var lastI = document.getElementById("v37idl").value.trim().toUpperCase();
@@ -35946,7 +36049,7 @@ E.relicsLoad([{"id":"v37_ch_door_math","name":"Ishango Bone, Congo Basin, c. 20,
         }
       } catch (e5) {}
       save();
-      wrap.remove();
+      idClose();
       toast("Signed. The Chartroom knows " + call + " now.");
       pushSoon(400);
     };
