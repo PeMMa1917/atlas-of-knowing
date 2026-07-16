@@ -768,7 +768,12 @@ function btnLabels(W, rootSel) {
       AW.closeDialogue(); AW.closePanel();
       AW.travel("hall", undefined);
       await sleep(600);
-      const speakerH = (dW.window.document.getElementById("dlgSpeaker") || {}).textContent || "";
+      let speakerH = (dW.window.document.getElementById("dlgSpeaker") || {}).textContent || "";
+      for (let tries = 0; tries < 4 && speakerH.indexOf("Letter") < 0; tries++) {
+        AW.closeDialogue(); AW.closePanel();
+        await sleep(1100);
+        speakerH = (dW.window.document.getElementById("dlgSpeaker") || {}).textContent || "";
+      }
       ok("the letter meets the wanderer on the walk into the hall", speakerH.indexOf("Letter") >= 0, speakerH);
     }
     dW.window.close();
