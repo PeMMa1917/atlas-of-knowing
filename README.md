@@ -49,7 +49,7 @@ https://<your-pages-address>/?class=<web app URL>
 
 The game stores the address in the save, asks each student for first name, last initial, school email, and a call sign, and starts syncing. Students can also paste the address by hand through the **Class** chip in the game menu.
 
-The Sheet fills itself: `Students` (live roster), `Journals`, `Awards`, `Sessions`. Since the data already lives in Google Drive, Sheets export needs no extra step. File > Download covers Excel and PDF from there as well.
+The Sheet fills itself: `Students` (live roster), `Journals`, `Awards`, `Sessions`, and `Errors` (crash reports from student devices, so "it broke" comes with a line number). Since the data already lives in Google Drive, Sheets export needs no extra step. File > Download covers Excel and PDF from there as well.
 
 ## The teacher dashboard
 

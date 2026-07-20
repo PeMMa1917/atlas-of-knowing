@@ -36037,6 +36037,29 @@ E.relicsLoad([{"id":"v37_ch_door_math","name":"Ishango Bone, Congo Basin, c. 20,
   /* the write token: a second key the class link carries. Snapshots without
      it bounce, so an address copied off a projected screen cannot post. */
   function classToken() { return String(FL().v37_sync_token || ""); }
+  /* the save's own key: minted once, sent with every write and pull. The
+     class desk remembers the first key each email arrives with and turns
+     other keys away, so nobody can post or read as a classmate just by
+     typing their email. A new device means a fresh key; the teacher's
+     Reset key button on the roster lets the student sign back in. */
+  function authKey() {
+    var k = String(FL().v37_sync_auth || "");
+    if (!k) {
+      try {
+        var a = new Uint8Array(16);
+        crypto.getRandomValues(a);
+        k = Array.prototype.map.call(a, function (b) { return ("0" + b.toString(16)).slice(-2); }).join("");
+      } catch (e) { k = (Math.random().toString(36) + Math.random().toString(36)).replace(/\./g, "").slice(0, 24) + Date.now().toString(36); }
+      FL().v37_sync_auth = k; save();
+    }
+    return k;
+  }
+  var lockedTold = false;
+  function lockedNotice() {
+    if (lockedTold) return;
+    lockedTold = true;
+    toast("The Chartroom already holds a key for this email from another device. Ask your teacher to press Reset key on your row, then play on.");
+  }
   (function readParam() {
     try {
       var m = /[?&]class=([^&]+)/.exec(location.search || "");
@@ -36121,7 +36144,7 @@ E.relicsLoad([{"id":"v37_ch_door_math","name":"Ishango Bone, Congo Basin, c. 20,
   function post(payload, cb) {
     var url = classUrl(); if (!url) return;
     try {
-      payload = Object.assign({}, payload, { token: classToken() });
+      payload = Object.assign({}, payload, { token: classToken(), auth: authKey() });
       fetch(url, { method: "POST", headers: { "Content-Type": "text/plain;charset=utf-8" }, body: JSON.stringify(payload) })
         .then(function (r) { return r.json(); }).then(function (j) { if (cb) cb(j); })
         .catch(function () { if (cb) cb(null); });
@@ -36171,6 +36194,7 @@ E.relicsLoad([{"id":"v37_ch_door_math","name":"Ishango Bone, Congo Basin, c. 20,
     lastPushHash = h;
     post(payload, function (j) {
       if (j && j.ok) FL().v37_last_push = Date.now();
+      else if (j && j.error === "locked") lockedNotice();
     });
   }
   function pushSoon(ms) { clearTimeout(pushTimer); pushTimer = setTimeout(function () { pushNow("event"); }, ms || 1500); }
@@ -36181,14 +36205,17 @@ E.relicsLoad([{"id":"v37_ch_door_math","name":"Ishango Bone, Congo Basin, c. 20,
   window.addEventListener("pagehide", function () {
     var url = classUrl(), p = profile();
     if (!url || !p.email || !navigator.sendBeacon) return;
-    try { navigator.sendBeacon(url, JSON.stringify(snapshotPayload("bye"))); } catch (e) {}
+    /* the beacon path builds its body by hand, so it must carry the same
+       token and key post() adds; without them the goodbye snapshot bounces */
+    try { navigator.sendBeacon(url, JSON.stringify(Object.assign(snapshotPayload("bye"), { token: classToken(), auth: authKey() }))); } catch (e) {}
   });
 
   /* ── inbound: awards with teacher messages ── */
   function checkAwards(atLogin) {
     var p = profile();
     if (!classUrl() || !p.email) return;
-    get({ action: "pull", email: p.email, since: String(FL().v37_award_last || 0) }, function (j) {
+    get({ action: "pull", email: p.email, since: String(FL().v37_award_last || 0), auth: authKey() }, function (j) {
+      if (j && !j.ok && j.error === "locked") { lockedNotice(); return; }
       if (!j || !j.ok || !j.awards || !j.awards.length) return;
       var maxId = Number(FL().v37_award_last || 0);
       j.awards.forEach(function (a, ix) {
@@ -36211,6 +36238,35 @@ E.relicsLoad([{"id":"v37_ch_door_math","name":"Ishango Bone, Congo Basin, c. 20,
     });
   }
   setInterval(function () { checkAwards(false); }, 180000);
+
+  /* ── crash reports: what breaks in the wild reaches the Errors tab.
+        Deduped per message, six per session at most, batched quietly. ── */
+  var errQueue = [], errSeen = {}, errSent = 0, errTimer = null;
+  function reportError(msg, src, line, stack) {
+    try {
+      msg = String(msg || "").slice(0, 300);
+      if (!msg || errSent + errQueue.length >= 6) return;
+      var k = msg + "@" + (line | 0);
+      if (errSeen[k]) return;
+      errSeen[k] = true;
+      errQueue.push({ msg: msg, src: String(src || "").slice(0, 200), line: line | 0, stack: String(stack || "").slice(0, 500) });
+      clearTimeout(errTimer);
+      errTimer = setTimeout(flushErrors, 4000);
+    } catch (e) {}
+  }
+  function flushErrors() {
+    if (!errQueue.length || !classUrl()) return;
+    var batch = errQueue.splice(0, 5);
+    errSent += batch.length;
+    post({ kind: "errors", errors: batch, email: profile().email || "", ua: String(navigator.userAgent || "").slice(0, 180) });
+  }
+  window.addEventListener("error", function (e) {
+    reportError(e.message, e.filename, e.lineno, e.error && e.error.stack);
+  });
+  window.addEventListener("unhandledrejection", function (e) {
+    var r = e.reason || {};
+    reportError(r.message || String(e.reason || "unhandled rejection"), "", 0, r.stack);
+  });
 
   /* ── class boards for the Hall of Records ── */
   function fetchBoards() {
