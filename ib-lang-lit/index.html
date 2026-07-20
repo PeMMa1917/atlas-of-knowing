@@ -1,0 +1,1538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IB English A: Language &amp; Literature — Activity Explorer</title>
+
+  <!--
+  ═══════════════════════════════════════════════════════════
+   TEACHER SETUP — ONE STEP ONLY
+  ═══════════════════════════════════════════════════════════
+   1. Open your Google Sheet (tab must be named "Activities",
+      headers in row 1).
+   2. Share it → "Anyone with the link" → Viewer access.
+   3. Copy the Sheet ID from the URL:
+         docs.google.com/spreadsheets/d/ ➜ [SHEET_ID] ➜ /edit
+   4. Paste it in SHEET_ID below.
+
+   COLUMNS — v3 reads columns BY HEADER NAME, so column order
+   doesn't matter and you can add your own columns freely.
+   It understands both the original 12-column sheet and the
+   v3 24-column sheet (Assessment, Style Preference, Session
+   Use, Exam Proximity, Materials, Energy Level, Support
+   Level, Helps With, Why It Helps, Success Criteria,
+   If You Are Stuck, Text / Work Focus, …). Any column that
+   is missing is derived automatically where possible, and
+   filters with no data hide themselves.
+
+   HOSTING FOR GOOGLE SITES:
+   Option A — GitHub Pages (free):
+     Upload this file → Settings → Pages → Source: main branch
+     Embed: <iframe src="YOUR_URL" width="100%" height="1100" frameborder="0"></iframe>
+   Option B — Netlify Drop (no account needed):
+     Visit netlify.com/drop → drag this file onto the page.
+
+   AUTO-UPDATE: Every time a student opens the app it fetches
+   the latest data from your Google Sheet automatically.
+   No Apps Script needed.
+  ═══════════════════════════════════════════════════════════
+  -->
+
+  <script>
+    const SHEET_ID  = '1nO6X7Z5Ai0OZkFGWjWpuGkFRHvtW6yCUt8-Ge5KD3xM';
+    const SHEET_GID = '72092041'; // fallback: GID of the Activities tab
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --navy:      #1e3a5f;
+      --navy-lt:   rgba(30,58,95,0.08);
+      --teal:      #1a6b5c;
+      --teal-lt:   #d4ede8;
+      --amber:     #c9651a;
+      --amber-lt:  #fdf0e6;
+      --cream:     #f7f5f1;
+      --white:     #ffffff;
+      --border:    #ddd8ce;
+      --text:      #1c1c1c;
+      --mid:       #5a5a5a;
+      --light:     #9a9488;
+      --found:     #2a7a3c;
+      --found-lt:  #d8f0de;
+      --dev:       #1a5a8c;
+      --dev-lt:    #d6eaf8;
+      --adv:       #7c3a8a;
+      --adv-lt:    #efe0f5;
+      --io:        #a85a0e;
+      --io-lt:     #fde8cc;
+      --p1:        #1a6b5c;
+      --p1-lt:     #d4ede8;
+      --p2:        #4a1a8c;
+      --p2-lt:     #e6d8f8;
+      --gen:       #3a5a6c;
+      --gen-lt:    #d4e4ec;
+      --x:         #8a1a5a;
+      --x-lt:      #f8d8e8;
+      --radius:    10px;
+      --shadow:    0 2px 16px rgba(30,58,95,0.09);
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: var(--cream);
+      color: var(--text);
+      line-height: 1.65;
+      min-height: 100vh;
+    }
+
+    /* ── HEADER ─────────────────────────────────────────── */
+    header {
+      background: var(--navy);
+      color: #fff;
+      padding: 40px 24px 32px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    header::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse at 15% 60%, rgba(200,101,26,0.12) 0%, transparent 55%),
+        radial-gradient(ellipse at 85% 30%, rgba(26,107,92,0.12) 0%, transparent 55%);
+      pointer-events: none;
+    }
+    header::after {
+      content: '';
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      height: 4px;
+      background: linear-gradient(90deg, var(--teal) 0%, var(--amber) 60%, #e8a04a 100%);
+    }
+    .header-badge {
+      display: inline-block;
+      background: rgba(255,255,255,0.11);
+      border: 1px solid rgba(255,255,255,0.22);
+      border-radius: 20px;
+      font-size: 0.68em;
+      font-weight: 500;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      padding: 4px 14px;
+      margin-bottom: 14px;
+      position: relative;
+    }
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(1.9em, 4vw, 2.9em);
+      font-weight: 400;
+      letter-spacing: 0.01em;
+      line-height: 1.2;
+      margin-bottom: 10px;
+      position: relative;
+    }
+    .header-sub {
+      font-size: 0.88em;
+      font-weight: 300;
+      opacity: 0.7;
+      letter-spacing: 0.05em;
+      position: relative;
+    }
+    .header-pills {
+      display: flex;
+      gap: 8px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 16px;
+      position: relative;
+    }
+    .header-pill {
+      padding: 4px 12px;
+      border-radius: 14px;
+      font-size: 0.72em;
+      font-weight: 500;
+      letter-spacing: 0.04em;
+      border: 1px solid rgba(255,255,255,0.2);
+    }
+    .pill-p1  { background: rgba(26,107,92,0.35);  color: #9fe8d8; }
+    .pill-io  { background: rgba(200,101,26,0.35);  color: #ffd4a0; }
+    .pill-p2  { background: rgba(74,26,140,0.35);   color: #d4b8f8; }
+    .pill-x   { background: rgba(138,26,90,0.35);   color: #f8b8d8; }
+    .pill-gen { background: rgba(255,255,255,0.1);  color: rgba(255,255,255,0.65); }
+
+    /* ── LAYOUT ─────────────────────────────────────────── */
+    .app-wrap {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 28px 20px 60px;
+    }
+
+    /* ── STATUS BAR ─────────────────────────────────────── */
+    #status-bar {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 0.84em;
+      color: var(--mid);
+      margin-bottom: 20px;
+      min-height: 24px;
+    }
+    .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--light); flex-shrink: 0; }
+    .dot.green  { background: #3caf6a; }
+    .dot.orange { background: var(--amber); }
+    .dot.pulse  { animation: pulse 1.4s infinite; }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+
+    /* ── SETUP NOTICE ───────────────────────────────────── */
+    #setup-notice {
+      background: #fffbe6;
+      border: 2px dashed var(--amber);
+      border-radius: var(--radius);
+      padding: 28px 32px;
+      margin: 32px auto;
+      max-width: 700px;
+    }
+    #setup-notice h2 { font-family: 'Playfair Display', serif; color: var(--amber); margin-bottom: 12px; }
+    #setup-notice code { background: #f0e8d6; padding: 2px 7px; border-radius: 4px; font-size: 0.88em; }
+
+    /* ── QUICK STARTS ───────────────────────────────────── */
+    #preset-card {
+      background: var(--white);
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow);
+      padding: 16px 20px 14px;
+      margin-bottom: 16px;
+    }
+    .preset-title {
+      font-size: 0.68em;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--light);
+      margin-bottom: 10px;
+    }
+    .preset-row { display: flex; flex-wrap: wrap; gap: 8px; }
+    .preset-btn {
+      padding: 7px 14px;
+      border-radius: 20px;
+      border: 1.5px solid var(--border);
+      background: var(--cream);
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.82em;
+      font-weight: 500;
+      color: var(--mid);
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .preset-btn:hover { border-color: var(--amber); color: var(--amber); background: var(--amber-lt); }
+
+    /* ── FILTERS CARD ───────────────────────────────────── */
+    .filters-card {
+      background: var(--white);
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow);
+      padding: 24px 24px 20px;
+      margin-bottom: 20px;
+    }
+    .filters-top {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      flex-wrap: wrap;
+      margin-bottom: 6px;
+    }
+    .filters-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.05em;
+      color: var(--navy);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .search-wrap { flex: 1; min-width: 220px; position: relative; }
+    .search-wrap svg { position: absolute; left: 11px; top: 50%; transform: translateY(-50%); opacity: 0.45; }
+    #f-search {
+      width: 100%;
+      padding: 9px 12px 9px 32px;
+      border: 1.5px solid var(--border);
+      border-radius: 20px;
+      background: var(--cream);
+      color: var(--text);
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.87em;
+      transition: border-color 0.18s, background 0.18s, box-shadow 0.18s;
+    }
+    #f-search:focus {
+      outline: none;
+      border-color: var(--teal);
+      background: #f0faf8;
+      box-shadow: 0 0 0 3px rgba(26,107,92,0.1);
+    }
+
+    .filter-section-label {
+      font-size: 0.65em;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--light);
+      margin: 18px 0 10px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    .filter-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 12px 18px;
+    }
+    .filter-group label {
+      display: block;
+      font-size: 0.71em;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--mid);
+      margin-bottom: 5px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .filter-group select {
+      width: 100%;
+      padding: 9px 32px 9px 12px;
+      border: 1.5px solid var(--border);
+      border-radius: 7px;
+      background: var(--cream);
+      color: var(--text);
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.87em;
+      appearance: none;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%235a5a5a' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 10px center;
+      cursor: pointer;
+      transition: border-color 0.18s, background 0.18s, box-shadow 0.18s;
+    }
+    .filter-group select:focus {
+      outline: none;
+      border-color: var(--teal);
+      background-color: #f0faf8;
+      box-shadow: 0 0 0 3px rgba(26,107,92,0.1);
+    }
+    .filter-group select.has-value {
+      border-color: var(--teal);
+      background-color: var(--teal-lt);
+      font-weight: 500;
+    }
+    .filter-group select option:disabled { color: #c8c3bc; font-style: italic; }
+    .opt-count {
+      float: right;
+      font-size: 0.78em;
+      background: var(--teal-lt);
+      color: var(--teal);
+      padding: 1px 7px;
+      border-radius: 10px;
+      font-weight: 500;
+      min-width: 20px;
+      text-align: center;
+    }
+
+    /* ── FILTER ACTIONS ─────────────────────────────────── */
+    .filter-actions {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 10px;
+      margin-top: 20px;
+      padding-top: 18px;
+      border-top: 1px solid var(--border);
+    }
+    .match-count { font-size: 0.82em; color: var(--mid); margin-left: auto; }
+    .match-count strong { color: var(--teal); font-size: 1.12em; }
+    .active-filter-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      width: 100%;
+      margin-top: 4px;
+    }
+    .chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      background: var(--teal-lt);
+      color: var(--teal);
+      border: 1px solid rgba(26,107,92,0.25);
+      border-radius: 14px;
+      padding: 3px 10px;
+      font-size: 0.76em;
+      font-weight: 500;
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+    .chip:hover { background: #b8e2d8; }
+    .chip-x { font-size: 1em; opacity: 0.6; }
+
+    /* ── BUTTONS ────────────────────────────────────────── */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      padding: 9px 18px;
+      border-radius: 8px;
+      border: none;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.87em;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.18s;
+      white-space: nowrap;
+    }
+    .btn-ghost {
+      background: transparent;
+      color: var(--mid);
+      border: 1.5px solid var(--border);
+    }
+    .btn-ghost:hover { border-color: var(--navy); color: var(--navy); }
+    .btn-shuffle {
+      background: transparent;
+      color: var(--teal);
+      border: 1.5px solid var(--teal);
+    }
+    .btn-shuffle:hover { background: var(--teal-lt); }
+
+    /* ── MODE STRIP ─────────────────────────────────────── */
+    .action-row {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 18px;
+    }
+    .mode-strip { display: flex; gap: 8px; flex-wrap: wrap; }
+    .mode-btn {
+      padding: 7px 16px;
+      border-radius: 22px;
+      border: 1.5px solid var(--border);
+      background: var(--white);
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.82em;
+      font-weight: 500;
+      color: var(--mid);
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .mode-btn.active { border-color: var(--navy); background: var(--navy); color: #fff; }
+    .mode-btn:hover:not(.active) { border-color: var(--teal); color: var(--teal); }
+    .live-label { font-size: 0.78em; color: var(--light); font-style: italic; align-self: center; }
+
+    /* ── RESULTS ────────────────────────────────────────── */
+    #results { margin-top: 4px; }
+    .showing-note {
+      font-size: 0.8em;
+      color: var(--light);
+      margin: 6px 2px 12px;
+      font-style: italic;
+    }
+    .no-results {
+      text-align: center;
+      padding: 52px 24px;
+      color: var(--mid);
+    }
+    .no-results svg { margin: 0 auto 18px; display: block; opacity: 0.3; }
+    .no-results p { font-size: 0.9em; }
+
+    /* ── ACTIVITY CARD ──────────────────────────────────── */
+    .card {
+      background: var(--white);
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow);
+      margin-bottom: 14px;
+      overflow: hidden;
+      animation: cardIn 0.28s ease both;
+    }
+    @keyframes cardIn {
+      from { opacity: 0; transform: translateY(8px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    .card.highlight {
+      border-color: var(--teal);
+      border-width: 2px;
+      box-shadow: 0 0 0 3px var(--teal-lt), var(--shadow);
+    }
+    .card-header {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      padding: 18px 20px 14px;
+      border-bottom: 1px solid var(--border);
+    }
+    .card-id {
+      font-size: 0.67em;
+      font-weight: 500;
+      letter-spacing: 0.09em;
+      color: var(--light);
+      margin-bottom: 5px;
+      font-family: monospace;
+    }
+    .card-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.12em;
+      font-weight: 600;
+      color: var(--navy);
+      line-height: 1.3;
+    }
+    .card-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+      margin-top: 9px;
+    }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      padding: 3px 9px;
+      border-radius: 14px;
+      font-size: 0.71em;
+      font-weight: 500;
+      letter-spacing: 0.02em;
+      white-space: nowrap;
+    }
+    .badge-navy  { background: var(--navy-lt);    color: var(--navy); }
+    .badge-teal  { background: var(--teal-lt);    color: var(--teal); }
+    .badge-amber { background: var(--amber-lt);   color: var(--amber); }
+    .badge-found { background: var(--found-lt);   color: var(--found); }
+    .badge-dev   { background: var(--dev-lt);     color: var(--dev); }
+    .badge-adv   { background: var(--adv-lt);     color: var(--adv); }
+    .badge-p1    { background: var(--p1-lt);      color: var(--p1); }
+    .badge-p2    { background: var(--p2-lt);      color: var(--p2); }
+    .badge-io    { background: var(--io-lt);      color: var(--io); }
+    .badge-gen   { background: var(--gen-lt);     color: var(--gen); }
+    .badge-x     { background: var(--x-lt);       color: var(--x); }
+
+    .card-body { padding: 16px 20px; }
+    .card-desc {
+      font-size: 0.9em;
+      line-height: 1.75;
+      color: var(--mid);
+      margin-bottom: 12px;
+    }
+    .card-why {
+      font-size: 0.84em;
+      line-height: 1.6;
+      color: var(--teal);
+      background: #f0faf8;
+      border-left: 3px solid var(--teal);
+      border-radius: 0 7px 7px 0;
+      padding: 8px 12px;
+      margin-bottom: 12px;
+    }
+    .card-help {
+      margin-bottom: 12px;
+      border: 1px solid var(--border);
+      border-radius: 7px;
+      overflow: hidden;
+    }
+    .card-help summary {
+      cursor: pointer;
+      padding: 8px 12px;
+      font-size: 0.8em;
+      font-weight: 500;
+      color: var(--mid);
+      background: var(--cream);
+      list-style: none;
+      user-select: none;
+    }
+    .card-help summary::-webkit-details-marker { display: none; }
+    .card-help summary::before { content: '▸ '; color: var(--amber); }
+    .card-help[open] summary::before { content: '▾ '; }
+    .card-help-body { padding: 10px 14px; font-size: 0.84em; line-height: 1.65; color: var(--mid); }
+    .card-help-body p { margin-bottom: 7px; }
+    .card-help-body p:last-child { margin-bottom: 0; }
+    .card-help-body strong { color: var(--text); font-weight: 500; }
+
+    .card-meta-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 10px 18px;
+      margin-top: 10px;
+    }
+    .meta-item label {
+      display: block;
+      font-size: 0.66em;
+      font-weight: 500;
+      letter-spacing: 0.09em;
+      text-transform: uppercase;
+      color: var(--light);
+      margin-bottom: 2px;
+    }
+    .meta-item span { font-size: 0.85em; color: var(--mid); }
+
+    /* ── FOOTER ─────────────────────────────────────────── */
+    footer {
+      text-align: center;
+      padding: 22px;
+      font-size: 0.77em;
+      color: var(--light);
+      border-top: 1px solid var(--border);
+      margin-top: 20px;
+    }
+
+    /* ── RESPONSIVE ─────────────────────────────────────── */
+    @media (max-width: 640px) {
+      h1 { font-size: 1.7em; }
+      .filter-grid { grid-template-columns: 1fr 1fr; }
+      .filter-actions { flex-direction: column; align-items: stretch; }
+      .match-count { margin-left: 0; }
+      .btn { justify-content: center; }
+      .header-pills { display: none; }
+    }
+    @media (max-width: 400px) {
+      .filter-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-badge">IB English A</div>
+  <h1>Activity Explorer</h1>
+  <p class="header-sub">Language &amp; Literature &nbsp;·&nbsp; All Assessments</p>
+  <div class="header-pills">
+    <span class="header-pill pill-p1">Paper 1</span>
+    <span class="header-pill pill-io">Individual Oral</span>
+    <span class="header-pill pill-p2">Paper 2</span>
+    <span class="header-pill pill-x">Cross-Assessment</span>
+    <span class="header-pill pill-gen">General Skills</span>
+  </div>
+</header>
+
+<div class="app-wrap">
+
+  <!-- SETUP NOTICE -->
+  <div id="setup-notice" style="display:none">
+    <h2>Teacher Setup Required</h2>
+    <p style="margin-bottom:10px">Open this file in a text editor and update:</p>
+    <p><code>const SHEET_ID = 'YOUR_SHEET_ID_HERE';</code></p>
+    <p style="margin-top:10px">Paste the Sheet ID from your Google Sheets URL (the string between <code>/d/</code> and <code>/edit</code>). Make sure the sheet is shared as <strong>Anyone with the link — Viewer</strong>.</p>
+    <p style="margin-top:10px; font-size:0.88em; color:#7a6a50">Then host the file on GitHub Pages or Netlify Drop and embed the URL in Google Sites via Insert → Embed.</p>
+  </div>
+
+  <!-- STATUS BAR -->
+  <div id="status-bar">
+    <div class="dot pulse" id="status-dot"></div>
+    <span id="status-text">Connecting to activity database…</span>
+  </div>
+
+  <!-- QUICK STARTS -->
+  <div id="preset-card" style="display:none">
+    <div class="preset-title">Quick starts — one tap sets the filters</div>
+    <div class="preset-row" id="preset-row"></div>
+  </div>
+
+  <!-- FILTERS -->
+  <div class="filters-card" id="filters-card" style="display:none">
+    <div class="filters-top">
+      <div class="filters-title">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+          <path d="M2 4h12M4 8h8M6 12h4" stroke="#1a6b5c" stroke-width="1.8" stroke-linecap="round"/>
+        </svg>
+        Filter Activities
+      </div>
+      <div class="search-wrap">
+        <svg width="13" height="13" viewBox="0 0 14 14" fill="none">
+          <circle cx="6" cy="6" r="4.5" stroke="#5a5a5a" stroke-width="1.5"/>
+          <path d="M9.5 9.5L13 13" stroke="#5a5a5a" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+        <input id="f-search" type="search" placeholder="Search activities… (title, task, skill)" oninput="onSearchInput()">
+      </div>
+    </div>
+    <div id="filter-sections"></div>
+    <div class="filter-actions">
+      <button class="btn btn-ghost" onclick="clearFilters()">
+        <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+          <path d="M1 1l10 10M11 1L1 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+        Clear all
+      </button>
+      <div id="chip-row" class="active-filter-chips"></div>
+      <div class="match-count" id="match-count"></div>
+    </div>
+  </div>
+
+  <!-- MODE + SHUFFLE -->
+  <div id="action-area" style="display:none">
+    <div class="action-row">
+      <div class="mode-strip">
+        <button class="mode-btn" data-mode="one"  onclick="setMode('one')">🎲 Random 1</button>
+        <button class="mode-btn active" data-mode="five" onclick="setMode('five')">📋 Random 5</button>
+        <button class="mode-btn" data-mode="all"  onclick="setMode('all')">📚 Show All</button>
+      </div>
+      <button class="btn btn-shuffle" onclick="shuffle()">
+        <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
+          <path d="M2 5h9M2 11h9M9 3l4 2-4 2M9 9l4 2-4 2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        Shuffle
+      </button>
+      <span class="live-label">Filters update dynamically as you choose</span>
+    </div>
+  </div>
+
+  <!-- RESULTS -->
+  <div id="results"></div>
+
+</div>
+
+<footer>
+  IB English A: Language &amp; Literature Activity Explorer &nbsp;·&nbsp; Data updates automatically from Google Sheets &nbsp;·&nbsp; Filters adjust dynamically based on available activities
+</footer>
+
+<script>
+// ═══════════════════════════════════════════════════════
+//  STATE
+// ═══════════════════════════════════════════════════════
+let allActivities = [];
+let filtered      = [];
+let currentMode   = 'five';
+let searchTerm    = '';
+const SHOW_ALL_CAP = 100;
+
+// ═══════════════════════════════════════════════════════
+//  CANONICAL VALUE SETS
+// ═══════════════════════════════════════════════════════
+const STYLE_ORDER = ['Visual','Spatial','Auditory','Reading','Writing','Kinesthetic','Verbal',
+                     'Linguistic','Logical','Analytical','Social/Interpersonal','Solitary',
+                     'Intrapersonal','Naturalist','Multimodal'];
+const STYLE_NORM = {
+  'v':'Visual','visual':'Visual','visual learners':'Visual',
+  'sp':'Spatial','spatial':'Spatial',
+  'au':'Auditory','auditory':'Auditory','aural':'Auditory','auditory / aural learners':'Auditory',
+  'r/w':['Reading','Writing'],'reading/writing':['Reading','Writing'],
+  'reading / writing':['Reading','Writing'],'reading / writing learners':['Reading','Writing'],
+  'reading':'Reading','writing':'Writing',
+  'k':'Kinesthetic','kinesthetic':'Kinesthetic','kinesthetic / physical learners':'Kinesthetic',
+  'vb':'Verbal','verbal':'Verbal','verbal / linguistic learners':'Verbal',
+  'l':'Linguistic','linguistic':'Linguistic',
+  'log':'Logical','logical':'Logical','logical / analytical learners':'Logical',
+  'an':'Analytical','analytical':'Analytical',
+  'soc':'Social/Interpersonal','social':'Social/Interpersonal','inter':'Social/Interpersonal',
+  'interpersonal':'Social/Interpersonal','social/interpersonal':'Social/Interpersonal',
+  'social / interpersonal':'Social/Interpersonal','social / interpersonal learners':'Social/Interpersonal',
+  'sol':'Solitary','solitary':'Solitary',
+  'solitary / intrapersonal learners':['Solitary','Intrapersonal'],
+  'intra':'Intrapersonal','intrapersonal':'Intrapersonal',
+  'nat':'Naturalist','natural':'Naturalist','naturalist':'Naturalist',
+  'naturalist / environmental learners':'Naturalist',
+  'mm':'Multimodal','multimodal':'Multimodal','multimodal and multi-sensory blends':'Multimodal',
+  'cultural':'Social/Interpersonal','reflective':'Intrapersonal',
+};
+
+const WORKS = ['William Blake','Thi Bui','Banksy','Barbara Kruger','Ugur Gallenkuş',
+               "The World's Wife","A Doll's House"];
+const WORK_SIGNALS = [
+  ['William Blake',   [/\bwilliam blake\b/, /\bblake\b/, /\bchimney sweeper\b/, /\bthe tyger\b/]],
+  ['Thi Bui',         [/\bthi bui\b/, /\bbest we could do\b/, /\btbwcd\b/]],
+  ['Banksy',          [/\bbanksy\b/]],
+  ['Barbara Kruger',  [/\bkruger\b/]],
+  ['Ugur Gallenkuş',  [/gallenk/]],
+  ["The World's Wife",[/world's wife/, /\btww\b/, /\bduffy\b/, /\bmrs midas\b/, /\blittle red-cap\b/]],
+  ["A Doll's House",  [/doll's house/, /\badh\b/, /\bnora\b/, /\btorvald\b/, /\bibsen\b/, /\bkrogstad\b/, /\btarantella\b/]],
+];
+
+// Old-sheet Skill-column special labels
+const ARTIST_SKILLS = {
+  'William Blake Poems':'William Blake','The Best We Could Do (Thi Bui)':'Thi Bui',
+  'Banksy':'Banksy','Barbara Kruger':'Barbara Kruger','Ugur Gallenkuş':'Ugur Gallenkuş',
+};
+const LEARNER_SKILLS = new Set([
+  'Visual Learners','Auditory / Aural Learners','Kinesthetic / Physical Learners',
+  'Reading / Writing Learners','Logical / Analytical Learners','Social / Interpersonal Learners',
+  'Solitary / Intrapersonal Learners','Naturalist / Environmental Learners',
+  'Verbal / Linguistic Learners','Multimodal and Multi-Sensory Blends',
+]);
+const CONTEXT_SKILLS = {
+  'On the Commute (MRT, Bus, Walking)':'On the Go',
+  'At the Canteen or Food Court':'Out & About',
+  'Shopping and Retail Spaces':'Out & About',
+  'CCA, Sports, and After-School Activities':'Out & About',
+  'Scrolling Social Media':'During Screen Time',
+  'Texting and Messaging':'During Screen Time',
+  'Watching Video Content (Netflix, YouTube, TikTok)':'During Screen Time',
+  'Listening (Podcasts, Music, Radio)':'During Screen Time',
+};
+
+// ═══════════════════════════════════════════════════════
+//  FILTER CONFIGURATION
+//  Sections → filters. `fixed` lists a preferred option order;
+//  otherwise options come from the data. Filters hide when
+//  the data has no values for them.
+// ═══════════════════════════════════════════════════════
+const SESSIONS  = ['Warm-Up','Core Activity','Exam Practice','Writing Task','Reflection','Cool-Down','IO Preparation'];
+const TIMEBANDS = ['Quick (1–5 min)','Short (5–15 min)','Medium (15–30 min)','Long (30–60 min)','Extended (60+ min)'];
+const PROX      = ['Months Away','Weeks Away','Final Week','Night Before'];
+const ENERGY    = ['Low — fine when tired','Medium — normal study energy','High — needs full focus'];
+const SUPPORT   = ['Highly Scaffolded — steps are laid out for you','Some Scaffolding — guided but open','Independent — you drive the thinking'];
+const HELPS     = ['Getting Started','Analysis Depth','Structure & Planning','Time Management',
+                   'Quotations & Evidence','Comparative Linking','Speaking Confidence',
+                   'Vocabulary & Terminology','Memory & Recall','Focus & Motivation',
+                   'Fresh Ideas & Interpretation','Exam Confidence & Calm'];
+const PAIR_OR_GROUP = 'Pair or Group';
+
+const SECTIONS = [
+  { label: 'What are you preparing for?', filters: [
+    { id:'f-assessment', key:'assessment', label:'Assessment', multi:true, empty:'All assessments',
+      fixed:['Paper 1','Individual Oral','Paper 2','General'] },
+    { id:'f-scope', key:'scope', label:'Revision Scope', empty:'Any scope',
+      fixed:['Single assessment','Links 2+ assessments'], synthetic:true },
+    { id:'f-work', key:'works', label:'Text / Work Focus', multi:true, empty:'Any / not text-specific', fixed:WORKS, dataToo:true },
+    { id:'f-criterion', key:'criterion', label:'IB Criterion', multi:true, empty:'All criteria',
+      fixed:['A','B','C','D'], display:{A:'Criterion A',B:'Criterion B',C:'Criterion C',D:'Criterion D'} },
+  ]},
+  { label: 'Content & skill', filters: [
+    { id:'f-category', key:'category', label:'Category', empty:'All categories' },
+    { id:'f-skill', key:'skill', label:'Skill Focus', empty:'All skills', minCount:2 },
+    { id:'f-texttype', key:'textTypes', label:'Text Type', multi:true, empty:'All text types', minCount:2 },
+    { id:'f-acttype', key:'actType', label:'Activity Type', empty:'All types' },
+  ]},
+  { label: 'Your session right now', filters: [
+    { id:'f-session', key:'sessionType', label:'Session Use', empty:'Any session', fixed:SESSIONS },
+    { id:'f-time', key:'timeBand', label:'Time Available', empty:'Any time', fixed:TIMEBANDS,
+      display:{'Quick (1–5 min)':'Quick — 1–5 min','Short (5–15 min)':'Short — 5–15 min','Medium (15–30 min)':'Medium — 15–30 min','Long (30–60 min)':'Long — 30–60 min','Extended (60+ min)':'Extended — 60+ min'} },
+    { id:'f-prox', key:'proximity', label:'How Far Out Are Exams?', multi:true, empty:'Any time', fixed:PROX, generous:'Any Time' },
+    { id:'f-energy', key:'energy', label:'Energy Level', empty:'Any energy', fixed:ENERGY,
+      display:{'Low — fine when tired':'🪫 Low — fine when tired','Medium — normal study energy':'🔋 Medium — normal energy','High — needs full focus':'⚡ High — full focus'} },
+    { id:'f-materials', key:'materials', label:'Materials Needed', multi:true, empty:'Any materials' },
+  ]},
+  { label: 'Support, style & setting', filters: [
+    { id:'f-diff', key:'difficulty', label:'Difficulty', empty:'All levels', fixed:['Foundational','Developing','Advanced'] },
+    { id:'f-support', key:'support', label:'Support Level', empty:'Any support', fixed:SUPPORT,
+      display:{'Highly Scaffolded — steps are laid out for you':'🧗 Highly scaffolded','Some Scaffolding — guided but open':'🪜 Some scaffolding','Independent — you drive the thinking':'🦅 Independent'} },
+    { id:'f-helps', key:'helps', label:'I Want Help With…', multi:true, empty:'Anything', fixed:HELPS },
+    { id:'f-style', key:'styles', label:'Style Preference', multi:true, empty:'All styles', fixed:STYLE_ORDER },
+    { id:'f-format', key:'format', label:'Format', empty:'Any format', special:PAIR_OR_GROUP },
+    { id:'f-location', key:'location', label:'Location', empty:'Any location' },
+  ]},
+];
+const ALL_FILTERS = SECTIONS.flatMap(s => s.filters);
+
+const PRESETS = [
+  { label:'😰 I don’t know where to start', set:{ 'f-support':'Highly Scaffolded — steps are laid out for you', 'f-helps':'Getting Started' } },
+  { label:'⚡ I only have 5 minutes', set:{ 'f-time':'Quick (1–5 min)' } },
+  { label:'🌙 Exam is tomorrow', set:{ 'f-prox':'Night Before' } },
+  { label:'🎤 My IO is coming up', set:{ 'f-assessment':'Individual Oral', 'f-session':'IO Preparation' } },
+  { label:'🔗 Revise 2+ assessments at once', set:{ 'f-scope':'Links 2+ assessments' } },
+  { label:'🪫 Tired, but willing', set:{ 'f-energy':'Low — fine when tired' } },
+  { label:'⏱ Timed exam practice', set:{ 'f-session':'Exam Practice' } },
+  { label:'👥 Studying with friends', set:{ 'f-format':PAIR_OR_GROUP } },
+];
+
+// ═══════════════════════════════════════════════════════
+//  DATA LOADING  (JSONP script tag — no CORS, no Apps Script)
+// ═══════════════════════════════════════════════════════
+let gvizAttempt = 0;
+function loadData() {
+  const id = (typeof SHEET_ID !== 'undefined') ? SHEET_ID.trim() : '';
+  if (!id || id === 'YOUR_SHEET_ID_HERE') {
+    document.getElementById('setup-notice').style.display = 'block';
+    setStatus('orange', 'Sheet ID not configured — see teacher setup instructions above.');
+    return;
+  }
+  setStatus('pulse', 'Loading activities from Google Sheets…');
+  fetchGviz(id, `sheet=Activities`);
+}
+
+function fetchGviz(id, locator) {
+  const cbName = '__ibCB_' + Date.now() + '_' + (gvizAttempt++);
+  let finished = false;
+  const fail = (msg) => {
+    if (finished) return;
+    finished = true;
+    delete window[cbName];
+    if (locator.startsWith('sheet=') && typeof SHEET_GID !== 'undefined' && SHEET_GID) {
+      fetchGviz(id, `gid=${SHEET_GID}`);   // one retry via tab GID
+    } else {
+      setStatus('orange', msg);
+    }
+  };
+  window[cbName] = function(data) {
+    if (finished) return;
+    finished = true;
+    try {
+      if (!data || data.status === 'error' || !data.table) {
+        fail('Could not read the sheet. Check the tab is named "Activities" and sharing is "Anyone with the link — Viewer".');
+        return;
+      }
+      parseGViz(data);
+      if (allActivities.length === 0) {
+        setStatus('orange', 'Sheet connected but no activities found. Make sure headers are in row 1 of the Activities tab.');
+        return;
+      }
+      buildUI();
+      setStatus('green', `${allActivities.length.toLocaleString()} activities loaded — filters update dynamically.`);
+      onFilterChange();
+    } catch (e) {
+      setStatus('orange', 'Error reading sheet data. Check the Activities tab headers.');
+      console.error(e);
+    } finally {
+      delete window[cbName];
+      if (tag.parentNode) tag.parentNode.removeChild(tag);
+    }
+  };
+  const tag = document.createElement('script');
+  tag.onerror = () => fail('Could not load sheet. Check the Sheet ID and that sharing is "Anyone with the link — Viewer".');
+  tag.src = `https://docs.google.com/spreadsheets/d/${id}/gviz/tq?tqx=responseHandler:${cbName}&${locator}`;
+  document.head.appendChild(tag);
+}
+
+// ═══════════════════════════════════════════════════════
+//  GVIZ PARSING — by header NAME, order-independent.
+//  Works with the original 12-column sheet and the v3 sheet.
+// ═══════════════════════════════════════════════════════
+function parseGViz(json) {
+  const cols = json.table.cols || [];
+  let rows = json.table.rows || [];
+
+  // Header row: prefer gviz labels; fall back to first data row.
+  let headers = cols.map(c => String(c.label || '').trim().toLowerCase());
+  const looksLikeHeaders = headers.some(h => h.includes('activity title') || h.includes('activity description'));
+  if (!looksLikeHeaders && rows.length) {
+    const first = (rows[0].c || []).map(c => (c && c.v != null) ? String(c.v).trim().toLowerCase() : '');
+    if (first.some(h => h.includes('activity title'))) {
+      headers = first;
+      rows = rows.slice(1);
+    }
+  }
+  const idx = {};
+  headers.forEach((h, i) => { if (h && !(h in idx)) idx[h] = i; });
+  const col = (...names) => {
+    for (const n of names) if (n in idx) return idx[n];
+    return -1;
+  };
+
+  const C = {
+    id:        col('activity id', 'id'),
+    assessment:col('assessment', 'assessments'),
+    category:  col('category'),
+    skill:     col('skill focus', 'skill'),
+    actType:   col('activity type'),
+    title:     col('activity title', 'title'),
+    desc:      col('activity description', 'description'),
+    time:      col('time (min)', 'time (mins)', 'time', 'minutes'),
+    crit:      col('ib criterion', 'ib criteria', 'criterion', 'criteria'),
+    styles:    col('style preference', 'style preferences', 'learning styles', 'learning style'),
+    textTypes: col('text type(s)', 'text types', 'text type'),
+    works:     col('text / work focus', 'text/work focus', 'work focus', 'io artist / author'),
+    diff:      col('difficulty'),
+    location:  col('location'),
+    format:    col('format'),
+    session:   col('session use', 'session type', 'session'),
+    prox:      col('exam proximity', 'proximity', 'how far out are exams?'),
+    materials: col('materials', 'materials needed'),
+    energy:    col('energy level', 'energy'),
+    support:   col('support level', 'scaffolding', 'support'),
+    helps:     col('helps with', 'struggling with', 'helps when stuck on'),
+    why:       col('why it helps', 'why this helps'),
+    success:   col('success criteria'),
+    stuck:     col('if you are stuck', "if you're stuck", 'stuck tip'),
+  };
+
+  allActivities = [];
+  rows.forEach((row, i) => {
+    const cells = row.c || [];
+    const val = (n) => (n >= 0 && cells[n] && cells[n].v != null) ? String(cells[n].v).trim() : '';
+
+    const title = val(C.title);
+    if (!title || title === 'Activity Title') return;
+
+    const rawSkill  = val(C.skill);
+    const category  = val(C.category);
+    const actType   = val(C.actType);
+    const desc      = val(C.desc);
+    const timeMin   = parseFloat(val(C.time)) || 0;
+    const ttRaw     = val(C.textTypes);
+
+    const a = {
+      id:          val(C.id) || ('IB-' + (i + 1)),
+      title:       title,
+      description: desc,
+      category:    category,
+      skill:       cleanSkill(rawSkill),
+      actType:     actType,
+      timeMin:     timeMin,
+      timeBand:    deriveTimeBand(timeMin),
+      criterion:   val(C.crit),
+      styles:      normalizeStyles(val(C.styles)),
+      textTypes:   buildTextTypes(ttRaw, rawSkill),
+      difficulty:  val(C.diff),
+      location:    val(C.location) || 'Anywhere',
+      format:      val(C.format) || 'Individual',
+      why:         val(C.why),
+      success:     val(C.success),
+      stuck:       val(C.stuck),
+    };
+    // Old-sheet Skill labels that really mean location / style
+    if (CONTEXT_SKILLS[rawSkill]) a.location = CONTEXT_SKILLS[rawSkill];
+    if (LEARNER_SKILLS.has(rawSkill) && !val(C.styles)) a.styles = normalizeStyles(rawSkill);
+
+    a.assessment  = val(C.assessment)  || deriveAssessment(a, rawSkill);
+    a.works       = val(C.works)       || deriveWorks(a, rawSkill);
+    a.sessionType = val(C.session)     || deriveSession(a);
+    a.proximity   = val(C.prox)        || deriveProximity(a);
+    a.materials   = val(C.materials)   || deriveMaterials(a);
+    a.energy      = val(C.energy)      || deriveEnergy(a);
+    a.support     = val(C.support)     || deriveSupport(a);
+    a.helps       = val(C.helps)       || deriveHelps(a);
+    a.scope       = (a.assessment.includes(',')) ? 'Links 2+ assessments' : 'Single assessment';
+    a.searchBlob  = (a.title + ' ' + a.description + ' ' + a.skill + ' ' + a.category + ' ' + a.works).toLowerCase();
+    allActivities.push(a);
+  });
+}
+
+// ═══════════════════════════════════════════════════════
+//  NORMALIZERS & DERIVATIONS (fallbacks for older sheets)
+// ═══════════════════════════════════════════════════════
+function normalizeStyles(raw) {
+  if (!raw) return '';
+  const out = [];
+  raw.split(',').forEach(s => {
+    const m = STYLE_NORM[s.trim().toLowerCase()];
+    if (!m) return;
+    (Array.isArray(m) ? m : [m]).forEach(x => { if (!out.includes(x)) out.push(x); });
+  });
+  out.sort((a, b) => STYLE_ORDER.indexOf(a) - STYLE_ORDER.indexOf(b));
+  return out.join(', ');
+}
+
+function cleanSkill(skill) {
+  if (!skill) return '';
+  if (ARTIST_SKILLS[skill]) return 'Close Reading & Interpretation';
+  if (LEARNER_SKILLS.has(skill)) return 'Multimodal Analysis';
+  if (CONTEXT_SKILLS[skill]) return 'Everyday Text Analysis';
+  const dash = skill.indexOf(' - ');
+  if (dash > -1) return skill.substring(dash + 3).trim();
+  return skill.replace(/^\[[^\]]+\]\s*/, '');
+}
+
+function buildTextTypes(raw, skill) {
+  const set = [];
+  const add = (v) => { if (v && v !== 'Text Type(s)' && v !== 'Any' && !set.includes(v)) set.push(v); };
+  if (raw) raw.split(',').forEach(t => add(t.trim()));
+  if (skill && skill.indexOf(' - ') > -1) {
+    const prefix = skill.substring(0, skill.indexOf(' - ')).trim();
+    if (prefix && !LEARNER_SKILLS.has(prefix) && !ARTIST_SKILLS[prefix] && !CONTEXT_SKILLS[prefix]) add(prefix);
+  }
+  return set.join(', ');
+}
+
+function deriveTimeBand(mins) {
+  if (!mins || mins <= 0) return '';
+  if (mins <= 5)  return 'Quick (1–5 min)';
+  if (mins <= 15) return 'Short (5–15 min)';
+  if (mins <= 30) return 'Medium (15–30 min)';
+  if (mins <= 60) return 'Long (30–60 min)';
+  return 'Extended (60+ min)';
+}
+
+const P1_CATS = ['strategic reading','text type specific','visual rhetoric','digital & news media',
+  'visual media','multimodal analysis','genre specifics','genre analysis','technical analysis',
+  'oral & performative','warm-up sprints','everyday text'];
+function deriveAssessment(a, rawSkill) {
+  const cat = (a.category || '').toLowerCase();
+  const blob = (rawSkill + ' ' + a.textTypes + ' ' + a.description).toLowerCase();
+  if (ARTIST_SKILLS[rawSkill]) return 'Individual Oral';
+  if (cat.includes('individual oral') || a.actType === 'IO Prep') return 'Individual Oral';
+  if (cat.startsWith('paper 2') || cat.startsWith('crit ') || cat === 'integrated skills') return 'Paper 2';
+  if (cat === 'language & register') return 'Paper 1, Individual Oral, Paper 2';
+  if (cat === 'thesis & structure' || cat === 'evidence & support') return 'Paper 1, Paper 2';
+  if (cat === 'poetry & verse analysis' || cat === 'comparative analysis') return 'Individual Oral, Paper 2';
+  if (cat === 'executive function & pragmatics' || cat === 'study skills & wellbeing') return 'General';
+  if (cat === 'prose & literary texts')
+    return blob.includes('essay') ? 'Paper 1' : 'Individual Oral, Paper 2';
+  if (P1_CATS.some(c => cat.includes(c))) {
+    if (blob.includes("world's wife") || blob.includes("doll's house")) return 'Paper 2';
+    return 'Paper 1';
+  }
+  return 'General';
+}
+
+function deriveWorks(a, rawSkill) {
+  if (ARTIST_SKILLS[rawSkill]) return ARTIST_SKILLS[rawSkill];
+  const blob = (rawSkill + ' | ' + a.textTypes + ' | ' + a.title + ' | ' + a.description).toLowerCase();
+  const found = [];
+  for (const [work, regs] of WORK_SIGNALS) {
+    if (regs.some(r => r.test(blob))) found.push(work);
+  }
+  return found.join(', ');
+}
+
+function deriveSession(a) {
+  const at = (a.actType || '').toLowerCase();
+  const cat = (a.category || '').toLowerCase();
+  const desc = (a.description || '').toLowerCase();
+  if (cat.includes('individual oral') || at === 'io prep') return 'IO Preparation';
+  if (['exam prep','exam practice','timed practice'].includes(at) || desc.slice(0, 60).includes('timed') || desc.includes('full exam')) return 'Exam Practice';
+  if (['writing practice','writing workshop'].includes(at) || at.includes('essay')) return 'Writing Task';
+  if (['reflective response','editing & revision'].includes(at) || at.includes('reflect') ||
+      at === 'intrapersonal activity' || desc.includes('journal') || desc.includes('self-assess'))
+    return a.timeMin <= 10 ? 'Cool-Down' : 'Reflection';
+  if (a.timeMin > 0 && a.timeMin <= 3) return 'Warm-Up';
+  return 'Core Activity';
+}
+
+function deriveProximity(a) {
+  const desc = (a.description || '').toLowerCase();
+  if (a.sessionType === 'Exam Practice' || desc.slice(0, 80).includes('timed')) return 'Weeks Away, Final Week';
+  if (/memori[sz]|recall|flashcard|quiz yourself|from memory/.test(desc)) return 'Final Week, Night Before';
+  if (a.timeMin >= 45) return 'Months Away, Weeks Away';
+  return 'Any Time';
+}
+
+function deriveMaterials(a) {
+  const desc = (a.description || '').toLowerCase();
+  const out = [];
+  if (/flash ?card|cue card/.test(desc)) out.push('Flashcards');
+  if (/record yourself|record your|recording|voice memo/.test(desc)) out.push('Recording Device');
+  if (/timer|timed|stopwatch/.test(desc)) out.push('Timer');
+  if (/highlight|annotate|underline/.test(desc)) out.push('Printed Text or Screen');
+  if (/find any|find an? |search|online|youtube|website|social media|image search/.test(desc)) out.push('Device');
+  if (/write|list|table|sketch|draw|map|note|sentence/.test(desc)) out.push('Pen & Paper');
+  if (!out.length) return (a.location === 'On the Go' || a.location === 'Out & About')
+    ? 'None — just your eyes and brain' : 'Pen & Paper';
+  return out.slice(0, 3).join(', ');
+}
+
+function deriveEnergy(a) {
+  if (a.sessionType === 'Cool-Down' || a.sessionType === 'Reflection' || (a.timeMin > 0 && a.timeMin <= 3))
+    return 'Low — fine when tired';
+  if (a.sessionType === 'Exam Practice' || a.timeMin >= 45 || a.difficulty === 'Advanced')
+    return 'High — needs full focus';
+  return 'Medium — normal study energy';
+}
+
+function deriveSupport(a) {
+  const scaffolded = /formula:|template|sentence starter|e\.g\.|step 1|checklist|frame:/i.test(a.description || '');
+  if (a.difficulty === 'Foundational' || (a.difficulty === 'Developing' && scaffolded))
+    return 'Highly Scaffolded — steps are laid out for you';
+  if (a.difficulty === 'Advanced' && !scaffolded)
+    return 'Independent — you drive the thinking';
+  return 'Some Scaffolding — guided but open';
+}
+
+const HELP_RULES = [
+  ['Getting Started',        /thesis|opening|first sentence|start|topic sentence|begin/],
+  ['Analysis Depth',         /technique|effect|analy[sz]|connotation|imagery|symbol|juxtapos|close read/],
+  ['Structure & Planning',   /structure|outline|plan|paragraph|organi[sz]|order/],
+  ['Time Management',        /timed|timer|pacing|speed/],
+  ['Quotations & Evidence',  /quot|evidence|cite|motif|from memory|memori[sz]/],
+  ['Comparative Linking',    /compar|both texts|contrast|pair|versus/],
+  ['Speaking Confidence',    /aloud|speak|oral|record yourself|voice|whisper/],
+  ['Vocabulary & Terminology', /vocabulary|verb bank|terminolog|word bank|glossary/],
+  ['Memory & Recall',        /recall|memori[sz]|flashcard|quiz yourself|from memory/],
+  ['Fresh Ideas & Interpretation', /alternative|another interpretation|creative|imagine|rewrite|what if/],
+];
+function deriveHelps(a) {
+  const blob = (a.skill + ' ' + a.title + ' ' + a.description).toLowerCase();
+  const out = HELP_RULES.filter(([_, r]) => r.test(blob)).map(([l]) => l);
+  if ((a.category || '').toLowerCase().includes('executive function')) out.unshift('Focus & Motivation');
+  if (a.sessionType === 'Exam Practice') out.push('Exam Confidence & Calm');
+  if (!out.length) out.push('Analysis Depth');
+  return out.slice(0, 4).join(', ');
+}
+
+// ═══════════════════════════════════════════════════════
+//  UI CONSTRUCTION
+// ═══════════════════════════════════════════════════════
+function fieldValues(key) {
+  // distinct atomic values present in the data for a field
+  const seen = new Map();
+  allActivities.forEach(a => {
+    String(a[key] || '').split(',').forEach(t => {
+      const v = t.trim();
+      if (v && v !== 'N/A') seen.set(v, (seen.get(v) || 0) + 1);
+    });
+  });
+  return seen;
+}
+
+function buildUI() {
+  const host = document.getElementById('filter-sections');
+  host.innerHTML = '';
+  SECTIONS.forEach(sec => {
+    const lbl = document.createElement('div');
+    lbl.className = 'filter-section-label';
+    lbl.textContent = sec.label;
+    const grid = document.createElement('div');
+    grid.className = 'filter-grid';
+    let visible = 0;
+
+    sec.filters.forEach(f => {
+      const present = f.synthetic ? new Map([['Single assessment',1],['Links 2+ assessments',1]])
+                                  : fieldValues(f.key);
+      let options = [];
+      if (f.fixed) {
+        options = f.fixed.filter(v => present.has(v));
+        if (f.dataToo) [...present.keys()].forEach(v => { if (!options.includes(v)) options.push(v); });
+      } else {
+        // hide one-off long-tail values from the dropdown (still reachable via search)
+        options = [...present.keys()]
+          .filter(v => !f.minCount || present.get(v) >= f.minCount)
+          .sort((a, b) => a.localeCompare(b));
+      }
+      if (f.special && options.length > 1) options.push(f.special);
+      if (!options.length) { f.hidden = true; return; }   // auto-hide empty filters
+      f.hidden = false;
+      visible++;
+
+      const group = document.createElement('div');
+      group.className = 'filter-group';
+      const label = document.createElement('label');
+      label.innerHTML = `${escHtml(f.label)} <span class="opt-count" id="cnt-${f.id}"></span>`;
+      const sel = document.createElement('select');
+      sel.id = f.id;
+      sel.onchange = onFilterChange;
+      const opt0 = document.createElement('option');
+      opt0.value = '';
+      opt0.textContent = f.empty;
+      sel.appendChild(opt0);
+      options.forEach(v => {
+        const o = document.createElement('option');
+        o.value = v;
+        o.textContent = (f.display && f.display[v]) || v;
+        sel.appendChild(o);
+      });
+      group.appendChild(label);
+      group.appendChild(sel);
+      grid.appendChild(group);
+    });
+
+    if (visible) { host.appendChild(lbl); host.appendChild(grid); }
+  });
+
+  const prow = document.getElementById('preset-row');
+  prow.innerHTML = '';
+  PRESETS.forEach(p => {
+    const applicable = Object.keys(p.set).every(id => {
+      const f = ALL_FILTERS.find(x => x.id === id);
+      return f && !f.hidden && (document.getElementById(id) ? true : false) !== false;
+    });
+    const b = document.createElement('button');
+    b.className = 'preset-btn';
+    b.textContent = p.label;
+    b.onclick = () => applyPreset(p);
+    if (applicable) prow.appendChild(b);
+  });
+
+  document.getElementById('preset-card').style.display  = 'block';
+  document.getElementById('filters-card').style.display = 'block';
+  document.getElementById('action-area').style.display  = 'block';
+}
+
+function applyPreset(p) {
+  ALL_FILTERS.forEach(f => { const el = document.getElementById(f.id); if (el) el.value = ''; });
+  document.getElementById('f-search').value = '';
+  searchTerm = '';
+  Object.entries(p.set).forEach(([id, v]) => {
+    const el = document.getElementById(id);
+    if (el) el.value = v;
+  });
+  onFilterChange();
+  document.getElementById('results').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+}
+
+// ═══════════════════════════════════════════════════════
+//  FILTER LOGIC
+// ═══════════════════════════════════════════════════════
+function getFilters() {
+  const f = {};
+  ALL_FILTERS.forEach(d => {
+    const el = document.getElementById(d.id);
+    f[d.id] = (el && !d.hidden) ? el.value : '';
+  });
+  return f;
+}
+
+function matchOne(a, d, val) {
+  if (!val) return true;
+  if (d.key === 'scope') return a.scope === val;
+  if (d.id === 'f-format' && val === PAIR_OR_GROUP)
+    return a.format === 'Pair' || a.format === 'Group' || a.format === 'Flexible';
+  const aVal = String(a[d.key] || '');
+  if (d.multi) {
+    const parts = aVal.split(',').map(s => s.trim());
+    if (d.generous && parts.includes(d.generous)) return true;
+    return parts.includes(val);
+  }
+  return aVal === val;
+}
+
+function matches(a, f, skipId) {
+  for (const d of ALL_FILTERS) {
+    if (d.hidden || d.id === skipId) continue;
+    if (!matchOne(a, d, f[d.id])) return false;
+  }
+  if (searchTerm && skipId !== 'f-search' && !a.searchBlob.includes(searchTerm)) return false;
+  return true;
+}
+
+function onSearchInput() {
+  clearTimeout(onSearchInput._t);
+  onSearchInput._t = setTimeout(() => {
+    searchTerm = document.getElementById('f-search').value.trim().toLowerCase();
+    onFilterChange();
+  }, 160);
+}
+
+function onFilterChange() {
+  const f = getFilters();
+  filtered = allActivities.filter(a => matches(a, f));
+
+  const mc = document.getElementById('match-count');
+  mc.innerHTML = `<strong>${filtered.length.toLocaleString()}</strong> activit${filtered.length === 1 ? 'y' : 'ies'} match`;
+
+  ALL_FILTERS.forEach(d => {
+    const sel = document.getElementById(d.id);
+    if (sel) sel.classList.toggle('has-value', !!sel.value);
+  });
+
+  updateChips(f);
+  updateSmartFilters(f);
+  liveDisplay();
+}
+
+// ── SMART GRAYING ────────────────────────────────────────
+// For each filter: rows matching all OTHER filters, then count
+// atomic values → disable options that would give 0 results.
+function updateSmartFilters(f) {
+  ALL_FILTERS.forEach(d => {
+    const sel = document.getElementById(d.id);
+    if (!sel || d.hidden) return;
+    const candidates = allActivities.filter(a => matches(a, f, d.id));
+    const counts = new Map();
+    candidates.forEach(a => {
+      if (d.key === 'scope') { counts.set(a.scope, 1); return; }
+      const aVal = String(a[d.key] || '');
+      if (d.multi) {
+        aVal.split(',').forEach(t => { const v = t.trim(); if (v) counts.set(v, 1); });
+        if (d.generous && counts.has(d.generous)) d.fixed.forEach(v => counts.set(v, 1));
+      } else if (aVal) counts.set(aVal, 1);
+      if (d.special && (a.format === 'Pair' || a.format === 'Group' || a.format === 'Flexible'))
+        counts.set(d.special, 1);
+    });
+    let available = 0;
+    Array.from(sel.options).forEach(opt => {
+      if (!opt.value) { opt.disabled = false; return; }
+      opt.disabled = !counts.has(opt.value);
+      if (!opt.disabled) available++;
+    });
+    const badge = document.getElementById('cnt-' + d.id);
+    if (badge) badge.textContent = available > 0 ? available : '';
+  });
+}
+
+// ── ACTIVE FILTER CHIPS ──────────────────────────────────
+function updateChips(f) {
+  const row = document.getElementById('chip-row');
+  row.innerHTML = '';
+  const addChip = (label, clear) => {
+    const chip = document.createElement('span');
+    chip.className = 'chip';
+    chip.innerHTML = `${escHtml(label)} <span class="chip-x">×</span>`;
+    chip.onclick = () => { clear(); onFilterChange(); };
+    row.appendChild(chip);
+  };
+  if (searchTerm) addChip(`Search: “${searchTerm}”`, () => {
+    document.getElementById('f-search').value = ''; searchTerm = '';
+  });
+  ALL_FILTERS.forEach(d => {
+    const val = f[d.id];
+    if (!val) return;
+    const shown = (d.display && d.display[val]) || val;
+    addChip(`${d.label}: ${shown.length > 42 ? shown.slice(0, 40) + '…' : shown}`,
+            () => { document.getElementById(d.id).value = ''; });
+  });
+}
+
+function clearFilters() {
+  ALL_FILTERS.forEach(d => { const el = document.getElementById(d.id); if (el) el.value = ''; });
+  document.getElementById('f-search').value = '';
+  searchTerm = '';
+  onFilterChange();
+}
+
+// ═══════════════════════════════════════════════════════
+//  DISPLAY
+// ═══════════════════════════════════════════════════════
+function setMode(mode) {
+  currentMode = mode;
+  document.querySelectorAll('.mode-btn').forEach(b => {
+    b.classList.toggle('active', b.dataset.mode === mode);
+  });
+  liveDisplay();
+}
+
+function liveDisplay() {
+  const results = document.getElementById('results');
+  if (filtered.length === 0) {
+    results.innerHTML = `
+      <div class="no-results">
+        <svg width="48" height="48" viewBox="0 0 48 48">
+          <circle cx="24" cy="24" r="20" stroke="#9a9488" stroke-width="2" fill="none"/>
+          <path d="M16 16l16 16M32 16L16 32" stroke="#9a9488" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        <p>No activities match the current filters. Try removing one filter — grayed-out options show what has no matches.</p>
+      </div>`;
+    return;
+  }
+  renderPick(randomPick());
+}
+
+function shuffle() { liveDisplay(); }
+
+function randomPick() {
+  const shuffled = [...filtered];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  if (currentMode === 'one')  return shuffled.slice(0, 1);
+  if (currentMode === 'five') return shuffled.slice(0, Math.min(5, shuffled.length));
+  return shuffled.slice(0, SHOW_ALL_CAP);
+}
+
+function renderPick(toShow) {
+  const results = document.getElementById('results');
+  results.innerHTML = '';
+  if (currentMode === 'all' && filtered.length > SHOW_ALL_CAP) {
+    const note = document.createElement('div');
+    note.className = 'showing-note';
+    note.textContent = `Showing ${SHOW_ALL_CAP} of ${filtered.length.toLocaleString()} matches (shuffled). Narrow the filters, or shuffle for a different ${SHOW_ALL_CAP}.`;
+    results.appendChild(note);
+  }
+  toShow.forEach(act => results.appendChild(buildCard(act, currentMode === 'one')));
+}
+
+// ── BUILD CARD ────────────────────────────────────────────
+function buildCard(act, highlight) {
+  const card = document.createElement('div');
+  card.className = 'card' + (highlight ? ' highlight' : '');
+
+  const diffClass = act.difficulty === 'Foundational' ? 'badge-found'
+                  : act.difficulty === 'Advanced'      ? 'badge-adv'
+                  :                                       'badge-dev';
+
+  const timeLabel = act.timeBand
+    ? act.timeBand
+        .replace('Quick',    '⚡ Quick')
+        .replace('Short',    '⏱ Short')
+        .replace('Medium',   '🕐 Medium')
+        .replace('Long',     '⏳ Long')
+        .replace('Extended', '📘 Extended')
+    : (act.timeMin ? `${act.timeMin} min` : '');
+
+  const assessBadge = (a) => {
+    const cls = a === 'Paper 1'         ? 'badge-p1'
+              : a === 'Individual Oral' ? 'badge-io'
+              : a === 'Paper 2'         ? 'badge-p2'
+              :                           'badge-gen';
+    return `<span class="badge ${cls}">${escHtml(a)}</span>`;
+  };
+  const assessList = (act.assessment || '').split(',').map(a => a.trim()).filter(Boolean);
+  const assessBadges = assessList.map(assessBadge).join('');
+  const crossBadge = assessList.length > 1
+    ? `<span class="badge badge-x">🔗 Cross-assessment</span>` : '';
+
+  const critBadge = act.criterion
+    ? act.criterion.split(',').map(c =>
+        `<span class="badge badge-navy">Crit. ${escHtml(c.trim())}</span>`
+      ).join('')
+    : '';
+
+  const workBadges = (act.works || '').split(',').map(w => w.trim()).filter(Boolean).slice(0, 4)
+    .map(w => `<span class="badge badge-io">🎨 ${escHtml(w)}</span>`).join('');
+
+  const helpBlock = (act.success || act.stuck)
+    ? `<details class="card-help">
+         <summary>Success criteria &amp; help if you're stuck</summary>
+         <div class="card-help-body">
+           ${act.success ? `<p><strong>✅ It worked if:</strong> ${escHtml(act.success)}</p>` : ''}
+           ${act.stuck   ? `<p><strong>🆘 Stuck? Try this:</strong> ${escHtml(act.stuck)}</p>` : ''}
+         </div>
+       </details>`
+    : '';
+
+  card.innerHTML = `
+    <div class="card-header">
+      <div style="flex:1;min-width:0">
+        <div class="card-id">${escHtml(act.id)}</div>
+        <div class="card-title">${escHtml(act.title)}</div>
+        <div class="card-badges">
+          ${act.difficulty ? `<span class="badge ${diffClass}">${escHtml(act.difficulty)}</span>` : ''}
+          ${timeLabel      ? `<span class="badge badge-amber">${timeLabel}</span>` : ''}
+          ${assessBadges}
+          ${crossBadge}
+          ${critBadge}
+          ${workBadges}
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <div class="card-desc">${escHtml(act.description || '')}</div>
+      ${act.why ? `<div class="card-why">💡 ${escHtml(act.why)}</div>` : ''}
+      ${helpBlock}
+      <div class="card-meta-grid">
+        ${metaItem('Category',       act.category)}
+        ${metaItem('Skill Focus',    act.skill)}
+        ${metaItem('Activity Type',  act.actType)}
+        ${metaItem('Text Types',     act.textTypes)}
+        ${metaItem('Session Use',    act.sessionType)}
+        ${metaItem('Exam Proximity', act.proximity)}
+        ${metaItem('Materials',      act.materials)}
+        ${metaItem('Energy',         act.energy)}
+        ${metaItem('Support',        act.support)}
+        ${metaItem('Helps With',     act.helps)}
+        ${metaItem('Style Pref.',    act.styles)}
+        ${metaItem('Format',         act.format)}
+        ${metaItem('Location',       act.location)}
+      </div>
+    </div>`;
+  return card;
+}
+
+function metaItem(label, val) {
+  if (!val || val === 'N/A' || val === 'Any Time') return '';
+  return `<div class="meta-item"><label>${escHtml(label)}</label><span>${escHtml(val)}</span></div>`;
+}
+
+function escHtml(str) {
+  if (!str) return '';
+  return String(str)
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
+// ── STATUS ─────────────────────────────────────────────
+function setStatus(state, text) {
+  document.getElementById('status-dot').className =
+    'dot ' + (state === 'green' ? 'green' : state === 'orange' ? 'orange' : 'pulse');
+  document.getElementById('status-text').textContent = text;
+}
+
+// ── INIT ────────────────────────────────────────────────
+loadData();
+</script>
+
+</body>
+</html>
