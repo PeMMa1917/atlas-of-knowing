@@ -27,7 +27,7 @@ Double-click `index.html`. The game runs fully offline. Saves stay in the browse
 ## Host on GitHub Pages, embed in Google Sites
 
 1. Create a GitHub repository (public), upload this whole folder.
-2. Repository Settings > Pages > Deploy from branch > `main`, folder `/ (root)`.
+2. The included workflow (`.github/workflows/pages.yml`) enables Pages and deploys automatically on every push to `main` — no settings needed. (Manual alternative: Repository Settings > Pages > Deploy from branch > `main`, folder `/ (root)`.)
 3. Your game address becomes `https://<username>.github.io/<repo>/` and the dashboard sits at `.../teacher.html`.
 4. In Google Sites: Insert > Embed > by URL > paste the game address. Set the frame as large as the page allows; the game fits itself to the frame.
 
