@@ -1,5 +1,9 @@
 # Change Log
 
+## v37.3 · 20 July 2026
+
+The hardening pass, run against a checklist of common shipped-game failures. The class desk now checks what it is told instead of trusting it: numbers arrive clamped to sane ranges, and student text lands as plain text even when it opens like a spreadsheet formula. Every save mints its own key on first sync; the desk remembers the first key each email arrives with and turns other keys away, so nobody can post a snapshot or read teacher messages as a classmate just by typing their email. The Chartroom roster grew a Reset key button for students who move to a new device. Wrong teacher PINs now count: twenty misses lock the PIN routes for an hour. Crashes in the wild stop being silent: the game batches uncaught errors (deduped, six per session at most) to a new Errors tab in the class Sheet. And the goodbye snapshot sent on page hide now carries the write token it always should have. Backend updates apply by pasting the new `Code.gs` over the old and issuing a new version from Manage deployments; the class address stays the same.
+
 ## v37.2 · 16 July 2026, night
 
 The adversarial pass. Five reports from live play, root-caused and fixed: the keepsake find card now releases the player (its Keep walking button fought an inline display and lost; Escape closes it too); the collected-object counter updates on every acquisition, full Bandolier or not; knowledge sprites draw as creatures instead of gold-robed strangers; the arrival letter waits for the naming ceremony, opens only in Atlas Hall, and meets returning wanderers on their next walk in; the account sign-in wall wakes only for schools configuring the ledger seam, keeping the default build account-free.

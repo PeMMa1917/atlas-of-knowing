@@ -22,6 +22,11 @@
  *  Journals  - every journal entry, append-only
  *  Awards    - teacher point awards with messages
  *  Sessions  - session heartbeats for time analytics
+ *  Errors    - crash reports from student devices
+ *
+ * UPDATING: paste the new file over the old one, then
+ * Deploy > Manage deployments > edit (pencil) > New version.
+ * The web app URL stays the same.
  */
 
 var TEACHER_PIN = "CHANGE-ME";   // <-- set your own before deploying
@@ -35,6 +40,40 @@ var TEACHER_PIN = "CHANGE-ME";   // <-- set your own before deploying
    Teacher awards from teacher.html use TEACHER_PIN instead, not this. */
 var WRITE_TOKEN = "";
 
+/* ── input hygiene ── */
+function clean_(s, n) {
+  s = String(s == null ? "" : s).slice(0, n || 200);
+  /* a leading = + - @ or tab reads as a formula once it lands in a cell
+     (or an exported sheet); the apostrophe pins it as plain text */
+  return /^[=+\-@\t\r]/.test(s) ? "'" + s : s;
+}
+function num_(v, lo, hi) {
+  v = Number(v); if (!isFinite(v)) v = 0;
+  return Math.max(lo, Math.min(hi, Math.round(v)));
+}
+
+/* ── wrong-PIN throttle: twenty misses lock PIN routes for an hour ── */
+function pinOk_(pin) {
+  var cache = CacheService.getScriptCache();
+  var fails = Number(cache.get("pinFails") || 0);
+  if (fails >= 20) return "locked";
+  if (String(pin) === String(TEACHER_PIN)) { cache.remove("pinFails"); return "ok"; }
+  cache.put("pinFails", String(fails + 1), 3600);
+  return "no";
+}
+
+/* ── one key per student: the first save to write an email keeps it.
+      A fresh save claiming the same email is turned away until the
+      teacher presses "Reset key" on that row in the Chartroom. ── */
+function authOk_(email, auth) {
+  auth = String(auth || "").slice(0, 80);
+  if (!auth) return false;
+  var props = PropertiesService.getScriptProperties();
+  var stored = props.getProperty("sec_" + email);
+  if (!stored) { props.setProperty("sec_" + email, auth); return true; }
+  return stored === auth;
+}
+
 var STUDENT_COLS = [
   "email", "first", "lastInit", "callsign", "updated", "level", "xp", "lumens",
   "minutes", "daysPlayed", "streak", "bestStreak", "journalTotal", "journalManual",
@@ -46,9 +85,9 @@ function doPost(e) {
   var out = { ok: false };
   try {
     var body = JSON.parse(e.postData.contents);
-    if (body.kind === "snapshot") {
+    if (body.kind === "snapshot" || body.kind === "errors") {
       if (WRITE_TOKEN && String(body.token || "") !== String(WRITE_TOKEN)) out = { ok: false, error: "bad token" };
-      else out = handleSnapshot(body);
+      else out = body.kind === "errors" ? handleErrors(body) : handleSnapshot(body);
     }
     else if (body.kind === "award") out = handleAward(body);
     else out.error = "unknown kind";
@@ -64,8 +103,12 @@ function doGet(e) {
     if (p.action === "ping") return json({ ok: true, at: Date.now() });
     /* the game asks here whether a typed code is the teacher PIN, so the PIN
        stays in this account and never ships inside the public game file */
-    if (p.action === "teachcheck") return json({ ok: String(p.pin || "") === String(TEACHER_PIN) });
-    if (p.action === "pull") return json(pullAwards(p.email, Number(p.since) || 0));
+    if (p.action === "teachcheck") return json({ ok: pinOk_(p.pin || "") === "ok" });
+    if (p.action === "pull") return json(pullAwards(p.email, Number(p.since) || 0, p.auth));
+    if (p.action === "resetkey") return json(withPin(p.pin, function () {
+      PropertiesService.getScriptProperties().deleteProperty("sec_" + String(p.email || "").toLowerCase().trim());
+      return { ok: true };
+    }));
     if (p.action === "boards") return json(classBoards());
     if (p.action === "roster") return json(withPin(p.pin, roster));
     if (p.action === "journal") return json(withPin(p.pin, function () { return journalOf(p.email); }));
@@ -81,7 +124,9 @@ function doGet(e) {
 }
 
 function withPin(pin, fn) {
-  if (String(pin) !== String(TEACHER_PIN)) return { ok: false, error: "wrong pin" };
+  var v = pinOk_(pin);
+  if (v === "locked") return { ok: false, error: "too many wrong PINs; locked for an hour" };
+  if (v !== "ok") return { ok: false, error: "wrong pin" };
   return fn();
 }
 
@@ -99,7 +144,8 @@ function sheet_(name) {
       Students: STUDENT_COLS,
       Journals: ["email", "t", "when", "rung", "ctx", "text"],
       Awards: ["id", "t", "when", "email", "amount", "reason", "msg", "from"],
-      Sessions: ["email", "start", "day", "minutes", "updated"]
+      Sessions: ["email", "start", "day", "minutes", "updated"],
+      Errors: ["email", "when", "message", "source", "line", "stack", "ua"]
     }[name];
     if (head) { sh.appendRow(head); sh.setFrozenRows(1); }
   }
@@ -116,6 +162,7 @@ function handleSnapshot(body) {
   var lock = LockService.getScriptLock();
   lock.waitLock(20000);
   try {
+    if (!authOk_(email, body.auth)) return { ok: false, error: "locked" };
     upsertStudent(email, prof, s, body);
     appendJournals(email, body.journal || []);
     upsertSession(email, body.session || {});
@@ -131,14 +178,14 @@ function upsertStudent(email, prof, s, body) {
   var rowIx = -1;
   for (var i = 1; i < data.length; i++) if (String(data[i][0]).toLowerCase() === email) { rowIx = i + 1; break; }
   var row = [
-    email, prof.first || "", prof.lastInit || "", prof.callsign || "",
-    new Date(), s.level || 0, s.xp || 0, s.lumens || 0,
-    (s.time && s.time.min) || 0, (s.days && s.days.n) || 0,
-    (s.days && s.days.streak) || 0, (s.days && s.days.best) || 0,
-    (s.journal && s.journal.total) || 0, (s.journal && s.journal.manual) || 0,
-    (s.relics && s.relics.got) || 0, (s.relics && s.relics.sold) || 0,
-    (s.trials && s.trials.stars) || 0, s.badges || 0,
-    (s.explore && s.explore.visited) || 0, (body.road && body.road.chapter) || 0,
+    clean_(email, 120), clean_(prof.first, 40), clean_(prof.lastInit, 4), clean_(prof.callsign, 24),
+    new Date(), num_(s.level, 0, 999), num_(s.xp, 0, 1e7), num_(s.lumens, 0, 1e7),
+    num_(s.time && s.time.min, 0, 1e6), num_(s.days && s.days.n, 0, 3650),
+    num_(s.days && s.days.streak, 0, 3650), num_(s.days && s.days.best, 0, 3650),
+    num_(s.journal && s.journal.total, 0, 1e5), num_(s.journal && s.journal.manual, 0, 1e5),
+    num_(s.relics && s.relics.got, 0, 1e4), num_(s.relics && s.relics.sold, 0, 1e4),
+    num_(s.trials && s.trials.stars, 0, 1e5), num_(s.badges, 0, 1e4),
+    num_(s.explore && s.explore.visited, 0, 999), num_(body.road && body.road.chapter, 0, 12),
     JSON.stringify({ standings: s, relics: body.relics || [], badges: body.badges || [] }).slice(0, 45000)
   ];
   if (rowIx > 0) sh.getRange(rowIx, 1, 1, row.length).setValues([row]);
@@ -156,7 +203,7 @@ function appendJournals(email, entries) {
   entries.forEach(function (j) {
     var t = Number(j.t) || 0;
     if (t <= last) return;
-    rows.push([email, t, new Date(t), j.rung || 0, j.ctx || "", String(j.text || "").slice(0, 900)]);
+    rows.push([email, t, new Date(t), num_(j.rung, 0, 5), clean_(j.ctx, 80), clean_(j.text, 900)]);
   });
   if (rows.length) {
     sh.getRange(sh.getLastRow() + 1, 1, rows.length, 6).setValues(rows);
@@ -170,16 +217,35 @@ function upsertSession(email, ses) {
   var data = sh.getDataRange().getValues();
   for (var i = data.length - 1; i >= 1; i--) {
     if (String(data[i][0]).toLowerCase() === email && Number(data[i][1]) === Number(ses.start)) {
-      sh.getRange(i + 1, 4, 1, 2).setValues([[ses.min || 0, new Date()]]);
+      sh.getRange(i + 1, 4, 1, 2).setValues([[num_(ses.min, 0, 1440), new Date()]]);
       return;
     }
   }
-  sh.appendRow([email, ses.start, Utilities.formatDate(new Date(Number(ses.start)), Session.getScriptTimeZone(), "yyyy-MM-dd"), ses.min || 0, new Date()]);
+  sh.appendRow([email, ses.start, Utilities.formatDate(new Date(Number(ses.start)), Session.getScriptTimeZone(), "yyyy-MM-dd"), num_(ses.min, 0, 1440), new Date()]);
+}
+
+/* ── crash reports from the game, capped so junk cannot flood the tab ── */
+function handleErrors(body) {
+  var sh = sheet_("Errors");
+  if (sh.getLastRow() > 4000) return { ok: true, capped: true };
+  var rows = [];
+  (Array.isArray(body.errors) ? body.errors : []).slice(0, 5).forEach(function (er) {
+    er = er || {};
+    rows.push([
+      clean_(String(body.email || "").toLowerCase(), 120), new Date(),
+      clean_(er.msg, 300), clean_(er.src, 200), num_(er.line, 0, 1e6),
+      clean_(er.stack, 500), clean_(body.ua, 200)
+    ]);
+  });
+  if (rows.length) sh.getRange(sh.getLastRow() + 1, 1, rows.length, rows[0].length).setValues(rows);
+  return { ok: true };
 }
 
 /* ── awards ── */
 function handleAward(body) {
-  if (String(body.pin) !== String(TEACHER_PIN)) return { ok: false, error: "wrong pin" };
+  var v = pinOk_(body.pin);
+  if (v === "locked") return { ok: false, error: "too many wrong PINs; locked for an hour" };
+  if (v !== "ok") return { ok: false, error: "wrong pin" };
   var emails = body.email === "*" ? allEmails() : [String(body.email || "").toLowerCase().trim()];
   if (!emails.length || !emails[0]) return { ok: false, error: "no student" };
   var amount = Math.max(-100, Math.min(100, Number(body.amount) || 0));
@@ -189,14 +255,18 @@ function handleAward(body) {
   var id = Number(props.getProperty("awardId")) || 0;
   emails.forEach(function (em) {
     id++;
-    sh.appendRow([id, Date.now(), new Date(), em, amount, String(body.reason || "").slice(0, 200), String(body.msg || "").slice(0, 500), String(body.from || "teacher")]);
+    sh.appendRow([id, Date.now(), new Date(), em, amount, clean_(body.reason, 200), clean_(body.msg, 500), clean_(body.from || "teacher", 40)]);
   });
   props.setProperty("awardId", String(id));
   return { ok: true, lastId: id, count: emails.length };
 }
 
-function pullAwards(email, since) {
+function pullAwards(email, since, auth) {
   email = String(email || "").toLowerCase().trim();
+  if (!email) return { ok: false, error: "no email" };
+  /* awards carry personal teacher messages, so reading them takes the
+     same per-student key that writing the snapshot does */
+  if (!authOk_(email, auth)) return { ok: false, error: "locked" };
   var sh = sheet_("Awards");
   var data = sh.getDataRange().getValues();
   var out = [];

@@ -186,7 +186,7 @@ function vStudent(m){
   var r = S.rows.filter(function(x){ return x.email===S.student; })[0] || S.rows[0];
   S.student = r.email;
   var s = st(r);
-  var h = '<div class="noprint">'+sel+' <button id="loadJ">Load journal</button> <button onclick="window.print()">Print / PDF</button></div>';
+  var h = '<div class="noprint">'+sel+' <button id="loadJ">Load journal</button> <button onclick="window.print()">Print / PDF</button> <button id="resetKey" title="Let this student sign in from a new device. Their save on the old device stops syncing.">Reset key</button></div>';
   h += '<h2>'+esc(r.first+" "+r.lastInit+".")+' <span class="dim">· '+esc(r.callsign)+' · '+esc(r.email)+' · last active '+fmtDate(lastActive(r))+'</span></h2>';
   h += '<div class="kpis">'+
     '<div class="kpi"><b>'+ (r.level||0) +'</b>level</div><div class="kpi"><b>'+(r.xp||0)+'</b>XP</div>'+
@@ -253,6 +253,12 @@ function vStudent(m){
   h += '<div class="card" id="jwrap"><h3>The Living Journal</h3><div class="dim">Tap "Load journal" above to pull entries.</div></div>';
   m.innerHTML = h;
   $("#pick").onchange = function(){ S.student = $("#pick").value; render(); };
+  $("#resetKey").onclick = function(){
+    if (!confirm("Reset the device key for "+r.email+"?\n\nDo this when they moved to a new device or cleared their browser and the game says the Chartroom holds a different key. The next device to sync as them claims the new key.")) return;
+    get({action:"resetkey", pin:S.pin, email:r.email}).then(function(j){
+      alert(j && j.ok ? "Key reset. Their next sync signs them back in." : "Could not reset: "+((j&&j.error)||"no reply"));
+    });
+  };
   $("#loadJ").onclick = function(){
     $("#jwrap").innerHTML = '<h3>The Living Journal</h3><div class="dim">loading…</div>';
     get({action:"journal", pin:S.pin, email:r.email}).then(function(j){
